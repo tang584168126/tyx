@@ -1,0 +1,9 @@
+E:\代码\预编码\QnRenting\QnRentingBLL\bin\Debug\QnRenting.BLL.dll
+E:\代码\预编码\QnRenting\QnRentingBLL\bin\Debug\QnRenting.BLL.pdb
+E:\代码\预编码\QnRenting\QnRentingBLL\bin\Debug\QnRenting.DAL.dll
+E:\代码\预编码\QnRenting\QnRentingBLL\bin\Debug\QnRenting.Models.dll
+E:\代码\预编码\QnRenting\QnRentingBLL\bin\Debug\QnRenting.DAL.pdb
+E:\代码\预编码\QnRenting\QnRentingBLL\bin\Debug\QnRenting.Models.pdb
+E:\代码\预编码\QnRenting\QnRentingBLL\obj\Debug\QnRentingBLL.csprojResolveAssemblyReference.cache
+E:\代码\预编码\QnRenting\QnRentingBLL\obj\Debug\QnRenting.BLL.dll
+E:\代码\预编码\QnRenting\QnRentingBLL\obj\Debug\QnRenting.BLL.pdb

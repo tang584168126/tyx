@@ -1,0 +1,9 @@
+E:\代码\JsonTest\BookShopModels\bin\Debug\BookShop.Models.dll
+E:\代码\JsonTest\BookShopModels\bin\Debug\BookShop.Models.pdb
+E:\代码\JsonTest\BookShopModels\obj\Debug\BookShop.Models.dll
+E:\代码\JsonTest\BookShopModels\obj\Debug\BookShop.Models.pdb
+E:\代码\预编码\演讲\JsonTest\BookShopModels\bin\Debug\BookShop.Models.dll
+E:\代码\预编码\演讲\JsonTest\BookShopModels\bin\Debug\BookShop.Models.pdb
+E:\代码\预编码\演讲\JsonTest\BookShopModels\obj\Debug\BookShopModels.csprojResolveAssemblyReference.cache
+E:\代码\预编码\演讲\JsonTest\BookShopModels\obj\Debug\BookShop.Models.dll
+E:\代码\预编码\演讲\JsonTest\BookShopModels\obj\Debug\BookShop.Models.pdb

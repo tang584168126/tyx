@@ -1,0 +1,4 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\项目\BookNet\BookNetModels\bin\Debug\BookNet.Models.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\项目\BookNet\BookNetModels\bin\Debug\BookNet.Models.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\项目\BookNet\BookNetModels\obj\Debug\BookNet.Models.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\项目\BookNet\BookNetModels\obj\Debug\BookNet.Models.pdb

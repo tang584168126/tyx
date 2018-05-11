@@ -1,0 +1,14 @@
+E:\代码\JsonTest\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+E:\代码\JsonTest\BookShopDAL\bin\Debug\BookShop.DAL.dll
+E:\代码\JsonTest\BookShopDAL\bin\Debug\BookShop.DAL.pdb
+E:\代码\JsonTest\BookShopDAL\bin\Debug\BookShop.Models.dll
+E:\代码\JsonTest\BookShopDAL\bin\Debug\BookShop.Models.pdb
+E:\代码\JsonTest\BookShopDAL\obj\Debug\BookShop.DAL.dll
+E:\代码\JsonTest\BookShopDAL\obj\Debug\BookShop.DAL.pdb
+E:\代码\预编码\演讲\JsonTest\BookShopDAL\bin\Debug\BookShop.DAL.dll
+E:\代码\预编码\演讲\JsonTest\BookShopDAL\bin\Debug\BookShop.DAL.pdb
+E:\代码\预编码\演讲\JsonTest\BookShopDAL\bin\Debug\BookShop.Models.dll
+E:\代码\预编码\演讲\JsonTest\BookShopDAL\bin\Debug\BookShop.Models.pdb
+E:\代码\预编码\演讲\JsonTest\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+E:\代码\预编码\演讲\JsonTest\BookShopDAL\obj\Debug\BookShop.DAL.dll
+E:\代码\预编码\演讲\JsonTest\BookShopDAL\obj\Debug\BookShop.DAL.pdb
