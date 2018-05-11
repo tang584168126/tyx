@@ -1,0 +1,6 @@
+E:\代码\第三期\测试\ReadWord\Text\bin\Debug\Text.exe.config
+E:\代码\第三期\测试\ReadWord\Text\bin\Debug\Text.exe
+E:\代码\第三期\测试\ReadWord\Text\bin\Debug\Text.pdb
+E:\代码\第三期\测试\ReadWord\Text\obj\Debug\Text.csprojResolveAssemblyReference.cache
+E:\代码\第三期\测试\ReadWord\Text\obj\Debug\Text.exe
+E:\代码\第三期\测试\ReadWord\Text\obj\Debug\Text.pdb

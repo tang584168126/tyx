@@ -1,0 +1,6 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第二次课\Class2\Work2\bin\Work2.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第二次课\Class2\Work2\bin\Work2.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第二次课\Class2\Work2\bin\Work2.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第二次课\Class2\Work2\obj\Debug\Work2.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第二次课\Class2\Work2\obj\Debug\Work2.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第二次课\Class2\Work2\obj\Debug\Work2.pdb

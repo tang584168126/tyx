@@ -1,0 +1,166 @@
+﻿* { margin:0; padding:0;}
+body{ font:12px/20px 宋体;}
+img{ border:0; vertical-align:middle;}
+ul{ list-style:none;}
+
+#top, #header, #container, #footer,#child_site
+{
+    margin:0 auto;
+    width:960px;
+    clear:both;
+}
+
+/* Top部分 */
+#top
+{
+    height:27px;
+    background:url(../Images/Common/topbg.gif) repeat-x;
+    border:1px solid #97A2AA;
+}
+
+.status
+{
+    float:left;   
+    padding:5px 0px 0px 3px;
+}
+
+.members
+{
+    float:right;
+    width:200px;
+    padding-top:2px;
+}
+    .members li
+    {
+        float:left;
+        padding-right:10px;
+    }
+
+/* Head部分 */
+#header
+{
+    height:100px;
+}
+
+.logo
+{
+    float:left;
+    width:300px;
+}
+
+/* 导航部分 */
+.nav
+{
+    float:right;
+    margin:75px 140px 0px 30px;
+}
+
+    .nav li
+    {
+        float:left;
+        padding:0px 8px;
+        border-left:1px solid #97A2AA;
+        border-bottom:1px solid #97A2AA;
+    }
+
+        .nav li a
+        {
+            text-decoration:none;
+        }
+
+/* 内容部分 */
+#container
+{
+    height:100%;
+    /*height:450px;*/
+}
+
+/* 内容左边部分 */
+#intro
+{
+    float:left;
+    width:186px;
+}
+/* 购物车 */
+.basket
+{
+    padding-top:65px;   
+    text-align:center;
+    background:url(../Images/Common/intro_01.gif) no-repeat;
+}
+    .basket a
+    {
+        text-decoration:none;
+        color:#fff;
+    }
+        .basket a:hover
+        {
+            color:red;
+        }
+/* 搜索框 */
+.searchKey
+{
+    width:138px;
+    border:1px solid #97A2AA;
+}
+
+.seachSub
+{
+    width:39px;
+    height:20px;
+    background:url(../Images/Common/search-sub.gif);
+    border:0px;
+}
+
+/* 列表分类 */
+.allType
+{
+    margin:10px 0 0;
+    background:url(../Images/Common/subnav_t.gif) no-repeat;
+}
+    .allType h2
+    {
+        text-align:center;
+        padding:15px 0 0 ;
+    }
+    .allType h2 a
+    {
+        color:black;        
+        text-decoration:none;
+    }
+
+.subnav
+{
+    background:url(../Images/Common/subnav_m.gif) repeat-y;
+}
+
+.subnavBottom
+{
+    background:url(../Images/Common/subnav_b.gif) no-repeat 0 bottom;
+}
+
+.other
+{
+    text-align:center;
+    margin:15px 0px;
+}
+
+/* 面包屑导航部分 */
+.breadCrumb
+{
+    margin:20px;
+}
+
+    .breadCrumb a
+    { 
+        text-decoration:none;
+    }
+
+/* 页面底部 */
+#footer{ margin-top:14px; padding:16px 0 10px; background:#EBEBEB; border-top:1px solid #CACACA; height:100%; overflow:hidden;}
+	.telephone{ float:left; width:500px; margin-left:30px; display:inline; line-height:22px;}
+	
+	.imp_link{ float:right; width:280px;}
+	.imp_link img{ margin:0 10px 5px 0;}
+	
+#child_site{ height:50px; line-height:50px; padding-left:30px;}

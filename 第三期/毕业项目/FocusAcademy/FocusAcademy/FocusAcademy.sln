@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusAcademy", "FocusAcademy\FocusAcademy.csproj", "{5E9137FA-986B-4C8D-A7BA-A3957D430F87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusAcademyModels", "FocusAcademyModels\FocusAcademyModels.csproj", "{6EB15565-8849-4C15-A1F6-873DB1FD31EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusAcademyBLL", "FocusAcademyBLL\FocusAcademyBLL.csproj", "{15D7E285-D899-4294-BB6D-91DF34B741C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusAcademyDAL", "FocusAcademyDAL\FocusAcademyDAL.csproj", "{EE1E4194-4392-494F-99C4-D6DF86192874}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mixiujelaer.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FocusAcademy\\FocusAcademy.csproj
+		SccProjectName1 = FocusAcademy
+		SccLocalPath1 = FocusAcademy
+		SccProjectUniqueName2 = FocusAcademyModels\\FocusAcademyModels.csproj
+		SccProjectName2 = FocusAcademyModels
+		SccLocalPath2 = FocusAcademyModels
+		SccProjectUniqueName3 = FocusAcademyBLL\\FocusAcademyBLL.csproj
+		SccProjectName3 = FocusAcademyBLL
+		SccLocalPath3 = FocusAcademyBLL
+		SccProjectUniqueName4 = FocusAcademyDAL\\FocusAcademyDAL.csproj
+		SccProjectName4 = FocusAcademyDAL
+		SccLocalPath4 = FocusAcademyDAL
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E9137FA-986B-4C8D-A7BA-A3957D430F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9137FA-986B-4C8D-A7BA-A3957D430F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9137FA-986B-4C8D-A7BA-A3957D430F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9137FA-986B-4C8D-A7BA-A3957D430F87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB15565-8849-4C15-A1F6-873DB1FD31EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB15565-8849-4C15-A1F6-873DB1FD31EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB15565-8849-4C15-A1F6-873DB1FD31EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB15565-8849-4C15-A1F6-873DB1FD31EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D7E285-D899-4294-BB6D-91DF34B741C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D7E285-D899-4294-BB6D-91DF34B741C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D7E285-D899-4294-BB6D-91DF34B741C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D7E285-D899-4294-BB6D-91DF34B741C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE1E4194-4392-494F-99C4-D6DF86192874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1E4194-4392-494F-99C4-D6DF86192874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1E4194-4392-494F-99C4-D6DF86192874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1E4194-4392-494F-99C4-D6DF86192874}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

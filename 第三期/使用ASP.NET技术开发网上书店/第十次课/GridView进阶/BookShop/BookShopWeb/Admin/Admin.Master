@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="BookShopWeb.Admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="Css/admin.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header">
+            <img src="Images/admin_top.gif" alt="" />
+        </div>
+        <div id="container">
+            <div class="nav">
+                <div class="top">
+                    <h2>管理员，你好！</h2><hr />  
+                </div>
+                <asp:TreeView ID="tvAdmin" runat="server" DataSourceID="xdsAdmin" ImageSet="Arrows">
+                    <DataBindings>
+                        <asp:TreeNodeBinding />
+                        <asp:TreeNodeBinding DataMember="siteMapNode" NavigateUrlField="url" TextField="title" />
+                    </DataBindings>
+
+                </asp:TreeView>
+                <asp:XmlDataSource ID="xdsAdmin" runat="server" DataFile="~/Admin/admin_menu.xml"></asp:XmlDataSource>
+            </div>
+            <div class="content">
+                 您现在的位置：
+                 <asp:SiteMapPath ID="smpShow" runat="server"></asp:SiteMapPath>
+                 <br />
+                 <asp:ContentPlaceHolder ID="cphContent" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

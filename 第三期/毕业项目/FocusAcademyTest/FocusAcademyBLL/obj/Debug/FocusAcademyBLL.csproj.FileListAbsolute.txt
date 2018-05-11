@@ -1,0 +1,12 @@
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyBLL\bin\Debug\FocusAcademy.BLL.dll
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyBLL\bin\Debug\FocusAcademy.BLL.pdb
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyBLL\bin\Debug\FocusAcademy.DAL.dll
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyBLL\bin\Debug\FocusAcademy.DAL.pdb
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyBLL\obj\Debug\FocusAcademyBLL.csprojResolveAssemblyReference.cache
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyBLL\obj\Debug\FocusAcademy.BLL.dll
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyBLL\obj\Debug\FocusAcademy.BLL.pdb
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyBLL\bin\Debug\FocusAcademy.Models.dll
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyBLL\bin\Debug\EntityFramework.dll
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyBLL\bin\Debug\FocusAcademy.Models.pdb
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyBLL\bin\Debug\EntityFramework.xml
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll

@@ -1,0 +1,9 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\项目\BookNet\BookNetBLL\bin\Debug\BookNet.BLL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\项目\BookNet\BookNetBLL\bin\Debug\BookNet.BLL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\项目\BookNet\BookNetBLL\bin\Debug\BookNet.DAL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\项目\BookNet\BookNetBLL\bin\Debug\BookNet.Models.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\项目\BookNet\BookNetBLL\bin\Debug\BookNet.DAL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\项目\BookNet\BookNetBLL\bin\Debug\BookNet.Models.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\项目\BookNet\BookNetBLL\obj\Debug\BookNetBLL.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\项目\BookNet\BookNetBLL\obj\Debug\BookNet.BLL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\项目\BookNet\BookNetBLL\obj\Debug\BookNet.BLL.pdb

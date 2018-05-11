@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+      <siteMapNode url="NetEasy.aspx" title="网易"  description="" >
+        <siteMapNode url="NewsCenter.aspx" title="新闻中心"  description="" >
+          <siteMapNode url="CountryNews.aspx" title="国内新闻"  description="" >
+            <siteMapNode url="Context.aspx" title="正文"  description="" >
+            </siteMapNode>
+          </siteMapNode>
+        </siteMapNode>
+      
+
+      <siteMapNode url="FeedingAnimal" title="畜牧"  description="" >
+        <siteMapNode url="FeedingPig" title="养猪"  description="" >
+        </siteMapNode>
+      </siteMapNode>
+     </siteMapNode>
+

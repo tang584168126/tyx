@@ -1,0 +1,50 @@
+﻿
+/* 登陆内容块 */
+.login
+{
+    float:right;
+    width:740px;
+    margin:30px 0px 0px 20px;
+}
+
+    .login p
+    {
+        margin:15px 0px;
+    }
+
+    p.state
+    {
+        line-height:30px;
+        color:#808080;
+    }
+
+    .login label
+    {
+        float:left;
+        width:80px;
+        text-align:right;
+    }
+
+.opt_input
+{
+    border:1px solid #171515;
+    width:180px;
+    height:20px;
+    line-height:20px;
+}
+
+.form_sub
+{
+    padding-left:80px;
+    color:#808080;
+}
+
+.opt_sub
+{
+    width:50px;
+    height:22px;
+    text-align:center;
+    border:1px solid #000;
+    background:url(../Images/opt_sub.gif) repeat-x;
+}
+

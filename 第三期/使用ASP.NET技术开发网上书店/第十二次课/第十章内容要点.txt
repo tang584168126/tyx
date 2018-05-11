@@ -1,0 +1,37 @@
+1、表格页面数据的呈现（多行多列、多行单列、单行多列）
+     多行多列使用GridView控件
+     多行单列使用DataList控件
+
+2、DataList介绍，与GridView的区别
+DataList多了SeparatorTemlate和SelectedItemTemplate模板，少了InsertItemTemplate，没有集成排序和分页的功能
+
+3、DataList属性介绍：
+	RepeatColumns、RepeatDirection
+	DataKeys、DataKeyField
+
+4、DataList事件介绍
+	EditCommand 、UpdateCommand 、DeleteCommand 、
+	ItemCommand 、ItemDataBound
+
+5、DataList排序
+	排序的字段个数不定（0个、1个、多个）
+
+6、DataList分页 
+	基于Sql语句分页（一般用存储过程）
+	>>通过TOP取得排序之后的前20条数据，然后在余下的数据中获取排序后的前10条数据
+		select top 10 * from item where itemId not in(select top 20 itemId from item order by itemId) order by itemId
+		
+	>>通过row_number为查询结果设置行号,然后通过between x and y 来获取指定页的数据
+		select * from (select row_number() over (order by itemId) as IdBank,* from item) as Temp order by itemId
+		
+	基于PagedDataSource类分页
+
+7、ViewState:起一个循环的作用
+	状态保持特性
+	使用：记录分页和排序信息
+
+8、Repeater控件
+	特性
+	使用场合
+	案例
+9、GridView、DataList、Repeater对比

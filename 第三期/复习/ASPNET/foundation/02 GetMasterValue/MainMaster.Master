@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainMaster.master.cs" Inherits="_02_GetMasterValue.MainMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:RadioButtonList ID="rblRole" AutoPostBack="true" RepeatDirection="Horizontal" runat="server">
+            <asp:ListItem Value="0">上班族</asp:ListItem>
+            <asp:ListItem Value="1">学生族</asp:ListItem>
+        </asp:RadioButtonList>
+        <hr/>
+        <asp:ContentPlaceHolder ID="cphContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

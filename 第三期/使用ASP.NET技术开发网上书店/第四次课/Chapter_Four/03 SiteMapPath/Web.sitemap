@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="">
+      <siteMapNode url="NetEasy.aspx" title="网易"  description="" >
+        <siteMapNode url="NewsCenter.aspx" title="新闻中心"  description="" >
+          <siteMapNode url="CountryNews.aspx" title="国内新闻"  description="" >
+            <siteMapNode url="Context.aspx" title="正文"  description="" >
+            </siteMapNode>
+          </siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+      
+        
+    </siteMapNode>
+</siteMap>

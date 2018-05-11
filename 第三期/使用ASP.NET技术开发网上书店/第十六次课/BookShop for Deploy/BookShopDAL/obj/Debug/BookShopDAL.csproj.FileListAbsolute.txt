@@ -1,0 +1,28 @@
+C:\Users\Administrator\Desktop\BookShop\BookShopDAL\bin\Debug\BookShopDAL.dll
+C:\Users\Administrator\Desktop\BookShop\BookShopDAL\bin\Debug\BookShopDAL.pdb
+C:\Users\Administrator\Desktop\BookShop\BookShopDAL\bin\Debug\BookShopModels.dll
+C:\Users\Administrator\Desktop\BookShop\BookShopDAL\bin\Debug\BookShopModels.pdb
+C:\Users\Administrator\Desktop\BookShop\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BookShop\BookShopDAL\obj\Debug\BookShopDAL.dll
+C:\Users\Administrator\Desktop\BookShop\BookShopDAL\obj\Debug\BookShopDAL.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShopDAL\bin\Debug\BookShopDAL.dll
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShopDAL\bin\Debug\BookShopDAL.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShopDAL\bin\Debug\BookShopModels.dll
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShopDAL\bin\Debug\BookShopModels.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShopDAL\obj\Debug\BookShopDAL.dll
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShopDAL\obj\Debug\BookShopDAL.pdb
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShopDAL\bin\Debug\BookShopDAL.dll
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShopDAL\bin\Debug\BookShopDAL.pdb
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShopDAL\bin\Debug\BookShopModels.dll
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShopDAL\bin\Debug\BookShopModels.pdb
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShopDAL\obj\Debug\BookShopDAL.dll
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShopDAL\obj\Debug\BookShopDAL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShopDAL\bin\Debug\BookShopDAL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShopDAL\bin\Debug\BookShopDAL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShopDAL\bin\Debug\BookShopModels.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShopDAL\bin\Debug\BookShopModels.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShopDAL\obj\Debug\BookShopDAL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShopDAL\obj\Debug\BookShopDAL.pdb

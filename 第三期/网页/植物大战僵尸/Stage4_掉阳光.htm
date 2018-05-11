@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>Stage4:掉阳光</title>
+	
+	<script type="text/javascript">
+		<!--
+		//僵尸距离左顶点的位置
+		var left = 780;
+		//步幅
+		var step = 5;
+		//植物距离左顶点位置
+		var plantLeft = 500;
+		//植物宽度
+		var plantWidth = 81;
+		//标识植物是否死亡
+		var plantIsDead = false;
+		//标识僵尸的状态,行走还是在吃
+		var isEating = false;
+		
+		function go(){
+			var zombie = document.getElementById("zombie");
+			//判断是否遭遇植物
+			if(!plantIsDead && left <= plantLeft + plantWidth){
+				//如果没有在吃
+				if(!isEating){
+					//换背景
+					zombie.src = "images/Zombies/BucketheadZombie/BucketheadZombieAttack.gif";
+				}
+			}else{
+				//移动
+				left -= step;
+				zombie.style.left = left + "px";
+			}
+			setTimeout("go()",500);
+		}
+		
+		//子弹的初始X轴位置
+		var bulletX = 235;
+		//当前界面中的子弹对象
+		var currBullet;
+		//当前子弹的计时器
+		var timer;
+		
+		function shoot(){
+			//动态创建一个img元素来装子弹
+			currBullet = document.createElement("img");
+			//设置标签SRC属性
+			currBullet.src = "images/Plants/PeashooterBullet.gif";
+			//设置元素位置
+			currBullet.style.position = "absolute";
+			currBullet.style.left = bulletX + "px";
+			currBullet.style.top = 105 + "px";
+			//插入到背景层里
+			document.getElementById("background").appendChild(currBullet);
+			//设置计算器
+			timer = setInterval("moveBullet()",48);
+		}
+		
+		
+		function moveBullet(){
+			//获取子弹当前位置
+			var bulletX = parseInt(currBullet.style.left) + 10;
+			//移动子弹位置
+			currBullet.style.left =  bulletX + "px";
+			//判断是否碰到僵尸
+			if(bulletX >= left){
+				//如果碰到,子弹消失,停止计算器,重新调用shoot方法
+				document.getElementById("background").removeChild(currBullet);
+				clearInterval(timer);
+				shoot();
+			}
+			
+		}
+		
+		function dropSun(){
+			//动态创建一个img元素来装阳光
+			var sun = document.createElement("img");
+			//设置标签SRC属性
+			sun.src = "images/Sun.gif";
+			//设置元素位置
+			sun.style.position = "absolute";
+			sun.style.left = 220 + "px";
+			sun.style.top = 220 + "px";
+			//设置鼠标样式
+			sun.style.cursor = "pointer";
+			//绑定它的点击事件
+			sun.onclick = function(){
+				//移动阳光位置到显示分数区
+				var interval = setInterval(function(){
+					//匿名函数实现阳光的移动
+					var left = parseInt(sun.style.left) - 40;
+					var top = parseInt(sun.style.top) - 40;
+					sun.style.left = left + "px";
+					sun.style.top = top + "px";
+					if(left < 20 && top < 20){
+						//停止计时器
+						clearInterval(interval);
+						//消失
+						document.getElementById("background").removeChild(sun);
+						//加分数
+						var score = document.getElementById("score");
+						score.innerText = parseInt(score.innerText) + 25;
+					}
+				},48);
+			};
+			//插入到背景层里
+			document.getElementById("background").appendChild(sun);
+			
+		}
+		
+		-->
+	</script>
+	
+	<style type="text/css">
+	
+		/*背景图*/
+		#background{
+			width:1000px;
+			height:600px;
+			/*通过滤镜拉伸图片*/
+			filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/interface/background1.jpg",sizingMethod="scale");
+		}
+		/*僵尸的样式*/
+		#zombie{
+			position:absolute;
+			top:20px;
+			left:780px;
+		}
+		
+		/*植物样式*/
+		#plant{
+			position:absolute;
+			top:50px;
+			left:520px;
+		}
+		#shooter{
+			position:absolute;
+			top:100px;
+			left:180px;
+		}
+		
+		/*植物栏*/
+		#plantsTable{
+			background:url("images/interface/top.gif") no-repeat;
+			width:599px;
+			height:87px;
+		}
+		
+		/*向日葵*/
+		#sun{
+			position:absolute;
+			top:200px;
+			left:180px;
+		}
+		
+		/*阳光数量*/
+		#score{
+			position:relative;
+			top:65px;
+			left:30px;
+			font-weight:bold;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="background">
+		<div id="plantsTable"><span id="score">50</span></div>
+		<img src="images/Plants/Peashooter/Peashooter.gif" id="shooter"/>
+		<img src="images/Zombies/BucketheadZombie/BucketheadZombie.gif" id="zombie" />
+		<img src="images/Plants/TallNut/TallNut.gif" id="plant" />
+		<img src="images/Plants/SunFlower/SunFlower.gif" id="sun" />
+	</div>
+	<input type="button" value="僵尸走" onclick="go()"/>
+	<input type="button" value="开始射击" onclick="shoot()"/>
+	<input type="button" value="掉阳光" onclick="dropSun()"/>
+</body>
+</html>

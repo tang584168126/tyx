@@ -1,0 +1,6 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\InlineAndBehind\bin\InlineAndBehind.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\InlineAndBehind\bin\InlineAndBehind.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\InlineAndBehind\bin\InlineAndBehind.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\InlineAndBehind\obj\Debug\InlineAndBehind.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\InlineAndBehind\obj\Debug\InlineAndBehind.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\InlineAndBehind\obj\Debug\InlineAndBehind.pdb

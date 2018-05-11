@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BDC20222-6E3B-498C-85F2-948458CA8573}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BookShop</RootNamespace>
+    <AssemblyName>BookShop</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MyControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\03第三课（验证控件）\提供给学员的素材（验证控件）\MyControls.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AjaxService\RegistUser.aspx" />
+    <Content Include="AjaxService\UserExists.aspx" />
+    <Content Include="CSS\answer.css" />
+    <Content Include="CSS\channel.css" />
+    <Content Include="CSS\global.css" />
+    <Content Include="CSS\Index.css" />
+    <Content Include="CSS\member.css" />
+    <Content Include="Home.aspx" />
+    <Content Include="Images\action_h.gif" />
+    <Content Include="Images\alipay.gif" />
+    <Content Include="Images\arrow.gif" />
+    <Content Include="Images\arrow_02.gif" />
+    <Content Include="Images\arrow_2.gif" />
+    <Content Include="Images\a_b_01.gif" />
+    <Content Include="Images\a_b_02.jpg" />
+    <Content Include="Images\a_b_04.jpg" />
+    <Content Include="Images\basker.gif" />
+    <Content Include="Images\basker_ok.gif" />
+    <Content Include="Images\basker_sub.gif" />
+    <Content Include="Images\bg_user_line.gif" />
+    <Content Include="Images\books.jpg" />
+    <Content Include="Images\books_01.gif" />
+    <Content Include="Images\book_01.gif" />
+    <Content Include="Images\btn_goumai.gif" />
+    <Content Include="Images\btn_goumai_click.gif" />
+    <Content Include="Images\btn_zancun.gif" />
+    <Content Include="Images\btn_zancun_click.gif" />
+    <Content Include="Images\button_down1.gif" />
+    <Content Include="Images\button_down2.gif" />
+    <Content Include="Images\button_nouse.gif" />
+    <Content Include="Images\button_use.gif" />
+    <Content Include="Images\button_write_comm.gif" />
+    <Content Include="Images\checkno.gif" />
+    <Content Include="Images\child_menu_b.gif" />
+    <Content Include="Images\child_menu_h.gif" />
+    <Content Include="Images\child_menu_t.gif" />
+    <Content Include="Images\dotted.gif" />
+    <Content Include="Images\history_b.gif" />
+    <Content Include="Images\history_t.gif" />
+    <Content Include="Images\icon_dot.gif" />
+    <Content Include="Images\intro.gif" />
+    <Content Include="Images\intro_01.gif" />
+    <Content Include="Images\label_1.gif" />
+    <Content Include="Images\login_in.gif" />
+    <Content Include="Images\logo.gif" />
+    <Content Include="Images\navMenu.gif" />
+    <Content Include="Images\notice.gif" />
+    <Content Include="Images\online_pay.gif" />
+    <Content Include="Images\opt_sub.gif" />
+    <Content Include="Images\order_p_h.gif" />
+    <Content Include="Images\order_p_sub.gif" />
+    <Content Include="Images\order_p_title.gif" />
+    <Content Include="Images\payCoin.gif" />
+    <Content Include="Images\payVIP.gif" />
+    <Content Include="Images\QQ_01.gif" />
+    <Content Include="Images\QQ_02.gif" />
+    <Content Include="Images\register.gif" />
+    <Content Include="Images\search-sub.gif" />
+    <Content Include="Images\select.gif" />
+    <Content Include="Images\sideArea.gif" />
+    <Content Include="Images\sideTitle.gif" />
+    <Content Include="Images\source_dd.gif" />
+    <Content Include="Images\star_gray.gif" />
+    <Content Include="Images\star_red.gif" />
+    <Content Include="Images\star_redgray_big.gif" />
+    <Content Include="Images\submit_button100x20.gif" />
+    <Content Include="Images\submit_button50x20.gif" />
+    <Content Include="Images\submit_button57x15.gif" />
+    <Content Include="Images\submit_button63x20.gif" />
+    <Content Include="Images\submit_button_mo100x20.gif" />
+    <Content Include="Images\submit_button_mo50x20.gif" />
+    <Content Include="Images\submit_button_mo57x15.gif" />
+    <Content Include="Images\submit_button_mo63x20.gif" />
+    <Content Include="Images\subnav_b.gif" />
+    <Content Include="Images\subnav_m.gif" />
+    <Content Include="Images\subnav_t.gif" />
+    <Content Include="Images\taobao.gif" />
+    <Content Include="Images\taobao_01.gif" />
+    <Content Include="Images\taobao_02.gif" />
+    <Content Include="Images\topbg.gif" />
+    <Content Include="Images\usability_button31x15.gif" />
+    <Content Include="Images\usability_button_mo31x15.gif" />
+    <Content Include="Images\user_bg.gif" />
+    <Content Include="Images\w_body_bg.gif" />
+    <Content Include="Images\w_title_bg.gif" />
+    <Content Include="Images\xuxian_x.gif" />
+    <Content Include="Images\zoom.gif" />
+    <Content Include="Images\复件 dotted.gif" />
+    <Content Include="js\global.js" />
+    <Content Include="js\jquery-1.11.2.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AjaxService\RegistUser.aspx.cs">
+      <DependentUpon>RegistUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AjaxService\RegistUser.aspx.designer.cs">
+      <DependentUpon>RegistUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AjaxService\UserExists.aspx.cs">
+      <DependentUpon>UserExists.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AjaxService\UserExists.aspx.designer.cs">
+      <DependentUpon>UserExists.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainMaster.Master.cs">
+      <DependentUpon>MainMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainMaster.Master.designer.cs">
+      <DependentUpon>MainMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MainMaster.Master" />
+    <Content Include="CSS\vssver2.scc" />
+    <Content Include="Images\vssver2.scc" />
+    <Content Include="js\vssver2.scc" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BookShopBLL\BookShopBLL.csproj">
+      <Project>{da54b672-8791-4abf-b8c0-b113e9f910e0}</Project>
+      <Name>BookShopBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookShopModels\BookShopModels.csproj">
+      <Project>{c6f3cd04-1455-48ba-a2d7-d07ca8bbd616}</Project>
+      <Name>BookShopModels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1464/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

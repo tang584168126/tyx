@@ -1,0 +1,5 @@
+E:\代码\第三期\复习\ASPNET\02 GetMasterValue\bin\02 GetMasterValue.dll.config
+E:\代码\第三期\复习\ASPNET\02 GetMasterValue\bin\02 GetMasterValue.dll
+E:\代码\第三期\复习\ASPNET\02 GetMasterValue\bin\02 GetMasterValue.pdb
+E:\代码\第三期\复习\ASPNET\02 GetMasterValue\obj\Debug\02 GetMasterValue.dll
+E:\代码\第三期\复习\ASPNET\02 GetMasterValue\obj\Debug\02 GetMasterValue.pdb

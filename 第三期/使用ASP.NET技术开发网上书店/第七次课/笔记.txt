@@ -1,0 +1,24 @@
+1.User对象的数据怎样传递到客户端
+	JSON\XML
+2.一般处理程序 HttpHandler
+
+1.了解JSON保存数据的格式
+2.使用HttpHandler
+3.掌握在.NET中，怎样将复杂数据序列号为JSON格式的数据
+	System.Runtime.Serialization.dll
+	System.ServiceModel.Web.dll
+	
+	using System.Runtime.Serialization.Json
+	using System.Runtime.Serialization
+4.	掌握在.NET中，怎样将复杂数据序列号为XML格式的数据
+5.客户端怎样处理JSON格式和HTML格式的数据
+
+DOM文档对象模型
+	Core DOM
+	HTML DOM
+	
+自动补全功能	百度
+1.获取字段不去的数据(模糊查询)
+2.以文本、JSON、XML格式返回数据
+3.客户端接收数据，处理数据
+4.在文本框下边有一个div<>	

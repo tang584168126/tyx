@@ -1,0 +1,6 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\01 MasterTest\bin\01 MasterTest.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\01 MasterTest\bin\01 MasterTest.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\01 MasterTest\bin\01 MasterTest.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\01 MasterTest\obj\Debug\01 MasterTest.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\01 MasterTest\obj\Debug\01 MasterTest.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\01 MasterTest\obj\Debug\01 MasterTest.pdb

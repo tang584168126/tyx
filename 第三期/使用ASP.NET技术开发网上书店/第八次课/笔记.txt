@@ -1,0 +1,3 @@
+$.load():载入远程HTML代码并插入到DOM中
+jQuery对象.load("url")
+传递方式：默认使用get方法，如果提供了data参数则使用post方式

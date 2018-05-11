@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 JavaScript", "01 JavaScript\01 JavaScript.csproj", "{5CFA8E46-ECDE-40C5-ABCC-B10DA103C1A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 jQuery之load()", "02 jQuery之load()\02 jQuery之load().csproj", "{10108289-0535-4B5A-B68C-FC72814C90C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 jQuery之get()", "03 jQuery之get()\03 jQuery之get().csproj", "{E49BF7BF-558D-4F9D-85BF-A2434FADC2F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 jQuery之post()", "04 jQuery之post()\04 jQuery之post().csproj", "{A69DED2D-3C0D-4BA9-BD39-D457E87B9B06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 jQuery之getScriptJSON", "05 jQuery之getScriptJSON\05 jQuery之getScriptJSON.csproj", "{3DE1F58E-82BE-4747-B072-A1D54DB27093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 jQuery之ajax()", "06 jQuery之ajax()\06 jQuery之ajax().csproj", "{D7301FBD-3C76-40E8-B4E2-0F322B73EC05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 jQuery之serialize()", "07 jQuery之serialize()\07 jQuery之serialize().csproj", "{341972ED-C473-4589-826B-CE1C2AEA555E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 jQuery之AjaxEvent", "08 jQuery之AjaxEvent\08 jQuery之AjaxEvent.csproj", "{8248763B-66C3-4CAD-AB8A-9267FA597C45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CFA8E46-ECDE-40C5-ABCC-B10DA103C1A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CFA8E46-ECDE-40C5-ABCC-B10DA103C1A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CFA8E46-ECDE-40C5-ABCC-B10DA103C1A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CFA8E46-ECDE-40C5-ABCC-B10DA103C1A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10108289-0535-4B5A-B68C-FC72814C90C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10108289-0535-4B5A-B68C-FC72814C90C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10108289-0535-4B5A-B68C-FC72814C90C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10108289-0535-4B5A-B68C-FC72814C90C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E49BF7BF-558D-4F9D-85BF-A2434FADC2F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49BF7BF-558D-4F9D-85BF-A2434FADC2F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49BF7BF-558D-4F9D-85BF-A2434FADC2F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49BF7BF-558D-4F9D-85BF-A2434FADC2F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A69DED2D-3C0D-4BA9-BD39-D457E87B9B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69DED2D-3C0D-4BA9-BD39-D457E87B9B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69DED2D-3C0D-4BA9-BD39-D457E87B9B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A69DED2D-3C0D-4BA9-BD39-D457E87B9B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE1F58E-82BE-4747-B072-A1D54DB27093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE1F58E-82BE-4747-B072-A1D54DB27093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE1F58E-82BE-4747-B072-A1D54DB27093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE1F58E-82BE-4747-B072-A1D54DB27093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7301FBD-3C76-40E8-B4E2-0F322B73EC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7301FBD-3C76-40E8-B4E2-0F322B73EC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7301FBD-3C76-40E8-B4E2-0F322B73EC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7301FBD-3C76-40E8-B4E2-0F322B73EC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341972ED-C473-4589-826B-CE1C2AEA555E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341972ED-C473-4589-826B-CE1C2AEA555E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341972ED-C473-4589-826B-CE1C2AEA555E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341972ED-C473-4589-826B-CE1C2AEA555E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8248763B-66C3-4CAD-AB8A-9267FA597C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8248763B-66C3-4CAD-AB8A-9267FA597C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8248763B-66C3-4CAD-AB8A-9267FA597C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8248763B-66C3-4CAD-AB8A-9267FA597C45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\MessageBoard\MessageBoardBLL\bin\Debug\MessageBoard.BLL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\MessageBoard\MessageBoardBLL\bin\Debug\MessageBoard.BLL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\MessageBoard\MessageBoardBLL\obj\Debug\MessageBoardBLL.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\MessageBoard\MessageBoardBLL\obj\Debug\MessageBoard.BLL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\MessageBoard\MessageBoardBLL\obj\Debug\MessageBoard.BLL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\MessageBoard\MessageBoardBLL\bin\Debug\MessageBoard.DAL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\MessageBoard\MessageBoardBLL\bin\Debug\MessageBoard.Models.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\MessageBoard\MessageBoardBLL\bin\Debug\MessageBoard.DAL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\MessageBoard\MessageBoardBLL\bin\Debug\MessageBoard.Models.pdb

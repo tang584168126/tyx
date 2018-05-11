@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\jQuery之Ajax应用\05 jQuery之getScriptJSON\bin\05 jQuery之getScriptJSON.dll
+C:\Users\Administrator\Desktop\jQuery之Ajax应用\05 jQuery之getScriptJSON\bin\05 jQuery之getScriptJSON.pdb
+C:\Users\Administrator\Desktop\jQuery之Ajax应用\05 jQuery之getScriptJSON\obj\Debug\05 jQuery之getScriptJSON.dll
+C:\Users\Administrator\Desktop\jQuery之Ajax应用\05 jQuery之getScriptJSON\obj\Debug\05 jQuery之getScriptJSON.pdb
+C:\Users\Administrator\Desktop\jQuery之Ajax应用\05 jQuery之getScriptJSON\obj\Debug\05 jQuery之getScriptJSON.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\01 基础复习\08 复习_JQuery\jQuery_PPT_Version2\jQuery 04-Ajax的应用\jQuery之Ajax应用\05 jQuery之getScriptJSON\bin\05 jQuery之getScriptJSON.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\01 基础复习\08 复习_JQuery\jQuery_PPT_Version2\jQuery 04-Ajax的应用\jQuery之Ajax应用\05 jQuery之getScriptJSON\bin\05 jQuery之getScriptJSON.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\01 基础复习\08 复习_JQuery\jQuery_PPT_Version2\jQuery 04-Ajax的应用\jQuery之Ajax应用\05 jQuery之getScriptJSON\obj\Debug\05 jQuery之getScriptJSON.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\01 基础复习\08 复习_JQuery\jQuery_PPT_Version2\jQuery 04-Ajax的应用\jQuery之Ajax应用\05 jQuery之getScriptJSON\obj\Debug\05 jQuery之getScriptJSON.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\01 基础复习\08 复习_JQuery\jQuery_PPT_Version2\jQuery 04-Ajax的应用\jQuery之Ajax应用\05 jQuery之getScriptJSON\obj\Debug\05 jQuery之getScriptJSON.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\jQuery之Ajax应用\05 jQuery之getScriptJSON\bin\05 jQuery之getScriptJSON.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\jQuery之Ajax应用\05 jQuery之getScriptJSON\bin\05 jQuery之getScriptJSON.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\jQuery之Ajax应用\05 jQuery之getScriptJSON\bin\05 jQuery之getScriptJSON.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\jQuery之Ajax应用\05 jQuery之getScriptJSON\obj\Debug\05 jQuery之getScriptJSON.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\jQuery之Ajax应用\05 jQuery之getScriptJSON\obj\Debug\05 jQuery之getScriptJSON.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\jQuery之Ajax应用\05 jQuery之getScriptJSON\obj\Debug\05 jQuery之getScriptJSON.pdb

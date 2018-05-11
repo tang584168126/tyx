@@ -1,0 +1,12 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\HelloASPNET\bin\HelloASPNET.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\HelloASPNET\bin\HelloASPNET.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\HelloASPNET\bin\HelloASPNET.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\HelloASPNET\obj\Debug\HelloASPNET.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\HelloASPNET\obj\Debug\HelloASPNET.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\HelloASPNET\obj\Debug\HelloASPNET.pdb
+E:\TYX_Projiect\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\HelloASPNET\bin\HelloASPNET.dll.config
+E:\TYX_Projiect\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\HelloASPNET\bin\HelloASPNET.dll
+E:\TYX_Projiect\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\HelloASPNET\bin\HelloASPNET.pdb
+E:\TYX_Projiect\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\HelloASPNET\obj\Debug\HelloASPNET.csprojResolveAssemblyReference.cache
+E:\TYX_Projiect\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\HelloASPNET\obj\Debug\HelloASPNET.dll
+E:\TYX_Projiect\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\HelloASPNET\obj\Debug\HelloASPNET.pdb

@@ -1,0 +1,5 @@
+E:\代码\第三期\开发基于Ajax和控件技术的Web应用系统\第二次课\控件技术(一)\BookShop_UserControl\BookShopControls\bin\Debug\BookShopControls.dll
+E:\代码\第三期\开发基于Ajax和控件技术的Web应用系统\第二次课\控件技术(一)\BookShop_UserControl\BookShopControls\bin\Debug\BookShopControls.pdb
+E:\代码\第三期\开发基于Ajax和控件技术的Web应用系统\第二次课\控件技术(一)\BookShop_UserControl\BookShopControls\obj\Debug\BookShopControls.csprojResolveAssemblyReference.cache
+E:\代码\第三期\开发基于Ajax和控件技术的Web应用系统\第二次课\控件技术(一)\BookShop_UserControl\BookShopControls\obj\Debug\BookShopControls.dll
+E:\代码\第三期\开发基于Ajax和控件技术的Web应用系统\第二次课\控件技术(一)\BookShop_UserControl\BookShopControls\obj\Debug\BookShopControls.pdb

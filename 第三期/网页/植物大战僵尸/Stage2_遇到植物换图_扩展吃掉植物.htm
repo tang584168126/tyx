@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>Stage2:遇到植物换图</title>
+	
+	<script type="text/javascript">
+		<!--
+		//僵尸距离左顶点的位置
+		var left = 780;
+		//步幅
+		var step = 15;
+		//植物距离左顶点位置
+		var plantLeft = 500;
+		//植物宽度
+		var plantWidth = 81;
+		//标识植物是否死亡
+		var plantIsDead = false;
+		//标识僵尸的状态,行走还是在吃
+		var isEating = false;
+		var blood = 100;
+		
+		function go(){
+			var zombie = document.getElementById("zombie");
+			//判断是否遭遇植物
+			if(!plantIsDead && left <= plantLeft + plantWidth){
+				//如果没有在吃
+				if(!isEating){
+					//换背景
+					zombie.src = "images/Zombies/BucketheadZombie/BucketheadZombieAttack.gif";
+					var dd = setInterval(function(){
+						blood -= 10;
+						var p = document.getElementById("plant");
+						if(blood <= 0){
+							clearInterval(dd);
+							p.style.display = "none";
+							plantIsDead = true;
+							zombie.src = "images/Zombies/BucketheadZombie/BucketheadZombie.gif";
+							setTimeout("go()",500);
+						}else if(blood < 40){
+							p.src = "images/Plants/TallNut/TallnutCracked2.gif";
+						}else if(blood < 80){
+							p.src = "images/Plants/TallNut/TallnutCracked1.gif";
+						}
+					},500);
+					return;
+				}
+			}else{
+				//移动
+				left -= step;
+				zombie.style.left = left + "px";
+			}
+			setTimeout("go()",500);
+		}
+		
+		
+		-->
+	</script>
+	
+	<style type="text/css">
+	
+		/*背景图*/
+		#background{
+			width:1000px;
+			height:600px;
+			/*通过滤镜拉伸图片*/
+			filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/interface/background1.jpg",sizingMethod="scale");
+		}
+		/*僵尸的样式*/
+		#zombie{
+			position:absolute;
+			left:780px;
+			top:20px;
+		}
+		
+		/*植物样式*/
+		#plant{
+			position:absolute;
+			top:50px;
+			left:520px;
+		}
+		
+		img{
+			border:1px solid black;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="background">
+		<img src="images/Zombies/BucketheadZombie/BucketheadZombie.gif" id="zombie" />
+		<img src="images/Plants/TallNut/TallNut.gif" id="plant" />
+	</div>
+	<input type="button" value="僵尸走" onclick="go()"/>
+</body>
+</html>

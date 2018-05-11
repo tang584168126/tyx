@@ -1,0 +1,6 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\04 TreeViewBySiteMap\bin\04 TreeViewBySiteMap.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\04 TreeViewBySiteMap\bin\04 TreeViewBySiteMap.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\04 TreeViewBySiteMap\bin\04 TreeViewBySiteMap.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\04 TreeViewBySiteMap\obj\Debug\04 TreeViewBySiteMap.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\04 TreeViewBySiteMap\obj\Debug\04 TreeViewBySiteMap.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\04 TreeViewBySiteMap\obj\Debug\04 TreeViewBySiteMap.csprojResolveAssemblyReference.cache

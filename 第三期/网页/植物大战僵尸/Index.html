@@ -1,0 +1,337 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>植物大战僵尸</title>
+</head>
+<body id="dAll" topmargin=0 leftmargin=0 oncontextmenu="return(false);">
+<div style="position:absolute;left:0;top:0" id="tGround">
+<table border="0" width="1400" cellspacing="0" cellpadding="0" height="600">
+	<tr>
+		<td height="515">
+		<table border="0" width="100%" cellspacing="0" cellpadding="0" height="100%">
+			<tr>
+				<td>	
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+</div>
+<div style="position:absolute;left:0;top:0">
+<table border="0" width="1000" height="87" cellspacing="0" cellpadding="0" style="background-image: url('images/interface/top.gif'); background-repeat: no-repeat;">
+	<tr>
+		<td id="tSunNum" width="73" align="center" valign="bottom" style="padding-bottom:10px; font-size:10pt; font-weight:bold">	</td>
+		<td style="padding-left: 5px; padding-right: 5px; padding-top: 3px; padding-bottom: 3px;">
+		<table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0">
+			<tr>
+				<td width="10%" id="tCard0" style="position:relative;padding-top: 2px"></td>
+				<td width="10%" id="tCard1" style="position:relative;padding-top: 2px"></td>
+				<td width="10%" id="tCard2" style="position:relative;padding-top: 2px"></td>
+				<td width="10%" id="tCard3" style="position:relative;padding-top: 2px"></td>
+				<td width="10%" id="tCard4" style="position:relative;padding-top: 2px"></td>
+				<td width="10%" id="tCard5" style="position:relative;padding-top: 2px"></td>
+				<td width="10%" id="tCard6" style="position:relative;padding-top: 2px"></td>
+				<td width="10%" id="tCard7" style="position:relative;padding-top: 2px"></td>
+				<td width="10%" id="tCard8" style="position:relative;padding-top: 2px"></td>
+				<td width="10%" id="tCard9" style="position:relative;padding-top: 2px"></td>
+			</tr>
+		</table>
+		</td>
+		<td style="background-image: url('images/interface/top2.gif'); background-repeat: no-repeat" width="405" valign="top">
+		<img id="imgShovel" border="0" src="images/Shovel.gif" onclick="ChoseShovel()" style="z-index:1"></td>
+	</tr>
+</table>
+</div>
+
+<div id="dSelectCard" style="position:absolute;left:0;top:87;z-index:100;display:none;">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="513">
+	<tr>
+		<td width="465" background="images/interface/SeedChooser_Background.png" style="background-image: url('images/interface/SeedChooser_Background.png'); background-repeat: no-repeat">
+		<div align="center">
+			<table border="0" width="92%" cellspacing="0" cellpadding="0" height="100%">
+				<tr>
+					<td height="35" colspan="8" align="center"><strong>
+					<font color="#FFCC66" style="font-size: 12pt" face="新宋体">
+					选择你的植物</font></strong></td>
+				</tr>
+				<tr>
+					<td>
+					<img EName="Peashooter" id="Card1" border="0" src="images/Card/Plants/Peashooter.png" width="50" height="70" onclick="SelectCard(1)"></td>
+					<td>
+					<img EName="SunFlower" id="Card2" border="0" src="images/Card/Plants/SunFlower.png" width="50" height="70" onclick="SelectCard(2)"></td>
+					<td>
+					<img EName="CherryBomb" id="Card3" border="0" src="images/Card/Plants/CherryBomb.png" width="50" height="70" onclick="SelectCard(3)"></td>
+					<td>
+					<img EName="WallNut" id="Card4" border="0" src="images/Card/Plants/WallNut.png" width="50" height="70" onclick="SelectCard(4)"></td>
+					<td>
+					<img EName="PotatoMine" id="Card5" border="0" src="images/Card/Plants/PotatoMine.png" width="50" height="70" onclick="SelectCard(5)"></td>
+					<td>
+					<img EName="SnowPea" id="Card6" border="0" src="images/Card/Plants/SnowPea.png" width="50" height="70" onclick="SelectCard(6)"></td>
+					<td>
+					<img EName="Chomper" id="Card7" border="0" src="images/Card/Plants/Chomper.PNG" width="50" height="70" onclick="SelectCard(7)"></td>
+					<td>
+					<img EName="Repeater" id="Card8" border="0" src="images/Card/Plants/Repeater.png" width="50" height="70" onclick="SelectCard(8)"></td>
+				</tr>
+				<tr>
+					<td>　</td>
+					<td>　</td>
+					<td>
+					<img EName="FumeShroom" id="Card11" border="0" src="images/Card/Plants/FumeShroom.png" width="50" height="70" onclick="alert('还没做好！')"></td>
+					<td>　</td>
+					<td>　</td>
+					<td>　</td>
+					<td>　</td>
+					<td>　</td>
+				</tr>
+				<tr>
+					<td>
+					<img EName="LilyPad" id="Card17" border="0" src="images/Card/Plants/LilyPad.png" width="50" height="70" onclick="SelectCard(17)"></td>
+					<td>
+					<img EName="Squash" id="Card18" border="0" src="images/Card/Plants/Squash.png" width="50" height="70" onclick="SelectCard(18)"></td>
+					<td>
+					<img EName="Threepeater" id="Card19" border="0" src="images/Card/Plants/Threepeater.png" width="50" height="70" onclick="SelectCard(19)"></td>
+					<td>　</td>
+					<td>
+					<img EName="Jalapeno" id="Card21" border="0" src="images/Card/Plants/Jalapeno.png" width="49" height="70" onclick="SelectCard(21)"></td>
+					<td>
+					<img EName="Spikeweed" id="Card22" border="0" src="images/Card/Plants/Spikeweed.png" width="50" height="70" onclick="SelectCard(22)"></td>
+					<td>
+					<img EName="Torchwood" id="Card23" border="0" src="images/Card/Plants/Torchwood.png" width="50" height="70" onclick="SelectCard(23)"></td>
+					<td>
+					<img EName="TallNut" id="Card24" border="0" src="images/Card/Plants/TallNut.png" width="50" height="70" onclick="SelectCard(24)"></td>
+				</tr>
+				<tr>
+					<td>　</td>
+					<td>　</td>
+					<td>　</td>
+					<td>　</td>
+					<td>
+					<img EName="SplitPea" id="Card29" border="0" src="images/Card/Plants/SplitPea.png" width="50" height="70" onclick="SelectCard(29)"></td>
+					<td>
+					<img EName="Starfruit" id="Card30" border="0" src="images/Card/Plants/Starfruit.png" width="50" height="70" onclick="SelectCard(30)"></td>
+					<td>
+					<img EName="PumpkinHead" id="Card31" border="0" src="images/Card/Plants/PumpkinHead.png" width="50" height="70" onclick="SelectCard(31)"></td>
+					<td>　</td>
+				</tr>
+				<tr>
+					<td>　</td>
+					<td>
+					<img EName="FlowerPot" id="Card34" border="0" src="images/Card/Plants/FlowerPot.png" width="50" height="70" onclick="SelectCard(34)"></td>
+					<td>　</td>
+					<td>　</td>
+					<td>
+					<img EName="Gralic" id="Card37" border="0" src="images/Card/Plants/Gralic.png" width="50" height="70" onclick="SelectCard(37)"></td>
+					<td>　</td>
+					<td>　</td>
+					<td>　</td>
+				</tr>
+				<tr>
+					<td>
+					<img EName="GatlingPea" id="Card41" border="0" src="images/Card/Plants/GatlingPea.png" width="50" height="70" onclick="SelectCard(41)"></td>
+					<td>
+					<img EName="TwinSunflower" id="Card42" border="0" src="images/Card/Plants/TwinSunflower.png" width="50" height="70" onclick="SelectCard(42)"></td>
+					<td>　</td>
+					<td>　</td>
+					<td>　</td>
+					<td>　</td>
+					<td>
+					<img EName="Spikerock" id="Card47" border="0" src="images/Card/Plants/Spikerock.png" width="50" height="70" onclick="SelectCard(47)"></td>
+					<td>　</td>
+				</tr>
+				<tr>
+					<td height="56" align="center" colspan="8">
+					<input onclick="ResetSelectCard()" type="button" value="全部重选" name="btnReset" id="btnReset" style="width: 124; height: 31; border-left: 3px solid #85411C; border-right: 3px solid #4E250C; border-top: 3px solid #85411C; border-bottom: 3px solid #4E250C; background-color: #602D11; color:#FFCC66; font-weight:bold; font-size:13pt">
+					<input onclick="LetsGO()" type="button" value="一起摇滚吧！" name="btnOK" id="btnOK" disabled style="width: 170; height: 31; border-left: 3px solid #85411C; border-right: 3px solid #4E250C; border-top: 3px solid #85411C; border-bottom: 3px solid #4E250C; background-color: #602D11; color:#FFCC66; font-weight:bold; font-size:13pt"></td>
+				</tr>
+			</table>
+		</div>
+		</td>
+		<td><div id="dZombie" style="position:relative;width:335;height:513;left:0;top:0"></div></td>
+	</tr>
+</table>
+</div>
+<script language=javascript type="text/javascript">
+var NumZombies=0; //僵尸数量
+var NoZombies=0; //第几只僵尸，用于给僵尸取ID
+var FlagZombies=0; //僵尸第几波
+var ArrayZombies=new Array('',new Array(),new Array(),new Array()) //僵尸种类的数组0不用，1，2，3分别表示不同强度的僵尸
+var AlreadyAddZombiesFlag=0; //标记是否已经添加了下Flag僵尸
+
+var NumSun=0; //标记阳光，用于给阳光取ID
+var Win=0; //标记是否胜利
+
+var Chose=0; //鼠标已经选择了某个植物，1表示选择，0表示没选
+var ChoseClassName; //选择的植物种类
+var ChoseCard; //选择的卡片
+
+var dicCardGif=new ActiveXObject("Scripting.Dictionary");
+var dicPlantsGif=new ActiveXObject("Scripting.Dictionary");
+var dicZombiesGif=new ActiveXObject("Scripting.Dictionary");
+var dicGroundGif=new ActiveXObject("Scripting.Dictionary");
+</script>
+<script language=javascript src="js/function.js" type="text/javascript"></script>
+<script language=javascript src="js/ObjectPlants.js" type="text/javascript"></script>
+<script language=javascript src="js/ObjectZombie.js" type="text/javascript"></script>
+<script language=javascript src="js/Ground.js" type="text/javascript"></script>
+<script language=javascript type="text/javascript">
+//设置一个场地对象(草地，水池，房顶),用来保存所有格子的属性,该格子是否有植物,植物的名称,是草地还是水池或者沼泽等，
+//设置植物对象，保存所有出场植物的属性,植物卡片的图片,植物的英文名中文名，植物图片动画等（普通，受到伤害，攻击等），攻击子弹气体之类的控制
+//设置僵尸对象，保存所有出场僵尸属性，英文名中文名，图片动画，攻击控制
+function CGroundPool(){
+	//水池关场地对象GroundPool
+	var n,m;
+	this.GroundKind='草地';
+	this.GroundTime='白天';
+	this.MaxC=9;
+	this.MaxR=5; //场地最大列行
+	this.MaxWidth=835;
+	this.MaxHeight=603; //场地最大宽高
+	this.initSunNum=50; //保存原始阳光值用作reset游戏用
+	this.SunNum=50; //出场阳光值
+	this.aR=new Array(0,0,0,0,0,0); //每行的僵尸数量
+	this.aP=new Array(); //二维数组,保存每个格子的原始属性，水池，草地，花盆，睡莲，屋顶，弹坑等
+	this.aPAfterGrow=new Array(); //二维数组，保存每个格子种植植物以后的属性，水池，草地，花盆，睡莲，屋顶，弹坑等
+	this.aGroundPlant=new Array(); //三维数组，保存每个格子的容器植物对象名，比如睡莲花盆地衣等，最多可以存在两种容器，比如地衣上种植花盆，目前版本暂时只有一种容器，没有地衣
+	this.aPlant=new Array(); //三维数组，保存每个格子的植物，aPlant[C][R][0]保存普通植物比如射手等，[C][R][1]保存保护性植物，比如南瓜
+	this.aZombie=new Array(); //二维数组,保存每个格子的僵尸
+	this.ArrayZombies=new Array('oZombie','oZombie','oZombie','oZombie','oConeheadZombie','oConeheadZombie','oConeheadZombie','oBucketheadZombie','oBucketheadZombie','oFootballZombie'); //关卡必须出现的僵尸种类
+	this.CanSelectZombies=''; //备选僵尸
+	for(n=1;n<=9;n++){
+		this.aP[n]=new Array('','[草地]','[草地]','[草地]','[草地]','[草地]');
+		this.aPAfterGrow[n]=new Array('','[草地]','[草地]','[草地]','[草地]','[草地]');
+		this.aGroundPlant[n]=new Array(6);
+		this.aPlant[n]=new Array(6);
+		for(m=1;m<=5;m++){
+			this.aGroundPlant[n][m]=new Array('','');
+			this.aPlant[n][m]=new Array('','');
+		}
+	}
+	for(n=0;n<=11;n++){ //僵尸列数组比植物多2，僵尸初始站在最右边的11列，无法被攻击
+		this.aZombie[n]=new Array('','','','','','');
+	}
+	var tmpImg1=new Image(); //阳光图片
+	tmpImg1.src='images/Sun.gif';
+	dicGroundGif.add('Sun',tmpImg1);
+	var tmpImg2=new Image(); //准备安放植物图片
+	tmpImg2.src='images/PrepareGrowPlants.gif';
+	dicGroundGif.add('PrepareGrowPlants',tmpImg2);
+	var tmpImg3=new Image(); //一大波僵尸正在接近图片
+	tmpImg3.src='images/LargeWave.gif';
+	dicGroundGif.add('LargeWave',tmpImg3);
+	var tmpImg4=new Image(); //最后一波图片
+	tmpImg4.src='images/FinalWave.gif';
+	dicGroundGif.add('FinalWave',tmpImg4);
+	var tmpImg5=new Image(); //剪草机
+	tmpImg5.src='images/LawnMower.gif'; 
+	dicGroundGif.Add('LawnMower',tmpImg5);
+	var tmpImg6=new Image(); //僵尸吃掉了你的脑子
+	tmpImg6.src='images/ZombiesWon.png'; 
+	dicGroundGif.Add('ZombiesWon',tmpImg6);
+}
+CGroundPool.prototype.Monitor=function(){
+	//监控计时器
+	//监控卡片状态
+	var ob,obPlant,OPlant;
+	var n,m,l;
+	if(NumZombies==0&&FlagZombies>20&&Win==0){
+		alert('你打退了僵尸的进攻！');Win=1;
+	}else{
+		if(Win==-1){ //游戏失败
+			return(false);
+		}
+	}
+	for(n=0;n<dicCardGif.Count;n++){
+		ob=document.getElementById('Card'+n);
+		eval('OName='+ob.C); //获得卡片的对象
+		if(OName.SunNum<=this.SunNum){ //有充足阳光
+			if(Chose==0){ //没选择卡片
+				if(ob.isReady==1){
+					ob.style.filter='';
+					ob.style.cursor='hand';
+				}else{
+					ob.style.filter='gray';
+					ob.style.cursor='';
+				}
+			}
+			ob.HaveEnoughSun=1;
+		}else{
+			ob.style.filter='gray';
+			ob.style.cursor='';
+			ob.HaveEnoughSun=0;
+		}
+	}
+	window.setTimeout("oGP.Monitor()",100);
+}
+CGroundPool.prototype.InitGround=function(){
+	//初始化背景
+	document.getElementById('tSunNum').innerText=this.SunNum;
+	document.getElementById('tGround').style.backgroundImage='url(images/interface/background1.jpg)';
+	document.getElementById('tGround').style.backgroundRepeat='no-repeat';
+	SelectZombie(); //初始化僵尸数组
+	setTimeout('GoSelectCard()',1000);
+}
+CGroundPool.prototype.BeginCool=function(){
+	//开局冷却
+	var ob;
+	if(dicCardGif.Count==0){return(false);}
+	for(n=0;n<dicCardGif.Count;n++){
+		ob=document.getElementById('Card'+n);
+		eval('OName='+ob.C); //获得卡片的对象
+		switch(OName.coolTime){
+			case 7500: //冷却时间为7.5秒的植物开局冷却时间为0
+				ob.isReady=1;
+				ob.style.cursor='hand';
+				break;
+			case 30000: //冷却时间为30秒的植物开局冷却时间为20
+				document.getElementById('tCard'+n).innerHTML+='<img id="'+ob.id+'_1" border="0" src="'+dicCardGif(OName.EName).src+'" alt="'+OName.CName+'" style="filter:Xray;position:absolute;left:0;top:5;">';
+				DoCoolTimer(n,1,1/20);
+				break;
+			case 50000: //冷却时间为50秒的植物开局冷却时间为35
+				document.getElementById('tCard'+n).innerHTML+='<img id="'+ob.id+'_1" border="0" src="'+dicCardGif(OName.EName).src+'" alt="'+OName.CName+'" style="filter:Xray;position:absolute;left:0;top:5;">';
+				DoCoolTimer(n,1,1/35);
+		}
+	}
+}
+function InitInterface(){
+	//初始化卡片等
+	document.getElementById('tGround').style.pixelLeft=-218;
+	InitCard(); //卡片
+	var n;
+	//剪草机
+	for(n=1;n<=oGP.MaxR;n++){
+		var i=new Image();
+		i.id='LawnMower'+n;
+		i.src=dicGroundGif('LawnMower').src;
+		i.style.position='absolute';
+		i.style.pixelLeft=-40;
+		i.style.pixelTop=GetY(n)-70;
+		i.style.zIndex=3*n;
+ 		document.getElementById('dAll').appendChild(i);
+	}
+	var img=new Image();
+	img.id='PrepareGrowPlants';
+	img.src=dicGroundGif('PrepareGrowPlants').src;
+	img.style.position='absolute';
+	img.style.pixelLeft=oGP.MaxWidth/2-127;
+	img.style.pixelTop=oGP.MaxHeight/2-54;
+	document.getElementById('dAll').appendChild(img);
+	setTimeout('StartGame();document.getElementById("dAll").removeChild('+img.id+')',3000);
+}
+function GoSelectCard(){
+	var n,ob=document.getElementById('tGround');
+	if(ob.style.pixelLeft<=-600){DisplayZombie();document.getElementById("dSelectCard").style.display="block";return(false);}
+	ob.style.pixelLeft-=10;
+	setTimeout('GoSelectCard()',10);
+}
+
+var oGP=new CGroundPool();
+var oZombie=new CZombie();
+var oConeheadZombie=new CConeheadZombie();
+var oBucketheadZombie=new CBucketheadZombie();
+var oFlagZombie=new CFlagZombie();
+var oFootballZombie=new CFootballZombie();
+oGP.InitGround();
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿body 
+{
+    margin:0px;
+    text-align:center;
+    font-size:14px;
+}
+#main 
+{
+    margin:0px auto;
+    background-image:url(../images/home.jpg);
+    background-repeat:no-repeat;  
+    height:381px;
+    width:876px; 
+    text-align:center; 
+    padding-top:260px;
+}
+table 
+{
+    margin:0px auto;
+    width:65%;
+}

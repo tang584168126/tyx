@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script type="text/javascript">
+        var xhr = null;         //空原生对象XMLHttpRequest
+
+        //创建Ajax原生对象
+        function createXMLHttpRequest() {
+            //IE5 IE6是以ActiveXObject的方式引入XMLHttpRequest的
+            if (window.ActiveXObject) {         
+                return new ActiveXObject("Microsoft.XMLHTTP");
+            }            
+            else if (window.XMLHttpRequest) {   //IE5 IE6 以外的浏览器
+                return new XMLHttpRequest();
+            }
+        }
+        
+        //通过这个函数来异步获取信息
+        function Ajax() {            
+            //1、创建XMLHttpRequest对象
+            xhr = createXMLHttpRequest();
+            //2、设置回调函数
+            xhr.onreadystatechange = readyDo;
+            //3、初始化对象
+            xhr.open("GET", "Test.aspx", true);
+            //xhr.open("GET", "Test.txt", true);
+            //4、发送请求
+            xhr.send(null);
+        }
+
+        //回调函数
+        function readyDo() {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                //将xhr.responseText的值赋给ID为 resText 的元素
+                document.getElementById("resText").innerHTML = xhr.responseText;
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="button" id="" value="Ajax提交" onclick="Ajax();" />
+    <div id="resText" ></div>
+</body>
+</html>

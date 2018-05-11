@@ -1,0 +1,11 @@
+E:\代码\第三期\测试\FormMain\FormMain\bin\Debug\FormMain.exe.config
+E:\代码\第三期\测试\FormMain\FormMain\obj\Debug\ShopInfoManage.csprojResolveAssemblyReference.cache
+E:\代码\第三期\测试\FormMain\FormMain\obj\Debug\FormMain.InsertForm.resources
+E:\代码\第三期\测试\FormMain\FormMain\obj\Debug\FormMain.MainForm.resources
+E:\代码\第三期\测试\FormMain\FormMain\obj\Debug\FormMain.Properties.Resources.resources
+E:\代码\第三期\测试\FormMain\FormMain\obj\Debug\FormMain.SelectForm.resources
+E:\代码\第三期\测试\FormMain\FormMain\obj\Debug\ShopInfoManage.csproj.GenerateResource.Cache
+E:\代码\第三期\测试\FormMain\FormMain\bin\Debug\FormMain.exe
+E:\代码\第三期\测试\FormMain\FormMain\bin\Debug\FormMain.pdb
+E:\代码\第三期\测试\FormMain\FormMain\obj\Debug\FormMain.exe
+E:\代码\第三期\测试\FormMain\FormMain\obj\Debug\FormMain.pdb

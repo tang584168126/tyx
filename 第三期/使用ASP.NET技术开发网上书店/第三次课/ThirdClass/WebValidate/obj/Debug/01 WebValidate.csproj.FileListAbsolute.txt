@@ -1,0 +1,7 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第三次课\ThirdClass\WebValidate\bin\WebValidate.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第三次课\ThirdClass\WebValidate\bin\WebValidate.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第三次课\ThirdClass\WebValidate\bin\WebValidate.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第三次课\ThirdClass\WebValidate\bin\MyControls.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第三次课\ThirdClass\WebValidate\obj\Debug\01 WebValidate.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第三次课\ThirdClass\WebValidate\obj\Debug\WebValidate.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第三次课\ThirdClass\WebValidate\obj\Debug\WebValidate.pdb

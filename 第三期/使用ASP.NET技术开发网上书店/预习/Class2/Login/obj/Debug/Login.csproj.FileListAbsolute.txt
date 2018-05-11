@@ -1,0 +1,6 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\预习\Class2\Login\bin\Login.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\预习\Class2\Login\bin\Login.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\预习\Class2\Login\bin\Login.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\预习\Class2\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\预习\Class2\Login\obj\Debug\Login.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\预习\Class2\Login\obj\Debug\Login.pdb

@@ -1,0 +1,46 @@
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\06第六课（）\参考答案\BookShop\BookShopBLL\bin\BookShopBLL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\06第六课（）\参考答案\BookShop\BookShopBLL\bin\BookShopBLL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\06第六课（）\参考答案\BookShop\BookShopBLL\bin\BookShopDAL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\06第六课（）\参考答案\BookShop\BookShopBLL\bin\BookShopModels.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\06第六课（）\参考答案\BookShop\BookShopBLL\bin\BookShopDAL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\06第六课（）\参考答案\BookShop\BookShopBLL\bin\BookShopModels.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\06第六课（）\参考答案\BookShop\BookShopBLL\obj\Debug\BookShopBLL.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\06第六课（）\参考答案\BookShop\BookShopBLL\obj\Debug\BookShopBLL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\06第六课（）\参考答案\BookShop\BookShopBLL\obj\Debug\BookShopBLL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\06第六课（搭建网上书店框架）\参考答案\BookShop\BookShopBLL\bin\BookShopBLL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\06第六课（搭建网上书店框架）\参考答案\BookShop\BookShopBLL\bin\BookShopBLL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\06第六课（搭建网上书店框架）\参考答案\BookShop\BookShopBLL\bin\BookShopDAL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\06第六课（搭建网上书店框架）\参考答案\BookShop\BookShopBLL\bin\BookShopModels.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\06第六课（搭建网上书店框架）\参考答案\BookShop\BookShopBLL\bin\BookShopDAL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\06第六课（搭建网上书店框架）\参考答案\BookShop\BookShopBLL\bin\BookShopModels.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\06第六课（搭建网上书店框架）\参考答案\BookShop\BookShopBLL\obj\Debug\BookShopBLL.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\06第六课（搭建网上书店框架）\参考答案\BookShop\BookShopBLL\obj\Debug\BookShopBLL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\06第六课（搭建网上书店框架）\参考答案\BookShop\BookShopBLL\obj\Debug\BookShopBLL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\07第七课（数据绑定与GridView）\参考答案\BookShop\BookShopBLL\obj\Debug\BookShopBLL.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\07第七课（数据绑定与GridView）\参考答案\BookShop\BookShopBLL\obj\Debug\BookShopBLL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\07第七课（数据绑定与GridView）\参考答案\BookShop\BookShopBLL\bin\BookShopBLL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\07第七课（数据绑定与GridView）\参考答案\BookShop\BookShopBLL\bin\BookShopBLL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\07第七课（数据绑定与GridView）\参考答案\BookShop\BookShopBLL\bin\BookShopDAL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\07第七课（数据绑定与GridView）\参考答案\BookShop\BookShopBLL\bin\BookShopModels.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\07第七课（数据绑定与GridView）\参考答案\BookShop\BookShopBLL\bin\BookShopDAL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\07第七课（数据绑定与GridView）\参考答案\BookShop\BookShopBLL\bin\BookShopModels.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\07第七课（数据绑定与GridView）\参考答案\BookShop\BookShopBLL\obj\Debug\BookShopBLL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\BookShop\BookShopBLL\bin\BookShopBLL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\BookShop\BookShopBLL\bin\BookShopBLL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\BookShop\BookShopBLL\bin\BookShopDAL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\BookShop\BookShopBLL\bin\BookShopModels.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\BookShop\BookShopBLL\bin\BookShopDAL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\BookShop\BookShopBLL\bin\BookShopModels.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\BookShop\BookShopBLL\obj\Debug\BookShopBLL.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\BookShop\BookShopBLL\obj\Debug\BookShopBLL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\BookShop\BookShopBLL\obj\Debug\BookShopBLL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十次课\GridView进阶\BookShop\BookShopBLL\bin\BookShopBLL.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十次课\GridView进阶\BookShop\BookShopBLL\bin\BookShopBLL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十次课\GridView进阶\BookShop\BookShopBLL\bin\BookShopBLL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十次课\GridView进阶\BookShop\BookShopBLL\bin\BookShopDAL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十次课\GridView进阶\BookShop\BookShopBLL\bin\BookShopModels.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十次课\GridView进阶\BookShop\BookShopBLL\bin\BookShopDAL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十次课\GridView进阶\BookShop\BookShopBLL\bin\BookShopModels.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十次课\GridView进阶\BookShop\BookShopBLL\obj\Debug\BookShopBLL.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十次课\GridView进阶\BookShop\BookShopBLL\obj\Debug\BookShopBLL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十次课\GridView进阶\BookShop\BookShopBLL\obj\Debug\BookShopBLL.pdb

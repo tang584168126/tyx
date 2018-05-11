@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>Stage1:僵尸走</title>
+	
+	<script type="text/javascript">
+		<!--
+		var left = 780;
+		var step = 10;
+		function go(){
+			var zombie = document.getElementById("zombie");
+			left -= step;
+			zombie.style.left = left + "px";
+			setTimeout("go()",500);
+		}
+		
+		
+		-->
+	</script>
+	
+	<style type="text/css">
+	
+		/*背景图*/
+		#background{
+			width:1000px;
+			height:600px;
+			/*通过滤镜拉伸图片*/
+			filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/interface/background1.jpg",sizingMethod="scale");
+		}
+		/*僵尸的样式*/
+		#zombie{
+			position:absolute;
+			left:780px;
+			top:20px;
+		}		
+	</style>
+</head>
+
+<body>
+	<div id="background">
+		<img src="images/Zombies/BucketheadZombie/BucketheadZombie.gif" id="zombie" />
+	</div>
+	<input type="button" value="僵尸走" onclick="go()"/>
+</body>
+</html>

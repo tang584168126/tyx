@@ -1,0 +1,6 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第三次课\ThirdClass\RegisterScriptStatic\bin\RegisterScriptStatic.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第三次课\ThirdClass\RegisterScriptStatic\bin\RegisterScriptStatic.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第三次课\ThirdClass\RegisterScriptStatic\bin\RegisterScriptStatic.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第三次课\ThirdClass\RegisterScriptStatic\obj\Debug\02 RegisterScriptStatic.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第三次课\ThirdClass\RegisterScriptStatic\obj\Debug\RegisterScriptStatic.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第三次课\ThirdClass\RegisterScriptStatic\obj\Debug\RegisterScriptStatic.pdb

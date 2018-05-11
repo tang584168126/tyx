@@ -1,0 +1,5 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\MessageBoard\MessageBoardModels\bin\Debug\MessageBoard.Models.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\MessageBoard\MessageBoardModels\bin\Debug\MessageBoard.Models.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\MessageBoard\MessageBoardModels\obj\Debug\MessageBoardModels.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\MessageBoard\MessageBoardModels\obj\Debug\MessageBoard.Models.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\MessageBoard\MessageBoardModels\obj\Debug\MessageBoard.Models.pdb

@@ -1,0 +1,4 @@
+web控件分类
+1.HTML控件：表单
+2.HTML服务器控件：runat="server"
+3.Web服务器控件:asp

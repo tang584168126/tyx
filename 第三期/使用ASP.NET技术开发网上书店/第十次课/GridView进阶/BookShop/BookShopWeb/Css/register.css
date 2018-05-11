@@ -1,0 +1,20 @@
+﻿#container{ }		
+	/*action content*/
+	#action_area{ float:right; width:687px;}
+	.action_type{ margin-bottom:25px;}
+	.action_type_h{ margin-top:40px; padding-left:20px; height:40px; background:url(../Images/action_h.gif) repeat-x; font:12px/30px 宋体;}
+	
+	/*登录页和注册页面*/
+	/*操作页面说明*/
+	p.state{ margin:10px 0 0 20px; line-height:30px;}
+	
+	.member_form{ margin:30px 0 0 20px; color:#747476;}
+	.member_form p{ margin:10px 0;}
+	.member_form label{ float:left; width:80px; text-align:right; margin-right:10px; line-height:22px; color:#000;}
+	.member_form span{ color:#f00; margin:0 3px;}
+	
+	 p.form_sub{ padding-left:90px; margin-top:16px;}
+	
+	.opt_input{ border:1px solid #666; width:180px; height:20px; line-height:20px; margin-right:5px;}
+	.opt_tel{ border:1px solid #666; width:60px; height:20px; line-height:20px; margin-right:5px;}
+	.opt_sub{ height:22px; background:url(../Images/opt_sub.gif) repeat-x 1px 1px; text-align:center; font:12px/14px Tahoma; border:1px solid #0e79a5; margin-right:10px; padding:0 6px;}

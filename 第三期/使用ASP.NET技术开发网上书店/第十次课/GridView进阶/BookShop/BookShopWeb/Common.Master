@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Common.master.cs" Inherits="BookShopWeb.Common" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>第三波书店-最方便的网上书店</title>
+    <link href="Css/global.css" rel="stylesheet" type="text/css"/>
+    <asp:ContentPlaceHolder ID="cphHeader" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="top">
+            <div class="status">
+                你好，
+                <asp:Literal id="ltlUser" runat="server">
+                    <a href="#">【登陆】</a><a href="#">【注册】</a>
+                </asp:Literal>
+            </div>
+            <div class="members">
+                <ul>
+                    <li><a href="#"><img src="Images/Common/payVIP.gif" height="18" alt="开通VIP"/></a></li>
+                    <li><a href="#"><img src="Images/Common/payCoin.gif" height="18" alt="学币中心"/></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="header">
+            <div class="logo">
+                <img src="Images/Common/logo.gif" alt="第三波书店" />
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">购物车</a></li>
+                    <li><a href="#">收藏架</a></li>
+                    <li><a href="#">购物流程</a></li>
+                    <li><a href="#">在线客服</a></li>
+                    <li><a href="#">积分兑换</a></li>
+                    <li><a href="#">管理入口</a></li>
+                    <li><a href="#">帮助</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="container">
+            <!-- 左边内容 -->
+            <div id="intro">
+                <div class="basket">
+                    <a href="#">目前你的购物篮是空的</a>
+                </div>
+                <div>
+                    <asp:TextBox ID="txtSearch" runat="server" CssClass="searchKey"></asp:TextBox>
+                    <asp:Button id="btnSearch" runat="server"  CssClass="seachSub"/>
+                </div>
+                <div class="allType">
+                    <h2><a href="#">查看所有分类>></a></h2>
+                    
+                    <div class="subnav">
+                        <asp:TreeView ID="tvCategory" runat="server"></asp:TreeView>
+                        <div class="subnavBottom">
+                            &nbsp;
+                        </div>
+                    </div>
+                </div>
+                <div class="other">
+                    <a href="#">CSDN开发者大会</a><br/>
+                    <a href="#">.BET俱乐部活动月</a>
+                </div>
+            </div>
+            <div class="breadCrumb">
+                &nbsp;&nbsp;您现在的位置：
+                <asp:SiteMapPath ID="smpShow" runat="server"></asp:SiteMapPath>
+            </div>
+            <asp:ContentPlaceHolder ID="cphContent" runat="server">
+            
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">
+            <!--contac us-->
+            <div class="telephone">
+                <strong>热线</strong> 021-61508168 <strong>传真</strong> 021-61508168-8020
+                <br />
+                <strong>Q Q</strong>375013071 13483528 562655482 1143735195（技术)<br />
+                <strong>MSN</strong> hjservice@hotmail.com <strong>信箱</strong> shop@hjenglish.com<br />
+                <strong>帮助</strong> <a href="/help/help.aspx" target="_blank">银行汇款帐户</a> <a href="/help/help.aspx#help_post"
+                    target="_blank">邮局汇款地址</a> <a href="/help/help.aspx#help_ship" target="_blank">送货方式及费用</a>
+                <a href="http://www.hjenglish.com/down/faq_2.htm" target="_blank">如何进行下载</a>
+            </div>
+            <!---->
+            <div class="imp_link">
+                <img src="Images/Common/alipay.gif" alt="支付宝支付" /><img src="Images/Common/online_pay.gif" alt="在线支付" /><br />
+                <a href="http://www.hjenglish.com/about/aboutus.htm" target="_blank">网站介绍</a> <a
+                    href="http://www.hjenglish.com/about/partner.htm" target="_blank">合作伙伴</a> <a href="#"
+                        target="_blank">网站地图</a> <a href="#" target="_blank">联系我们</a><br />
+                <a href="#" target="_blank">增值电信业务经营许可证沪B2-20040503</a>
+            </div>
+        </div>
+        <div id="child_site">
+            <strong>分站</strong> <a href="#" target="_blank">沪江网</a> <a href="#" target="_blank">
+                听说</a> <a href="#" target="_blank">口译</a> <a href="#" target="_blank">CET</a>
+            <a href="#" target="_blank">考研</a> <a href="#" target="_blank">雅思</a> <a href="#"
+                target="_blank">托福</a> <a href="#" target="_blank">日语</a> <a href="#" target="_blank">
+                    法语</a> <a href="#" target="_blank">下载</a> <a href="#" target="_blank">文库</a>
+            <a href="#" target="_blank">部落</a> <a href="#" target="_blank">博客</a> <a href="#"
+                target="_blank">词典</a> <a href="#" target="_blank">IT新闻</a> <a href="#" target="_blank">
+                    博客园</a> <a title="新世界日语" href="#" target="_blank">新世界日语</a> <a title="2010考研书籍推荐专题"
+                        href="#" target="_blank">2010考研书籍</a>
+        </div>
+    </form>
+</body>
+</html>

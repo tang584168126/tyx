@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\jQuery之Ajax应用\07 jQuery之serialize()\bin\07 jQuery之serialize().dll
+C:\Users\Administrator\Desktop\jQuery之Ajax应用\07 jQuery之serialize()\bin\07 jQuery之serialize().pdb
+C:\Users\Administrator\Desktop\jQuery之Ajax应用\07 jQuery之serialize()\obj\Debug\07 jQuery之serialize().dll
+C:\Users\Administrator\Desktop\jQuery之Ajax应用\07 jQuery之serialize()\obj\Debug\07 jQuery之serialize().pdb
+C:\Users\Administrator\Desktop\jQuery之Ajax应用\07 jQuery之serialize()\obj\Debug\07 jQuery之serialize().csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\jQuery之Ajax应用\07 jQuery之serialize()\bin\07 jQuery之serialize().dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\jQuery之Ajax应用\07 jQuery之serialize()\bin\07 jQuery之serialize().dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\jQuery之Ajax应用\07 jQuery之serialize()\bin\07 jQuery之serialize().pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\jQuery之Ajax应用\07 jQuery之serialize()\obj\Debug\07 jQuery之serialize().csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\jQuery之Ajax应用\07 jQuery之serialize()\obj\Debug\07 jQuery之serialize().dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\jQuery之Ajax应用\07 jQuery之serialize()\obj\Debug\07 jQuery之serialize().pdb

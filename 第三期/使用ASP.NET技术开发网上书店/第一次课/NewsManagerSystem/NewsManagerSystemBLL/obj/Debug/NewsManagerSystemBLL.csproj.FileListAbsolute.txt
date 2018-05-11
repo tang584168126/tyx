@@ -1,0 +1,9 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\NewsManagerSystem\NewsManagerSystemBLL\obj\Debug\NewsManagerSystemBLL.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\NewsManagerSystem\NewsManagerSystemBLL\bin\Debug\NewsManagerSystemBLL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\NewsManagerSystem\NewsManagerSystemBLL\bin\Debug\NewsManagerSystemBLL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\NewsManagerSystem\NewsManagerSystemBLL\bin\Debug\NewsManagerSystemDAL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\NewsManagerSystem\NewsManagerSystemBLL\bin\Debug\NewsManagerSystemModel.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\NewsManagerSystem\NewsManagerSystemBLL\bin\Debug\NewsManagerSystemDAL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\NewsManagerSystem\NewsManagerSystemBLL\bin\Debug\NewsManagerSystemModel.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\NewsManagerSystem\NewsManagerSystemBLL\obj\Debug\NewsManagerSystemBLL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\NewsManagerSystem\NewsManagerSystemBLL\obj\Debug\NewsManagerSystemBLL.pdb

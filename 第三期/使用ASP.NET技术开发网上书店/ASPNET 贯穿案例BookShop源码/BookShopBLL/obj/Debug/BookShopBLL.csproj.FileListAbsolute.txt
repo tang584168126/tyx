@@ -1,0 +1,45 @@
+E:\work\课件开发\学士后\BookShop\Web\Bin\BookShopBLL.dll
+E:\work\课件开发\学士后\BookShop\Web\Bin\BookShopBLL.pdb
+E:\work\课件开发\学士后\BookShop\BookShopBLL\obj\Debug\ResolveAssemblyReference.cache
+E:\work\课件开发\学士后\BookShop\BookShopBLL\obj\Debug\BookShopBLL.dll
+E:\work\课件开发\学士后\BookShop\BookShopBLL\obj\Debug\BookShopBLL.pdb
+E:\work\课件开发\学士后\BookShopPlus\Web\Bin\BookShopBLL.dll
+E:\work\课件开发\学士后\BookShopPlus\Web\Bin\BookShopBLL.pdb
+E:\work\课件开发\学士后\BookShopPlus\BookShopBLL\obj\Debug\ResolveAssemblyReference.cache
+E:\work\课件开发\学士后\BookShopPlus\BookShopBLL\obj\Debug\BookShopBLL.dll
+E:\work\课件开发\学士后\BookShopPlus\BookShopBLL\obj\Debug\BookShopBLL.pdb
+E:\work\课件开发\ACCP6.0\Control+Ajax\BookShopPlus\BookShopBLL\obj\Debug\ResolveAssemblyReference.cache
+E:\work\课件开发\ACCP6.0\Control+Ajax\BookShopPlus\BookShopBLL\obj\Debug\BookShopBLL.pdb
+E:\work\课件开发\ACCP6.0\Control+Ajax\BookShopPlus\Web\Bin\BookShopBLL.dll
+E:\work\课件开发\ACCP6.0\Control+Ajax\BookShopPlus\Web\Bin\BookShopBLL.pdb
+E:\work\课件开发\ACCP6.0\Control+Ajax\BookShopPlus\BookShopBLL\obj\Debug\BookShopBLL.dll
+E:\Worked Company\北大青鸟\ACCP6.0\Y2 A\使用ASP.NET技术开发网上书店\使用ASP.NET技术开发网上书店\贯穿案例\参考代码\Web\Bin\BookShopBLL.dll
+E:\Worked Company\北大青鸟\ACCP6.0\Y2 A\使用ASP.NET技术开发网上书店\使用ASP.NET技术开发网上书店\贯穿案例\参考代码\Web\Bin\BookShopBLL.pdb
+E:\Worked Company\北大青鸟\ACCP6.0\Y2 A\使用ASP.NET技术开发网上书店\使用ASP.NET技术开发网上书店\贯穿案例\参考代码\BookShopBLL\obj\Debug\ResolveAssemblyReference.cache
+E:\Worked Company\北大青鸟\ACCP6.0\Y2 A\使用ASP.NET技术开发网上书店\使用ASP.NET技术开发网上书店\贯穿案例\参考代码\BookShopBLL\obj\Debug\BookShopBLL.dll
+E:\Worked Company\北大青鸟\ACCP6.0\Y2 A\使用ASP.NET技术开发网上书店\使用ASP.NET技术开发网上书店\贯穿案例\参考代码\BookShopBLL\obj\Debug\BookShopBLL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 6.0\Y2 A\使用ASP.NET技术开发网上书店\使用ASP.NET技术开发网上书店\贯穿案例\参考代码\Web\Bin\BookShopBLL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 6.0\Y2 A\使用ASP.NET技术开发网上书店\使用ASP.NET技术开发网上书店\贯穿案例\参考代码\Web\Bin\BookShopBLL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 6.0\Y2 A\使用ASP.NET技术开发网上书店\使用ASP.NET技术开发网上书店\贯穿案例\参考代码\BookShopBLL\obj\Debug\BookShopBLL.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 6.0\Y2 A\使用ASP.NET技术开发网上书店\使用ASP.NET技术开发网上书店\贯穿案例\参考代码\BookShopBLL\obj\Debug\BookShopBLL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 6.0\Y2 A\使用ASP.NET技术开发网上书店\使用ASP.NET技术开发网上书店\贯穿案例\参考代码\BookShopBLL\obj\Debug\BookShopBLL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\贯穿案例\参考代码\Web\Bin\BookShopBLL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\贯穿案例\参考代码\Web\Bin\BookShopBLL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\贯穿案例\参考代码\BookShopBLL\obj\Debug\BookShopBLL.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\贯穿案例\参考代码\BookShopBLL\obj\Debug\BookShopBLL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\贯穿案例\参考代码\BookShopBLL\obj\Debug\BookShopBLL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\第三波书店贯穿案例\参考代码\Web\Bin\BookShopBLL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\第三波书店贯穿案例\参考代码\Web\Bin\BookShopBLL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\第三波书店贯穿案例\参考代码\BookShopBLL\obj\Debug\BookShopBLL.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\第三波书店贯穿案例\参考代码\BookShopBLL\obj\Debug\BookShopBLL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\第三波书店贯穿案例\参考代码\BookShopBLL\obj\Debug\BookShopBLL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\第三波书店贯穿案例\ASPNET 贯穿案例BookShop源码\Web\Bin\BookShopBLL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\第三波书店贯穿案例\ASPNET 贯穿案例BookShop源码\Web\Bin\BookShopBLL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\第三波书店贯穿案例\ASPNET 贯穿案例BookShop源码\BookShopBLL\obj\Debug\BookShopBLL.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\第三波书店贯穿案例\ASPNET 贯穿案例BookShop源码\BookShopBLL\obj\Debug\BookShopBLL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\第三波书店贯穿案例\ASPNET 贯穿案例BookShop源码\BookShopBLL\obj\Debug\BookShopBLL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\ASPNET 贯穿案例BookShop源码\Web\Bin\BookShopBLL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\ASPNET 贯穿案例BookShop源码\Web\Bin\BookShopBLL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\ASPNET 贯穿案例BookShop源码\BookShopBLL\obj\Debug\BookShopBLL.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\ASPNET 贯穿案例BookShop源码\BookShopBLL\obj\Debug\BookShopBLL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\ASPNET 贯穿案例BookShop源码\BookShopBLL\obj\Debug\BookShopBLL.pdb

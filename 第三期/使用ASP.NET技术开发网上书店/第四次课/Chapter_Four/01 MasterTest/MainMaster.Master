@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainMaster.master.cs" Inherits="_01_MasterTest.MainMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <%-- 内容页头部，用于引用js和css的代码 --%>
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:Label ID="Label1" runat="server" Text="测试"></asp:Label>
+        <hr/>
+        <asp:ContentPlaceHolder ID="cphContent" runat="server">
+        <%-- 内容页私有部分，用于包含内容页私有内容 --%>
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,9 @@
+E:\代码\第三期\测试\MySchoolDemo\MySchoolDemo\bin\Debug\MySchoolDemo.exe.config
+E:\代码\第三期\测试\MySchoolDemo\MySchoolDemo\bin\Debug\MySchoolDemo.exe
+E:\代码\第三期\测试\MySchoolDemo\MySchoolDemo\bin\Debug\MySchoolDemo.pdb
+E:\代码\第三期\测试\MySchoolDemo\MySchoolDemo\obj\Debug\MySchoolDemo.FrmStudentInfo.resources
+E:\代码\第三期\测试\MySchoolDemo\MySchoolDemo\obj\Debug\MySchoolDemo.Properties.Resources.resources
+E:\代码\第三期\测试\MySchoolDemo\MySchoolDemo\obj\Debug\MySchoolDemo.csproj.GenerateResource.Cache
+E:\代码\第三期\测试\MySchoolDemo\MySchoolDemo\obj\Debug\MySchoolDemo.exe
+E:\代码\第三期\测试\MySchoolDemo\MySchoolDemo\obj\Debug\MySchoolDemo.pdb
+E:\代码\第三期\测试\MySchoolDemo\MySchoolDemo\obj\Debug\MySchoolDemo.csprojResolveAssemblyReference.cache

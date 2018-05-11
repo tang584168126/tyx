@@ -1,0 +1,6 @@
+E:\代码\第三期\复习\ASPNET\HelloASPNET\bin\HelloASPNET.dll.config
+E:\代码\第三期\复习\ASPNET\HelloASPNET\bin\HelloASPNET.dll
+E:\代码\第三期\复习\ASPNET\HelloASPNET\bin\HelloASPNET.pdb
+E:\代码\第三期\复习\ASPNET\HelloASPNET\obj\Debug\HelloASPNET.csprojResolveAssemblyReference.cache
+E:\代码\第三期\复习\ASPNET\HelloASPNET\obj\Debug\HelloASPNET.dll
+E:\代码\第三期\复习\ASPNET\HelloASPNET\obj\Debug\HelloASPNET.pdb

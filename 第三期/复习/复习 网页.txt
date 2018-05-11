@@ -1,0 +1,165 @@
+HTML页面中的结构、样式、行为最好分别放在不同文件中，通过引用外部文件的方式关联呢起来。
+
+HTML编码规范
+	1.标记名和属性名统一小写
+	2.标记严格嵌套
+	3.标记必须封闭
+	4.属性值必须用双引号括起来
+	5.属性值用完整形式
+	
+HTML语义化：根据内容的结构化，选择合适的标签，让开发者便于阅读，以及写出更加优雅的代码，并且让更加便于爬虫解析结构，
+	即：什么样的内容，用什么样的标签
+
+样式表(CSS)
+	行间样式表(inline):开发时不用，维护时可以用
+	内部样式表(internal)：少用
+	外部样式表(external)：开发时尽量用
+	优先级别：行内 > 内部 > 外部
+	
+JavaScrpt的构成：ECMAScipt、DOM、BOM
+
+HTML引用js文件的代码存放的位置：将所有<scipt>标签都放在文档的末尾，即</body>前，这样能使存放HTML文件的加载速度更快
+	
+JavaScrpt的基本数据类型：Undefined、Null、Number、Boolean、string、Object
+typeof运算符的返回值：
+	1.undefined:变量声明但未被赋值
+	2.string:字符串
+	3.boolean:true或false
+	4.number:整数或浮点数
+	5.object:js中的对象、数组、null
+	
+JavaScipt中数组的长度可变	
+
+JavaScipt中函数可以理解为一种数据类型，即函数名理解为一个变量，这个变量存放一个指向函数的指针
+
+JavaScipt对象：
+	1.用户自定义对象
+	2.内建对象：(Array、Date、Math、String)
+	3.宿主对象(浏览器对象)：BOM对应的对象
+
+DOM(文档对象模型)：HTML将文档加载到内存中时，会将文档中的节点关系抽象为树(称之为节点树)，树中的节点可以分为：元素节点、文本节点、属性节点；节点之间的关系有：
+parent(父)、child(子)、sibling(兄弟)
+
+getElementById():返回元素对象
+getElementsByTagName()：包含元素对象的数组
+
+性能的优化：
+	1.语义化编程，尽量减少DOM和尽量减少标记
+	2.脚本放在外部文件，合并放置类似的脚本，减少加载页面时发送的请求数量
+	3.去除不必要的空格或注释，压缩脚本
+	
+CDN引用jQuery脚本文件:jQuery的库文件从网络中其他提供下载服务的地方获取，而不用从当前页面所在的服务器获取，这样能够减少对当前服务器的请求数，提高页面加载速度
+
+$(document).ready(function(){//脚本代码});此函数与window.onload的区别
+	1.执行时机不同;window.onload是在网页及其相关的引用文件全部下载到本地之后才触发这个事件，然后执行相应的js代码；
+	$(document).ready()是在浏览器将网页的结构解析为DOM树之后立即执行这个方法内的js代码，而这个时候网页的相关引用文件不一定都下载到本地
+	2.存在的数目不同：window.onload只能触发一次，$(document).ready()可以重复出现多次
+	
+DOM对象和jQuery对象用getElementById()和getElementsByTagName()返回的对象是DOM对象，用jQuery选择器获取的对象是jQuery对象
+	两种对象都有各自的方法和属性，不能混用	注：jQuery选择器返回的是一个对象数组
+	
+DOM对象和jQuery对象之间的转换
+	1.DOM对象转换为jQuery对象:$(DOM对象)
+	2.	jQuery对象转换为Dom对象:jQuery对象[index]或jQuery对象.get(index)
+	
+基本选择器：
+	#id,.class,element,*,全集选择器(selector1,select2,......),交集选择器(selector1selector2......)
+层次选择器：
+	后代选择器[$("ancestor descendant")]
+	子选择器[$("parant>child")]
+	相邻选择器[$("prev+next")] 或next()
+	兄弟选择器[$("prev~sibling")] 或nextAll()
+	sibling()方法获取前后所以的兄弟元素
+过滤选择器	
+	基本过滤
+		:first、:last、:even、:odd、:eq(index)、:gt(index)、:lt(index)、:not(selector)、:header、animated
+	内容过滤
+		:containers(text)、:empty、:has(selector)、parent
+	可见性过滤
+		:hidden、:visible
+	属性过滤
+		[attribute]
+		[attribute=value]
+		[attribute!=value]
+		[attribute^=value]
+		[attribute$=value]
+		[attribute*=value]
+		[selector1][selector2]......
+	子元素过滤
+		:nth-child(index/even/odd/equation);index从1开始
+		:first-child
+		:last-child
+		:only-child
+	表单对象属性过滤
+		:enabled
+		:disabled
+		:checked
+		:selected
+	表单选择器
+		:input
+		:text
+		:password
+		:radio
+		:checkbox
+		:reset
+		:image
+		:button
+		:submit
+		:file
+		:hidden
+		
+DOM操作：
+	获取属性节点：attr()
+	获取文本节点：text()
+	创建元素节点：$("元素节点");
+	创建文本节点：$("包含文本的元素");
+	创建属性节点：$("包含属性的元素");
+	总之，用jQuery创建节点语法简洁，就是将html字符串作为$()的参数，然后会根据html字符串包含的内容，返回对应的jQuery对象节点
+	注意：
+		1.创建的节点不会自动添加到DOM树中，还需要手动添加
+		2.html字符串必须是符合xhtml规范的字符串
+	插入节点：
+		1.append()			追加到父元素末尾，父元素在前，插入元素在后
+		2.appendTo()		追加到父元素末尾，父元素在后，插入元素在前
+		3.prepend()			追加到父元素开始，父元素在前，插入元素在后
+		4.prependTo()		追加到父元素开始，父元素在后，插入元素在前
+		5.after()			插入到指定元素之后，插入元素在后，目标元素在前
+		6.insertAfter()		插入到指定元素之后，插入元素在前，目标元素在后
+		7.before()			插入到指定元素之前，插入元素在后，目标元素在前
+		8.insertBefore()	插入到指定元素之前，插入元素在前，目标元素在后
+	删除节点：
+		1.remove():移除所有
+		2.remove('过滤参数')：移除符合过滤条件的参数
+		注：remove()的返回值是其所删除的元素的使用
+		3.empty():清空元素的子元素及文本，属性节点不删除
+	克隆和替换
+		1.clone():只克隆结构，不克隆行为
+		2.clone(true):不仅克隆结构，而且克隆行为
+		3.replaceWith():替换，方法的参数用于替换
+		4.replaceAll():替换，方法的参数被替换
+	包裹节点：
+		1.wrap()
+		2.wrapAll()
+		3.wrapInner()
+	属性操作：
+		1.attr("属性名")				获取属性值
+		2.attr("属性名","属性值")		设置属性值
+		3.removeAttr("属性名")			移除属性
+	样式操作：
+		1.addClass()					追加类选择器
+		2.removeClass()					移除所有类选择器
+		3.removeClass("类选择器")		移除指定的类选择器
+		4.toggleClass()					切换类选择器
+		5.hasClass("类选择器")				判断类选择器是否存在
+	获取、设置元素的html、text以及value值
+		html()
+		text()
+		val()
+	遍历子元素：
+		children()
+		sibling()
+		next()
+		prev()
+	DOM操作：
+		css()
+		offset()		返回一个对象，对象包含left和top属性，分别表示左边距、上边距

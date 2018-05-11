@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>Stage2:遇到植物换图</title>
+	
+	<script type="text/javascript">
+		<!--
+		//僵尸距离左顶点的位置
+		var left = 780;
+		//步幅
+		var step = 15;
+		//植物距离左顶点位置
+		var plantLeft = 500;
+		//植物宽度
+		var plantWidth = 81;
+		//标识植物是否死亡
+		var plantIsDead = false;
+		//标识僵尸的状态,行走还是在吃
+		var isEating = false;
+		var blood = 100;
+		
+		function go(){
+			var zombie = document.getElementById("zombie");
+			//判断是否遭遇植物
+			if(!plantIsDead && left <= plantLeft + plantWidth){
+				//如果没有在吃
+				if(!isEating){
+					//换背景
+					zombie.src = "images/Zombies/BucketheadZombie/BucketheadZombieAttack.gif";
+					var dd = setInterval(function(){
+						blood -= 10;
+						var p = document.getElementById("plant");
+						if(blood <= 0){
+							clearInterval(dd);
+							p.style.display = "none";
+							plantIsDead = true;
+							zombie.src = "images/Zombies/BucketheadZombie/BucketheadZombie.gif";
+							setTimeout("go()",500);
+						}else if(blood < 40){
+							p.src = "images/Plants/TallNut/TallnutCracked2.gif";
+						}else if(blood < 80){
+							p.src = "images/Plants/TallNut/TallnutCracked1.gif";
+						}
+					},500);
+					return;
+				}
+			}else{
+				//移动
+				left -= step;
+				zombie.style.left = left + "px";
+			}
+			setTimeout("go()",500);
+		}
+		
+		
+		//子弹的初始X轴位置
+		var bulletX = 235;
+		//每一次发子弹的间隔(每2秒发一次)
+		var bulletInterval = 2000;
+		
+		//当前发子弹的间隔
+		var currBulletInterval = 0;
+		
+		function beginShoot(){
+			//开启计时器记录子弹间隔
+			setInterval(function(){
+				//保存子弹发射间隔
+				currBulletInterval += 100;
+				//判断是否该发射下一颗子弹
+				if(currBulletInterval >= bulletInterval){
+					currBulletInterval = 0;
+					shoot();
+				}
+			},100);
+			shoot();
+		}
+		
+		function shoot(){
+			//动态创建一个img元素来装子弹
+			var currBullet = document.createElement("img");
+			//设置标签SRC属性
+			currBullet.src = "images/Plants/PeashooterBullet.gif";
+			//设置元素位置
+			currBullet.style.position = "absolute";
+			currBullet.style.left = bulletX + "px";
+			currBullet.style.top = 105 + "px";
+			//插入到背景层里
+			document.getElementById("background").appendChild(currBullet);
+			//设置计算器
+			var timer = setInterval(function(){
+				//获取子弹当前位置
+				var bulletX = parseInt(currBullet.style.left) + 10;
+				//移动子弹位置
+				currBullet.style.left =  bulletX + "px";
+				//判断是否碰到僵尸
+				if(bulletX >= left){
+					//如果碰到,子弹消失,停止计算器,重新调用shoot方法
+					document.getElementById("background").removeChild(currBullet);
+					clearInterval(timer);
+				}
+			},48);
+		}
+		-->
+	</script>
+	
+	<style type="text/css">
+	
+		/*背景图*/
+		#background{
+			width:1000px;
+			height:600px;
+			/*通过滤镜拉伸图片*/
+			filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/interface/background1.jpg",sizingMethod="scale");
+		}
+		/*僵尸的样式*/
+		#zombie{
+			position:absolute;
+			left:780px;
+			top:20px;
+		}
+		
+		/*植物样式*/
+		#plant{
+			position:absolute;
+			top:50px;
+			left:520px;
+		}
+		
+		#shooter{
+			position:absolute;
+			top:100px;
+			left:180px;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="background">
+		<img src="images/Plants/Peashooter/Peashooter.gif" id="shooter"/>
+		<img src="images/Zombies/BucketheadZombie/BucketheadZombie.gif" id="zombie" />
+		<img src="images/Plants/TallNut/TallNut.gif" id="plant" />
+	</div>
+	<input type="button" value="僵尸走" onclick="go()"/>
+	<input type="button" value="开始射击" onclick="beginShoot()"/>
+</body>
+</html>

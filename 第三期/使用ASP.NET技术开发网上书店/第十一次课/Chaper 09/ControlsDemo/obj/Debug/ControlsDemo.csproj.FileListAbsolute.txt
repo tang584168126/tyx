@@ -1,0 +1,8 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十一次课\Chaper 09\ControlsDemo\bin\ControlsDemo.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十一次课\Chaper 09\ControlsDemo\bin\ControlsDemo.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十一次课\Chaper 09\ControlsDemo\bin\ControlsDemo.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十一次课\Chaper 09\ControlsDemo\obj\Debug\ControlsDemo.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十一次课\Chaper 09\ControlsDemo\obj\Debug\ControlsDemo.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十一次课\Chaper 09\ControlsDemo\obj\Debug\ControlsDemo.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十一次课\Chaper 09\ControlsDemo\bin\CKEditor.NET.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十一次课\Chaper 09\ControlsDemo\bin\CKEditor.NET.pdb

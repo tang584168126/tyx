@@ -1,0 +1,8 @@
+﻿.bold{font-weight:bold;}
+
+table{width:800px;}
+    table .check{width:8%;}
+    table .img{width:20%;}
+    table .itemName{width:52%;}
+    table .price{width:20%;padding-right:20px;text-align:right;}
+    table .height100{height:100px;}

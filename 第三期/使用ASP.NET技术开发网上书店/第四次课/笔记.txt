@@ -1,0 +1,20 @@
+注册客户端脚本
+Response.Write():整个页面最顶部
+RegisterClientScriptBlock():表单最顶部
+RegisterStartupScript:表单最底部
+Literal控件:页面任意处
+
+内容页获取母板页控件的值：
+1.
+》在母板页中添加一个获取控件值的属性
+》在内容页中注册一个MasterType指令
+》在内容页中通过"this.Master.属性"来获取母板页的值
+2.通过函数FindControls()来获取母板页的控件值
+
+站点地图：
+文件后缀名：.siteMap
+注意：1)站点地图根节点为<siteMap>元素，每个文件有且仅有一个根节点
+	2)<siteMap>下一级有且仅有一个<siteMapNode>节点
+	3)<siteMapNode>下面可以包含多个新的<siteMapNode>节点
+	4)站点地图中，同一个URL仅能出现一个
+siteMapPath	面包屑导航控件	此控件会自动与站点地图文件关联，然后根据其所在页面的层次给出导航路径	

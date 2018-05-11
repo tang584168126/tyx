@@ -1,0 +1,28 @@
+﻿/*
+ * 
+ * 题目：输出9*9口诀乘法表。
+ * */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Question16
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            for (int i = 1; i <= 9; i++)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write(j + "*" + i + "=" + i * j + "  ");
+                }
+                Console.WriteLine();
+            }
+            Console.ReadLine();
+        }
+    }
+}

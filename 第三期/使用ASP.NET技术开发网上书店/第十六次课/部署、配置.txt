@@ -1,0 +1,35 @@
+>> web服务器介绍（IIS、Apache、Tomcat）
+internet、intranet、extranet
+
+>> IIS部署
+     部署第三波书店
+
+>> 请求处理管道
+
+>> 配置文件的作用：解决服务器迁移，代码变动以及提升代码可维护性的问题
+
+>> 配置文件的类型、作用域、位置
+     =》machine.config：提供整个机器的默认设置，修改后影响所有本机的应用程序。
+     =》web.config：一般出现于ASP.NET应用程序的根目录，但是，在所有的文件夹中都                             可以有名为web.config的配置文件。
+     =》配置文件的格式：Camel和Pascal命名法，特殊的是true和false总用小写
+
+>> IIS常用配置
+     <configSections>
+
+     <connectionStrings>配置、读取、加密
+     <appSettings>配置、读取
+
+     <compilation>
+     <httpRuntime>
+
+     <customErrors>配置(错误页的准备)、测试
+     => mode:On, Off, RemoteOnly
+
+     <authentication>  验证是确定你是谁
+	Windows(内联网)、Forms、None、Digist
+
+     <authorization>    授权则是允许你做什么
+	<allow>
+	<deny>
+     
+>> 配置管理, IIS的使用

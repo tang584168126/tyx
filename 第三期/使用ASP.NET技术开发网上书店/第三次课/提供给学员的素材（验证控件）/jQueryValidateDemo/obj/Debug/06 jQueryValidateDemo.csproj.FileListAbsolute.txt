@@ -1,0 +1,4 @@
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\03第三课（验证控件）\教学演示案例\ChapterThree\jQueryValidateDemo\bin\jQueryValidateDemo.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\03第三课（验证控件）\教学演示案例\ChapterThree\jQueryValidateDemo\bin\jQueryValidateDemo.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\03第三课（验证控件）\教学演示案例\ChapterThree\jQueryValidateDemo\obj\Debug\jQueryValidateDemo.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\03第三课（验证控件）\教学演示案例\ChapterThree\jQueryValidateDemo\obj\Debug\jQueryValidateDemo.pdb

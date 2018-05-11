@@ -1,0 +1,299 @@
+LINQ语句
+
+以from子句开头
+string[] values = { "中国", "日本", "美国", "菲律宾", "越南" };
+
+//查询包含“国”的字符串
+var valueQuery = from v in values
+                 where v.IndexOf("国") > 0
+                 select v;
+
+foreach (var v in valueQuery)
+{
+     Console.WriteLine("{0,1}", v);
+}
+在这个LINQ表达式的from子句中，v叫做范围变量，values是数据源。v的作用域存在于当前的LINQ表达式，表达式以外不能访问这个变量。where用来筛选元素，select用于输出元素。这里的范围变量v，和foreach语句中得隐式变量v都可以由编译器推断出其类型
+使用LINQ查询List<T>集合
+public class CustomerInfo
+        {
+            public string Name { get; set; }
+            public int Age { get; set; }
+            public string Tel { get; set; }
+        }
+private void formExpDemo2()
+{
+    //这里用了，对象和集合初始化器
+    List<CustomerInfo> customers = new List<CustomerInfo> { 
+                       new CustomerInfo{ Name="欧阳晓晓", Age=35, Tel ="1330708****"},
+                       new CustomerInfo{ Name="上官飘飘", Age=17, Tel ="1592842****"},
+                       new CustomerInfo{ Name="诸葛菲菲", Age=23, Tel ="1380524****"}
+                                           };
+    //查询年龄大于20的客户，注意这里的范围变量用了显示类型CustomerInfo
+    var query = from CustomerInfo ci in customers
+                where ci.Age > 20
+                select ci;
+            
+    foreach (CustomerInfo ci in query)
+    {
+         Console.WriteLine("姓名：{0} 年龄：{1} 电话：{2}", ci.Name, ci.Age, ci.Tel);
+     }
+}
+复合from子句
+    在查询数据源中，元素的属性是一个集合时，可以使用复合from子句对这个属性集合查询。比如，一个客户，可能有多个电话。
+public class CustomerInfo
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+    public List<string> TelTable { get; set; }
+}
+private void formExpDemo()
+{
+      List<CustomerInfo> customers = new List<CustomerInfo> { 
+                new CustomerInfo{ Name="欧阳晓晓", Age=35, TelTable=new List<string>{"1330708****","1330709****"}},
+                new CustomerInfo{ Name="上官飘飘", Age=17, TelTable=new List<string>{"1592842****","1592843****"}},
+                new CustomerInfo{ Name="诸葛菲菲", Age=23, TelTable=new List<string>{"1380524****","1380525****"}}
+                                           };
+      //查询包含电话号码1592842****的客户
+      var query = from CustomerInfo ci in customers
+                  from tel in ci.TelTable
+                  where tel.IndexOf("1592842****") > -1
+                  select ci;
+
+            foreach (var ci in query)
+            {
+                Console.WriteLine("姓名：{0} 年龄：{1}", ci.Name, ci.Age);
+                foreach (var tel in ci.TelTable)
+                {
+                    Console.WriteLine("          电话：{0}", tel);
+                }
+            }
+        }
+多个from子句
+   多个from子句查询和复合from子句从字面上看似乎一样，其实是不同的操作。复合from子句查询的是单个数据源中的子元素的集合，而多个from子句，是载入多个数据源进行查询
+private void formExpDemo()
+        {
+            List<CustomerInfo> clist = new List<CustomerInfo> { 
+                        new CustomerInfo{ Name="欧阳晓晓", Age=35, Tel ="1330708****"},
+                        new CustomerInfo{ Name="上官飘飘", Age=17, Tel ="1592842****"},
+                        new CustomerInfo{ Name="诸葛菲菲", Age=23, Tel ="1380524****"}
+                                                   };
+            List<CustomerInfo> clist2 = new List<CustomerInfo> { 
+                         new CustomerInfo{ Name="令狐冲", Age=25, Tel ="1330708****"},
+                         new CustomerInfo{ Name="东方不败", Age=35, Tel ="1592842****"},
+                         new CustomerInfo{ Name="任盈盈", Age=23, Tel ="1380524****"}
+                                                   };
+
+            //在clist中查找Age大于20的客户，
+            //在clist2中查找Age小于30的客户
+            var query = from customer in clist
+                        where customer.Age > 20
+                        from customer2 in clist2
+                        where customer2.Age < 30
+                        select new { customer, customer2 };
+
+            foreach (var ci in query)
+            {
+                Console.WriteLine("{0} {1}", ci.customer.Name,ci.customer2.Name);
+            }
+        }
+
+
+where子句作用是筛选元素，位置在LINQ表达式除开始和结束之外的任意位置，可以有0或n个，多个where子句之间关系相当于"与"，每个where自古可以包含1或n个逻辑表达式，多个之间用"&&"或"||"来隔开
+List<CustomerInfo> clist = new List<CustomerInfo> { 
+     new CustomerInfo{ Name="欧阳晓晓", Age=35, Tel ="1330708****"},
+     new CustomerInfo{ Name="上官飘飘", Age=17, Tel ="1592842****"},
+     new CustomerInfo{ Name="令狐冲", Age=23, Tel ="1380524****"}
+                                                   };
+
+     //查询名字是3个字或者姓“令”的，但年龄大于20的客户
+     var query = from customer in clist 
+		 where (customer.Name.Length == 3 || customer.Name.Substring(0, 1) == "令") && customer.Age > 20 
+		 select customer;
+
+     foreach (var ci in query)
+     {
+         Console.WriteLine("姓名：{0} 年龄：{1} 电话：{2}", ci.Name, ci.Age, ci.Tel);
+      }
+在where子句中使用自定义函数
+private void whereExpDemo()
+{
+      List<CustomerInfo> clist = new List<CustomerInfo> { 
+             new CustomerInfo{ Name="欧阳晓晓", Age=35, Tel ="1330708****"},
+             new CustomerInfo{ Name="上官飘飘", Age=17, Tel ="1592842****"},
+             new CustomerInfo{ Name="令狐冲", Age=23, Tel ="1380524****"}
+                                                   };
+
+      //查询名字是3个字并且姓“令”的客户
+      var query = from customer in clist
+                  where (customer.Name.Length == 3 && CheckName(customer.Name))
+                  select customer;
+
+      foreach (var ci in query)
+      {
+          Console.WriteLine("姓名：{0} 年龄：{1} 电话：{2}", ci.Name, ci.Age, ci.Tel);
+       }
+}
+       private bool CheckName(string name)
+       {
+            if (name.Substring(0, 1) == "令")
+                return true;
+            else
+                return false;
+        }
+动态谓词的筛选
+    上面的几个例子都是给定了查询谓词然后进行查询，有时候谓词的数量可能并不固定，是随情况变化的。例如：一组名字可能是运行时动态指定的。
+List<CustomerInfo> clist = new List<CustomerInfo> { 
+          new CustomerInfo{ Name="欧阳晓晓", Age=35, Tel ="1330708****"},
+          new CustomerInfo{ Name="上官飘飘", Age=17, Tel ="1592842****"},
+          new CustomerInfo{ Name="令狐冲", Age=23, Tel ="1380524****"}
+                                                   };
+
+//定义动态的谓词数组，这个数组应该由实际运行环境生成
+string[] names = { "令狐冲", "任盈盈", "杨过", "小龙女", "欧阳晓晓" };
+
+//查询在给定谓词数组里存在的客户
+var query = from customer in clist
+            where names.Contains(customer.Name)
+            select customer;
+
+foreach (var ci in query)
+{
+        Console.WriteLine("姓名：{0} 年龄：{1} 电话：{2}", ci.Name, ci.Age, ci.Tel);
+}
+
+select子句
+LINQ表达式的结果是使用select子句获得的。select子句可以对数据进行转换，这个过程称为“投影”。select子句产生的类容，取决于前面的所有子句及其自身表达式执行后的结果。
+输出查询结果
+最简单的select就是直接输出from子句建立的那个范围变量：
+            var query = from customer in clist
+                        where names.Contains(customer.Name)
+                        select customer;
+也可以输出范围变量类型中得某个属性：
+                        select customer.Name;
+或者修改一下再输出：
+select customer.Name.Replace("gg","mm");
+或者干脆使用一个自定义的函数，把范围变量传进去，输出处理后的结果：
+select MyFunction(customer.Name);
+对查询结果进行投影
+public class MyCustomerInfo
+{
+     public string Name { get; set; }
+     public string Tel { get; set; }
+}
+private void whereExpDemo()
+{
+     List<CustomerInfo> clist = new List<CustomerInfo> { 
+            new CustomerInfo{ Name="欧阳晓晓", Age=35, Tel ="1330708****"},
+            new CustomerInfo{ Name="上官飘飘", Age=17, Tel ="1592842****"},
+            new CustomerInfo{ Name="令狐冲", Age=23, Tel ="1380524****"}
+                                                   };
+
+     //定义动态的谓词数组，这个数组应该由实际运行环境生成
+     string[] names = { "令狐冲", "任盈盈", "杨过", "小龙女", "欧阳晓晓" };
+
+     //查询在给定谓词数组里存在的客户
+     var query = from customer in clist
+                 where customer.Age < 30
+                 select new MyCustomerInfo { Name = customer.Name, Tel = customer.Tel };
+
+     foreach (var ci in query)
+     {
+          Console.WriteLine("姓名：{0} 电话：{1} 类型{2}", ci.Name, ci.Tel,ci.GetType().FullName);
+      }
+}
+
+group子句
+LINQ表达式必须以from子句开头，以select或group子句结束，所以除了使用select子句外，也可以使用guoup子句来返回元素分组后的结果。group子句返回的是一个IGrouping<TKey,TElement>泛型接口的对象集合
+IGrouping<TKey,TElement>泛型接口
+    这个接口表示具有公共键的对象集合，它的原型如下：
+public interface IGrouping<TKey, TElement> : IEnumerable<TElement>, 
+    IEnumerable
+TKey是键的对象类型，在用于group子句的时候，数据类型会有编译器推断出来，它一般用于存储分组的键值；TElement是指的对象类型，用于存储分组的结果，变量基于这个接口的类型就是遍历这个值
+分组查询
+    分组查询对于关系型数据库是非常常见的一种操作，但在没有LINQ之前，对内存的对象进行分组却是一件非常麻烦的事情。现在，在LINQ表达式中只需要使用group子句就可以轻松完成对内存对象的分组
+List<CustomerInfo> clist = new List<CustomerInfo> { 
+                   new CustomerInfo{ Name="欧阳晓晓", Age=35, Tel ="1330708****"},
+                   new CustomerInfo{ Name="上官飘飘", Age=17, Tel ="1592842****"},
+                   new CustomerInfo{ Name="欧阳锦鹏", Age=35, Tel ="1330708****"},
+                   new CustomerInfo{ Name="上官无忌", Age=23, Tel ="1380524****"}
+                                                   };
+            //按照名字的前2个字进行分组
+            var query = from customer in clist
+                        group customer by customer.Name.Substring(0, 2);
+            foreach (IGrouping<string,CustomerInfo> group in query)
+            {
+                Console.WriteLine("分组键：{0}",group.Key);
+                foreach (var ci in group)
+                {
+                    Console.WriteLine("姓名：{0} 电话：{1}", ci.Name, ci.Tel);
+                }
+                Console.WriteLine("***************************************");
+            }
+
+排序子句：LINQ可以按元素的一个或多个属性对元素进行排序。LINQ表达式的排序方式分为OrderBy、OrderByDescending、ThenBy、ThenByDescending这四种
+OrderBy和OrderByDescending
+OrderBy用于按元素的值进行升序，语法：
+orderby 用于排序的元素的表达式
+OrderByDescending用于按元素的值进行降序，语法：
+orderby 用于排序的元素的表达式 descending
+List<CustomerInfo> clist = new List<CustomerInfo> { 
+                new CustomerInfo{ Name="欧阳晓晓", Age=35, Tel ="1330708****"},
+                new CustomerInfo{ Name="上官飘飘", Age=17, Tel ="1592842****"},
+                new CustomerInfo{ Name="欧阳锦鹏", Age=35, Tel ="1330708****"},
+                new CustomerInfo{ Name="上官无忌", Age=23, Tel ="1380524****"}
+                                                   };
+            //按照年龄升序
+            var query = from customer in clist
+                        orderby customer.Age
+                        select customer;
+            Console.WriteLine("按年龄升序排列");
+            foreach (var ci in query)
+            {
+            Console.WriteLine("姓名：{0} 年龄：{1} 电话：{2}", ci.Name, ci.Age, ci.Tel);
+            }
+            //按照年龄升序
+            var query2 = from customer in clist
+                        orderby customer.Age descending
+                        select customer;
+            Console.WriteLine("\n按年龄降序排列");
+            foreach (var ci in query2)
+            {
+            Console.WriteLine("姓名：{0} 年龄：{1} 电话：{2}", ci.Name, ci.Age, ci.Tel);
+            }
+ThenBy和ThenByDescending
+    ThenBy和ThenByDescending用于对元素进行次要排序。基本语法：
+orderby 用于排序的元素表达式,用于排序的元素表达式
+orderby 用于排序的元素表达式,用于排序的元素表达式 descending
+List<CustomerInfo> clist = new List<CustomerInfo> { 
+                 new CustomerInfo{ Name="欧阳晓晓", Age=35, Tel ="1330708****"},
+                 new CustomerInfo{ Name="上官飘飘", Age=17, Tel ="1592842****"},
+                 new CustomerInfo{ Name="郭靖", Age=17, Tel ="1330708****"},
+                 new CustomerInfo{ Name="黄蓉", Age=17, Tel ="1300524****"}
+                                                   };
+            //按照年龄升序，再按名字的字数次要排序
+            var query = from customer in clist
+                        orderby customer.Age,customer.Name.Length
+                        select customer;
+            Console.WriteLine("按年龄排列，按名字字数进行次要排序");
+            foreach (var ci in query)
+            {
+          Console.WriteLine("姓名：{0} 年龄：{1} 电话：{2}", ci.Name, ci.Age, ci.Tel);
+            }
+            //按照年龄升序，再按名字的字数降序次要排序
+            var query2 = from customer in clist
+                        orderby customer.Age, customer.Name.Length descending
+                        select customer;
+            Console.WriteLine("\n按年龄排列，按名字字数进行降序次要排序");
+            foreach (var ci in query2)
+            {
+            Console.WriteLine("姓名：{0} 年龄：{1} 电话：{2}", ci.Name, ci.Age, ci.Tel);
+            }
+            //按照年龄升序，再按名字的字数降序要排序，在按电话号码进行第三条件排序
+            var query3 = from customer in clist
+                         orderby customer.Age, customer.Name.Length,customer.Tel
+                         select customer;
+            Console.WriteLine("\n按年龄，名字字数，电话号码排序");
+            foreach (var ci in query3)
+            {
+            Console.WriteLine("姓名：{0} 年龄：{1} 电话：{2}", ci.Name, ci.Age, ci.Tel);
+            }

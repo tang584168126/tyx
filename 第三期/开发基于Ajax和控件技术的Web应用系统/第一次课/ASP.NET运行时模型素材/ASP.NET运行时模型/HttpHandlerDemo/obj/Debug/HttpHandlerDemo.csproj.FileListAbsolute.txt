@@ -1,0 +1,6 @@
+E:\代码\第三期\开发基于Ajax和控件技术的Web应用系统\第一次课\ASP.NET运行时模型素材\ASP.NET运行时模型\HttpHandlerDemo\bin\HttpHandlerDemo.dll.config
+E:\代码\第三期\开发基于Ajax和控件技术的Web应用系统\第一次课\ASP.NET运行时模型素材\ASP.NET运行时模型\HttpHandlerDemo\bin\HttpHandlerDemo.dll
+E:\代码\第三期\开发基于Ajax和控件技术的Web应用系统\第一次课\ASP.NET运行时模型素材\ASP.NET运行时模型\HttpHandlerDemo\bin\HttpHandlerDemo.pdb
+E:\代码\第三期\开发基于Ajax和控件技术的Web应用系统\第一次课\ASP.NET运行时模型素材\ASP.NET运行时模型\HttpHandlerDemo\obj\Debug\HttpHandlerDemo.csprojResolveAssemblyReference.cache
+E:\代码\第三期\开发基于Ajax和控件技术的Web应用系统\第一次课\ASP.NET运行时模型素材\ASP.NET运行时模型\HttpHandlerDemo\obj\Debug\HttpHandlerDemo.dll
+E:\代码\第三期\开发基于Ajax和控件技术的Web应用系统\第一次课\ASP.NET运行时模型素材\ASP.NET运行时模型\HttpHandlerDemo\obj\Debug\HttpHandlerDemo.pdb

@@ -1,0 +1,6 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\03 SiteMapPath\bin\03 SiteMapPath.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\03 SiteMapPath\bin\03 SiteMapPath.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\03 SiteMapPath\bin\03 SiteMapPath.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\03 SiteMapPath\obj\Debug\03 SiteMapPath.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\03 SiteMapPath\obj\Debug\03 SiteMapPath.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\03 SiteMapPath\obj\Debug\03 SiteMapPath.pdb

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FocusBookModelStoreContainer" CdmEntityContainer="FocusBookEntities">
+    <EntitySetMapping Name="BookBasicInfoes">
+      <EntityTypeMapping TypeName="FocusBookModel.BookBasicInfo">
+        <MappingFragment StoreEntitySet="BookBasicInfo">
+          <ScalarProperty Name="BasicId" ColumnName="BasicId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+          <ScalarProperty Name="CoverImage" ColumnName="CoverImage" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="ScoreCount" ColumnName="ScoreCount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BookTypes">
+      <EntityTypeMapping TypeName="FocusBookModel.BookType">
+        <MappingFragment StoreEntitySet="BookTypes">
+          <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChapterUrls">
+      <EntityTypeMapping TypeName="FocusBookModel.ChapterUrl">
+        <MappingFragment StoreEntitySet="ChapterUrl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EBookId" ColumnName="EBookId" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EAuthors">
+      <EntityTypeMapping TypeName="FocusBookModel.EAuthor">
+        <MappingFragment StoreEntitySet="EAuthor">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="EBookId" ColumnName="EBookId" />
+          <ScalarProperty Name="Popularity" ColumnName="Popularity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EBookInfoes">
+      <EntityTypeMapping TypeName="FocusBookModel.EBookInfo">
+        <MappingFragment StoreEntitySet="EBookInfo">
+          <ScalarProperty Name="EBookId" ColumnName="EBookId" />
+          <ScalarProperty Name="AuthorId" ColumnName="AuthorId" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="UpDateTime" ColumnName="UpDateTime" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="IsFree" ColumnName="IsFree" />
+          <ScalarProperty Name="CollectionCount" ColumnName="CollectionCount" />
+          <ScalarProperty Name="Ticket" ColumnName="Ticket" />
+          <ScalarProperty Name="BasicId" ColumnName="BasicId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EntityBookInfoes">
+      <EntityTypeMapping TypeName="FocusBookModel.EntityBookInfo">
+        <MappingFragment StoreEntitySet="EntityBookInfo">
+          <ScalarProperty Name="BookId" ColumnName="BookId" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="PublisherId" ColumnName="PublisherId" />
+          <ScalarProperty Name="PublishDate" ColumnName="PublishDate" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="BuyPrice" ColumnName="BuyPrice" />
+          <ScalarProperty Name="BasicId" ColumnName="BasicId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EntityProfits">
+      <EntityTypeMapping TypeName="FocusBookModel.EntityProfit">
+        <MappingFragment StoreEntitySet="EntityProfit">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="BookId" ColumnName="BookId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="SellPrice" ColumnName="SellPrice" />
+          <ScalarProperty Name="Profit" ColumnName="Profit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EProfits">
+      <EntityTypeMapping TypeName="FocusBookModel.EProfit">
+        <MappingFragment StoreEntitySet="EProfit">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EBookId" ColumnName="EBookId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Money" ColumnName="Money" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FocusAdmins">
+      <EntityTypeMapping TypeName="FocusBookModel.FocusAdmin">
+        <MappingFragment StoreEntitySet="FocusAdmin">
+          <ScalarProperty Name="AdminId" ColumnName="AdminId" />
+          <ScalarProperty Name="AdminPassword" ColumnName="AdminPassword" />
+          <ScalarProperty Name="AdminName" ColumnName="AdminName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="FocusBookModel.Order">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="BookId" ColumnName="BookId" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="OrderTime" ColumnName="OrderTime" />
+          <ScalarProperty Name="Money" ColumnName="Money" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PlayManages">
+      <EntityTypeMapping TypeName="FocusBookModel.PlayManage">
+        <MappingFragment StoreEntitySet="PlayManages">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="EBookId" ColumnName="EBookId" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Publishers">
+      <EntityTypeMapping TypeName="FocusBookModel.Publisher">
+        <MappingFragment StoreEntitySet="Publishers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TotalBookTypes">
+      <EntityTypeMapping TypeName="FocusBookModel.TotalBookType">
+        <MappingFragment StoreEntitySet="TotalBookTypes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserComments">
+      <EntityTypeMapping TypeName="FocusBookModel.UserComment">
+        <MappingFragment StoreEntitySet="UserComments">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="EBookId" ColumnName="EBookId" />
+          <ScalarProperty Name="BookId" ColumnName="BookId" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserHouses">
+      <EntityTypeMapping TypeName="FocusBookModel.UserHouse">
+        <MappingFragment StoreEntitySet="UserHouse">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="EBookId" ColumnName="EBookId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserProfits">
+      <EntityTypeMapping TypeName="FocusBookModel.UserProfit">
+        <MappingFragment StoreEntitySet="UserProfit">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="AddMoney" ColumnName="AddMoney" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserScores">
+      <EntityTypeMapping TypeName="FocusBookModel.UserScore">
+        <MappingFragment StoreEntitySet="UserScores">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="EBookId" ColumnName="EBookId" />
+          <ScalarProperty Name="BookId" ColumnName="BookId" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UsersInfoes">
+      <EntityTypeMapping TypeName="FocusBookModel.UsersInfo">
+        <MappingFragment StoreEntitySet="UsersInfo">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="LoginId" ColumnName="LoginId" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Integral" ColumnName="Integral" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="RegisterTime" ColumnName="RegisterTime" />
+          <ScalarProperty Name="NickName" ColumnName="NickName" />
+          <ScalarProperty Name="RealName" ColumnName="RealName" />
+          <ScalarProperty Name="UserRoleId" ColumnName="UserRoleId" />
+          <ScalarProperty Name="TicketCount" ColumnName="TicketCount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UsersRoles">
+      <EntityTypeMapping TypeName="FocusBookModel.UsersRole">
+        <MappingFragment StoreEntitySet="UsersRole">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserBuyers">
+      <EntityTypeMapping TypeName="FocusBookModel.UserBuyer">
+        <MappingFragment StoreEntitySet="UserBuyer">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

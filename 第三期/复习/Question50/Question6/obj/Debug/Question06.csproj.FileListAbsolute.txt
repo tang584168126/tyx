@@ -1,0 +1,5 @@
+E:\代码\第三期\复习\Question50\Question6\bin\Debug\Question6.exe.config
+E:\代码\第三期\复习\Question50\Question6\bin\Debug\Question6.exe
+E:\代码\第三期\复习\Question50\Question6\bin\Debug\Question6.pdb
+E:\代码\第三期\复习\Question50\Question6\obj\Debug\Question6.exe
+E:\代码\第三期\复习\Question50\Question6\obj\Debug\Question6.pdb

@@ -1,0 +1,5 @@
+E:\TYX_Projiect\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\Work\Work5\bin\Work5.dll.config
+E:\TYX_Projiect\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\Work\Work5\bin\Work5.dll
+E:\TYX_Projiect\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\Work\Work5\bin\Work5.pdb
+E:\TYX_Projiect\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\Work\Work5\obj\Debug\Work5.dll
+E:\TYX_Projiect\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\Work\Work5\obj\Debug\Work5.pdb

@@ -1,0 +1,49 @@
+C:\Users\Administrator\Desktop\BookShop\BookShopDAL\bin\Debug\BookShop.DAL.dll
+C:\Users\Administrator\Desktop\BookShop\BookShopDAL\bin\Debug\BookShop.DAL.pdb
+C:\Users\Administrator\Desktop\BookShop\BookShopDAL\bin\Debug\BookShop.Models.dll
+C:\Users\Administrator\Desktop\BookShop\BookShopDAL\bin\Debug\BookShop.Models.pdb
+C:\Users\Administrator\Desktop\BookShop\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BookShop\BookShopDAL\obj\Debug\BookShop.DAL.dll
+C:\Users\Administrator\Desktop\BookShop\BookShopDAL\obj\Debug\BookShop.DAL.pdb
+C:\Users\Administrator\Desktop\第五章素材\BookShop（第五章 Demo）\BookShopDAL\bin\Debug\BookShop.DAL.dll
+C:\Users\Administrator\Desktop\第五章素材\BookShop（第五章 Demo）\BookShopDAL\bin\Debug\BookShop.DAL.pdb
+C:\Users\Administrator\Desktop\第五章素材\BookShop（第五章 Demo）\BookShopDAL\bin\Debug\BookShop.Models.dll
+C:\Users\Administrator\Desktop\第五章素材\BookShop（第五章 Demo）\BookShopDAL\bin\Debug\BookShop.Models.pdb
+C:\Users\Administrator\Desktop\第五章素材\BookShop（第五章 Demo）\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\第五章素材\BookShop（第五章 Demo）\BookShopDAL\obj\Debug\BookShop.DAL.dll
+C:\Users\Administrator\Desktop\第五章素材\BookShop（第五章 Demo）\BookShopDAL\obj\Debug\BookShop.DAL.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop_Stu_v2.1 0627（完成登录、注册所有功能）\BookShopDAL\bin\Debug\BookShop.DAL.dll
+C:\Users\Administrator\Desktop\Temp\BookShop_Stu_v2.1 0627（完成登录、注册所有功能）\BookShopDAL\bin\Debug\BookShop.DAL.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop_Stu_v2.1 0627（完成登录、注册所有功能）\BookShopDAL\bin\Debug\BookShop.Models.dll
+C:\Users\Administrator\Desktop\Temp\BookShop_Stu_v2.1 0627（完成登录、注册所有功能）\BookShopDAL\bin\Debug\BookShop.Models.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop_Stu_v2.1 0627（完成登录、注册所有功能）\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Temp\BookShop_Stu_v2.1 0627（完成登录、注册所有功能）\BookShopDAL\obj\Debug\BookShop.DAL.dll
+C:\Users\Administrator\Desktop\Temp\BookShop_Stu_v2.1 0627（完成登录、注册所有功能）\BookShopDAL\obj\Debug\BookShop.DAL.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop_Stu_v2.1 0628（使用Ajax完成某些功能）\BookShopDAL\bin\Debug\BookShop.DAL.dll
+C:\Users\Administrator\Desktop\Temp\BookShop_Stu_v2.1 0628（使用Ajax完成某些功能）\BookShopDAL\bin\Debug\BookShop.DAL.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop_Stu_v2.1 0628（使用Ajax完成某些功能）\BookShopDAL\bin\Debug\BookShop.Models.dll
+C:\Users\Administrator\Desktop\Temp\BookShop_Stu_v2.1 0628（使用Ajax完成某些功能）\BookShopDAL\bin\Debug\BookShop.Models.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop_Stu_v2.1 0628（使用Ajax完成某些功能）\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Temp\BookShop_Stu_v2.1 0628（使用Ajax完成某些功能）\BookShopDAL\obj\Debug\BookShop.DAL.dll
+C:\Users\Administrator\Desktop\Temp\BookShop_Stu_v2.1 0628（使用Ajax完成某些功能）\BookShopDAL\obj\Debug\BookShop.DAL.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop v2.0\BookShopDAL\bin\Debug\BookShop.DAL.dll
+C:\Users\Administrator\Desktop\Temp\BookShop v2.0\BookShopDAL\bin\Debug\BookShop.DAL.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop v2.0\BookShopDAL\bin\Debug\BookShop.Models.dll
+C:\Users\Administrator\Desktop\Temp\BookShop v2.0\BookShopDAL\bin\Debug\BookShop.Models.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop v2.0\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Temp\BookShop v2.0\BookShopDAL\obj\Debug\BookShop.DAL.dll
+C:\Users\Administrator\Desktop\Temp\BookShop v2.0\BookShopDAL\obj\Debug\BookShop.DAL.pdb
+C:\Users\Administrator\Desktop\BookShop v2.0\BookShopDAL\bin\Debug\BookShop.DAL.dll
+C:\Users\Administrator\Desktop\BookShop v2.0\BookShopDAL\bin\Debug\BookShop.DAL.pdb
+C:\Users\Administrator\Desktop\BookShop v2.0\BookShopDAL\bin\Debug\BookShop.Models.dll
+C:\Users\Administrator\Desktop\BookShop v2.0\BookShopDAL\bin\Debug\BookShop.Models.pdb
+C:\Users\Administrator\Desktop\BookShop v2.0\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BookShop v2.0\BookShopDAL\obj\Debug\BookShop.DAL.dll
+C:\Users\Administrator\Desktop\BookShop v2.0\BookShopDAL\obj\Debug\BookShop.DAL.pdb
+E:\代码\第三期\开发基于Ajax和控件技术的Web应用系统\第二次课\控件技术(一)\BookShop_UserControl\BookShopDAL\bin\Debug\BookShop.DAL.dll
+E:\代码\第三期\开发基于Ajax和控件技术的Web应用系统\第二次课\控件技术(一)\BookShop_UserControl\BookShopDAL\bin\Debug\BookShop.DAL.pdb
+E:\代码\第三期\开发基于Ajax和控件技术的Web应用系统\第二次课\控件技术(一)\BookShop_UserControl\BookShopDAL\bin\Debug\BookShop.Models.dll
+E:\代码\第三期\开发基于Ajax和控件技术的Web应用系统\第二次课\控件技术(一)\BookShop_UserControl\BookShopDAL\bin\Debug\BookShop.Models.pdb
+E:\代码\第三期\开发基于Ajax和控件技术的Web应用系统\第二次课\控件技术(一)\BookShop_UserControl\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+E:\代码\第三期\开发基于Ajax和控件技术的Web应用系统\第二次课\控件技术(一)\BookShop_UserControl\BookShopDAL\obj\Debug\BookShop.DAL.dll
+E:\代码\第三期\开发基于Ajax和控件技术的Web应用系统\第二次课\控件技术(一)\BookShop_UserControl\BookShopDAL\obj\Debug\BookShop.DAL.pdb

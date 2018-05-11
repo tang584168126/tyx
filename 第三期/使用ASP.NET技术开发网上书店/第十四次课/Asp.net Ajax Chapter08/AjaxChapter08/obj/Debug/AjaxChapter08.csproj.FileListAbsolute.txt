@@ -1,0 +1,6 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十四次课\Asp.net Ajax Chapter08\AjaxChapter08\bin\AjaxChapter08.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十四次课\Asp.net Ajax Chapter08\AjaxChapter08\bin\AjaxChapter08.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十四次课\Asp.net Ajax Chapter08\AjaxChapter08\bin\AjaxChapter08.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十四次课\Asp.net Ajax Chapter08\AjaxChapter08\obj\Debug\AjaxChapter08.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十四次课\Asp.net Ajax Chapter08\AjaxChapter08\obj\Debug\AjaxChapter08.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十四次课\Asp.net Ajax Chapter08\AjaxChapter08\obj\Debug\AjaxChapter08.pdb

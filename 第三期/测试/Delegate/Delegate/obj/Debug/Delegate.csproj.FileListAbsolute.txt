@@ -1,0 +1,6 @@
+E:\代码\第三期\测试\Delegate\Delegate\bin\Debug\Delegate.exe.config
+E:\代码\第三期\测试\Delegate\Delegate\bin\Debug\Delegate.exe
+E:\代码\第三期\测试\Delegate\Delegate\bin\Debug\Delegate.pdb
+E:\代码\第三期\测试\Delegate\Delegate\obj\Debug\Delegate.csprojResolveAssemblyReference.cache
+E:\代码\第三期\测试\Delegate\Delegate\obj\Debug\Delegate.exe
+E:\代码\第三期\测试\Delegate\Delegate\obj\Debug\Delegate.pdb

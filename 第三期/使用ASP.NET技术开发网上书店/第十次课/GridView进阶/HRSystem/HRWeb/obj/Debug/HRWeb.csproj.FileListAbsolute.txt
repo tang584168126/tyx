@@ -1,0 +1,21 @@
+C:\Users\Administrator\Desktop\ASP.NET开发\ASP.NET第八章案例\HRSystem\HRWeb\bin\HRWeb.dll
+C:\Users\Administrator\Desktop\ASP.NET开发\ASP.NET第八章案例\HRSystem\HRWeb\bin\HRWeb.pdb
+C:\Users\Administrator\Desktop\ASP.NET开发\ASP.NET第八章案例\HRSystem\HRWeb\obj\Debug\HRWeb.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\ASP.NET开发\ASP.NET第八章案例\HRSystem\HRWeb\obj\Debug\HRWeb.dll
+C:\Users\Administrator\Desktop\ASP.NET开发\ASP.NET第八章案例\HRSystem\HRWeb\obj\Debug\HRWeb.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\HRSystem\HRWeb\bin\HRWeb.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\HRSystem\HRWeb\bin\HRWeb.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\HRSystem\HRWeb\obj\Debug\HRWeb.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\HRSystem\HRWeb\obj\Debug\HRWeb.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\HRSystem\HRWeb\obj\Debug\HRWeb.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\HRSystem\HRWeb\bin\HRWeb.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\HRSystem\HRWeb\bin\HRWeb.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\HRSystem\HRWeb\obj\Debug\HRWeb.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\HRSystem\HRWeb\obj\Debug\HRWeb.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\08第八课（GridView进阶）\参考答案\HRSystem\HRWeb\obj\Debug\HRWeb.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十次课\GridView进阶\HRSystem\HRWeb\bin\HRWeb.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十次课\GridView进阶\HRSystem\HRWeb\bin\HRWeb.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十次课\GridView进阶\HRSystem\HRWeb\bin\HRWeb.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十次课\GridView进阶\HRSystem\HRWeb\obj\Debug\HRWeb.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十次课\GridView进阶\HRSystem\HRWeb\obj\Debug\HRWeb.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十次课\GridView进阶\HRSystem\HRWeb\obj\Debug\HRWeb.pdb

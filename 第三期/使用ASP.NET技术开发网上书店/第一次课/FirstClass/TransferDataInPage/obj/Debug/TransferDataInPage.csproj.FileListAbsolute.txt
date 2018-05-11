@@ -1,0 +1,6 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\TransferDataInPage\bin\TransferDataInPage.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\TransferDataInPage\bin\TransferDataInPage.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\TransferDataInPage\bin\TransferDataInPage.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\TransferDataInPage\obj\Debug\TransferDataInPage.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\TransferDataInPage\obj\Debug\TransferDataInPage.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第一次课\FirstClass\TransferDataInPage\obj\Debug\TransferDataInPage.pdb

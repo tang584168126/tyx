@@ -1,0 +1,5 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十五次课\SearchAmountOfService\SearchAmountOfService\bin\SearchAmountOfService.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十五次课\SearchAmountOfService\SearchAmountOfService\bin\SearchAmountOfService.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十五次课\SearchAmountOfService\SearchAmountOfService\bin\SearchAmountOfService.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十五次课\SearchAmountOfService\SearchAmountOfService\obj\Debug\SearchAmountOfService.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十五次课\SearchAmountOfService\SearchAmountOfService\obj\Debug\SearchAmountOfService.pdb

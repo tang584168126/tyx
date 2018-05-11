@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FocusBookModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BookBasicInfo">
+    <Key>
+      <PropertyRef Name="BasicId" />
+    </Key>
+    <Property Name="BasicId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Content" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="TypeId" Type="int" Nullable="false" />
+    <Property Name="CoverImage" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Score" Type="decimal" Precision="18" Scale="1" />
+    <Property Name="ScoreCount" Type="int" />
+  </EntityType>
+  <EntityType Name="BookTypes">
+    <Key>
+      <PropertyRef Name="TypeId" />
+    </Key>
+    <Property Name="TypeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TypeName" Type="nvarchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ChapterUrl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EBookId" Type="int" Nullable="false" />
+    <Property Name="Url" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EAuthor">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="EBookId" Type="int" Nullable="false" />
+    <Property Name="Popularity" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EBookInfo">
+    <Key>
+      <PropertyRef Name="EBookId" />
+    </Key>
+    <Property Name="EBookId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AuthorId" Type="int" Nullable="false" />
+    <Property Name="Price" Type="int" Nullable="false" />
+    <Property Name="Count" Type="decimal" Precision="16" Scale="4" Nullable="false" />
+    <Property Name="UpDateTime" Type="datetime" Nullable="false" />
+    <Property Name="State" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="IsFree" Type="bit" Nullable="false" />
+    <Property Name="CollectionCount" Type="int" Nullable="false" />
+    <Property Name="Ticket" Type="int" />
+    <Property Name="BasicId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EntityBookInfo">
+    <Key>
+      <PropertyRef Name="BookId" />
+    </Key>
+    <Property Name="BookId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Author" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PublisherId" Type="int" Nullable="false" />
+    <Property Name="PublishDate" Type="datetime" Nullable="false" />
+    <Property Name="Price" Type="money" Nullable="false" />
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="ISBN" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="BuyPrice" Type="money" Nullable="false" />
+    <Property Name="BasicId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EntityProfit">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BookId" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="DateTime" Type="datetime" Nullable="false" />
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="SellPrice" Type="money" Nullable="false" />
+    <Property Name="Profit" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EProfit">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EBookId" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Money" Type="money" Nullable="false" />
+    <Property Name="DateTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FocusAdmin">
+    <Key>
+      <PropertyRef Name="AdminId" />
+    </Key>
+    <Property Name="AdminId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AdminPassword" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="AdminName" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="BookId" Type="int" Nullable="false" />
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="OrderTime" Type="datetime" Nullable="false" />
+    <Property Name="Money" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PlayManages">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="EBookId" Type="int" Nullable="false" />
+    <Property Name="Count" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Publishers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TotalBookTypes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TypeId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <!--生成过程中发现错误:
+警告 6002: 表/视图“FocusBook.dbo.UserBuyer”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+  <EntityType Name="UserBuyer">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Address" Type="nvarchar" MaxLength="100" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="UserComments">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="EBookId" Type="int" />
+    <Property Name="BookId" Type="int" />
+    <Property Name="Content" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="DateTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserHouse">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="EBookId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserProfit">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="AddMoney" Type="money" Nullable="false" />
+    <Property Name="DateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="UserScores">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="EBookId" Type="int" />
+    <Property Name="BookId" Type="int" />
+    <Property Name="Score" Type="decimal" Precision="18" Scale="1" />
+  </EntityType>
+  <EntityType Name="UsersInfo">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LoginId" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Integral" Type="int" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="24" Nullable="false" />
+    <Property Name="RegisterTime" Type="datetime" Nullable="false" />
+    <Property Name="NickName" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="RealName" Type="nvarchar" MaxLength="20" />
+    <Property Name="UserRoleId" Type="int" Nullable="false" />
+    <Property Name="TicketCount" Type="int" />
+  </EntityType>
+  <EntityType Name="UsersRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_BookBasicInfo_BookTypes_TypeId">
+    <End Role="BookTypes" Type="Self.BookTypes" Multiplicity="1" />
+    <End Role="BookBasicInfo" Type="Self.BookBasicInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BookTypes">
+        <PropertyRef Name="TypeId" />
+      </Principal>
+      <Dependent Role="BookBasicInfo">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BookInfo_UsersInfo_UserId">
+    <End Role="UsersInfo" Type="Self.UsersInfo" Multiplicity="1" />
+    <End Role="EBookInfo" Type="Self.EBookInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersInfo">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="EBookInfo">
+        <PropertyRef Name="AuthorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ChapterUrl_EBookInfo_EBookId">
+    <End Role="EBookInfo" Type="Self.EBookInfo" Multiplicity="1" />
+    <End Role="ChapterUrl" Type="Self.ChapterUrl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EBookInfo">
+        <PropertyRef Name="EBookId" />
+      </Principal>
+      <Dependent Role="ChapterUrl">
+        <PropertyRef Name="EBookId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EAuthor_EBookInfo_EBookId">
+    <End Role="EBookInfo" Type="Self.EBookInfo" Multiplicity="1" />
+    <End Role="EAuthor" Type="Self.EAuthor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EBookInfo">
+        <PropertyRef Name="EBookId" />
+      </Principal>
+      <Dependent Role="EAuthor">
+        <PropertyRef Name="EBookId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EAuthor_UsersInfo_UserId">
+    <End Role="UsersInfo" Type="Self.UsersInfo" Multiplicity="1" />
+    <End Role="EAuthor" Type="Self.EAuthor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersInfo">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="EAuthor">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EBookInfo_BookBasicInfo_BasicId">
+    <End Role="BookBasicInfo" Type="Self.BookBasicInfo" Multiplicity="1" />
+    <End Role="EBookInfo" Type="Self.EBookInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BookBasicInfo">
+        <PropertyRef Name="BasicId" />
+      </Principal>
+      <Dependent Role="EBookInfo">
+        <PropertyRef Name="BasicId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EntityBookInfo_BookBasicInfo_BasicId">
+    <End Role="BookBasicInfo" Type="Self.BookBasicInfo" Multiplicity="1" />
+    <End Role="EntityBookInfo" Type="Self.EntityBookInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BookBasicInfo">
+        <PropertyRef Name="BasicId" />
+      </Principal>
+      <Dependent Role="EntityBookInfo">
+        <PropertyRef Name="BasicId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EntityBookInfo_Publishers_Id">
+    <End Role="Publishers" Type="Self.Publishers" Multiplicity="1" />
+    <End Role="EntityBookInfo" Type="Self.EntityBookInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Publishers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EntityBookInfo">
+        <PropertyRef Name="PublisherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EntityProfit_EntityBookInfo_BookId">
+    <End Role="EntityBookInfo" Type="Self.EntityBookInfo" Multiplicity="1" />
+    <End Role="EntityProfit" Type="Self.EntityProfit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EntityBookInfo">
+        <PropertyRef Name="BookId" />
+      </Principal>
+      <Dependent Role="EntityProfit">
+        <PropertyRef Name="BookId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EntityProfit_UsersInfo_UserId">
+    <End Role="UsersInfo" Type="Self.UsersInfo" Multiplicity="1" />
+    <End Role="EntityProfit" Type="Self.EntityProfit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersInfo">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="EntityProfit">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EProfit_EBookInfo_EBookId">
+    <End Role="EBookInfo" Type="Self.EBookInfo" Multiplicity="1" />
+    <End Role="EProfit" Type="Self.EProfit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EBookInfo">
+        <PropertyRef Name="EBookId" />
+      </Principal>
+      <Dependent Role="EProfit">
+        <PropertyRef Name="EBookId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EProfit_UsersInfo_UserId">
+    <End Role="UsersInfo" Type="Self.UsersInfo" Multiplicity="1" />
+    <End Role="EProfit" Type="Self.EProfit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersInfo">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="EProfit">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_EntityBookInfo_BookId">
+    <End Role="EntityBookInfo" Type="Self.EntityBookInfo" Multiplicity="1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EntityBookInfo">
+        <PropertyRef Name="BookId" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="BookId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_UsersInfo_UserId">
+    <End Role="UsersInfo" Type="Self.UsersInfo" Multiplicity="1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersInfo">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PlayManages_EBookInfo_EBookId">
+    <End Role="EBookInfo" Type="Self.EBookInfo" Multiplicity="1" />
+    <End Role="PlayManages" Type="Self.PlayManages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EBookInfo">
+        <PropertyRef Name="EBookId" />
+      </Principal>
+      <Dependent Role="PlayManages">
+        <PropertyRef Name="EBookId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PlayManages_UsersInfo_UserId">
+    <End Role="UsersInfo" Type="Self.UsersInfo" Multiplicity="1" />
+    <End Role="PlayManages" Type="Self.PlayManages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersInfo">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="PlayManages">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TotalBookTypes_BookTypes_TypeId">
+    <End Role="BookTypes" Type="Self.BookTypes" Multiplicity="1" />
+    <End Role="TotalBookTypes" Type="Self.TotalBookTypes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BookTypes">
+        <PropertyRef Name="TypeId" />
+      </Principal>
+      <Dependent Role="TotalBookTypes">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserBuyer_UsersInfo_UserId">
+    <End Role="UsersInfo" Type="Self.UsersInfo" Multiplicity="1" />
+    <End Role="UserBuyer" Type="Self.UserBuyer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersInfo">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="UserBuyer">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserComments_EBookInfo_EBookId">
+    <End Role="EBookInfo" Type="Self.EBookInfo" Multiplicity="0..1" />
+    <End Role="UserComments" Type="Self.UserComments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EBookInfo">
+        <PropertyRef Name="EBookId" />
+      </Principal>
+      <Dependent Role="UserComments">
+        <PropertyRef Name="EBookId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserComments_EntityBookInfo_BookId">
+    <End Role="EntityBookInfo" Type="Self.EntityBookInfo" Multiplicity="0..1" />
+    <End Role="UserComments" Type="Self.UserComments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EntityBookInfo">
+        <PropertyRef Name="BookId" />
+      </Principal>
+      <Dependent Role="UserComments">
+        <PropertyRef Name="BookId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserComments_UsersInfo_UserId">
+    <End Role="UsersInfo" Type="Self.UsersInfo" Multiplicity="1" />
+    <End Role="UserComments" Type="Self.UserComments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersInfo">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="UserComments">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserHouse_EBookInfo_BookId">
+    <End Role="EBookInfo" Type="Self.EBookInfo" Multiplicity="1" />
+    <End Role="UserHouse" Type="Self.UserHouse" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EBookInfo">
+        <PropertyRef Name="EBookId" />
+      </Principal>
+      <Dependent Role="UserHouse">
+        <PropertyRef Name="EBookId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserHouse_UsersInfo_UserId">
+    <End Role="UsersInfo" Type="Self.UsersInfo" Multiplicity="1" />
+    <End Role="UserHouse" Type="Self.UserHouse" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersInfo">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="UserHouse">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserProfit_UsersInfo_UserId">
+    <End Role="UsersInfo" Type="Self.UsersInfo" Multiplicity="1" />
+    <End Role="UserProfit" Type="Self.UserProfit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersInfo">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="UserProfit">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserScores_EBookInfo_EBookId">
+    <End Role="EBookInfo" Type="Self.EBookInfo" Multiplicity="0..1" />
+    <End Role="UserScores" Type="Self.UserScores" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EBookInfo">
+        <PropertyRef Name="EBookId" />
+      </Principal>
+      <Dependent Role="UserScores">
+        <PropertyRef Name="EBookId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserScores_EntityBookInfo_BookId">
+    <End Role="EntityBookInfo" Type="Self.EntityBookInfo" Multiplicity="0..1" />
+    <End Role="UserScores" Type="Self.UserScores" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EntityBookInfo">
+        <PropertyRef Name="BookId" />
+      </Principal>
+      <Dependent Role="UserScores">
+        <PropertyRef Name="BookId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsersInfo_UsersRole_Id">
+    <End Role="UsersRole" Type="Self.UsersRole" Multiplicity="1" />
+    <End Role="UsersInfo" Type="Self.UsersInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersRole">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UsersInfo">
+        <PropertyRef Name="UserRoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FocusBookModelStoreContainer">
+    <EntitySet Name="BookBasicInfo" EntityType="Self.BookBasicInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BookTypes" EntityType="Self.BookTypes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ChapterUrl" EntityType="Self.ChapterUrl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EAuthor" EntityType="Self.EAuthor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EBookInfo" EntityType="Self.EBookInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EntityBookInfo" EntityType="Self.EntityBookInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EntityProfit" EntityType="Self.EntityProfit" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EProfit" EntityType="Self.EProfit" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FocusAdmin" EntityType="Self.FocusAdmin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PlayManages" EntityType="Self.PlayManages" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Publishers" EntityType="Self.Publishers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TotalBookTypes" EntityType="Self.TotalBookTypes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserComments" EntityType="Self.UserComments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserHouse" EntityType="Self.UserHouse" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserProfit" EntityType="Self.UserProfit" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserScores" EntityType="Self.UserScores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UsersInfo" EntityType="Self.UsersInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UsersRole" EntityType="Self.UsersRole" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserBuyer" EntityType="Self.UserBuyer" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[UserBuyer].[Id] AS [Id], 
+[UserBuyer].[UserId] AS [UserId], 
+[UserBuyer].[Address] AS [Address], 
+[UserBuyer].[Phone] AS [Phone]
+FROM [dbo].[UserBuyer] AS [UserBuyer]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_BookBasicInfo_BookTypes_TypeId" Association="Self.FK_BookBasicInfo_BookTypes_TypeId">
+      <End Role="BookTypes" EntitySet="BookTypes" />
+      <End Role="BookBasicInfo" EntitySet="BookBasicInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BookInfo_UsersInfo_UserId" Association="Self.FK_BookInfo_UsersInfo_UserId">
+      <End Role="UsersInfo" EntitySet="UsersInfo" />
+      <End Role="EBookInfo" EntitySet="EBookInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ChapterUrl_EBookInfo_EBookId" Association="Self.FK_ChapterUrl_EBookInfo_EBookId">
+      <End Role="EBookInfo" EntitySet="EBookInfo" />
+      <End Role="ChapterUrl" EntitySet="ChapterUrl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EAuthor_EBookInfo_EBookId" Association="Self.FK_EAuthor_EBookInfo_EBookId">
+      <End Role="EBookInfo" EntitySet="EBookInfo" />
+      <End Role="EAuthor" EntitySet="EAuthor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EAuthor_UsersInfo_UserId" Association="Self.FK_EAuthor_UsersInfo_UserId">
+      <End Role="UsersInfo" EntitySet="UsersInfo" />
+      <End Role="EAuthor" EntitySet="EAuthor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EBookInfo_BookBasicInfo_BasicId" Association="Self.FK_EBookInfo_BookBasicInfo_BasicId">
+      <End Role="BookBasicInfo" EntitySet="BookBasicInfo" />
+      <End Role="EBookInfo" EntitySet="EBookInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EntityBookInfo_BookBasicInfo_BasicId" Association="Self.FK_EntityBookInfo_BookBasicInfo_BasicId">
+      <End Role="BookBasicInfo" EntitySet="BookBasicInfo" />
+      <End Role="EntityBookInfo" EntitySet="EntityBookInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EntityBookInfo_Publishers_Id" Association="Self.FK_EntityBookInfo_Publishers_Id">
+      <End Role="Publishers" EntitySet="Publishers" />
+      <End Role="EntityBookInfo" EntitySet="EntityBookInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EntityProfit_EntityBookInfo_BookId" Association="Self.FK_EntityProfit_EntityBookInfo_BookId">
+      <End Role="EntityBookInfo" EntitySet="EntityBookInfo" />
+      <End Role="EntityProfit" EntitySet="EntityProfit" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EntityProfit_UsersInfo_UserId" Association="Self.FK_EntityProfit_UsersInfo_UserId">
+      <End Role="UsersInfo" EntitySet="UsersInfo" />
+      <End Role="EntityProfit" EntitySet="EntityProfit" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EProfit_EBookInfo_EBookId" Association="Self.FK_EProfit_EBookInfo_EBookId">
+      <End Role="EBookInfo" EntitySet="EBookInfo" />
+      <End Role="EProfit" EntitySet="EProfit" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EProfit_UsersInfo_UserId" Association="Self.FK_EProfit_UsersInfo_UserId">
+      <End Role="UsersInfo" EntitySet="UsersInfo" />
+      <End Role="EProfit" EntitySet="EProfit" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_EntityBookInfo_BookId" Association="Self.FK_Orders_EntityBookInfo_BookId">
+      <End Role="EntityBookInfo" EntitySet="EntityBookInfo" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_UsersInfo_UserId" Association="Self.FK_Orders_UsersInfo_UserId">
+      <End Role="UsersInfo" EntitySet="UsersInfo" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PlayManages_EBookInfo_EBookId" Association="Self.FK_PlayManages_EBookInfo_EBookId">
+      <End Role="EBookInfo" EntitySet="EBookInfo" />
+      <End Role="PlayManages" EntitySet="PlayManages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PlayManages_UsersInfo_UserId" Association="Self.FK_PlayManages_UsersInfo_UserId">
+      <End Role="UsersInfo" EntitySet="UsersInfo" />
+      <End Role="PlayManages" EntitySet="PlayManages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TotalBookTypes_BookTypes_TypeId" Association="Self.FK_TotalBookTypes_BookTypes_TypeId">
+      <End Role="BookTypes" EntitySet="BookTypes" />
+      <End Role="TotalBookTypes" EntitySet="TotalBookTypes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserBuyer_UsersInfo_UserId" Association="Self.FK_UserBuyer_UsersInfo_UserId">
+      <End Role="UsersInfo" EntitySet="UsersInfo" />
+      <End Role="UserBuyer" EntitySet="UserBuyer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserComments_EBookInfo_EBookId" Association="Self.FK_UserComments_EBookInfo_EBookId">
+      <End Role="EBookInfo" EntitySet="EBookInfo" />
+      <End Role="UserComments" EntitySet="UserComments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserComments_EntityBookInfo_BookId" Association="Self.FK_UserComments_EntityBookInfo_BookId">
+      <End Role="EntityBookInfo" EntitySet="EntityBookInfo" />
+      <End Role="UserComments" EntitySet="UserComments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserComments_UsersInfo_UserId" Association="Self.FK_UserComments_UsersInfo_UserId">
+      <End Role="UsersInfo" EntitySet="UsersInfo" />
+      <End Role="UserComments" EntitySet="UserComments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserHouse_EBookInfo_BookId" Association="Self.FK_UserHouse_EBookInfo_BookId">
+      <End Role="EBookInfo" EntitySet="EBookInfo" />
+      <End Role="UserHouse" EntitySet="UserHouse" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserHouse_UsersInfo_UserId" Association="Self.FK_UserHouse_UsersInfo_UserId">
+      <End Role="UsersInfo" EntitySet="UsersInfo" />
+      <End Role="UserHouse" EntitySet="UserHouse" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserProfit_UsersInfo_UserId" Association="Self.FK_UserProfit_UsersInfo_UserId">
+      <End Role="UsersInfo" EntitySet="UsersInfo" />
+      <End Role="UserProfit" EntitySet="UserProfit" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserScores_EBookInfo_EBookId" Association="Self.FK_UserScores_EBookInfo_EBookId">
+      <End Role="EBookInfo" EntitySet="EBookInfo" />
+      <End Role="UserScores" EntitySet="UserScores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserScores_EntityBookInfo_BookId" Association="Self.FK_UserScores_EntityBookInfo_BookId">
+      <End Role="EntityBookInfo" EntitySet="EntityBookInfo" />
+      <End Role="UserScores" EntitySet="UserScores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UsersInfo_UsersRole_Id" Association="Self.FK_UsersInfo_UsersRole_Id">
+      <End Role="UsersRole" EntitySet="UsersRole" />
+      <End Role="UsersInfo" EntitySet="UsersInfo" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

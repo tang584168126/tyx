@@ -1,0 +1,16 @@
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\10第十课（数据查询与展示：DataList）\ASP.NET第十章演示案例\Chapter_Ten_Demo\DataListDemo\bin\DataListDemo.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\10第十课（数据查询与展示：DataList）\ASP.NET第十章演示案例\Chapter_Ten_Demo\DataListDemo\bin\DataListDemo.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\10第十课（数据查询与展示：DataList）\ASP.NET第十章演示案例\Chapter_Ten_Demo\DataListDemo\obj\Debug\DataListDemo.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\10第十课（数据查询与展示：DataList）\ASP.NET第十章演示案例\Chapter_Ten_Demo\DataListDemo\obj\Debug\DataListDemo.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\使用ASP.NET开发网上书店\10第十课（数据查询与展示：DataList）\ASP.NET第十章演示案例\Chapter_Ten_Demo\DataListDemo\obj\Debug\DataListDemo.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\10第十课（数据查询与展示：DataList）\ASP.NET第十章演示案例\Chapter_Ten_Demo\DataListDemo\bin\DataListDemo.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\10第十课（数据查询与展示：DataList）\ASP.NET第十章演示案例\Chapter_Ten_Demo\DataListDemo\bin\DataListDemo.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\10第十课（数据查询与展示：DataList）\ASP.NET第十章演示案例\Chapter_Ten_Demo\DataListDemo\obj\Debug\DataListDemo.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\10第十课（数据查询与展示：DataList）\ASP.NET第十章演示案例\Chapter_Ten_Demo\DataListDemo\obj\Debug\DataListDemo.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\10第十课（数据查询与展示：DataList）\ASP.NET第十章演示案例\Chapter_Ten_Demo\DataListDemo\obj\Debug\DataListDemo.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十二次课\ASP.NET第十章素材\Chapter_Ten_Demo\DataListDemo\bin\DataListDemo.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十二次课\ASP.NET第十章素材\Chapter_Ten_Demo\DataListDemo\bin\DataListDemo.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十二次课\ASP.NET第十章素材\Chapter_Ten_Demo\DataListDemo\bin\DataListDemo.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十二次课\ASP.NET第十章素材\Chapter_Ten_Demo\DataListDemo\obj\Debug\DataListDemo.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十二次课\ASP.NET第十章素材\Chapter_Ten_Demo\DataListDemo\obj\Debug\DataListDemo.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十二次课\ASP.NET第十章素材\Chapter_Ten_Demo\DataListDemo\obj\Debug\DataListDemo.pdb

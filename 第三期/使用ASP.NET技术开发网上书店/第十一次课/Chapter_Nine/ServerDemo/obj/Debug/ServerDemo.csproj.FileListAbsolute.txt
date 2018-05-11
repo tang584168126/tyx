@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\ASP.NET开发\第九章\Chapter_Nine\ServerDemo\bin\ServerDemo.dll
+C:\Users\Administrator\Desktop\ASP.NET开发\第九章\Chapter_Nine\ServerDemo\bin\ServerDemo.pdb
+C:\Users\Administrator\Desktop\ASP.NET开发\第九章\Chapter_Nine\ServerDemo\obj\Debug\ServerDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\ASP.NET开发\第九章\Chapter_Nine\ServerDemo\obj\Debug\ServerDemo.dll
+C:\Users\Administrator\Desktop\ASP.NET开发\第九章\Chapter_Nine\ServerDemo\obj\Debug\ServerDemo.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\09第九课（图书详细数据的更新）\ASP.NET第九章素材\Chapter_Nine\ServerDemo\bin\ServerDemo.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\09第九课（图书详细数据的更新）\ASP.NET第九章素材\Chapter_Nine\ServerDemo\bin\ServerDemo.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\09第九课（图书详细数据的更新）\ASP.NET第九章素材\Chapter_Nine\ServerDemo\obj\Debug\ServerDemo.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\09第九课（图书详细数据的更新）\ASP.NET第九章素材\Chapter_Nine\ServerDemo\obj\Debug\ServerDemo.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\00 备课\02 使用ASP.NET开发网上书店\09第九课（图书详细数据的更新）\ASP.NET第九章素材\Chapter_Nine\ServerDemo\obj\Debug\ServerDemo.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十一次课\Chapter_Nine\ServerDemo\bin\ServerDemo.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十一次课\Chapter_Nine\ServerDemo\bin\ServerDemo.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十一次课\Chapter_Nine\ServerDemo\bin\ServerDemo.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十一次课\Chapter_Nine\ServerDemo\obj\Debug\ServerDemo.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十一次课\Chapter_Nine\ServerDemo\obj\Debug\ServerDemo.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十一次课\Chapter_Nine\ServerDemo\obj\Debug\ServerDemo.pdb

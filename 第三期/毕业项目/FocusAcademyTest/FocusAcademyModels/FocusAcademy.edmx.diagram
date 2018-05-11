@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ff70fb9fb55c4d229b2f6eaee3b8ef7d" Name="Diagram1">
+        <EntityTypeShape EntityType="FocusBookModel.BookBasicInfo" Width="1.5" PointX="0.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.BookType" Width="1.5" PointX="1.5" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.ChapterUrl" Width="1.5" PointX="10.5" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.EAuthor" Width="1.5" PointX="5.25" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.EBookInfo" Width="1.5" PointX="8.25" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.EntityBookInfo" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.EntityProfit" Width="1.5" PointX="5.25" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.EProfit" Width="1.5" PointX="10.5" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.FocusAdmin" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.Order" Width="1.5" PointX="5.25" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.PlayManage" Width="1.5" PointX="10.5" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.Publisher" Width="1.5" PointX="0.75" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.TotalBookType" Width="1.5" PointX="3.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.UserComment" Width="1.5" PointX="13.5" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.UserHouse" Width="1.5" PointX="13.5" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.UserProfit" Width="1.5" PointX="5.25" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.UserScore" Width="1.5" PointX="13.5" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.UsersInfo" Width="1.5" PointX="3" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.UsersRole" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FocusBookModel.UserBuyer" Width="1.5" PointX="5.25" PointY="34" IsExpanded="true" />
+        <AssociationConnector Association="FocusBookModel.FK_BookBasicInfo_BookTypes_TypeId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_EBookInfo_BookBasicInfo_BasicId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_EntityBookInfo_BookBasicInfo_BasicId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_TotalBookTypes_BookTypes_TypeId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_ChapterUrl_EBookInfo_EBookId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_EAuthor_EBookInfo_EBookId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_EAuthor_UsersInfo_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_BookInfo_UsersInfo_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_EProfit_EBookInfo_EBookId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_PlayManages_EBookInfo_EBookId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_UserComments_EBookInfo_EBookId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_UserHouse_EBookInfo_BookId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_UserScores_EBookInfo_EBookId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_EntityBookInfo_Publishers_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_EntityProfit_EntityBookInfo_BookId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_Orders_EntityBookInfo_BookId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_UserComments_EntityBookInfo_BookId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_UserScores_EntityBookInfo_BookId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_EntityProfit_UsersInfo_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_EProfit_UsersInfo_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_Orders_UsersInfo_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_PlayManages_UsersInfo_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_UserComments_UsersInfo_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_UserHouse_UsersInfo_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_UserProfit_UsersInfo_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_UserBuyer_UsersInfo_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="FocusBookModel.FK_UsersInfo_UsersRole_Id" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

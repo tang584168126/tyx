@@ -1,0 +1,26 @@
+1、 ASP.NET Ajax简介
+	她是微软为简化Ajax操作而封装出现的Ajax控件
+	构成：核心组件(5个Ajax控件)
+		Ajax Control ToolKit工具包(是一个包含多个Ajax控件的程序集)
+		Ajax CTP增值组件(未发布的或未开发完的Ajzx控件)
+		Ajax Demo(Ajax控件的使用案例)
+		Ajax Library(Ajax的脚本库)	
+
+2、ScriptManager/ScriptManagerProxy控件
+	这个控件是全局的脚步控制器，用于管理其他Ajax的控件的使用
+	注意事项：
+		每个页面必须包括此控件
+		每个页面有且只能有一个ScriptManager控件
+		ScriptManager必须放在其他Ajax控件之前
+	特殊情况：	母版页包括ScriptManager控件，在内容页中如果也要使用局部刷新功能，那么内容页的全局脚本控件器只能使用ScriptManagerProxy控件
+
+3、UpdatePanel控件
+     >> UpdateMode属性：
+	 Always：触发回发的控件不管在UpdatePanel内部还是外部都会刷新UpdatePanel的数据。只不过触发回发的控件在Panel内部，则是局部刷新，在Panel控件外部，则是全局刷新
+	 Conditional：当UpdateMode值为Conditional时，如果触发回发的控件放在Panel外部，则要实现局部刷新的条件是：在UpdatePanel控件的Triggers内部，将Panel与控件触发回发的事件关联起来
+     >> Triggers属性
+
+4.UpdateProgress控件
+	作用：当服务器处理请求的时间较长时，为用户提供等待提示
+	 
+5、Timer控件

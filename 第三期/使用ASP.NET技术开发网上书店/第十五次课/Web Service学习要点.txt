@@ -1,0 +1,32 @@
+先安装IIS(Internet Information Service)
+inetmgr
+
+1、为什么要用Web Service？Web Service的使用举列
+SaaS:SoftWare as a Service
+SOA:面向Service Oriented Archetecture 的框架，用于解决数据交换及通信
+通信协议：http、https、tcp、udp、soap
+数据交换格式：xml、json、binary
+
+2、Web Service简介
+     分布式系统：将服务端系统分别部署在多个服务器端上，这些服务器缺一不可，共同构成一个整体
+	 集群：
+ 
+     技术组成要素：
+	 SOAP：简单对象访问协议，是Web Service通信的基础，传递数据需要依靠他
+	 WSDL：Web Service描述语言，用于描述数据的读取或转换
+	 UDDI：统一描述、发现和集成
+
+3、Web Service原理
+	外部原理：1)创建好Web Service，发布		2)通过UDDI去查找相应的Web Service	3)找到Web Service之后，要引用他，为他创建一个代理对象
+		4)通过代理对象，使用Web Service，获取相应的数据或操作相应的功能
+	内部原理：客户端的代理对象在提交请求以及服务器的Web Service响应请求的前后都会对数据进行序列化以及反序列化	
+
+4、Web Service创建、部署、调用  
+	Web Service：SOAP/XML
+
+5、其它SOA框架：WCF，Restful(Web API)，Thrift
+     
+6、未来发展趋势     
+     轻量，跨平台，高效，简单
+
+7、Ajax调用Web Service

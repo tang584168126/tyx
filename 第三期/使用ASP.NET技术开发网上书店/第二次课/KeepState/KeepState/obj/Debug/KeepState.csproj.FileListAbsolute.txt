@@ -1,0 +1,6 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第二次课\KeepState\KeepState\bin\KeepState.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第二次课\KeepState\KeepState\bin\KeepState.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第二次课\KeepState\KeepState\bin\KeepState.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第二次课\KeepState\KeepState\obj\Debug\KeepState.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第二次课\KeepState\KeepState\obj\Debug\KeepState.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第二次课\KeepState\KeepState\obj\Debug\KeepState.pdb

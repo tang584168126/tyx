@@ -1,0 +1,774 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0061)https://msdn.microsoft.com/zh-cn/library/ae5bf541(VS.80).aspx -->
+<!DOCTYPE html PUBLIC "" ""><HTML lang="zh" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"><HEAD><META 
+content="IE=11.0000" http-equiv="X-UA-Compatible">
+<LINK href="https://msdn.microsoft.com/zh-cn/library/ae5bf541(v=vs.90).aspx" 
+rel="canonical">         
+<META http-equiv="Content-Type" 
+content="text/html; charset=utf-8"><TITLE>正则表达式语法</TITLE> 
+<META name="DCS.dcsuri" content="/zh-cn/library/ae5bf541(d=default,l=zh-cn,v=vs.80).aspx"> 
+<META name="NormalizedUrl" content="https://msdn.microsoft.com/zh-cn/library/ae5bf541(d=default,l=zh-cn,v=vs.80).aspx"> 
+<META name="ms.normalizedurl" content="https://msdn.microsoft.com/zh-cn/library/ae5bf541(d=default,l=zh-cn,v=vs.80).aspx"> 
+<META name="VotingContextUrl" content="https://msdn.microsoft.com/zh-cn/library/ae5bf541(d=default,l=zh-cn,v=vs.80).aspx"> 
+<META name="MN" content="61C41DD4-10:00:13 PM"> 
+<META name="Search.ShortId" content="ae5bf541"> 
+<META name="ms.shortidmsdn" content="ae5bf541"> 
+<META name="Ms.Locale" content="zh-cn"> 
+<META name="ms.prodver" content="VS.80"> 
+<META name="ms.contentlang" content="ZH"> 
+<META name="ms.lang" content="ZH"> 
+<META name="ms.loc" content="CN"> 
+<META name="ms.sitever" content="2015.06.12.1"> 
+<META name="ms.assetid" content="94191de4-017c-4365-aea4-e60e968882d7"> 
+<META name="ms.auth" content="0">             <LINK href="正则表达式语法_files/Combined.css" 
+rel="stylesheet" type="text/css">
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842"></HEAD>     
+<BODY class="library IE IE11">
+<DIV id="page"><LINK rel="stylesheet" type="text/css">         <INPUT id="isHeaderBleeding" type="hidden" value="true"> 
+    
+<DIV class="ltr msdn" id="ux-header" dir="ltr"><HEADER><SPAN 
+id="singleCol"></SPAN>         <SPAN id="doubleCol"></SPAN>         <SPAN id="isMobile"></SPAN> 
+        
+<DIV>
+<DIV class="row topRow">
+<DIV class="top">
+<DIV class="left"><A class="msdnLogoImg" 
+href="https://msdn.microsoft.com/zh-cn">
+<DIV class="msft-logo" id="msft-logo"></DIV></A>                 
+<DIV class="GrayPipe"></DIV><A class="DevCenterFullNameNonMegaBlade" href="https://msdn.microsoft.com/zh-cn">Developer 
+Network</A>                 <A class="DevCenterFullName" href="https://msdn.microsoft.com/zh-cn">Developer 
+Network</A>                 <A class="DevCenterShortName" href="https://msdn.microsoft.com/zh-cn">Developer</A> 
+              </DIV>
+<DIV class="right">
+<DIV id="signIn"><IMG class="profileImage" src="正则表达式语法_files/profile.jpg"> <A 
+title="登录" class="scarabLink" href="https://login.live.com/login.srf?wa=wsignin1.0&amp;rpsnv=12&amp;ct=1434517213&amp;rver=6.0.5276.0&amp;wp=MCMBI&amp;wlcxt=MSDN%24MSDN%24MSDN&amp;wreply=https%3a%2f%2fmsdn.microsoft.com%2fzh-cn%2flibrary%2fae5bf541%2528v%3dvs.80%2529.aspx&amp;lc=2052&amp;id=254354&amp;mkt=zh-CN">登录</A></DIV>
+<DIV class="auxNav">
+<DIV>
+<DIV id="Fragment_Subscriptions" xmlns="http://www.w3.org/1999/xhtml" 
+data-fragmentname="Subscriptions"><A id="Subscriptions_2153_1" href="https://msdn.microsoft.com/subscriptions/manage/hh442900" 
+xmlns="http://www.w3.org/1999/xhtml"><SPAN style="line-height: 18px;" 
+xmlns="">MSDN 订阅</SPAN>   </A> </DIV>
+<DIV id="Fragment_GetTools" xmlns="http://www.w3.org/1999/xhtml" 
+data-fragmentname="GetTools"><A id="GetTools_2153_3" href="http://go.microsoft.com/fwlink/?LinkId=309297&amp;clcid=0x804&amp;slcid=0x804&amp;campaign=o~msft~msdn~gettools-header~dn308572" 
+xmlns="http://www.w3.org/1999/xhtml"><SPAN style="line-height: 18px;" 
+xmlns="">获取工具</SPAN>   </A> </DIV></DIV>
+<DIV>
+<DIV id="Fragment_SocialLinks" xmlns="http://www.w3.org/1999/xhtml" 
+data-fragmentname="SocialLinks">
+<DIV class="linkList">
+<UL class="links horizontal">
+  <LI><A class="weiboShare" id="SocialLinks_2152_8" href="http://www.weibo.com/cnmsdn" 
+  xmlns="http://www.w3.org/1999/xhtml">http://www.weibo.com/cnmsdn</A>       
+  </LI>
+  <LI><A class="wechatShare" id="SocialLinks_2152_9" href="http://aka.ms/msdnwechat" 
+  xmlns="http://www.w3.org/1999/xhtml">http://aka.ms/msdnwechat</A>       </LI>
+  <LI><A class="cnContactShare" id="SocialLinks_2152_10" href="http://aka.ms/contactmsdn" 
+  xmlns="http://www.w3.org/1999/xhtml">http://aka.ms/contactmsdn</A>       
+</LI></UL></DIV></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="row middleRow">
+<DIV class="expandTop">
+<DIV class="left"></DIV>
+<DIV class="right"></DIV></DIV></DIV></DIV>
+<DIV id="buttomRowWrapper" style="background-color: rgb(35, 35, 35);">
+<DIV class="row buttomRow" style="background-color: rgb(35, 35, 35);">
+<DIV class="bottom">
+<DIV class="left"><A class="menu-icon" id="grip" href="javascript:void(0)"></A>  
+                               
+<DIV id="drawer">
+<DIV class="toc"><NAV>
+<UL class="navL1">
+  <LI class="inactive toggle"><A title="技术" href="javascript:void(0)">技术</A>     
+                              
+  <UL class="navL2">
+    <LI class="inactive"><A title="云" href="https://msdn.microsoft.com/cloud-app-development-msdn">云</A> 
+                                                                                 
+                  </LI>
+    <LI class="inactive"><A title="移动" href="https://msdn.microsoft.com/mobile-app-development-msdn">移动</A> 
+                                                                                 
+                  </LI>
+    <LI class="inactive"><A title="Web" href="https://msdn.microsoft.com/web-app-development-msdn">Web</A> 
+                                                                                 
+                  </LI>
+    <LI class="inactive"><A title="企业" href="https://msdn.microsoft.com/business-and-productivity-app-development-msdn">企业</A> 
+                                                                                 
+                  </LI>
+    <LI class="inactive"><A title="数据" href="https://msdn.microsoft.com/big-data-development-msdn">数据</A> 
+                                                                                 
+                  </LI>
+    <LI class="inactive"><A title="游戏" href="https://msdn.microsoft.com/zh-cn/games-development-msdn">游戏</A> 
+                                                                                 
+                  </LI></UL></LI>
+  <LI class="inactive toggle"><A title="下载" href="javascript:void(0)">下载</A>     
+                              
+  <UL class="navL2">
+    <LI class="inactive"><A title="Visual Studio" href="https://www.visualstudio.com/downloads/download-visual-studio-vs">Visual 
+    Studio</A>                                                                   
+                             </LI>
+    <LI class="inactive"><A title="MSDN 订阅访问" href="https://msdn.microsoft.com/subscriptions/">MSDN 
+    订阅访问</A>                                                                     
+                           </LI>
+    <LI class="inactive"><A title="SDK" href="https://msdn.microsoft.com/microsoft-sdks-msdn">SDK</A> 
+                                                                                 
+                  </LI>
+    <LI class="inactive toggle"><A title="试用软件" 
+    href="javascript:void(0)">试用软件</A>                                           
+          
+    <UL class="navL3">
+      <LI class="inactive"><A title="免费下载" href="https://msdn.microsoft.com/evalcenter">免费下载</A> 
+                                                              </LI>
+      <LI class="inactive"><A title="Office 资源" href="https://msdn.microsoft.com/officeevaluationresources">Office 
+      资源</A>                                                         </LI>
+      <LI class="inactive"><A title="Share Point Server 2013 资源" href="https://msdn.microsoft.com/sharepoint2013resources">Share 
+      Point Server 2013 资源</A>                                                   
+            </LI>
+      <LI class="inactive"><A title="Windows Server 2012 资源" href="https://msdn.microsoft.com/windowsserver2012r2resources">Windows 
+      Server 2012 资源</A>                                                         
+      </LI>
+      <LI class="inactive"><A title="SQL Server 2014 Express 资源" href="https://msdn.microsoft.com/sqlserver2014expressresources">SQL 
+      Server 2014 Express 资源</A>                                                 
+              </LI></UL></LI></UL></LI>
+  <LI class="inactive toggle"><A title="计划" href="javascript:void(0)">计划</A>     
+                              
+  <UL class="navL2">
+    <LI class="inactive"><A title="奖励" href="https://rewards.msdn.microsoft.com/">奖励</A> 
+                                                                                 
+                  </LI>
+    <LI class="inactive"><A title="初创企业" href="https://www.microsoft.com/bizspark">初创企业</A> 
+                                                                                 
+                  </LI>
+    <LI class="inactive toggle"><A title="学生" href="javascript:void(0)">学生</A>   
+                                                  
+    <UL class="navL3">
+      <LI class="inactive"><A title="新的“学生概述”页面" href="https://msdn.microsoft.com/student-developer-program">新的“学生概述”页面</A> 
+                                                              </LI>
+      <LI class="inactive"><A title="博客" href="http://blogs.msdn.com/b/microsoft_student_developer_blog">博客</A> 
+                                                              </LI>
+      <LI class="inactive"><A title="Microsoft Student Partners" href="https://msdn.microsoft.com/microsoftstudentpartners">Microsoft 
+      Student Partners</A>                                                       
+        </LI></UL></LI>
+    <LI class="inactive toggle"><A title="架构师" href="javascript:void(0)">架构师</A> 
+                                                    
+    <UL class="navL3">
+      <LI class="inactive"><A title="蓝图" href="https://msdn.microsoft.com/architects-blueprints-msdn">蓝图</A> 
+                                                              </LI>
+      <LI class="inactive"><A title="案例研究" href="https://msdn.microsoft.com/architects-case-studies-msdn">案例研究</A> 
+                                                              </LI>
+      <LI class="inactive"><A title="概述" href="https://msdn.microsoft.com/architects-overview-msdn">概述</A> 
+                                                              </LI></UL></LI>
+    <LI class="inactive"><A title="本地活动" href="http://events.msdn.microsoft.com/zh-cn">本地活动</A> 
+                                                                                 
+                  </LI>
+    <LI class="inactive toggle"><A title="MSDN 订阅" 
+    href="javascript:void(0)">MSDN 订阅</A>                                        
+             
+    <UL class="navL3">
+      <LI class="inactive"><A title="Overview" href="https://msdn.microsoft.com/msdn-subscriptions-overview">Overview</A> 
+                                                              </LI>
+      <LI class="inactive"><A title="Benefits" href="https://msdn.microsoft.com/benefits-overview">Benefits</A> 
+                                                              
+  </LI></UL></LI></UL></LI>
+  <LI class="inactive toggle"><A title="社区" href="javascript:void(0)">社区</A>     
+                              
+  <UL class="navL2">
+    <LI class="inactive"><A title="论坛" href="https://social.msdn.microsoft.com/forums/">论坛</A> 
+                                                                                 
+                  </LI>
+    <LI class="inactive"><A title="博客" href="http://blogs.msdn.com/b/developer-tools/">博客</A> 
+                                                                                 
+                  </LI>
+    <LI class="inactive"><A title="技术顾问" href="http://tech-advisors.msdn.microsoft.com/zh-cn">技术顾问</A> 
+                                                                                 
+                  </LI>
+    <LI class="inactive"><A title="第 9 频道" href="http://channel9.msdn.com/">第 9 
+    频道</A>                                                                       
+                         </LI></UL></LI>
+  <LI class="inactive current toggle"><A title="文档" 
+  href="javascript:void(0)">文档</A>                                 
+  <UL class="navL2">
+    <LI class="inactive current"><A title="APIs and reference" href="https://msdn.microsoft.com/library">APIs 
+    and reference</A>                                                            
+                                    </LI>
+    <LI class="inactive"><A title="开发人员中心" href="https://msdn.microsoft.com/developer-centers-msdn">开发人员中心</A> 
+                                                                                 
+                  </LI></UL></LI>
+  <LI class="inactive"><A title="示例代码" 
+  href="https://code.msdn.microsoft.com/">示例代码</A>                         
+</LI></UL></NAV></DIV></DIV></DIV>
+<DIV class="right">
+<DIV id="Fragment_SearchBox" xmlns="http://www.w3.org/1999/xhtml" 
+data-fragmentname="SearchBox">
+<DIV class="SearchBox">
+<FORM name="HeaderSearchForm" id="HeaderSearchForm" method="get"><BUTTON class="header-search-button" 
+id="FakeHeaderSearchButton" type="submit" value="Search">
+<DIV class="search-finder" id="search-finder"></DIV></BUTTON>       <BUTTON id="HeaderSearchButton" 
+style="display: none;"></BUTTON>       
+<DIV id="searchSplitter"></DIV>
+<DIV class="search-clear-x" id="searchCloseIcon"></DIV>
+<DIV id="searchTextContainer" style="width: 0px;"><INPUT name="query" id="HeaderSearchTextBox" onfocus="Epx.Controls.SearchBox.watermarkFocus(event, this.title)" onblur="Epx.Controls.SearchBox.watermarkBlur(event, this.title)" type="text" maxlength="200"> 
+      </DIV></FORM></DIV></DIV></DIV></DIV></DIV></DIV></HEADER>     </DIV>
+<DIV id="skinnyRating">
+<DIV class="rating">
+<DIV id="s_ratingSection1">
+<DIV class="title">此页面有用吗？             </DIV>             
+<DIV class="description">                您对此内容的反馈非常重要。 请告诉我们您的想法。             
+</DIV>             
+<DIV class="buttons"><BUTTON class="button" id="s_ratingYes">是</BUTTON>          
+       <BUTTON class="button" id="s_ratingNo">否</BUTTON>             </DIV>      
+       <INPUT id="s_ratingValue" type="hidden">         </DIV>
+<DIV id="s_ratingSection2">
+<DIV id="s_skinnyRatingForm">
+<DIV class="title">更多反馈？                 
+</DIV><TEXTAREA id="ratingText" maxlength="1500" rows="6" cols="20"></TEXTAREA>
+<DIV class="counter right"><SPAN id="feedbackTextCounter">1500</SPAN> 个剩余字符      
+           </DIV></DIV>
+<DIV class="buttons left"><BUTTON class="button" id="s_ratingSubmit">提交</BUTTON> 
+                <BUTTON class="button" id="s_ratingSkipThis">跳过此步</BUTTON>       
+      </DIV></DIV>
+<DIV id="s_ratingSection3" style="display: none;">
+<DIV class="title">谢谢！             </DIV>             
+<DIV class="description">                我们非常感谢您的反馈。             </DIV>         
+</DIV>
+<DIV id="contentFeedbackQAContainer" style="display: none;"></DIV></DIV></DIV>
+<DIV class="printExportMenus ltr"><A id="isd_printABook" href="https://msdn.microsoft.com/zh-cn/library/export/help/?returnUrl=%2fzh-cn%2flibrary%2fae5bf541(v%3dvs.80).aspx"> 
+           导出 (<SPAN class="count">0</SPAN>)         </A>         <A id="isd_print" 
+href="https://msdn.microsoft.com/zh-cn/library/ae5bf541(d=printer,v=vs.80).aspx" 
+rel="nofollow">打印         </A>         <A id="isd_archiveControl" style="display: none;" 
+data-exclude-archive="不包含旧版本" data-include-archive="包含旧版本"></A>     </DIV>
+<DIV class="printExportMenus ltr"><A title="Expand/Collapse all sections by pressing Ctrl + Shift + e" 
+id="expandCollapseAll" accesskey="e" href="javascript:void(0)">全部展开</A>     
+</DIV>
+<DIV id="body">
+<DIV id="leftNav">
+<DIV class="hide-archive" id="tocnav">
+<DIV class="toclevel0 " data-toclevel="0"><A title="MSDN Library" id="ms310241_MSDN.10_zh-cn" 
+href="https://msdn.microsoft.com/zh-cn/library/ms123401.aspx" mtpsshortid="ms123401_MSDN.10_zh-cn" 
+mtpsassetid="5DDC0A78-6B2C-43E3-9C56-55F45C0DFFA5_MSDN.10_zh-cn" mtpsaliasid="" 
+data-tochassubtree="true">MSDN Library</A></DIV>
+<DIV class="toclevel0 " data-toclevel="0"><A title="开发工具和语言" id="aa187916_MSDN.10_zh-cn" 
+href="https://msdn.microsoft.com/zh-cn/library/aa187916.aspx" mtpsshortid="aa187916_MSDN.10_zh-cn" 
+mtpsassetid="MSDN|devtoolslang|$\devtoolslang.hxt@0,0_MSDN.10_zh-cn" 
+mtpsaliasid="" data-tochassubtree="true">开发工具和语言</A></DIV>
+<DIV class="toclevel0 " data-toclevel="0"><A title="Visual Studio 2005" id="aa468128_MSDN.10_zh-cn" 
+href="https://msdn.microsoft.com/zh-cn/library/aa468128.aspx" mtpsshortid="aa468128_MSDN.10_zh-cn" 
+mtpsassetid="MSDN|devtoolslang|$\devtoolslang.hxt@0,0,5_MSDN.10_zh-cn" 
+mtpsaliasid="" data-tochassubtree="true">Visual Studio 2005</A></DIV>
+<DIV class="toclevel0 " data-toclevel="0"><A title="Visual Studio 文档" id="ms269115_VS.80_zh-cn" 
+href="https://msdn.microsoft.com/zh-cn/library/ms269115(v=vs.80).aspx" 
+mtpsshortid="ms269115_VS.80_zh-cn" mtpsassetid="VS|_vs80|$\_vs80.hxt@0,0_VS.80_zh-cn" 
+mtpsaliasid="" data-tochassubtree="true">Visual Studio 文档</A></DIV>
+<DIV class="toclevel0 " data-toclevel="0"><A title="JScript" id="ms299475_VS.80_zh-cn" 
+href="https://msdn.microsoft.com/zh-cn/library/72bd815a(v=vs.80).aspx" 
+mtpsshortid="72bd815a_VS.80_zh-cn" mtpsassetid="c7e636ee-c10f-45b1-85ec-fe2daca30bf5_VS.80_zh-cn" 
+mtpsaliasid="" data-tochassubtree="true">JScript</A></DIV>
+<DIV class="toclevel1 " data-toclevel="1"><A title="正则表达式介绍" id="ms299480_VS.80_zh-cn" 
+href="https://msdn.microsoft.com/zh-cn/library/28hw3sce(v=vs.80).aspx" 
+mtpsshortid="28hw3sce_VS.80_zh-cn" mtpsassetid="3c3a9a2c-a2c6-4eb6-8cde-df3db21e1ada_VS.80_zh-cn" 
+mtpsaliasid="" data-tochassubtree="true">正则表达式介绍</A></DIV>
+<DIV class="toclevel2 " data-toclevel="2"><A title="正则表达式" href="https://msdn.microsoft.com/zh-cn/library/d9eze55x(v=vs.80).aspx" 
+mtpsshortid="" mtpsassetid="" mtpsaliasid="">正则表达式</A></DIV>
+<DIV class="toclevel2 " data-toclevel="2"><A title="正则表达式的用途" href="https://msdn.microsoft.com/zh-cn/library/101eysae(v=vs.80).aspx" 
+mtpsshortid="" mtpsassetid="" mtpsaliasid="">正则表达式的用途</A></DIV>
+<DIV class="toclevel2 current " data-toclevel="2"><A title="正则表达式语法" href="https://msdn.microsoft.com/zh-cn/library/ae5bf541(v=vs.80).aspx" 
+mtpsshortid="" mtpsassetid="" mtpsaliasid="">正则表达式语法</A></DIV>
+<DIV class="toclevel2 " data-toclevel="2"><A title="生成正则表达式" href="https://msdn.microsoft.com/zh-cn/library/6h0s3kc9(v=vs.80).aspx" 
+mtpsshortid="" mtpsassetid="" mtpsaliasid="">生成正则表达式</A></DIV>
+<DIV class="toclevel2 " data-toclevel="2"><A title="优先级顺序" href="https://msdn.microsoft.com/zh-cn/library/d7h3k51c(v=vs.80).aspx" 
+mtpsshortid="" mtpsassetid="" mtpsaliasid="">优先级顺序</A></DIV>
+<DIV class="toclevel2 " data-toclevel="2"><A title="普通字符" href="https://msdn.microsoft.com/zh-cn/library/hadzwy15(v=vs.80).aspx" 
+mtpsshortid="" mtpsassetid="" mtpsaliasid="">普通字符</A></DIV>
+<DIV class="toclevel2 " data-toclevel="2"><A title="JScript 中的特殊字符" href="https://msdn.microsoft.com/zh-cn/library/yhzf4dct(v=vs.80).aspx" 
+mtpsshortid="" mtpsassetid="" mtpsaliasid="">JScript 中的特殊字符</A></DIV>
+<DIV class="toclevel2 " data-toclevel="2"><A title="不可打印字符" href="https://msdn.microsoft.com/zh-cn/library/218s85f8(v=vs.80).aspx" 
+mtpsshortid="" mtpsassetid="" mtpsaliasid="">不可打印字符</A></DIV>
+<DIV class="toclevel2 " data-toclevel="2"><A title="字符匹配" href="https://msdn.microsoft.com/zh-cn/library/901zys3s(v=vs.80).aspx" 
+mtpsshortid="" mtpsassetid="" mtpsaliasid="">字符匹配</A></DIV>
+<DIV class="toclevel2 " data-toclevel="2"><A title="限定符" href="https://msdn.microsoft.com/zh-cn/library/zk6zyh8e(v=vs.80).aspx" 
+mtpsshortid="" mtpsassetid="" mtpsaliasid="">限定符</A></DIV>
+<DIV class="toclevel2 " data-toclevel="2"><A title="定位点" href="https://msdn.microsoft.com/zh-cn/library/13bs2wz9(v=vs.80).aspx" 
+mtpsshortid="" mtpsassetid="" mtpsaliasid="">定位点</A></DIV>
+<DIV class="toclevel2 " data-toclevel="2"><A title="替换和分组" href="https://msdn.microsoft.com/zh-cn/library/ayhyxyh6(v=vs.80).aspx" 
+mtpsshortid="" mtpsassetid="" mtpsaliasid="">替换和分组</A></DIV>
+<DIV class="toclevel2 " data-toclevel="2"><A title="反向引用" href="https://msdn.microsoft.com/zh-cn/library/43k3181w(v=vs.80).aspx" 
+mtpsshortid="" mtpsassetid="" mtpsaliasid="">反向引用</A></DIV></DIV>
+<DIV class="toc-resizable-ew" id="toc-resizable-ew"></DIV><A id="NavigationResize" 
+href="javascript:void(0)"><IMG title="展开" class="cl_nav_resize_open" alt="展开" 
+src="正则表达式语法_files/ImageSprite.png">     <IMG title="最小化" class="cl_nav_resize_close" 
+alt="最小化" src="正则表达式语法_files/ImageSprite.png"> </A>     </DIV>
+<DIV class="content" id="content">
+<DIV class="topic" xmlns="http://www.w3.org/1999/xhtml" xmlns:mtps="http://msdn2.microsoft.com/mtps">
+<H1 class="title">正则表达式语法</H1>
+<DIV class="lw_vs">
+<DIV id="curversion"><STRONG>Visual Studio 2005         </STRONG>     </DIV>
+<DIV id="versionclick">
+<DIV class="cl_lw_vs_seperator" id="vsseperator"></DIV>
+<DIV>
+<DIV><A id="vsLink" href="javascript:;">其他版本                     </A>         
+</DIV>
+<DIV class="cl_vs_arrow clip10x10"><IMG class="cl_lw_vs_arrow" id="vsArrow" alt="" 
+src="正则表达式语法_files/ImageSprite.png">         </DIV></DIV>
+<UL id="vsPanel">
+  <LI><A 
+  href="https://msdn.microsoft.com/zh-cn/library/ae5bf541(v=vs.100).aspx">Visual 
+  Studio 2010</A>         </LI>
+  <LI><A 
+  href="https://msdn.microsoft.com/zh-cn/library/ae5bf541(v=vs.90).aspx">Visual 
+  Studio 2008</A>         </LI></UL></DIV></DIV>
+<DIV style="clear: both;"></DIV>
+<DIV id="mainSection">
+<DIV id="mainBody">
+<P>
+<P>正则表达式是一种文本模式，包括普通字符（例如，a 到 z 
+之间的字母）和特殊字符（称为“<I>元字符</I>”）。模式描述在搜索文本时要匹配的一个或多个字符串。</P>
+<H1 class="heading">正则表达式示例</H1>
+<DIV class="seeAlsoNoToggleSection" id="sectionSection0">
+<DIV class="labelheading"><B></B></DIV>
+<DIV class="tableSection">
+<TABLE width="100%">
+  <TBODY>
+  <TR>
+    <TH>                表达式               </TH>
+    <TH>                匹配               </TH></TR>
+  <TR>
+    <TD>
+      <P>/^\s*$/</P></TD>
+    <TD>
+      <P>匹配空行。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>/\d{2}-\d{5}/</P></TD>
+    <TD>
+      <P>验证由两位数字、一个连字符再加 5 位数字组成的 ID 号。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>/&lt;\s*(\S+)(\s[^&gt;]*)?&gt;[\s\S]*&lt;\s*\/\1\s*&gt;/</P></TD>
+    <TD>
+      <P>匹配 HTML 标记。</P></TD></TR></TBODY></TABLE></DIV>
+<P>下表包含了元字符的完整列表以及它们在正则表达式上下文中的行为：</P>
+<DIV class="labelheading"><B></B></DIV>
+<DIV class="tableSection">
+<TABLE width="100%">
+  <TBODY>
+  <TR>
+    <TH>                字符               </TH>
+    <TH>                说明               </TH></TR>
+  <TR>
+    <TD>
+      <P>\</P></TD>
+    <TD>
+      <P>将下一字符标记为特殊字符、文本、反向引用或八进制转义符。例如，“n”匹配字符“n”。“\n”匹配换行符。序列“\\”匹配“\”，“\(”匹配“(”。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>^</P></TD>
+    <TD>
+      <P>匹配输入字符串开始的位置。如果设置了 <B>RegExp</B> 对象的 <B>Multiline</B> 属性，^ 
+      还会与“\n”或“\r”之后的位置匹配。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>$</P></TD>
+    <TD>
+      <P>匹配输入字符串结尾的位置。如果设置了 <B>RegExp</B> 对象的 <B>Multiline</B> 属性，$ 
+      还会与“\n”或“\r”之前的位置匹配。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>*</P></TD>
+    <TD>
+      <P>零次或多次匹配前面的字符或子表达式。例如，zo* 匹配“z”和“zoo”。* 等效于 {0,}。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>+</P></TD>
+    <TD>
+      <P>一次或多次匹配前面的字符或子表达式。例如，“zo+”与“zo”和“zoo”匹配，但与“z”不匹配。+ 等效于 {1,}。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>?</P></TD>
+    <TD>
+      <P>零次或一次匹配前面的字符或子表达式。例如，“do(es)?”匹配“do”或“does”中的“do”。? 等效于 
+{0,1}。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>{<I>n</I>}</P></TD>
+    <TD>
+      <P><I>n </I>是非负整数。正好匹配 <I>n</I> 
+      次。例如，“o{2}”与“Bob”中的“o”不匹配，但与“food”中的两个“o”匹配。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>{<I>n</I>,}</P></TD>
+    <TD>
+      <P><I>n </I>是非负整数。至少匹配 <I>n </I>次。例如，“o{2,}”不匹配“Bob”中的“o”，而匹配“foooood”中的所有 
+      o。“o{1,}”等效于“o+”。“o{0,}”等效于“o*”。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>{<I>n</I>,<I>m</I>}</P></TD>
+    <TD>
+      <P><I>M</I> 和 <I>n</I> 是非负整数，其中 <I>n</I> &lt;= <I>m</I>。匹配至少 <I>n</I> 次，至多 
+      <I>m</I> 次。例如，“o{1,3}”匹配“fooooood”中的头三个 o。'o{0,1}' 等效于 
+      'o?'。注意：您不能将空格插入逗号和数字之间。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>?</P></TD>
+    <TD>
+      <P>当此字符紧随任何其他限定符（*、+、?、{<I>n</I>}、{<I>n</I>,}、{<I>n</I>,<I>m</I>}）之后时，匹配模式是“非贪心的”。“非贪心的”模式匹配搜索到的、尽可能短的字符串，而默认的“贪心的”模式匹配搜索到的、尽可能长的字符串。例如，在字符串“oooo”中，“o+?”只匹配单个“o”，而“o+”匹配所有“o”。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>.</P></TD>
+    <TD>
+      <P>匹配除“\n”之外的任何单个字符。若要匹配包括“\n”在内的任意字符，请使用诸如“[\s\S]”之类的模式。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>(<I>pattern</I>)</P></TD>
+    <TD>
+      <P>匹配 <I>pattern</I> 并捕获该匹配的子表达式。可以使用 <B>$0…$9</B> 
+      属性从结果“匹配”集合中检索捕获的匹配。若要匹配括号字符 ( )，请使用“\(”或者“\)”。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>(?:<I>pattern</I>)</P></TD>
+    <TD>
+      <P>匹配 <I>pattern</I> 但不捕获该匹配的子表达式，即它是一个非捕获匹配，不存储供以后使用的匹配。这对于用“or”字符 (|) 
+      组合模式部件的情况很有用。例如，'industr(?:y|ies) 是比 'industry|industries' 
+  更经济的表达式。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>(?=<I>pattern</I>)</P></TD>
+    <TD>
+      <P>执行正向预测先行搜索的子表达式，该表达式匹配处于匹配 <I>pattern</I> 
+      的字符串的起始点的字符串。它是一个非捕获匹配，即不能捕获供以后使用的匹配。例如，'Windows (?=95|98|NT|2000)' 
+      匹配“Windows 2000”中的“Windows”，但不匹配“Windows 
+      3.1”中的“Windows”。预测先行不占用字符，即发生匹配后，下一匹配的搜索紧随上一匹配之后，而不是在组成预测先行的字符后。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>(?!<I>pattern</I>)</P></TD>
+    <TD>
+      <P>执行反向预测先行搜索的子表达式，该表达式匹配不处于匹配 <I>pattern</I> 
+      的字符串的起始点的搜索字符串。它是一个非捕获匹配，即不能捕获供以后使用的匹配。例如，'Windows (?!95|98|NT|2000)' 
+      匹配“Windows 3.1”中的 “Windows”，但不匹配“Windows 
+      2000”中的“Windows”。预测先行不占用字符，即发生匹配后，下一匹配的搜索紧随上一匹配之后，而不是在组成预测先行的字符后。</P></TD></TR>
+  <TR>
+    <TD>
+      <P><I>x</I>|<I>y</I></P></TD>
+    <TD>
+      <P>匹配 <I>x</I> 或 <I>y</I>。例如，'z|food' 匹配“z”或“food”。'(z|f)ood' 
+      匹配“zood”或“food”。 </P></TD></TR>
+  <TR>
+    <TD>
+      <P>[<I>xyz</I>]</P></TD>
+    <TD>
+      <P>字符集。匹配包含的任一字符。例如，“[abc]”匹配“plain”中的“a”。 </P></TD></TR>
+  <TR>
+    <TD>
+      <P>[^<I>xyz</I>]</P></TD>
+    <TD>
+      <P>反向字符集。匹配未包含的任何字符。例如，“[^abc]”匹配“plain”中的“p”。 </P></TD></TR>
+  <TR>
+    <TD>
+      <P>[<I>a-z</I>]</P></TD>
+    <TD>
+      <P>字符范围。匹配指定范围内的任何字符。例如，“[a-z]”匹配“a”到“z”范围内的任何小写字母。 </P></TD></TR>
+  <TR>
+    <TD>
+      <P>[^<I>a-z</I>]</P></TD>
+    <TD>
+      <P>反向范围字符。匹配不在指定的范围内的任何字符。例如，“[^a-z]”匹配任何不在“a”到“z”范围内的任何字符。 </P></TD></TR>
+  <TR>
+    <TD>
+      <P>\b</P></TD>
+    <TD>
+      <P>匹配一个字边界，即字与空格间的位置。例如，“er\b”匹配“never”中的“er”，但不匹配“verb”中的“er”。 </P></TD></TR>
+  <TR>
+    <TD>
+      <P>\B</P></TD>
+    <TD>
+      <P>非字边界匹配。“er\B”匹配“verb”中的“er”，但不匹配“never”中的“er”。 </P></TD></TR>
+  <TR>
+    <TD>
+      <P>\c<I>x</I></P></TD>
+    <TD>
+      <P>匹配 <I>x</I> 指示的控制字符。例如，\cM 匹配 Control-M 或回车符。<I>x</I> 的值必须在 A-Z 或 a-z 
+      之间。如果不是这样，则假定 c 就是“c”字符本身。 </P></TD></TR>
+  <TR>
+    <TD>
+      <P>\d</P></TD>
+    <TD>
+      <P>数字字符匹配。等效于 [0-9]。 </P></TD></TR>
+  <TR>
+    <TD>
+      <P>\D</P></TD>
+    <TD>
+      <P>非数字字符匹配。等效于 [^0-9]。 </P></TD></TR>
+  <TR>
+    <TD>
+      <P>\f</P></TD>
+    <TD>
+      <P>换页符匹配。等效于 \x0c 和 \cL。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>\n</P></TD>
+    <TD>
+      <P>换行符匹配。等效于 \x0a 和 \cJ。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>\r</P></TD>
+    <TD>
+      <P>匹配一个回车符。等效于 \x0d 和 \cM。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>\s</P></TD>
+    <TD>
+      <P>匹配任何空白字符，包括空格、制表符、换页符等。与 [&nbsp;\f\n\r\t\v] 等效。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>\S</P></TD>
+    <TD>
+      <P>匹配任何非空白字符。与 [^&nbsp;\f\n\r\t\v] 等效。 </P></TD></TR>
+  <TR>
+    <TD>
+      <P>\t</P></TD>
+    <TD>
+      <P>制表符匹配。与 \x09 和 \cI 等效。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>\v</P></TD>
+    <TD>
+      <P>垂直制表符匹配。与 \x0b 和 \cK 等效。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>\w</P></TD>
+    <TD>
+      <P>匹配任何字类字符，包括下划线。与“[A-Za-z0-9_]”等效。 </P></TD></TR>
+  <TR>
+    <TD>
+      <P>\W</P></TD>
+    <TD>
+      <P>与任何非单词字符匹配。与“[^A-Za-z0-9_]”等效。 </P></TD></TR>
+  <TR>
+    <TD>
+      <P>\x<I>n</I></P></TD>
+    <TD>
+      <P>匹配 <I>n</I>，此处的 <I>n</I> 
+      是一个十六进制转义码。十六进制转义码必须正好是两位数长。例如，“\x41”匹配“A”。“\x041”与“\x04”&amp;“1”等效。允许在正则表达式中使用 
+      ASCII 代码。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>\<I>num</I></P></TD>
+    <TD>
+      <P>匹配 <I>num</I>，此处的 <I>num</I> 是一个正整数。到捕获匹配的反向引用。例如，“(.)\1”匹配两个连续的相同字符。 
+      </P></TD></TR>
+  <TR>
+    <TD>
+      <P>\<I>n</I></P></TD>
+    <TD>
+      <P>标识一个八进制转义码或反向引用。如果 \<I>n</I> 前面至少有 <I>n</I> 个捕获子表达式，那么 <I>n</I> 
+      是反向引用。否则，如果 <I>n</I> 是八进制数 (0-7)，那么 <I>n</I> 是八进制转义码。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>\<I>nm</I></P></TD>
+    <TD>
+      <P>标识一个八进制转义码或反向引用。如果 \<I>nm</I> 前面至少有 <I>nm</I> 个捕获子表达式，那么 <I>nm</I> 
+      是反向引用。如果 \<I>nm</I> 前面至少有 <I>n</I> 个捕获，则 <I>n</I> 是反向引用，后面跟有字符 
+      <I>m</I>。如果两种前面的情况都不存在，则 \<I>nm</I> 匹配八进制值 <I>nm</I>，其中 <I>n </I>和 
+      <I>m</I> 是八进制数字 (0-7)。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>\<SPAN class="parameter">nml</SPAN></P></TD>
+    <TD>
+      <P>当 <I>n</I> 是八进制数 (0-3)，<I>m</I> 和 <I>l</I> 是八进制数 (0-7) 时，匹配八进制转义码 
+      <I>nml</I>。</P></TD></TR>
+  <TR>
+    <TD>
+      <P>\u<I>n</I></P></TD>
+    <TD>
+      <P>匹配 <I>n</I>，其中 <I>n</I> 是以四位十六进制数表示的 Unicode 字符。例如，\u00A9 匹配版权符号 
+      (©)。</P></TD></TR></TBODY></TABLE></DIV></DIV>
+<H1 class="heading"><SPAN id="seeAlsoNoToggle">请参见</SPAN></H1>
+<DIV class="seeAlsoNoToggleSection" id="seeAlsoSection">
+<H4 class="subHeading">其他资源</H4><A href="https://msdn.microsoft.com/zh-cn/library/28hw3sce(v=vs.80).aspx">正则表达式介绍</A><BR><BR></DIV></DIV></DIV></DIV>
+<SCRIPT id="CommentTemplate" type="text/x-jquery-tmpl">
+    <div class="communityContentAnnotation">
+        <a name="${Index}"></a>
+        <h3>
+            ${Title}
+        </h3>
+        <div class="communityContentAnnotationBody">
+            {{html Body}}
+        </div>
+        <div class="communityContentAnnotationInfo">
+            <div class="communityContentAnnotationAvatarContainer">
+                <a href="${UserAvatar.Href}" title="${UserAvatar.ToolTip}" class="communityContentAnnotationAvatar"><img src="${UserAvatar.ImageUrl}" alt="${UserAvatar.ImageAltText}" width="34" height="34" /></a>
+            </div>
+            <div class="communityContentAnnotationUserDateContainer">
+                <div class="communityContentAnnotationUserContainer">
+                    <a href="${UserAvatar.Href}">
+                        ${User}
+                    </a>
+                </div>
+                <div class="communityContentAnnotationDateContainer">
+                    <span>${Date}</span>
+                    
+                    {{if EditLink}}
+                        <span>
+                            <a href="${EditLink.Href}" title="${EditLink.ToolTip}" class="communityContentCommentEditLink">${EditLink.Title}</a>
+                        </span>
+                    {{/if}}
+
+                    {{if DeleteLink}}
+                        <span>
+                            <a href="${DeleteLink.Href}" title="${DeleteLink.ToolTip}" class="communityContentDeleteLink">${DeleteLink.Title}</a>
+                        </span>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </div>
+</SCRIPT>
+ 
+<DIV class="communityContentContainer">
+<DIV class="communityContentHeader" id="CommunityContentHeader">
+<DIV class="communityContentHeaderTitleContainer">
+<H2>社区附加资源</H2><A class="communityContentAddLink" href="https://msdn.microsoft.com/zh-cn/library/community/add/ae5bf541(v=vs.80).aspx"><SPAN 
+title="添加" class="communityContentAddButton">                        添加          
+           </SPAN>                 </A></DIV>
+<DIV style="clear: both;"></DIV></DIV>
+<DIV id="CommunityComments" data-url="/zh-cn/library/community/comments/ae5bf541(v=vs.80).aspx"></DIV></DIV>
+<DIV class="libraryMemberFilter">
+<DIV class="filterContainer"><SPAN>显示:</SPAN>         <LABEL><INPUT class="libraryFilterInherited" 
+type="checkbox" checked="checked" value="Inherit">继承         </LABEL>         
+<LABEL><INPUT class="libraryFilterProtected" type="checkbox" checked="checked" 
+value="Protected">保护         </LABEL>     </DIV></DIV><INPUT id="libraryMemberFilterEmptyWarning" type="hidden" value="您当前的筛选设置无成员可用。"> 
+ </DIV></DIV>
+<DIV 
+class="clear"></DIV><INPUT name="__RequestVerificationToken" type="hidden" value="PHBBvVPSkJgaYExc8GR0sg1ll7u3mJvzQvw0Cm5golPIo8iD5_euMEFcyQpJmDlGOepgwNx41_cKvlOWPWTp7TORbao1"> 
+<INPUT id="ratingSubmitUrl" type="hidden" value="https://msdn.microsoft.com/zh-cn/library/feedback/add/ae5bf541(v=vs.80).aspx"> 
+<INPUT id="isTopicRated" type="hidden" value="false">             <LINK rel="stylesheet" 
+type="text/css">         
+<DIV id="ux-footer" dir="ltr">
+<DIV class="librarySock" id="footerSock">
+<DIV id="footerSockInner"><A name="feedback"></A> 
+<DIV class="rating">
+<DIV id="ratingSection1">
+<DIV class="title">此页面有用吗？         </DIV>
+<DIV class="description">            您对此内容的反馈非常重要。<BR>请告诉我们您的想法。         </DIV>
+<DIV class="buttons"><BUTTON class="button" id="ratingYes">是</BUTTON>            
+ <BUTTON class="button" id="ratingNo">否</BUTTON>         </DIV><INPUT id="ratingValue" type="hidden"> 
+    </DIV>
+<DIV id="ratingSection2">
+<DIV class="title">更多反馈？         </DIV><TEXTAREA id="ratingText" maxlength="1500" rows="6" cols="20"></TEXTAREA> 
+        
+<DIV class="counter right"><SPAN id="feedbackTextCounter">1500</SPAN> 个剩余字符      
+   </DIV>
+<DIV class="buttons left"><BUTTON class="button" id="ratingSubmit">提交</BUTTON>   
+          <BUTTON class="button" id="ratingSkipThis">跳过此步</BUTTON>         
+</DIV></DIV>
+<DIV id="ratingSection3">
+<DIV class="title">谢谢！         </DIV>
+<DIV class="description">            我们非常感谢您的反馈。         </DIV></DIV>
+<DIV id="contentFeedbackQAContainer" style="display: none;"></DIV></DIV>
+<DIV class="clear"></DIV></DIV></DIV><FOOTER class="top">
+<DIV id="Fragment_LeftLinks" xmlns="http://www.w3.org/1999/xhtml" 
+data-fragmentname="LeftLinks">
+<DIV class="linkList">
+<DIV class="linkListTitle">开发人员中心</DIV>
+<UL class="links">
+  <LI><A class="windowsBlue" id="LeftLinks_2148_1" href="https://dev.windows.com/" 
+  xmlns="http://www.w3.org/1999/xhtml">Windows</A>       </LI>
+  <LI><A class="office" id="LeftLinks_2148_3" href="http://dev.office.com/" 
+  xmlns="http://www.w3.org/1999/xhtml">Office</A>       </LI>
+  <LI><A class="visualStudio" id="LeftLinks_2148_4" href="https://msdn.microsoft.com/vstudio" 
+  xmlns="http://www.w3.org/1999/xhtml">Visual Studio</A>       </LI>
+  <LI><A id="LeftLinks_2148_12" href="http://azure.microsoft.com/zh-cn/documentation/" 
+  target="_blank" xmlns="http://www.w3.org/1999/xhtml">Microsoft Azure</A>       
+  </LI>
+  <LI><A id="LeftLinks_2148_5" href="https://msdn.microsoft.com/aa937802" xmlns="http://www.w3.org/1999/xhtml">更多...</A> 
+        </LI></UL></DIV></DIV>
+<DIV id="rightLinks">
+<DIV id="Fragment_CenterLinks1" xmlns="http://www.w3.org/1999/xhtml" 
+data-fragmentname="CenterLinks1">
+<DIV class="linkList">
+<DIV class="linkListTitle">学习资源</DIV>
+<UL class="links">
+  <LI><A id="CenterLinks1_2151_4" href="http://www.microsoftvirtualacademy.com/" 
+  xmlns="http://www.w3.org/1999/xhtml">Microsoft 虚拟学院</A>       </LI>
+  <LI><A id="CenterLinks1_2151_5" href="http://channel9.msdn.com/" xmlns="http://www.w3.org/1999/xhtml">第 
+  9 频道</A>       </LI>
+  <LI><A id="CenterLinks1_2151_6" href="http://www.interoperabilitybridges.com/" 
+  xmlns="http://www.w3.org/1999/xhtml">互操作性桥梁</A>       </LI>
+  <LI><A id="CenterLinks1_2151_7" href="https://msdn.microsoft.com/magazine/" 
+  xmlns="http://www.w3.org/1999/xhtml">MSDN 杂志</A>       </LI></UL></DIV></DIV>
+<DIV id="Fragment_CenterLinks2" xmlns="http://www.w3.org/1999/xhtml" 
+data-fragmentname="CenterLinks2">
+<DIV class="linkList">
+<DIV class="linkListTitle">社区</DIV>
+<UL class="links">
+  <LI><A id="CenterLinks2_2151_8" href="https://social.msdn.microsoft.com/forums/zh-cn/home" 
+  xmlns="http://www.w3.org/1999/xhtml">论坛</A>       </LI>
+  <LI><A id="CenterLinks2_2151_9" href="http://blogs.msdn.com/b/developer-tools/" 
+  xmlns="http://www.w3.org/1999/xhtml">博客</A>       </LI>
+  <LI><A id="CenterLinks2_2151_10" href="http://www.codeplex.com/" xmlns="http://www.w3.org/1999/xhtml">Codeplex</A> 
+        </LI></UL></DIV></DIV>
+<DIV id="Fragment_CenterLinks3" xmlns="http://www.w3.org/1999/xhtml" 
+data-fragmentname="CenterLinks3">
+<DIV class="linkList">
+<DIV class="linkListTitle">支持</DIV>
+<UL class="links">
+  <LI><A id="CenterLinks3_2151_11" href="https://msdn.microsoft.com/hh361695" 
+  xmlns="http://www.w3.org/1999/xhtml">自助支持</A>       </LI></UL></DIV></DIV>
+<DIV id="Fragment_CenterLinks4" xmlns="http://www.w3.org/1999/xhtml" 
+data-fragmentname="CenterLinks4">
+<DIV class="linkList">
+<DIV class="linkListTitle">计划</DIV>
+<UL class="links">
+  <LI><A id="CenterLinks4_2151_13" href="https://www.microsoft.com/bizspark/" 
+  xmlns="http://www.w3.org/1999/xhtml">BizSpark（针对新创企业）</A>       </LI>
+  <LI><A id="CenterLinks4_2151_14" href="https://www.dreamspark.com/" xmlns="http://www.w3.org/1999/xhtml">DreamSpark</A> 
+        </LI>
+  <LI><A id="CenterLinks4_2151_17" href="http://www.imaginecup.com/" xmlns="http://www.w3.org/1999/xhtml">创新杯</A> 
+        </LI></UL></DIV></DIV></DIV></FOOTER><FOOTER class="bottom"><SPAN class="localeContainer">
+<FORM class="selectLocale" id="selectLocaleForm" action="https://msdn.microsoft.com/zh-cn/selectlocale-dmc"><INPUT name="fromPage" type="hidden" value="https%3a%2f%2fmsdn.microsoft.com%2fzh-cn%2flibrary%2fae5bf541(v%3dvs.80).aspx"> 
+        <A title="更改您的语言" onclick="$('#selectLocaleForm').submit();return false;" 
+href="https://msdn.microsoft.com/zh-cn/library/ae5bf541(VS.80).aspx#">中国 
+(简体中文)</A>     </FORM></SPAN>                     
+<DIV id="Fragment_BottomLinks" xmlns="http://www.w3.org/1999/xhtml" 
+data-fragmentname="BottomLinks">
+<DIV class="linkList">
+<UL class="links horizontal">
+  <LI><A id="BottomLinks_2148_7" href="https://msdn.microsoft.com/newsletter.aspx" 
+  xmlns="http://www.w3.org/1999/xhtml">新闻稿</A>       </LI>
+  <LI><A id="BottomLinks_2148_8" href="https://msdn.microsoft.com/dn529288" 
+  xmlns="http://www.w3.org/1999/xhtml">隐私&amp; Cookie</A>       </LI>
+  <LI><A id="BottomLinks_2148_9" href="https://msdn.microsoft.com/cc300389" 
+  xmlns="http://www.w3.org/1999/xhtml">使用条款</A>       </LI>
+  <LI><A id="BottomLinks_2148_10" href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" 
+  xmlns="http://www.w3.org/1999/xhtml">商标</A>       </LI></UL></DIV></DIV><SPAN 
+class="logoLegal"><SPAN class="logo"></SPAN>                 <SPAN class="copyright">© 
+2015 Microsoft</SPAN>             </SPAN>         </FOOTER></DIV>
+<DIV class="footerPrintView">
+<DIV class="footerCopyrightPrintView">© 2015 Microsoft</DIV></DIV><INPUT id="tocPaddingPerLevel" type="hidden" value="17"> 
+            <INPUT id="MtpsDevice" type="hidden" value="Default"> <!--[CDATA[ Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code, not by Microsoft.  See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx. ]]--> 
+                                                            
+<NOSCRIPT>&lt;div&gt;&lt;img alt="DCSIMG" id="Img1" width="1" height="1" 
+src="https://m.webtrends.com/dcsmgru7m99k7mqmgrhudo0k8_8c6m/njs.gif?dcsuri=/nojavascript&amp;amp;WT.js=No" 
+/&gt;&lt;/div&gt;</NOSCRIPT> <NOSCRIPT>  &lt;a href="http://www.omniture.com" 
+title="Web Analytics"&gt;    &lt;img 
+src="//msstonojsmsdn.112.2o7.net/b/ss/msstonojsmsdn/1/H.20.2--NS/0" height="1" 
+width="1" border="0" alt="" /&gt;  &lt;/a&gt; </NOSCRIPT>             
+<DIV 
+id="globalRequestVerification"><INPUT name="__RequestVerificationToken" type="hidden" value="gdgxl5DdDY_Gu-Cjs2XwD8x63xTfXuvd4hSFc18Cg58XsBd_F166am18mmQN64c5AAIfAbgN-wbcgPq1Cd3NnzIyL1E1"> 
+</DIV></DIV>
+<SCRIPT class="mtps-injected" type="text/javascript">
+/*<![CDATA[*/
+(function(window,document){"use strict";function preload(scripts){for(var result=[],script,e,i=0;i<scripts.length;i++)script=scripts[i],script.hasOwnProperty("url")&&(e=document.createElement("script"),e.src=script.url,script.throwaway=e),result.push(script);return result}function inject(scripts,index){var script,elem;if(index>=scripts.length){delete mtps.injectScripts;return}script=scripts[index];elem=document.createElement("script");elem.className="mtps-injected";elem.async=!1;var isLoaded=!1,timeoutId=0,injectNextFnName="",injectNext=elem.onerror=function(){isLoaded||(isLoaded=!0,inject(scripts,index+1),window.clearTimeout(timeoutId),elem.onload=elem.onerror=elem.onreadystatechange=null,injectNextFnName&&delete mtps[injectNextFnName],elem.removeEventListener&&elem.removeEventListener("load",injectNext,!1))};elem.addEventListener?elem.addEventListener("load",injectNext,!1):elem.readyState==="uninitialized"?elem.onreadystatechange=function(){(this.readyState==="loaded"||this.readyState==="complete")&&injectNext()}:elem.onload=injectNext;script.hasOwnProperty("url")?(timeoutId=window.setTimeout(injectNext,12e4),elem.src=script.url):(injectNextFnName="_injectNextScript_"+index,mtps[injectNextFnName]=injectNext,timeoutId=window.setTimeout(injectNext,2e3),elem.text="try {\n"+script.txt+"\n} finally { MTPS."+injectNextFnName+" && MTPS."+injectNextFnName+"(); }");parent.appendChild(elem)}var mtps=window.MTPS||(window.MTPS={}),parent=document.getElementsByTagName("head")[0];mtps.injectScripts=function(scripts){inject(preload(scripts),0)}})(window,document);
+MTPS.injectScripts([
+	{ txt: "/**/\r\n(window.MTPS || (window.MTPS = {})).cdnDomains || (window.MTPS.cdnDomains = { \r\n\t\"image\": \"https://i-msdn.sec.s-msft.com\", \r\n\t\"js\": \"https://i2-msdn.sec.s-msft.com\", \r\n\t\"css\": \"https://i-msdn.sec.s-msft.com\", \r\n\t\"xap\": \"https://msdn.microsoft.com\"\r\n});\r\n/**/" },
+	{ url: "https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js" },
+	{ txt: "//\n  var literalNormalizedUrl = \u0027/zh-cn/library/ae5bf541(l=zh-cn,v=vs.80).aspx\u0027;\n  var wt_nvr_ru = \u0027WT_NVR_RU\u0027;\n  var wt_fpcdom = \u0027.microsoft.com\u0027;\n  var wt_domlist = \u0027msdn.microsoft.com\u0027;\n  var wt_pathlist = \u0027\u0027;\n  var wt_paramlist = \u0027DCSext.mtps_devcenter\u0027;\n  var wt_siteid = \u0027MSDN\u0027;\n  var gDomain = \u0027m.webtrends.com\u0027;\n  var gDcsId = \u0027dcsmgru7m99k7mqmgrhudo0k8_8c6m\u0027;\n  var gFpc = \u0027WT_FPC\u0027;\n\n\n\n  if (document.cookie.indexOf(gFpc + \"=\") == -1) {\n    var wtidJs = document.createElement(\"script\");\n    wtidJs.src = \"//\" + gDomain + \"/\" + gDcsId + \"/wtid.js\";\n    document.getElementsByTagName(\"head\")[0].appendChild(wtidJs);\n  }\n\n\n\n  var detectedLocale = \u0027zh-cn\u0027;\n  var wtsp = \u0027msdnlib_devtools_lang\u0027;\n  var gTrackEvents = \u00270\u0027;\n/**/" },
+	{ txt: "/**/\n  var omni_guid = \"a3c1b0c7-fa5c-49c0-9bf1-1bfae66e2938\";\n/**/" },
+	{ txt: "//\n\n            window.appInsightsId = \u002760854590-027a-4ae4-98be-2741a40f355f\u0027;\n            //" },
+	{ url: "https://i2-msdn.sec.s-msft.com/Combined.js?resources=0:Utilities,1:Layout,2:Header,3:SkinnyRating,1:Rating,2:Footer,0:Topic,4:webtrendsscript,5:omni_rsid_MSDN,6:WEDCS,0:AppInsightsPerf,7:Toc,1:SearchBox;/Areas/Epx/Content/Scripts:0,/Areas/Epx/Themes/Base/Content:1,/Areas/Centers/Themes/StandardDevCenter/Content:2,/Areas/Library/Themes/Msdn/Content:3,/Areas/Global/Content/Webtrends/resources:4,/Areas/Global/Content/Omniture/resources/MSDN:5,/Areas/Library/Themes/Base/Content:6,/Areas/Library/Content:7\u0026amp;hashKey=E276726067F2E100F89A517F4417F45E\u0026amp;v=6C07E44DFDDB7E2F3983437B13DF1A70" },
+	{ url: "https://i1.services.social.microsoft.com/search/Widgets/SearchBox.jss?boxid=HeaderSearchTextBox\u0026btnid=HeaderSearchButton\u0026brand=Msdn\u0026loc=zh-cn\u0026focusOnInit=false\u0026emptyWatermark=true\u0026searchButtonTooltip=搜索 MSDN" },
+	{ url: "https://i2-msdn.sec.s-msft.com/Combined.js?resources=0:PrintExportButton,1:NavigationResize;/Areas/Library/Themes/Base/Content:0,/Areas/Library/Content:1\u0026amp;hashKey=86914F35EE0A9731DDD02541EA123CEF\u0026amp;v=6C07E44DFDDB7E2F3983437B13DF1A70" },
+	{ url: "https://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js" },
+	{ url: "https://i2-msdn.sec.s-msft.com/Combined.js?resources=0:CommunityContent,0:LibraryMemberFilter,1:Toc_Fixed,1:CodeSnippet,1:TopicNotInScope,1:CollapsibleArea,1:VersionSelector,1:SurveyBroker;/Areas/Library/Content:0,/Areas/Epx/Content/Scripts:1\u0026amp;hashKey=EB298C838117D9E7008C7CC11E7732E3\u0026amp;v=6C07E44DFDDB7E2F3983437B13DF1A70" },
+	{ txt: "$(document).ready(function() {\n        try {\n            var token = $(\"#globalRequestVerification input[name=\u0027__RequestVerificationToken\u0027]\").clone();\n            $(\"#siteFeedbackForm\").append(token);\n        } catch(err) {\n            \n        }\n    });" }
+]);
+
+/*]]>*/
+</SCRIPT>
+ </BODY></HTML>

@@ -1,0 +1,8 @@
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyModels\bin\Debug\EntityFramework.dll
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyModels\bin\Debug\EntityFramework.xml
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyModels\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyModels\bin\Debug\FocusAcademy.Models.dll.config
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyModels\bin\Debug\FocusAcademy.Models.dll
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyModels\bin\Debug\FocusAcademy.Models.pdb
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyModels\obj\Debug\FocusAcademy.Models.dll
+E:\代码\第三期\毕业项目\FocusAcademyTest\FocusAcademyModels\obj\Debug\FocusAcademy.Models.pdb

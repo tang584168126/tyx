@@ -1,0 +1,18 @@
+[WebRootPath]
+[Author]
+[Publisher]
+[PublishDate]
+[ISBN]
+[Price]
+[Content]
+[TOC]
+
+HttpHandler.ashx
+BookDetails/[bid].html  	=> HttpHandler.ashx
+
+1.判断url指定的html页面是否存在，如果存在，直接拿取
+2.如果不存在，根据url截取书籍编号[bid]
+3.根据bid获取本书的详细信息
+4.通过StreamReader类将模板文件temp.html读取为一个字符串strHtml
+5.通过replace("[WebRootPath]","路径")替换掉字符串strHtml中的占位符
+6.替换完毕后，将strHtml字符串保存为一个静态的html页面

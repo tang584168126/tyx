@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\jQuery之Ajax应用\04 jQuery之post()\bin\04 jQuery之post().dll
+C:\Users\Administrator\Desktop\jQuery之Ajax应用\04 jQuery之post()\bin\04 jQuery之post().pdb
+C:\Users\Administrator\Desktop\jQuery之Ajax应用\04 jQuery之post()\obj\Debug\04 jQuery之post().csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\jQuery之Ajax应用\04 jQuery之post()\obj\Debug\04 jQuery之post().dll
+C:\Users\Administrator\Desktop\jQuery之Ajax应用\04 jQuery之post()\obj\Debug\04 jQuery之post().pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\jQuery之Ajax应用\04 jQuery之post()\bin\04 jQuery之post().dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\jQuery之Ajax应用\04 jQuery之post()\bin\04 jQuery之post().dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\jQuery之Ajax应用\04 jQuery之post()\bin\04 jQuery之post().pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\jQuery之Ajax应用\04 jQuery之post()\obj\Debug\04 jQuery之post().csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\jQuery之Ajax应用\04 jQuery之post()\obj\Debug\04 jQuery之post().dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第八次课\jQuery之Ajax应用\04 jQuery之post()\obj\Debug\04 jQuery之post().pdb

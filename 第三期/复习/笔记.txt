@@ -1,0 +1,23 @@
+Connection、Command、DataReader、DataAdapter(System.Data.SqlClient)
+DataSet(System.Data)
+
+ADO.NET的构成：
+	1..NET Framework数据提供程序
+	2.DataSet
+.NET framework数据提供程序的核心对象
+	Connection、Command、DataReader、DataAdapter
+连接池：可以理解为一个容器，用来存放并分配数据库连接
+	作用：
+		1.分配空闲连接
+		2.移除无效连接
+		3.回收使用完的连接
+SqlCommand对象：将sql命令提交到服务器
+	CommandType:指明要执行的是sql语句还是存储过程
+		CommandType.Text
+		CommandType.StoredProcedure
+	CommandText:指明要执行的sql语句或存储过程名
+	Parameters:sql语句的参数或存储过程的参数，他是一个集合
+		EcexuteNonQuery():执行增、删、改操作，返回受影响的行数
+		ExecuteScalar():查询单个值。返回类型为Object
+		ExecuteReader():逐行向前读取多行多列的数据，返回类型为SqlDataReader
+SqlDataReader对象:用于逐行向前读取多行多列的数据；在读完数据之前，一直与数据库保持连接；在数据读完之后要关闭	

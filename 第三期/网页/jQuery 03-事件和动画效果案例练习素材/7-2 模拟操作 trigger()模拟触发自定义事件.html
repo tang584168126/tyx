@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>7-2 模拟操作 trigger()模拟触发自定义事件</title>
+<style type="text/css">
+*{margin:0;padding:0;}	
+body { font-size: 13px; line-height: 130%; padding: 60px; }
+p {width:200px;background:#888;color:white;height:16px;}
+</style>
+<script src="scripts/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(function(){
+	   //为$('#btn')按钮绑定自定义事件myClick
+	   $('#btn').bind("myClick", function(){
+			$('#test').append("<p>我的自定义事件.</p>");
+		});
+	   
+	   //为$('#btn')按钮绑定click事件，click事件内部自动触发myClick事件
+	   //$('#btn')按钮自动触发
+	   $("#btn").click(function(){
+			$(this).trigger("myClick");
+	   });
+	   $("#btn").trigger("click");
+	})
+</script>
+</head>
+<body>
+<button id="btn">点击我</button>
+<div id="test"></div>
+</body>
+</html>

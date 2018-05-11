@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18A4C522-6D67-4DC4-AB0D-0226C49BC841}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FocusAcademy.Models</RootNamespace>
+    <AssemblyName>FocusAcademy.Models</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BookBasicInfo.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BookType.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChapterUrl.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EAuthor.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EBookInfo.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityBookInfo.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityProfit.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EProfit.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FocusAcademy.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FocusAcademy.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FocusAcademy.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FocusAcademy.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FocusAcademy.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="FocusAdmin.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlayManage.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Publisher.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TotalBookType.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserBuyer.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserComment.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserHouse.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfit.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserScore.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UsersInfo.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UsersRole.cs">
+      <DependentUpon>FocusAcademy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\Common.cs" />
+    <Compile Include="ViewModels\LoginModel.cs" />
+    <Compile Include="ViewModels\RegisterModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="FocusAcademy.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>FocusAcademy.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="FocusAcademy.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>FocusAcademy.edmx</DependentUpon>
+      <LastGenOutput>FocusAcademy.Context.cs</LastGenOutput>
+    </None>
+    <None Include="FocusAcademy.edmx.diagram">
+      <DependentUpon>FocusAcademy.edmx</DependentUpon>
+    </None>
+    <None Include="FocusAcademy.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>FocusAcademy.edmx</DependentUpon>
+      <LastGenOutput>FocusAcademy.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

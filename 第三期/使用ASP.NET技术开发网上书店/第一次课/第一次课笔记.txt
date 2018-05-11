@@ -1,0 +1,37 @@
+1.代码内嵌和后置
+<script runat="server"></script>	放置方法
+
+<% %>	放置表达式
+<% = 变量%>这种内嵌方式调用变量值不可以应用到服务器控件(包含runat="server")
+
+2.B/S的工作原理
+请求	浏览器				HttpRequest类
+应答	Web服务器			HttpResponse类
+
+3.ASP.NET引擎的运行方式
+第一次请求：如果请求的是.aspx文件，那么引擎会根据page指令来找到其对应的后台文件，然后将他们合并并解析成一个类，然后将这个类编译成程序集
+后续请求：直接使用已经编译好的程序集
+结论：第一次请求会比较慢，而之后的请求会更快
+
+4.page类
+IsPostBack:是否是回发(第一次请求)
+Request
+Response
+
+5.页面的声明周期
+ASP.NET引擎将.aspx页面转换为浏览器能够解释执行的HTML页面的过程
+Page_PreInit
+Page_Init
+Page_Load
+验证
+事件处理
+Page_PreRender
+Page_Render
+Page_UnLoad
+
+高内聚，低耦合
+
+UI层	需要引用的程序集：Model层、BLL层、Common层
+BLL层	需要引用的程序集：Model层、DAL层、Common层	包含的文件名及其类名：实体类名+Manager
+DAL层	需要引用的程序集：Model层、Common层	包含的文件名及其类名：实体类名+Service
+Model层	不需要引用任何程序集已经包含的文件名及其类名：和表名以及视图名一致(用单数)

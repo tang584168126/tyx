@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body>
+<input   type="button"   value="Save"   onclick="saveText()">   
+  <script>   
+  function   saveText()   
+  {   
+     
+          var   strHTML   = "原理：IE内核 winSave.document.execCommand。优点：支持多种文本格式，缺点：只支持IE游览器。现状：正在进一步研究。";   
+          var   winSave   =   window.open();   
+          winSave.document.open   ("text","gb2312");   
+          winSave.document.write   (strHTML);   
+          winSave.document.execCommand   ("SaveAs",true,"table.txt");   
+          winSave.close();   
+  }   
+  </script>
+</body>
+</html>

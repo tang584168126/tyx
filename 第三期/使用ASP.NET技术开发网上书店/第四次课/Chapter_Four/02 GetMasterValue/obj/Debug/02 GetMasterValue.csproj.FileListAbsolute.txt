@@ -1,0 +1,5 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\02 GetMasterValue\bin\02 GetMasterValue.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\02 GetMasterValue\bin\02 GetMasterValue.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\02 GetMasterValue\bin\02 GetMasterValue.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\02 GetMasterValue\obj\Debug\02 GetMasterValue.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第四次课\Chapter_Four\02 GetMasterValue\obj\Debug\02 GetMasterValue.pdb

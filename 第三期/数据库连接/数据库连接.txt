@@ -1,0 +1,145 @@
+ADO.NET
+	DataSet：数据集
+	.NET Framework数据提供程序
+
+一、数据库连接查询单个数据的步骤
+	1.引用 命名空间		
+		using System.Data.SqlClient;
+
+	2.创建 连接字符串
+		1)SQL Server身份登录验证
+		string connString = @"Data Source=服务器名;Initial Catalog=数据库名;User ID=登录名;Pwd=密码";
+		2)Windows身份登录验证
+		string connString = @"Data Source=服务器名;Initial Catalog=数据库名;Integrated Security = True";
+
+	3.利用 连接字符串 创建 连接对象
+		SqlConnection conn = new SqlConnection(connString);
+
+	4.创建 SQL命令
+		string sqlText = "";
+
+	5.利用 连接对象和SQL命令 创建 命令对象
+		SqlCommand comm = new SqlCommand(sqlText, conn);
+
+	6.打开 数据库连接
+		conn.Open();
+
+	7.执行 SQL命令,使用合适的数据类型变量接收结果(int类型居多)
+		object obj = comm.ExecuteScalar();
+		//int result = (int)comm.ExecuteScalar();
+
+	8.处理 结果
+
+	9.关闭 数据库连接
+		conn.Close();
+
+二、数据库连接查询数据(连接式)的步骤（多行多列）
+	1.引用 命名空间
+		using System.Data.SqlClient;
+
+	2.创建 连接字符串
+		1)SQL Server身份登录验证
+		string connString = @"Data Source=服务器名;Initial Catalog=数据库名;User ID=登录名;Pwd=密码";
+		2)Windows身份登录验证
+		string connString  = @"Data Source=服务器名;Initial Catalog=数据库名;Integrated Security = True";
+
+	3.利用 连接字符串 创建 连接对象
+		SqlConnection conn = new SqlConnection(connString);
+
+	4.创建 SQL命令
+		string sqlText = "";
+
+	5.利用 连接对象和SQL命令 创建 执行对象
+		SqlCommand comm = new SqlCommand(sqlText, conn);
+
+	6.打开 数据库连接
+		conn.Open();
+
+	7.执行 SQL命令 创建DataReader对象接收执行的结果
+		SqlDataReader reader = comm.ExecuteReader();
+
+	8.处理 reader中的结果
+		判断reader中是否有资料:reader.HasRows
+		循环处理reader中的资料:reader.Read()
+		获得数据：
+			reader.GetValue(下标)
+			reader[下标]
+			reader[列名]
+
+	9.关闭 DataReader 和 数据库连接
+		reader.Close();
+		conn.Close();
+
+
+三、数据库连接操作数据的步骤(增删改)
+	1.引用命名空间		
+		using System.Data.SqlClient;
+
+	2.创建 连接字符串
+		1)SQL Server身份登录验证
+		string connString = @"Data Source=服务器名;Initial Catalog=数据库名;User ID=登录名;Pwd=密码";
+		2)Windows身份登录验证
+		string connString = @"Data Source=服务器名;Initial Catalog=数据库名;Integrated Security = True";
+
+	3.利用 连接字符串 创建 连接对象
+		SqlConnection conn = new SqlConnection(connString);
+
+	4.创建 SQL命令
+		string sqlText = "";
+
+	5.利用 连接对象和SQL命令 创建 执行对象
+		SqlCommand comm = new SqlCommand(sqlText, conn);
+
+	6.打开 数据库连接
+		conn.Open();
+
+	7.执行 SQL命令并接收受影响的行数
+		int result = comm.ExecuteNonQuery();
+
+	8.处理 结果
+
+	9.关闭 数据库连接
+		conn.Close();
+
+四、使用DataSet连接数据库操作数据（多行多列）(断开式)
+	1.引用 命名空间
+		using System.Data;
+		using System.Data.SqlClient;
+
+	2.创建 连接字符串
+		1)SQL Server身份登录验证
+		string connString = @"Data Source=服务器名;Initial Catalog=数据库名;User ID=登录名;Pwd=密码";
+		2)Windows身份登录验证
+		string connString = @"Data Source=服务器名;Initial Catalog=数据库名;Integrated Security = True";
+
+	3.创建 连接对象
+		SqlConnection conn = new SqlConnection(connString);
+
+	4.创建 SQL命令
+		string sqlText = "";
+
+	5.利用 连接对象和SQL命令 创建 数据适配器
+		SqlDataAdapter da = new SqlDataAdapter(sqlText, conn);
+		或
+		SqlCommand comm = new SqlCommand(sqlText, conn);
+		
+		SqlDataAdapter da = new SqlDataAdapter();
+		da.SelectCommand = comm;
+
+	6.填充 数据集
+		DataSet ds = new DataSet();
+		da.Fill(ds,表名);
+
+	7.处理 数据集(绑定)
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+第一章：
+	reusable:可重复使用的
+	process:处理，程序
+	handler:处理者
+	graphics:制图法
+	context:上下文
+	filter:滤过
+	
+第二章：
+	register:注册
+	prefix:	前缀
+	toolbox:工具箱
+	render：提出，实施
+	attribute：属性
+	resource：资源
+
+第六章：
+	asynchronous:异步
+	synchronous:同步
+	location:位置
+	resolve:决定
+	context:上下文
+	serialize:连续

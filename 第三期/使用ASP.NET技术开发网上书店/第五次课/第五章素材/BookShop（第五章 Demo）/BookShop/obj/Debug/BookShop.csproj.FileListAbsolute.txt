@@ -1,0 +1,34 @@
+C:\Users\Administrator\Desktop\BookShop\BookShop\bin\BookShop.dll
+C:\Users\Administrator\Desktop\BookShop\BookShop\bin\BookShop.pdb
+C:\Users\Administrator\Desktop\BookShop\BookShop\bin\BookShop.BLL.dll
+C:\Users\Administrator\Desktop\BookShop\BookShop\bin\BookShop.Models.dll
+C:\Users\Administrator\Desktop\BookShop\BookShop\bin\BookShop.BLL.pdb
+C:\Users\Administrator\Desktop\BookShop\BookShop\bin\BookShop.Models.pdb
+C:\Users\Administrator\Desktop\BookShop\BookShop\obj\Debug\BookShop.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BookShop\BookShop\obj\Debug\BookShop.dll
+C:\Users\Administrator\Desktop\BookShop\BookShop\obj\Debug\BookShop.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五章\第五章素材\BookShop（第五章 Demo）\BookShop\bin\BookShop.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五章\第五章素材\BookShop（第五章 Demo）\BookShop\bin\BookShop.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五章\第五章素材\BookShop（第五章 Demo）\BookShop\bin\BookShop.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五章\第五章素材\BookShop（第五章 Demo）\BookShop\bin\BookShop.BLL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五章\第五章素材\BookShop（第五章 Demo）\BookShop\bin\BookShop.Models.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五章\第五章素材\BookShop（第五章 Demo）\BookShop\bin\BookShop.DAL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五章\第五章素材\BookShop（第五章 Demo）\BookShop\bin\BookShop.BLL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五章\第五章素材\BookShop（第五章 Demo）\BookShop\bin\BookShop.Models.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五章\第五章素材\BookShop（第五章 Demo）\BookShop\bin\BookShop.DAL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五章\第五章素材\BookShop（第五章 Demo）\BookShop\obj\Debug\BookShop.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五章\第五章素材\BookShop（第五章 Demo）\BookShop\obj\Debug\BookShop.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五章\第五章素材\BookShop（第五章 Demo）\BookShop\obj\Debug\BookShop.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五次课\第五章素材\BookShop（第五章 Demo）\BookShop\bin\BookShop.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五次课\第五章素材\BookShop（第五章 Demo）\BookShop\bin\BookShop.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五次课\第五章素材\BookShop（第五章 Demo）\BookShop\bin\BookShop.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五次课\第五章素材\BookShop（第五章 Demo）\BookShop\bin\BookShop.BLL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五次课\第五章素材\BookShop（第五章 Demo）\BookShop\bin\BookShop.Models.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五次课\第五章素材\BookShop（第五章 Demo）\BookShop\bin\BookShop.DAL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五次课\第五章素材\BookShop（第五章 Demo）\BookShop\bin\BookShop.BLL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五次课\第五章素材\BookShop（第五章 Demo）\BookShop\bin\BookShop.Models.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五次课\第五章素材\BookShop（第五章 Demo）\BookShop\bin\BookShop.DAL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五次课\第五章素材\BookShop（第五章 Demo）\BookShop\obj\Debug\BookShop.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五次课\第五章素材\BookShop（第五章 Demo）\BookShop\obj\Debug\BookShop.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五次课\第五章素材\BookShop（第五章 Demo）\BookShop\obj\Debug\BookShop.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第五次课\第五章素材\BookShop（第五章 Demo）\BookShop\bin\MyControls.dll

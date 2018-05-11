@@ -1,0 +1,6 @@
+E:\代码\第三期\复习\Question50\Question1\bin\Debug\Question1.exe.config
+E:\代码\第三期\复习\Question50\Question1\obj\Debug\Question1.csprojResolveAssemblyReference.cache
+E:\代码\第三期\复习\Question50\Question1\bin\Debug\Question1.exe
+E:\代码\第三期\复习\Question50\Question1\bin\Debug\Question1.pdb
+E:\代码\第三期\复习\Question50\Question1\obj\Debug\Question1.exe
+E:\代码\第三期\复习\Question50\Question1\obj\Debug\Question1.pdb

@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Hello Ajax</title>
+    <script src=" scripts /jquery-1.8.0.js"></script>
+    <script type="text/javascript">
+        function createXMLHtpRequest() {
+            if (window.ActiveXObject) {     //IE5,IE6浏览器
+                return new ActiveXObject("Microsoft.XMLHTTP");
+            } else if (window.XMLHttpRequest) {     //其他浏览器
+                return new XMLHttpRequest();
+            }
+        }
+
+        window.onload = function () {
+            $("#btnSubmit").click(function () {
+                //1.创建原生对象XMLHttpRequest
+                var xhr = createXMLHtpRequest();
+
+                //2.设置回调函数
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4 && xhr.status == 200) {
+                        document.getElementById('txtMsg').innerHTML = xhr.responseText;
+                    }
+                }
+
+                //3.初始化原生对象
+                xhr.open("GET", "Text.aspx", true);
+
+                //发送请求
+                xhr.send(null);
+            });
+        }
+        
+    </script>
+</head>
+<body>
+    <input type="button" id="btnSubmit" value="Ajax请求" />
+    <div id="txtMsg">
+
+    </div>
+</body>
+</html>

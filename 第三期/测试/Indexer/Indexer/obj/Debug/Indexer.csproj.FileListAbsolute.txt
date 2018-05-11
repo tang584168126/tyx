@@ -1,0 +1,6 @@
+E:\代码\第三期\测试\Indexer\Indexer\bin\Debug\Indexer.exe.config
+E:\代码\第三期\测试\Indexer\Indexer\bin\Debug\Indexer.exe
+E:\代码\第三期\测试\Indexer\Indexer\bin\Debug\Indexer.pdb
+E:\代码\第三期\测试\Indexer\Indexer\obj\Debug\Indexer.csprojResolveAssemblyReference.cache
+E:\代码\第三期\测试\Indexer\Indexer\obj\Debug\Indexer.exe
+E:\代码\第三期\测试\Indexer\Indexer\obj\Debug\Indexer.pdb

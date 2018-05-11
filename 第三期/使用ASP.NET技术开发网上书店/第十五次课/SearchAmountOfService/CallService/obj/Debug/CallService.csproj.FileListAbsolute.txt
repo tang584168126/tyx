@@ -1,0 +1,1 @@
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十五次课\SearchAmountOfService\CallService\obj\Debug\CallService.csprojResolveAssemblyReference.cache

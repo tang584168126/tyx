@@ -1,0 +1,48 @@
+C:\Users\Administrator\Desktop\BookShop\BookShop\bin\BookShop.dll
+C:\Users\Administrator\Desktop\BookShop\BookShop\bin\BookShop.pdb
+C:\Users\Administrator\Desktop\BookShop\BookShop\obj\Debug\BookShop.dll
+C:\Users\Administrator\Desktop\BookShop\BookShop\obj\Debug\BookShop.pdb
+C:\Users\Administrator\Desktop\BookShop\BookShop\bin\MyControls.dll
+C:\Users\Administrator\Desktop\BookShop\BookShop\obj\Debug\BookShop.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BookShop\BookShop\bin\BookShopBLL.dll
+C:\Users\Administrator\Desktop\BookShop\BookShop\bin\BookShopDAL.dll
+C:\Users\Administrator\Desktop\BookShop\BookShop\bin\BookShopModels.dll
+C:\Users\Administrator\Desktop\BookShop\BookShop\bin\BookShopBLL.pdb
+C:\Users\Administrator\Desktop\BookShop\BookShop\bin\BookShopDAL.pdb
+C:\Users\Administrator\Desktop\BookShop\BookShop\bin\BookShopModels.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShop\bin\BookShop.dll
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShop\bin\BookShop.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShop\bin\BookShopBLL.dll
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShop\bin\BookShopDAL.dll
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShop\bin\BookShopModels.dll
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShop\bin\MyControls.dll
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShop\bin\BookShopBLL.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShop\bin\BookShopDAL.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShop\bin\BookShopModels.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShop\obj\Debug\BookShop.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShop\obj\Debug\BookShop.dll
+C:\Users\Administrator\Desktop\Temp\BookShop\BookShop\obj\Debug\BookShop.pdb
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShop\bin\BookShop.dll
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShop\bin\BookShop.pdb
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShop\bin\BookShopBLL.dll
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShop\bin\BookShopDAL.dll
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShop\bin\BookShopModels.dll
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShop\bin\MyControls.dll
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShop\bin\BookShopBLL.pdb
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShop\bin\BookShopDAL.pdb
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShop\bin\BookShopModels.pdb
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShop\obj\Debug\BookShop.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShop\obj\Debug\BookShop.dll
+C:\Users\Administrator\Desktop\BookShop v1.2\BookShop\obj\Debug\BookShop.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShop\bin\BookShop.dll.config
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShop\bin\BookShop.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShop\bin\BookShop.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShop\bin\BookShopBLL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShop\bin\BookShopDAL.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShop\bin\BookShopModels.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShop\bin\BookShopBLL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShop\bin\BookShopDAL.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShop\bin\BookShopModels.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShop\obj\Debug\BookShop.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShop\obj\Debug\BookShop.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第十六次课\BookShop for Deploy\BookShop\obj\Debug\BookShop.pdb

@@ -1,0 +1,19 @@
+C:\Users\Administrator\Desktop\BookShop\BookShopModels\bin\Debug\BookShop.Models.dll
+C:\Users\Administrator\Desktop\BookShop\BookShopModels\bin\Debug\BookShop.Models.pdb
+C:\Users\Administrator\Desktop\BookShop\BookShopModels\obj\Debug\BookShopModels.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BookShop\BookShopModels\obj\Debug\BookShop.Models.dll
+C:\Users\Administrator\Desktop\BookShop\BookShopModels\obj\Debug\BookShop.Models.pdb
+C:\Users\Administrator\Desktop\第五章素材\BookShop（第五章 Demo）\BookShopModels\bin\Debug\BookShop.Models.dll
+C:\Users\Administrator\Desktop\第五章素材\BookShop（第五章 Demo）\BookShopModels\bin\Debug\BookShop.Models.pdb
+C:\Users\Administrator\Desktop\第五章素材\BookShop（第五章 Demo）\BookShopModels\obj\Debug\BookShopModels.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\第五章素材\BookShop（第五章 Demo）\BookShopModels\obj\Debug\BookShop.Models.dll
+C:\Users\Administrator\Desktop\第五章素材\BookShop（第五章 Demo）\BookShopModels\obj\Debug\BookShop.Models.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop_Stu_v2.1 0627（完成登录、注册所有功能）\BookShopModels\bin\Debug\BookShop.Models.dll
+C:\Users\Administrator\Desktop\Temp\BookShop_Stu_v2.1 0627（完成登录、注册所有功能）\BookShopModels\bin\Debug\BookShop.Models.pdb
+C:\Users\Administrator\Desktop\Temp\BookShop_Stu_v2.1 0627（完成登录、注册所有功能）\BookShopModels\obj\Debug\BookShop.Models.dll
+C:\Users\Administrator\Desktop\Temp\BookShop_Stu_v2.1 0627（完成登录、注册所有功能）\BookShopModels\obj\Debug\BookShop.Models.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第六次课\BookShop_Stu_v2.1 0627（完成登录、注册所有功能）\BookShopModels\bin\Debug\BookShop.Models.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第六次课\BookShop_Stu_v2.1 0627（完成登录、注册所有功能）\BookShopModels\bin\Debug\BookShop.Models.pdb
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第六次课\BookShop_Stu_v2.1 0627（完成登录、注册所有功能）\BookShopModels\obj\Debug\BookShopModels.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第六次课\BookShop_Stu_v2.1 0627（完成登录、注册所有功能）\BookShopModels\obj\Debug\BookShop.Models.dll
+E:\代码\第三期\使用ASP.NET技术开发网上书店\第六次课\BookShop_Stu_v2.1 0627（完成登录、注册所有功能）\BookShopModels\obj\Debug\BookShop.Models.pdb
