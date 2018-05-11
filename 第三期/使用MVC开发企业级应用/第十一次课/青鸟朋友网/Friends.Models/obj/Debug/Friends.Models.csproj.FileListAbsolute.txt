@@ -1,0 +1,60 @@
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Models\bin\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Models\bin\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Models\obj\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Models\obj\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Models\bin\Debug\Friends.Models.dll.config
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Models\bin\Debug\EntityFramework.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Models\bin\Debug\EntityFramework.xml
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Models\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Models\obj\Debug\Friends.Models.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter13\01 教学示例\Friends\Friends.Models\obj\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter13\01 教学示例\Friends\Friends.Models\obj\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter13\01 教学示例\Friends\Friends.Models\bin\Debug\Friends.Models.dll.config
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter13\01 教学示例\Friends\Friends.Models\bin\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter13\01 教学示例\Friends\Friends.Models\bin\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter13\01 教学示例\Friends\Friends.Models\bin\Debug\EntityFramework.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter13\01 教学示例\Friends\Friends.Models\bin\Debug\EntityFramework.xml
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter13\01 教学示例\Friends\Friends.Models\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter14\01 教学示例\Friends\Friends.Models\bin\Debug\Friends.Models.dll.config
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter14\01 教学示例\Friends\Friends.Models\bin\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter14\01 教学示例\Friends\Friends.Models\bin\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter14\01 教学示例\Friends\Friends.Models\bin\Debug\EntityFramework.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter14\01 教学示例\Friends\Friends.Models\bin\Debug\EntityFramework.xml
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter14\01 教学示例\Friends\Friends.Models\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter14\01 教学示例\Friends\Friends.Models\obj\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter14\01 教学示例\Friends\Friends.Models\obj\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Models\bin\Debug\Friends.Models.dll.config
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Models\bin\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Models\bin\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Models\bin\Debug\EntityFramework.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Models\bin\Debug\EntityFramework.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Models\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Models\obj\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Models\obj\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Models\bin\Debug\Friends.Models.dll.config
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Models\bin\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Models\bin\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Models\bin\Debug\EntityFramework.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Models\bin\Debug\EntityFramework.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Models\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Models\obj\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Models\obj\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Models\obj\Debug\Friends.Models.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Models\bin\Debug\Friends.Models.dll.config
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Models\bin\Debug\Friends.Models.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Models\bin\Debug\Friends.Models.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Models\bin\Debug\EntityFramework.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Models\bin\Debug\EntityFramework.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Models\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Models\obj\Debug\Friends.Models.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Models\obj\Debug\Friends.Models.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Models\obj\Debug\Friends.Models.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第十一次课\青鸟朋友网\Friends.Models\bin\Debug\Friends.Models.dll.config
+E:\代码\第三期\使用MVC开发企业级应用\第十一次课\青鸟朋友网\Friends.Models\bin\Debug\Friends.Models.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十一次课\青鸟朋友网\Friends.Models\bin\Debug\Friends.Models.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第十一次课\青鸟朋友网\Friends.Models\bin\Debug\EntityFramework.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十一次课\青鸟朋友网\Friends.Models\bin\Debug\EntityFramework.xml
+E:\代码\第三期\使用MVC开发企业级应用\第十一次课\青鸟朋友网\Friends.Models\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十一次课\青鸟朋友网\Friends.Models\obj\Debug\Friends.Models.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用MVC开发企业级应用\第十一次课\青鸟朋友网\Friends.Models\obj\Debug\Friends.Models.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十一次课\青鸟朋友网\Friends.Models\obj\Debug\Friends.Models.pdb

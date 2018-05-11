@@ -1,0 +1,23 @@
+﻿@{
+    Layout = null;
+}
+@model List<Friends.Models.ExpertModel>
+
+<div class="expert">
+    <dl class="pubListTitle">
+        <dt>青鸟专家排行榜</dt>
+        <dd><a href="#">&#8226;&#8226;&#8226;</a></dd>
+    </dl>
+    @if (Model != null)
+    {
+        foreach (var item in Model)
+        {
+        <dl class="expertList">
+            <dt>
+                <img src="~/images/headers/@item.HeaderImage" width="50" height="50" /></dt>
+            <dd><a href="#">@item.Name</a><br />
+                <span>@item.Title</span>青鸟豆：@item.Prize</dd>
+        </dl>
+        }
+    }
+</div>

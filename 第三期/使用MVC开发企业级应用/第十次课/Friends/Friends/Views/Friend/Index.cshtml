@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Common.cshtml";
+}
+
+@section scripts{
+    <script src=@Href("~/Scripts/jquery.unobtrusive-ajax.min.js")></script>
+    <script>
+        $(function () {
+            $("#tabs").tabs();
+
+            $(".friendType").load("@Url.Action("GroupList","PrivateGroup")")
+            $(".friendList").load("@Url.Action("FriendList","Friend")")
+        })
+
+        function loadFriendListByGroup(data) {
+            $(".friendList").html(data);
+        }        
+    </script>
+}
+
+<dl class="friendHeader">
+    <dt class="iconBg">好友</dt>
+    <dd><a href="#"><< 返回上一页</a></dd>
+</dl>
+
+<div id="tabs">
+    <ul class="friendTab">
+        <li><a href="#tab1" class="empty">我的好友</a></li>
+        <li><a href="#tab2" class="line">查找朋友</a></li>
+    </ul>
+    <div id="tab1">
+        <div class="friendType">
+            
+        </div>
+        <div class="friendList">
+            
+        </div>
+    </div>
+    <div id="tab2"></div>
+</div>
+
+
+

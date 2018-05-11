@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "问答";
+    Layout = "~/Views/Shared/_common.cshtml";
+}
+
+<div class="answers">
+    <dl class="answersHeader">
+        <dt class="iconBg">问答</dt>
+        <dd><a href="#"><< 返回上一页 </a></dd>
+    </dl>
+
+
+    <div id="tabs" style="">
+        <ul class="friendTab">
+
+            <li><a href="@Url.Action("AllQuestions")" >全部问题</a></li>
+            <li><a href="@Url.Action("MyQuestions")">我的问题</a></li>
+            <li><a href="@Url.Action("MyAnswerQuestions")">关注问题</a></li>
+            <li><a href="@Url.Action("TagList")">问题标签</a></li>
+        </ul>
+
+    </div>
+
+
+
+
+</div>
+<div style="float: right; width: 210px; overflow: hidden; padding-top: 40px;">
+    <input type="button" value="问个问题" id="addQuestion" />
+</div>
+@Html.Action("ListExpert")
+
+@section Scripts {
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script type="text/javascript">
+
+        $(
+
+            function () {
+                $("#addQuestion").button().click(
+                    function () {
+                        window.location.href="@Url.Action("Create")"
+                    }
+                    );
+
+                $.ajaxSetup({ cache: false });
+                $("#tabs").tabs(
+                    {
+                        beforeLoad: function () {
+
+                        }
+                    }
+                    );
+
+            });
+    </script>
+}

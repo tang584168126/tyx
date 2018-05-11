@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href=@Href("~/Content/common.css") rel="stylesheet" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body class="headerBg">
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+    @Scripts.Render("~/bundles/jqueryui")
+    <div id="header">
+        <ul>
+            <li>
+                <img src=@Href("~/Images/bird-07.jpg") width="138" height="39" />
+            </li>
+            <li><a href="#">首页</a><a href="#">个人主页</a><a href="#">好友</a><a href="#">消息</a></li>
+        </ul>
+        <form action="" method="post" name="myform">
+            <ol>
+                <li>找人</li>
+                <li class="second">
+                    <input name="searchText" type="text" class="texts" />
+                    <input name="searchFriend" type="button" class="searchFriend" />
+                </li>
+                <li class="third">账号<img src=@Href("~/Images/bird-08.jpg") width="17" height="12" /></li>
+            </ol>
+        </form>
+    </div>
+    <div id="content">
+        <div class="publicLeft">
+            <dl class="headPortrait">
+                <dt>
+                    <img src=@Href("~/Images/upload/img-04.jpg") />
+                </dt>
+                <dd><a href="#">贾俊敏</a></dd>
+            </dl>
+            <div class="pubLink">
+                <a href="#">
+                    <img src=@Href("~/Images/icon-06.jpg") width="28" height="30" />
+                </a><a href="#"><img src=@Href("~/Images/icon-07.jpg") width="24" height="30" /></a>
+            </div>
+            <div class="pubList">
+                <dl>
+                    <dt class="icon01"><a href="#">照片</a></dt>
+                    <dd><a href="#">上传</a></dd>
+                </dl>
+                <dl>
+                    <dt class="icon02"><a href="#">问答</a></dt>
+                    <dd><a href="#">发表</a></dd>
+                </dl>
+                <dl>
+                    <dt class="icon03"><a href="#">随笔</a></dt>
+                    <dd><a href="#">发表</a></dd>
+                </dl>
+                <dl>
+                    <dt class="icon04"><a href="#">记录</a></dt>
+                    <dd>&nbsp;</dd>
+                </dl>
+            </div>
+            <dl class="pubTitle">
+                <dt>群组</dt>
+                <dd><a href="#">&#8226;&#8226;&#8226;</a></dd>
+            </dl>
+            <ul class="pubType">
+                <li><a href="#">青鸟生活</a></li>
+                <li><a href="#">初入青鸟</a></li>
+                <li><a href="#">学习HTML</a></li>
+                <li><a href="#">更多...</a></li>
+            </ul>
+        </div>
+        <div class="pubRight">           
+            @RenderBody() 
+        </div>
+    </div>
+    <div id="linkTopNone"><a href="#">关于我们</a><a href="#">手机中心</a> <a href="#">开放平台</a><a href="#"> 应用中心</a> <a href="#">自助广告</a> <a href="#">青鸟招聘</a> <a href="#">客服</a> <a href="#">帮助</a>青鸟朋友网</div>
+    <div id="copy">北京阿博泰克北大青鸟信息技术有限公司</div>
+    <div id="bottom">
+        <ul>
+            <li class="first">我的应用</li>
+            <li class="second">&nbsp;</li>
+            <li class="third">聊天（1/20）</li>
+        </ul>
+        <div id="scroll">
+            <img src="image/bird-09.jpg" width="35" height="35" />
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter14\01 教学示例\Friends\Friends.Business\obj\Debug\Friends.Business.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter14\01 教学示例\Friends\Friends.Business\bin\Debug\Friends.Business.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter14\01 教学示例\Friends\Friends.Business\bin\Debug\Friends.Business.pdb
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter14\01 教学示例\Friends\Friends.Business\bin\Debug\EntityFramework.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter14\01 教学示例\Friends\Friends.Business\bin\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter14\01 教学示例\Friends\Friends.Business\bin\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter14\01 教学示例\Friends\Friends.Business\bin\Debug\EntityFramework.xml
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter14\01 教学示例\Friends\Friends.Business\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter14\01 教学示例\Friends\Friends.Business\obj\Debug\Friends.Business.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter14\01 教学示例\Friends\Friends.Business\obj\Debug\Friends.Business.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Business\bin\Debug\Friends.Business.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Business\bin\Debug\Friends.Business.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Business\bin\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Business\bin\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Business\obj\Debug\Friends.Business.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Business\obj\Debug\Friends.Business.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Business\obj\Debug\Friends.Business.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Business\bin\Debug\Friends.Business.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Business\bin\Debug\Friends.Business.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Business\bin\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Business\bin\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Business\obj\Debug\Friends.Business.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Business\obj\Debug\Friends.Business.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Business\obj\Debug\Friends.Business.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Business\bin\Debug\Friends.Business.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Business\bin\Debug\Friends.Business.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Business\bin\Debug\Friends.Models.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Business\bin\Debug\Friends.Models.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Business\obj\Debug\Friends.Business.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Business\obj\Debug\Friends.Business.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Business\obj\Debug\Friends.Business.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第十一次课\青鸟朋友网\Friends.Business\bin\Debug\Friends.Business.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十一次课\青鸟朋友网\Friends.Business\bin\Debug\Friends.Business.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第十一次课\青鸟朋友网\Friends.Business\bin\Debug\Friends.Models.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十一次课\青鸟朋友网\Friends.Business\bin\Debug\Friends.Models.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第十一次课\青鸟朋友网\Friends.Business\obj\Debug\Friends.Business.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用MVC开发企业级应用\第十一次课\青鸟朋友网\Friends.Business\obj\Debug\Friends.Business.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十一次课\青鸟朋友网\Friends.Business\obj\Debug\Friends.Business.pdb

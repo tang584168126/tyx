@@ -1,0 +1,251 @@
+﻿@{
+    ViewBag.Title = "结帖";
+    Layout = "~/Views/Shared/_common.cshtml";
+}
+@using Friends.Web.Helpers;
+@using Friends.Business;
+
+@model Friends.Models.Question
+
+<h2 id="quesTitle">@Model.Title</h2>
+<!--问题详细信息-->
+<div class="quesDetail">
+    <div style="font-size: 14px; margin-bottom: 5px;">
+        <img src="~/images/icon-24.jpg" />
+        悬赏青鸟豆：<span style="font-weight: bold; color: red" id="allotPrize">@Model.Prize</span>&nbsp;
+        【<span id="questionState">@Model.State.ToQuestionState()</span>】&nbsp;
+        浏览：@Model.VisitCount 次
+    </div>
+    <div class="content" id="quesContent">
+        @Html.Raw(Model.Content)
+    </div>
+    <div style="width: 500px; float: left;">
+        @foreach (var item in @Model.Tags)
+        {
+            <a class="tag">@item.TagName</a> 
+        }
+    </div>
+    <div style="width: 40px; float: left;">
+        <img src="~/images/upload/img-11.jpg" width="36" height="36" />
+    </div>
+    <div style="float: left;">
+        @{
+            var title = new TagSettingService().GetTitle(Model.User.InitialPrize);
+        }
+        <span>@Model.User.RealName</span>| @title |青鸟豆 @Model.User.InitialPrize 个
+        <br />
+        提问于：@Model.CreatedTime.ToSpanDays()
+    </div>
+    <div style="float: left; vertical-align: bottom; height: 28px; padding: 0 0 0 0;">
+
+        <a href="#" class="linkButton" id="editQuestion">【修改问题】 </a>&nbsp; 
+        <a href="#" class="linkButton" id="editPrize">【修改奖励】 </a>
+        <a href="#" class="linkButton" id="closeQuestion">【直接关闭】 </a>
+
+        <input type="button" class="button" value="结帖" id="allotPrizeBtn" />
+    </div>
+</div>
+<!--回答列表-->
+<div class="quesList">
+
+    @{int index = 0;}
+    @using (Ajax.BeginForm("AllotPrize", "Question", new AjaxOptions() { OnSuccess = "allotPrizeComplete" }))
+    {
+        <div style="background-color: #538ae6; width: 100%; height: 25px; font-weight: bold; padding-left: 5px;">所有回答</div>
+      
+        <input type="hidden"  value="@Model.QuestionId" name="questionId"/>
+        foreach (var item in Model.Answers)
+        {
+        <div style="padding-bottom: 10px; border-bottom: solid 1px #808080; overflow: auto">
+            <div>
+                @Html.Raw(@item.Content)
+
+            </div>
+            <div>
+                <div style="float: left; display: none" class="allotBean">
+                    <input type="hidden"  value="@item.AnswerId" name="answers[@index].AnswerId"/>
+                    定为最佳答案：<input type="radio" name="answers[@index].IsBest" />&nbsp;
+                    分配青鸟豆：<input type="text" name="answers[@index].Prize" style="width: 70px" />
+                    @{index++;}
+                </div>
+                <div style="float: right">
+                    @{
+                      var answerTitle = new TagSettingService().GetTitle(@item.User.InitialPrize);
+                    }
+                    @item.User.RealName | 青鸟豆： @item.User.InitialPrize（@answerTitle） |  @item.CreatedTime.ToSpanDays()
+
+                </div>
+
+            </div>
+
+        </div>
+      
+        }
+
+        <div style="padding: 10px; display: none" id="allPrizeBtnGroup">
+            <input type="submit" class="button" value="确认结帖" />&nbsp;<input type="button" class="button" value="取消结帖" id="cancelAllotPrize" />
+
+        </div>
+    }
+</div>
+
+
+<!--修改问题-->
+<div id="questionContainer"></div>
+
+
+
+<!--修改奖励-->
+<div id="editPrizeContainer" style="display: none">
+    如果问题没有人解答，您可以提高悬赏青鸟豆，获得更高的关注度。<br />
+    当前为<span style="color: red; font-weight: bold">@Model.Prize</span>青鸟豆的悬赏额，请设置一个新的悬赏额<br />
+    <p>
+        @using (Ajax.BeginForm("UpdatePrize", "Question", new AjaxOptions() { OnSuccess = "editPrizeCompleted" }))
+        {
+            <input name="questionId" type="hidden" value="@Model.QuestionId" />
+            <input name="prize" type="text" style="width: 70px; float: left; height: 22px; line-height: 22px" /> 
+            <input type="submit" value="提交" class="button" />
+        }
+    </p>
+
+</div>
+
+<!--直接关闭-->
+<div id="closeContainer" style="display: none">
+    如果问题没有回答或自己已经解决，点击下面的”确定“按钮即可关闭该问题<br />
+    如果问题有解答，但无满意答案，直接关闭，将返还悬赏青鸟豆的<span style="color: red; font-weight: bold">20%</span>。
+    <br />
+    如果您的问题已有回答，并且答案对您有一定帮助，推荐正常结贴，正常结贴将返还悬赏豆的<span style="color: red; font-weight: bold">50%</span>。
+  
+    <p>
+        @using (Ajax.BeginForm("CloseQuestion", "Question", new AjaxOptions() { OnSuccess = "closeQuestionCompleted" }))
+        {
+            <input name="questionId" type="hidden" value="@Model.QuestionId" />
+           <input type="submit" value="确定" class="button" />
+        }
+    </p>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Scripts/tag-it.min.js"></script>
+    <link href="~/Content/jquery.tagit.css" rel="stylesheet" />
+    <script src="~/ckeditor/ckeditor.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $.ajaxSetup({ cache: false });
+            $(".button").button();
+            //打开修改问题对话框窗口
+            $("#editQuestion").click(
+                function () {
+                    $("#questionContainer").load("@Url.Action("Edit", new { id = Model.QuestionId })");
+                    $("#questionContainer").dialog(
+                        {
+                            width: 760,
+                            height: 480,
+                            title: "修改问题"
+                        }
+                        );
+                }
+            );
+            //打开修改奖励对话框窗口
+            $("#editPrize").click(
+               function () {
+                   $("#editPrizeContainer").dialog(
+                       {
+                           width: 450,
+                           height: 140,
+                           title: "修改奖励"
+                       }
+                       );
+               }
+            );
+
+            //打开关闭问题对话框窗口
+            $("#closeQuestion").click(
+               function () {
+                   $("#closeContainer").dialog(
+                       {
+                           width: 480,
+                           height: 200,
+                           title: "关闭问题"
+                       }
+                       );
+               });
+
+            //显示结贴功能
+            $("input#allotPrizeBtn").click(
+              function () {
+                  $("div#allPrizeBtnGroup,div.allotBean").show();
+              });
+
+            //关闭结贴功能
+            $("input#cancelAllotPrize").click(
+            function () {
+                $("div#allPrizeBtnGroup,div.allotBean").hide();
+            });
+
+            //控制只能选择一个最佳答案
+            $("input[type=radio]").click(
+                function () {
+                    if (this.checked) {
+                        $("input[type=radio]").attr("checked", false).val("false");
+                        this.checked = true;
+                        $(this).val("true");
+                    }
+                });
+
+
+        }
+        )
+
+        //关闭修改问题对话框
+        function closeEditQuestion(title, content) {
+            $("#questionContainer").html("");
+            $("h2#quesTitle").html(title);
+            $("div#quesContent").html(content);
+            $("#questionContainer").dialog("close");
+        }
+
+        //结贴操作完毕
+        function allotPrizeComplete(data) {
+            //操作成功
+            if (data == "1") {
+                alert("结贴成功！");
+                $("div#allPrizeBtnGroup,div.allotBean").hide();
+            }
+            else {
+                alert(data);
+            }
+        }
+
+        //修改奖励结束
+        function editPrizeCompleted(data) {
+            //操作成功
+            if (data == "1") {
+                alert("修改奖励成功！");
+              
+                $("div#editPrizeContainer").dialog("close");
+                var prize = $("input[name=prize]").val();
+                $("span#allotPrize").text(prize);
+            }
+            else {
+                alert(data);
+            }
+        }
+
+        //关闭问题
+        function closeQuestionCompleted(data) {
+            //操作成功
+            if (data == "1") {
+                alert("关闭问题成功！");
+                $("div#closeContainer").dialog("close");
+                $("span#questionState").text("已关闭");
+            }
+            else {
+                alert(data);
+            }
+
+        }
+    </script>
+}

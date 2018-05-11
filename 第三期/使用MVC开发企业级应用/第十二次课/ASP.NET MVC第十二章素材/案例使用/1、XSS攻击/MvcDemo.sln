@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcDemo", "MvcDemo\MvcDemo.csproj", "{A95C476C-7C47-45D3-A0F7-DB16C1C0B57D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerSite", "HackerSite\HackerSite.csproj", "{B5C443B4-D1B2-4654-B70A-7E91AD8EB899}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A95C476C-7C47-45D3-A0F7-DB16C1C0B57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95C476C-7C47-45D3-A0F7-DB16C1C0B57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95C476C-7C47-45D3-A0F7-DB16C1C0B57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95C476C-7C47-45D3-A0F7-DB16C1C0B57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C443B4-D1B2-4654-B70A-7E91AD8EB899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C443B4-D1B2-4654-B70A-7E91AD8EB899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C443B4-D1B2-4654-B70A-7E91AD8EB899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C443B4-D1B2-4654-B70A-7E91AD8EB899}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

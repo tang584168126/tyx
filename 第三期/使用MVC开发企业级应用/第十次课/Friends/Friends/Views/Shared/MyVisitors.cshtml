@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Friends.Model.VisitorModel>
+
+@using Friends.Model
+@{User user = Session["CurrentUser"] as User;}
+
+<dl class="pubListTitle">
+    <dt>最近来访 <span>(@Model.Count())</span></dt>
+    <dd><a href="#">&#8226;&#8226;&#8226;</a></dd>
+</dl>
+<ul class="recentVisitor">
+    @foreach(Friends.Model.VisitorModel m in Model)
+    {
+    <li>
+        <img src=@Href("~/Images/upload/img-0" + m.HeaderImage) width="50" height="50" /><br />
+        <a href="#">@m.RealName</a><br />
+        @m.LastVisitTime.ToString("MM月dd日")
+    </li>
+    }
+</ul>

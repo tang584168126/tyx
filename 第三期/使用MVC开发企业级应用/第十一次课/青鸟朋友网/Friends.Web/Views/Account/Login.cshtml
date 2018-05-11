@@ -1,0 +1,62 @@
+@{
+    Layout = null;
+}
+@model Friends.Models.LoginModel
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>登录</title>
+    <link href=@Href("~/content/common.css") rel="stylesheet" type="text/css" />
+</head>
+<body class="loginBg">
+    <div id="login">
+        <div class="loginL">
+            <img src=@Href("~/images/bird-01.jpg") width="222" height="107" />
+            @using (Html.BeginForm())
+            {
+                <ul>
+                    <li>  @Html.ValidationMessageFor(model => model.Mail)</li>
+                     <li>  @Html.ValidationMessageFor(model => model.Password)</li>
+                    <li> @Html.ValidationSummary(true) </li>
+                    <li>
+                      @*  <input name="username" type="text" class="userInput"  placeholder="请输入邮箱" />*@
+                           @Html.TextBoxFor(model => model.Mail, new {@class="userInput" })
+                    </li>
+                    <li>
+                           @Html.PasswordFor(model => model.Password, new { @class = "keyInput" })
+                       @* <input name="key" type="text" placeholder="请输入密码" class="keyInput"  />*@
+                    </li>
+                    <li>
+                        <input name="autoLogin" type="checkbox" value="" />
+                        下次自动登录 <span><a href="#">忘记密码？</a></span> </li>
+                    <li>
+                      
+                        <input name="submitBtn" type="image" src=@Href("~/images/bg-03.jpg") value=" " />
+                    </li>
+                    <li>
+                        <hr />
+                    </li>
+                    <li></li>
+                    <a href="#">
+                        <img src=@Href("~/images/bg-04.jpg") width="190" height="38"  
+                            onclick="window.location.href='@Url.Action("Register")'"/></a>
+                </ul>
+            }
+        </div>
+        <div class="loginR">
+            <dl class="top">
+                <dt>
+                    <img src=@Href("~/images/bird-04.jpg") width="310" height="33" /></dt>
+                <dd>还没有青鸟朋友网账号，<a href="@Url.Action("Register")">注册</a></dd>
+            </dl>
+            <dl class="textImg">
+                <dt>
+                    <img src=@Href("~/images/bird-03.jpg") width="139" height="43" /></dt>
+                <dd>是一个青鸟人交流的网络，通过它您可以与朋友、同学、校友、老师保持更紧密的联系，
+        及时了解他们的动态；与他分享你的生活和快乐。</dd>
+            </dl>
+        </div>
+    </div>
+</body>
+</html>

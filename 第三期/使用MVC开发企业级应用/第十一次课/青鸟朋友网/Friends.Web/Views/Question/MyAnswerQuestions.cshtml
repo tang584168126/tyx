@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "问答";
+    Layout = null;
+}
+@using Friends.Web.Helpers;
+
+@model PagedList<Friends.Models.Question>
+
+<div id="myAnswerpagedDataContainer"  class="tabContainer">
+    <ul class="questState">
+        <li><a href="#" class="bold">关注问题</a></li>
+        <li><a href="#">高分</a></li>
+        <li><a href="#">已解决</a></li>
+
+    </ul>
+    @{ViewData["PagerContainer"] = "myAnswerpagedDataContainer";}
+    @Html.Partial("QuestionList")
+</div>
+
+

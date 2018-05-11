@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Title = "好友";
+    Layout = "~/Views/Shared/_common.cshtml";
+}
+
+@section scripts{
+    <script  type="text/javascript" src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.min.js")"></script>
+    <script type="text/javascript">
+
+        $.ajaxSetup({ cache: false });
+
+        $(function () {
+            $("#tabs").tabs();
+
+            //显示分组列表
+            $("#groupList").load("@Url.Action("ListGroups", "PrivateGroup")");
+
+            //显示好友列表
+            $("#friendList").load("@Url.Action("ListFriends", "Friend")");
+
+            $("input[type=button]").button();
+          
+        })
+
+
+        //按分组加载好友
+        function loadFriendsByGroup(data) {
+            $("#friendList").html(data);
+        }
+    
+
+        //按姓名模糊搜索好友 
+        function searchFriend(realName) {
+            $.ajax({
+                type: "post",
+                url: "@Url.Action("GetFriendsByName", "Friend")",
+            data: "realName=" + realName,
+            success: function (data) {
+                $("#friendList").html(data);
+
+            }
+        });
+        }
+
+    </script>
+}
+<dl class="friendHeader">
+    <dt class="iconBg">好友</dt>
+    <dd><a href="#"><< 返回上一页</a></dd>
+</dl>
+<div id="tabs" style="float: left; width: 100%; margin: 0; padding: 0">
+    <ul class="friendTab">
+        <li><a href="#tab1" class="empty">我的好友</a></li>
+        <li><a href="#tab2" class="line">查找朋友</a></li>
+    </ul>
+    <div id="tab1">
+        <!-- 分组区域-->
+        <div style="padding-left:30px" >
+             <input name="searchs" type="text"  class="searchInput" onchange="searchFriend(this.value)"/>
+        </div>
+        <div class="friendType" id="groupList">
+           
+        </div>
+
+        <!-- 好友区域-->
+        <div class="friendList" id="friendList">
+        </div>
+
+    </div>
+    <div id="tab2">
+        @Html.Partial("FriendSearch")
+    </div>
+
+</div>

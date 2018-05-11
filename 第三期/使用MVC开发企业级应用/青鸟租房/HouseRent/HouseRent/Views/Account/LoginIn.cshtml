@@ -1,0 +1,26 @@
+﻿@model HouseRent.Model.User
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>LoginIn</title>
+</head>
+<body>
+    <div>
+        <p>用户登录</p>
+        <form action="" method="post">
+            <p>用户名：@Html.TextBox("LoginName") @Html.ValidationMessage("LoginName")</p>
+            <p>密码：@Html.TextBox("Password") @Html.ValidationMessage("Password")</p>
+            <p><input type="submit" value="立即登录" name="btnSubmit" />
+                <input type="button" value="注册" name="btnRegister" />
+            </p>
+        </form>
+    </div>
+</body>
+</html>

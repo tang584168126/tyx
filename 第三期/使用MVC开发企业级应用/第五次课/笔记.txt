@@ -1,0 +1,101 @@
+动作方法的自动映射：
+映射的数据来源：1.表单数据(Request.Form) 2.路由数据(RouteData.Values) 3.URL数据(Request.QueryString)
+映射规则：
+1.参数名与数据来源的名称一致 2.参数类型与数据类型一致 
+注意事项：参数是可空的(可空类型)，或者有默认值(可选参数)
+
+模型映射：
+在映射时，分析模型的属性，将其与表单元素的名称(Name)进行对比，一致则获取此表单元素的值，赋值给对应的模型属性
+规则：模型属性和目标元素的名称一致
+
+验证特性：验证特性对应的类放在命名空间：
+System.ComponentModel.DataAnnotations;
+System.ComponentModel
+Required:非空验证
+StringLength:长度验证
+Compare:比较验证
+Range:取值范围验证
+RegularExpression:正则表达式验证
+DisplayName:显示具体名称
+作用于实体类(模型类)中的属性
+每个属性可以被多个特性所使用
+
+ModelState：
+在模型映射时其要做两个工作
+1.将表单中的值赋值给模型中的属性，封装为一个对象
+2.判断为属性赋的值是否符合其验证特性的要求，如果符合，此属性值验证通过，否则会将验证特性的ErrorMessage值以键值对的方式保存到ModelState对象中
+
+常用成员：
+isValid:当所有数据都验证通过，其值为true,否则为false
+AddModelError(key,value):一般用于添加自定义验证提示到ModelState中
+
+显示验证提示：
+Html.ValidateSummarry():显示所有的验证提示
+Html.ValidateMessage(key):显示指定名称的验证提示
+
+表单数据保持：
+1.验证不成功，将映射类型对象传递回视图return View(user)
+2.为表单元素添加属性值<input name="LoginId" type="text" class="opt_input" value="<%: Model!=null?Model.LoginId:"" %>" />
+
+同名的动作方法：
+控制器中没有重载方法的说法，只有同名动作方法的说法
+注意：路由系统无法根据动作方法的参数定位动作方法，因此需要采取一种方式让路由系统定位动作方法，这种措施就是动作方法特性
+[HttpGe]t:针对Get请求
+[HttpPost]：针对Post请求
+HttpDelete
+HttpPut
+NonAction:指明控制器中的此方法为非动作方法
+ActionName：为动作方法命名
+控制器中任何一个非私有的方法都是动作方法
+
+内容输出类型与内容输出方法的对应关系：
+类型							方法
+EmptyResult:		输出空内容			无
+ContentResult:		将指定内容作为文本输出		Content(string content)
+JsonResult:		输出Json字符串			Json(object data)
+JavaScriptResult:	输出JavaScript文件		JavaScript(string script)
+RedirectResult：	指定的URL来执行重定向		Redirect(string url)
+RedirectToRouteResult：	指定路由值来执行重定向		RedirectToAction(string actionName)	
+FilePathResult：	指定文件路径来输出文件		File(string fileName,string contentType)
+FileContentResult：	指定字节数组来输出文件		File(byte[] fileContents,string contentType)
+FileStreamResult：	指定流来输出文件		File(Stream fileStream,string contentType)
+ViewResult：		指定视图文件输出视图		View(string viewName)
+
+跳转方法：
+Redirect()
+RedirectToRoute()
+RedirectToAction()
+都是Controller类中的成员，本质上都是对Response.Redirect()方法的封装
+她们都只能在站点之内进行跳转，如果要跳转到其他网站的页面，需要用Response.Redirer辅助类：
+用于辅助视图生成页面元素的工具类
+
+HtmlHelper辅助类：
+用于辅助视图生成页面元素的工具类
+常见的输入表单方法：
+Html.BeginForm()	<form>
+Html.EndForm()		</form>
+Html.TextBox()		<input type="text" />
+
+......
+Html.RadioButton()	<input type="radio" />
+Html.CheckBox()		<input type="checkbox" />
+......
+Html.DropDownList()	<select multiple="true" />
+通过HtmlHelper辅助方法生成的表单元素会根据模型类的属性特性自动添加以"data-"开头的用于客户端验证的属性	
+
+客户端验证：
+步骤;
+1.在需要客户端验证的视图中引用脚本：
+iquery.<版本号>.min.js
+juery.validate.min.js
+jquery.validate.unobtrusive.min.js
+
+2.视图中需要验证的表单元素通过HtmlHelper辅助类来生成
+客户端验证的有效的条件：
+1.强类型视图基类ViewPage<Tmodel>
+2.启用验证功能(默认启用)
+在web.config中
+<appSettings>
+	<add key="ClientValidatationEnabled" value="true" />
+	<add key="UnobtrusiveJavaScriptEnabled" value="true" />
+</appSettings>

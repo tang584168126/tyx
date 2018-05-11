@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b13e81a96e93429c83fded6352d5ce3f" Name="关系图1">
+        <EntityTypeShape EntityType="FriendsModel.FriendRelation" Width="1.5" PointX="5.25" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.Group" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.GroupFriend" Width="1.5" PointX="5.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.Mind" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.PrivateGroup" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.Record" Width="1.5" PointX="3" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.User" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.Visit" Width="1.5" PointX="3" PointY="16.375" IsExpanded="true" />
+        <AssociationConnector Association="FriendsModel.FK_FriendRelation_Friend" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_FriendRelation_PrivateGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_FriendRelation_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_Group_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_GroupFriend_Group" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_GroupFriend_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_Mind_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_PrivateGroup_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_Record_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_Visit_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_Visit_Vistor" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

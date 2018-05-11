@@ -1,0 +1,1371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Friends.Models.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="FriendsModelsStoreContainer">
+          <EntitySet Name="Answer" EntityType="Friends.Models.Store.Answer" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Comment" EntityType="Friends.Models.Store.Comment" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CommentReply" EntityType="Friends.Models.Store.CommentReply" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FriendRelation" EntityType="Friends.Models.Store.FriendRelation" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Group" EntityType="Friends.Models.Store.Group" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="GroupFriend" EntityType="Friends.Models.Store.GroupFriend" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Invitation" EntityType="Friends.Models.Store.Invitation" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Message" EntityType="Friends.Models.Store.Message" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="MessageReciver" EntityType="Friends.Models.Store.MessageReciver" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Mind" EntityType="Friends.Models.Store.Mind" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PrivateGroup" EntityType="Friends.Models.Store.PrivateGroup" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Question" EntityType="Friends.Models.Store.Question" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="QuestionTag" EntityType="Friends.Models.Store.QuestionTag" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Record" EntityType="Friends.Models.Store.Record" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tag" EntityType="Friends.Models.Store.Tag" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TitleSetting" EntityType="Friends.Models.Store.TitleSetting" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="User" EntityType="Friends.Models.Store.User" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Visit" EntityType="Friends.Models.Store.Visit" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_Answer_Question" Association="Friends.Models.Store.FK_Answer_Question">
+            <End Role="Question" EntitySet="Question" />
+            <End Role="Answer" EntitySet="Answer" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Answer_User" Association="Friends.Models.Store.FK_Answer_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Answer" EntitySet="Answer" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CommentReply_Comment" Association="Friends.Models.Store.FK_CommentReply_Comment">
+            <End Role="Comment" EntitySet="Comment" />
+            <End Role="CommentReply" EntitySet="CommentReply" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CommentReply_User" Association="Friends.Models.Store.FK_CommentReply_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="CommentReply" EntitySet="CommentReply" />
+          </AssociationSet>
+          <AssociationSet Name="FK_FriendRelation_Friend" Association="Friends.Models.Store.FK_FriendRelation_Friend">
+            <End Role="User" EntitySet="User" />
+            <End Role="FriendRelation" EntitySet="FriendRelation" />
+          </AssociationSet>
+          <AssociationSet Name="FK_FriendRelation_PrivateGroup" Association="Friends.Models.Store.FK_FriendRelation_PrivateGroup">
+            <End Role="PrivateGroup" EntitySet="PrivateGroup" />
+            <End Role="FriendRelation" EntitySet="FriendRelation" />
+          </AssociationSet>
+          <AssociationSet Name="FK_FriendRelation_User" Association="Friends.Models.Store.FK_FriendRelation_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="FriendRelation" EntitySet="FriendRelation" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Group_User" Association="Friends.Models.Store.FK_Group_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Group" EntitySet="Group" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GroupFriend_Group" Association="Friends.Models.Store.FK_GroupFriend_Group">
+            <End Role="Group" EntitySet="Group" />
+            <End Role="GroupFriend" EntitySet="GroupFriend" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GroupFriend_User" Association="Friends.Models.Store.FK_GroupFriend_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="GroupFriend" EntitySet="GroupFriend" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Invitation_Receiver" Association="Friends.Models.Store.FK_Invitation_Receiver">
+            <End Role="User" EntitySet="User" />
+            <End Role="Invitation" EntitySet="Invitation" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Invitation_Sender" Association="Friends.Models.Store.FK_Invitation_Sender">
+            <End Role="User" EntitySet="User" />
+            <End Role="Invitation" EntitySet="Invitation" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Message_Sender" Association="Friends.Models.Store.FK_Message_Sender">
+            <End Role="User" EntitySet="User" />
+            <End Role="Message" EntitySet="Message" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MessageReciver_Message" Association="Friends.Models.Store.FK_MessageReciver_Message">
+            <End Role="Message" EntitySet="Message" />
+            <End Role="MessageReciver" EntitySet="MessageReciver" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MessageReciver_Reciver" Association="Friends.Models.Store.FK_MessageReciver_Reciver">
+            <End Role="User" EntitySet="User" />
+            <End Role="MessageReciver" EntitySet="MessageReciver" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Mind_User" Association="Friends.Models.Store.FK_Mind_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Mind" EntitySet="Mind" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PrivateGroup_User" Association="Friends.Models.Store.FK_PrivateGroup_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="PrivateGroup" EntitySet="PrivateGroup" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Question_User" Association="Friends.Models.Store.FK_Question_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Question" EntitySet="Question" />
+          </AssociationSet>
+          <AssociationSet Name="FK_QuestionTag_Question" Association="Friends.Models.Store.FK_QuestionTag_Question">
+            <End Role="Question" EntitySet="Question" />
+            <End Role="QuestionTag" EntitySet="QuestionTag" />
+          </AssociationSet>
+          <AssociationSet Name="FK_QuestionTag_Tag" Association="Friends.Models.Store.FK_QuestionTag_Tag">
+            <End Role="Tag" EntitySet="Tag" />
+            <End Role="QuestionTag" EntitySet="QuestionTag" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Record_User" Association="Friends.Models.Store.FK_Record_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Record" EntitySet="Record" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Visit_User" Association="Friends.Models.Store.FK_Visit_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Visit" EntitySet="Visit" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Visit_Vistor" Association="Friends.Models.Store.FK_Visit_Vistor">
+            <End Role="User" EntitySet="User" />
+            <End Role="Visit" EntitySet="Visit" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Answer">
+          <Key>
+            <PropertyRef Name="AnswerId" />
+          </Key>
+          <Property Name="AnswerId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="QuestionId" Type="int" Nullable="false" />
+          <Property Name="Content" Type="nvarchar" Nullable="false" MaxLength="2000" />
+          <Property Name="CreateUserId" Type="int" Nullable="false" />
+          <Property Name="CreatedTime" Type="datetime" Nullable="false" />
+          <Property Name="Prize" Type="int" />
+          <Property Name="IsBest" Type="bit" />
+        </EntityType>
+        <EntityType Name="Comment">
+          <Key>
+            <PropertyRef Name="CommentId" />
+          </Key>
+          <Property Name="CommentId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ReceiverId" Type="int" Nullable="false" />
+          <Property Name="SenderId" Type="int" Nullable="false" />
+          <Property Name="Content" Type="nvarchar" Nullable="false" MaxLength="500" />
+          <Property Name="CreatedTime" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CommentReply">
+          <Key>
+            <PropertyRef Name="ReplyId" />
+          </Key>
+          <Property Name="ReplyId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CommentId" Type="int" Nullable="false" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="Content" Type="nvarchar" Nullable="false" MaxLength="500" />
+          <Property Name="CreatedTime" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="FriendRelation">
+          <Key>
+            <PropertyRef Name="UserId" />
+            <PropertyRef Name="FriendId" />
+          </Key>
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="FriendId" Type="int" Nullable="false" />
+          <Property Name="GroupId" Type="int" />
+        </EntityType>
+        <EntityType Name="Group">
+          <Key>
+            <PropertyRef Name="GroupId" />
+          </Key>
+          <Property Name="GroupId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="GroupName" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Category" Type="nvarchar" MaxLength="50" />
+          <Property Name="CreaterId" Type="int" Nullable="false" />
+          <Property Name="CreateTime" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="GroupFriend">
+          <Key>
+            <PropertyRef Name="GroupId" />
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="GroupId" Type="int" Nullable="false" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="JoinTime" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Invitation">
+          <Key>
+            <PropertyRef Name="InvitationId" />
+          </Key>
+          <Property Name="InvitationId" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SenderId" Type="int" Nullable="false" />
+          <Property Name="ReceiverId" Type="int" Nullable="false" />
+          <Property Name="Recipient" Type="nvarchar" MaxLength="250" />
+          <Property Name="DateSent" Type="datetime" Nullable="false" />
+          <Property Name="Status" Type="tinyint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Message">
+          <Key>
+            <PropertyRef Name="MessageId" />
+          </Key>
+          <Property Name="MessageId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SenderId" Type="int" Nullable="false" />
+          <Property Name="Content" Type="nvarchar" Nullable="false" MaxLength="500" />
+          <Property Name="Attachment" Type="nvarchar" MaxLength="50" />
+          <Property Name="SentTime" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MessageReciver">
+          <Key>
+            <PropertyRef Name="MessageId" />
+            <PropertyRef Name="ReceiverId" />
+          </Key>
+          <Property Name="MessageId" Type="int" Nullable="false" />
+          <Property Name="ReceiverId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Mind">
+          <Key>
+            <PropertyRef Name="MindId" />
+          </Key>
+          <Property Name="MindId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="Content" Type="nvarchar" Nullable="false" MaxLength="2000" />
+          <Property Name="MindType" Type="tinyint" Nullable="false" />
+          <Property Name="CreatedTime" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PrivateGroup">
+          <Key>
+            <PropertyRef Name="GroupId" />
+          </Key>
+          <Property Name="GroupId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="GroupName" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="OwnerId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Question">
+          <Key>
+            <PropertyRef Name="QuestionId" />
+          </Key>
+          <Property Name="QuestionId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="Content" Type="nvarchar" Nullable="false" MaxLength="1000" />
+          <Property Name="Prize" Type="int" Nullable="false" />
+          <Property Name="CreateUserId" Type="int" Nullable="false" />
+          <Property Name="CreatedTime" Type="datetime" Nullable="false" />
+          <Property Name="VisitCount" Type="int" Nullable="false" />
+          <Property Name="State" Type="tinyint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="QuestionTag">
+          <Key>
+            <PropertyRef Name="QuestionId" />
+            <PropertyRef Name="TagId" />
+          </Key>
+          <Property Name="QuestionId" Type="int" Nullable="false" />
+          <Property Name="TagId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Record">
+          <Key>
+            <PropertyRef Name="RecordId" />
+          </Key>
+          <Property Name="RecordId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="Content" Type="nvarchar" Nullable="false" MaxLength="2000" />
+          <Property Name="CreatedTime" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Tag">
+          <Key>
+            <PropertyRef Name="TagId" />
+          </Key>
+          <Property Name="TagId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TagName" Type="nvarchar" Nullable="false" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="TitleSetting">
+          <Key>
+            <PropertyRef Name="TitleId" />
+          </Key>
+          <Property Name="TitleId" Type="int" Nullable="false" />
+          <Property Name="MinValue" Type="int" Nullable="false" />
+          <Property Name="MaxValue" Type="int" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Mail" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="RealName" Type="nvarchar" Nullable="false" MaxLength="10" />
+          <Property Name="Password" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="Gender" Type="nchar" Nullable="false" MaxLength="1" />
+          <Property Name="Birthday" Type="datetime" Nullable="false" />
+          <Property Name="City" Type="nvarchar" MaxLength="10" />
+          <Property Name="HomeCity" Type="nvarchar" MaxLength="10" />
+          <Property Name="Situation" Type="nvarchar" MaxLength="10" />
+          <Property Name="HeaderImage" Type="nvarchar" MaxLength="50" />
+          <Property Name="BloodStyle" Type="nvarchar" MaxLength="10" />
+          <Property Name="RegisterTime" Type="datetime" Nullable="false" />
+          <Property Name="GenderPrivate" Type="tinyint" />
+          <Property Name="BirthdayPrivate" Type="tinyint" />
+          <Property Name="CityPrivate" Type="tinyint" />
+          <Property Name="HomeCityPrivate" Type="tinyint" />
+          <Property Name="SituationPrivate" Type="tinyint" />
+          <Property Name="BloodStylePrivate" Type="tinyint" />
+          <Property Name="InitialPrize" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Visit">
+          <Key>
+            <PropertyRef Name="VisitID" />
+          </Key>
+          <Property Name="VisitID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="VisitorID" Type="int" Nullable="false" />
+          <Property Name="LastVisitTime" Type="datetime" Nullable="false" />
+          <Property Name="LastVisitIP" Type="nvarchar" Nullable="false" MaxLength="15" />
+          <Property Name="VisitTimes" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Answer_Question">
+          <End Role="Question" Type="Friends.Models.Store.Question" Multiplicity="1" />
+          <End Role="Answer" Type="Friends.Models.Store.Answer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Question">
+              <PropertyRef Name="QuestionId" />
+            </Principal>
+            <Dependent Role="Answer">
+              <PropertyRef Name="QuestionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Answer_User">
+          <End Role="User" Type="Friends.Models.Store.User" Multiplicity="1" />
+          <End Role="Answer" Type="Friends.Models.Store.Answer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Answer">
+              <PropertyRef Name="CreateUserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CommentReply_Comment">
+          <End Role="Comment" Type="Friends.Models.Store.Comment" Multiplicity="1" />
+          <End Role="CommentReply" Type="Friends.Models.Store.CommentReply" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Comment">
+              <PropertyRef Name="CommentId" />
+            </Principal>
+            <Dependent Role="CommentReply">
+              <PropertyRef Name="CommentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CommentReply_User">
+          <End Role="User" Type="Friends.Models.Store.User" Multiplicity="1" />
+          <End Role="CommentReply" Type="Friends.Models.Store.CommentReply" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="CommentReply">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_FriendRelation_Friend">
+          <End Role="User" Type="Friends.Models.Store.User" Multiplicity="1" />
+          <End Role="FriendRelation" Type="Friends.Models.Store.FriendRelation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="FriendRelation">
+              <PropertyRef Name="FriendId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_FriendRelation_PrivateGroup">
+          <End Role="PrivateGroup" Type="Friends.Models.Store.PrivateGroup" Multiplicity="0..1" />
+          <End Role="FriendRelation" Type="Friends.Models.Store.FriendRelation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PrivateGroup">
+              <PropertyRef Name="GroupId" />
+            </Principal>
+            <Dependent Role="FriendRelation">
+              <PropertyRef Name="GroupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_FriendRelation_User">
+          <End Role="User" Type="Friends.Models.Store.User" Multiplicity="1" />
+          <End Role="FriendRelation" Type="Friends.Models.Store.FriendRelation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="FriendRelation">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Group_User">
+          <End Role="User" Type="Friends.Models.Store.User" Multiplicity="1" />
+          <End Role="Group" Type="Friends.Models.Store.Group" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Group">
+              <PropertyRef Name="CreaterId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_GroupFriend_Group">
+          <End Role="Group" Type="Friends.Models.Store.Group" Multiplicity="1" />
+          <End Role="GroupFriend" Type="Friends.Models.Store.GroupFriend" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Group">
+              <PropertyRef Name="GroupId" />
+            </Principal>
+            <Dependent Role="GroupFriend">
+              <PropertyRef Name="GroupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_GroupFriend_User">
+          <End Role="User" Type="Friends.Models.Store.User" Multiplicity="1" />
+          <End Role="GroupFriend" Type="Friends.Models.Store.GroupFriend" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="GroupFriend">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Invitation_Receiver">
+          <End Role="User" Type="Friends.Models.Store.User" Multiplicity="1" />
+          <End Role="Invitation" Type="Friends.Models.Store.Invitation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Invitation">
+              <PropertyRef Name="ReceiverId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Invitation_Sender">
+          <End Role="User" Type="Friends.Models.Store.User" Multiplicity="1" />
+          <End Role="Invitation" Type="Friends.Models.Store.Invitation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Invitation">
+              <PropertyRef Name="SenderId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Message_Sender">
+          <End Role="User" Type="Friends.Models.Store.User" Multiplicity="1" />
+          <End Role="Message" Type="Friends.Models.Store.Message" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Message">
+              <PropertyRef Name="SenderId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MessageReciver_Message">
+          <End Role="Message" Type="Friends.Models.Store.Message" Multiplicity="1" />
+          <End Role="MessageReciver" Type="Friends.Models.Store.MessageReciver" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Message">
+              <PropertyRef Name="MessageId" />
+            </Principal>
+            <Dependent Role="MessageReciver">
+              <PropertyRef Name="MessageId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MessageReciver_Reciver">
+          <End Role="User" Type="Friends.Models.Store.User" Multiplicity="1" />
+          <End Role="MessageReciver" Type="Friends.Models.Store.MessageReciver" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="MessageReciver">
+              <PropertyRef Name="ReceiverId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Mind_User">
+          <End Role="User" Type="Friends.Models.Store.User" Multiplicity="1" />
+          <End Role="Mind" Type="Friends.Models.Store.Mind" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Mind">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PrivateGroup_User">
+          <End Role="User" Type="Friends.Models.Store.User" Multiplicity="1" />
+          <End Role="PrivateGroup" Type="Friends.Models.Store.PrivateGroup" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="PrivateGroup">
+              <PropertyRef Name="OwnerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Question_User">
+          <End Role="User" Type="Friends.Models.Store.User" Multiplicity="1" />
+          <End Role="Question" Type="Friends.Models.Store.Question" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Question">
+              <PropertyRef Name="CreateUserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_QuestionTag_Question">
+          <End Role="Question" Type="Friends.Models.Store.Question" Multiplicity="1" />
+          <End Role="QuestionTag" Type="Friends.Models.Store.QuestionTag" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Question">
+              <PropertyRef Name="QuestionId" />
+            </Principal>
+            <Dependent Role="QuestionTag">
+              <PropertyRef Name="QuestionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_QuestionTag_Tag">
+          <End Role="Tag" Type="Friends.Models.Store.Tag" Multiplicity="1" />
+          <End Role="QuestionTag" Type="Friends.Models.Store.QuestionTag" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tag">
+              <PropertyRef Name="TagId" />
+            </Principal>
+            <Dependent Role="QuestionTag">
+              <PropertyRef Name="TagId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Record_User">
+          <End Role="User" Type="Friends.Models.Store.User" Multiplicity="1" />
+          <End Role="Record" Type="Friends.Models.Store.Record" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Record">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Visit_User">
+          <End Role="User" Type="Friends.Models.Store.User" Multiplicity="1" />
+          <End Role="Visit" Type="Friends.Models.Store.Visit" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Visit">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Visit_Vistor">
+          <End Role="User" Type="Friends.Models.Store.User" Multiplicity="1" />
+          <End Role="Visit" Type="Friends.Models.Store.Visit" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Visit">
+              <PropertyRef Name="VisitorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Friends.Models" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="FriendsEntities1" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Answers" EntityType="Friends.Models.Answer" />
+          <EntitySet Name="Comments" EntityType="Friends.Models.Comment" />
+          <EntitySet Name="CommentReplies" EntityType="Friends.Models.CommentReply" />
+          <EntitySet Name="FriendRelations" EntityType="Friends.Models.FriendRelation" />
+          <EntitySet Name="Groups" EntityType="Friends.Models.Group" />
+          <EntitySet Name="GroupFriends" EntityType="Friends.Models.GroupFriend" />
+          <EntitySet Name="Invitations" EntityType="Friends.Models.Invitation" />
+          <EntitySet Name="Messages" EntityType="Friends.Models.Message" />
+          <EntitySet Name="Minds" EntityType="Friends.Models.Mind" />
+          <EntitySet Name="PrivateGroups" EntityType="Friends.Models.PrivateGroup" />
+          <EntitySet Name="Questions" EntityType="Friends.Models.Question" />
+          <EntitySet Name="Records" EntityType="Friends.Models.Record" />
+          <EntitySet Name="Tags" EntityType="Friends.Models.Tag" />
+          <EntitySet Name="TitleSettings" EntityType="Friends.Models.TitleSetting" />
+          <EntitySet Name="Users" EntityType="Friends.Models.User" />
+          <EntitySet Name="Visits" EntityType="Friends.Models.Visit" />
+          <AssociationSet Name="FK_Answer_Question" Association="Friends.Models.FK_Answer_Question">
+            <End Role="Question" EntitySet="Questions" />
+            <End Role="Answer" EntitySet="Answers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Answer_User" Association="Friends.Models.FK_Answer_User">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Answer" EntitySet="Answers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CommentReply_Comment" Association="Friends.Models.FK_CommentReply_Comment">
+            <End Role="Comment" EntitySet="Comments" />
+            <End Role="CommentReply" EntitySet="CommentReplies" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CommentReply_User" Association="Friends.Models.FK_CommentReply_User">
+            <End Role="User" EntitySet="Users" />
+            <End Role="CommentReply" EntitySet="CommentReplies" />
+          </AssociationSet>
+          <AssociationSet Name="FK_FriendRelation_Friend" Association="Friends.Models.FK_FriendRelation_Friend">
+            <End Role="User" EntitySet="Users" />
+            <End Role="FriendRelation" EntitySet="FriendRelations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_FriendRelation_PrivateGroup" Association="Friends.Models.FK_FriendRelation_PrivateGroup">
+            <End Role="PrivateGroup" EntitySet="PrivateGroups" />
+            <End Role="FriendRelation" EntitySet="FriendRelations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_FriendRelation_User" Association="Friends.Models.FK_FriendRelation_User">
+            <End Role="User" EntitySet="Users" />
+            <End Role="FriendRelation" EntitySet="FriendRelations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Group_User" Association="Friends.Models.FK_Group_User">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Group" EntitySet="Groups" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GroupFriend_Group" Association="Friends.Models.FK_GroupFriend_Group">
+            <End Role="Group" EntitySet="Groups" />
+            <End Role="GroupFriend" EntitySet="GroupFriends" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GroupFriend_User" Association="Friends.Models.FK_GroupFriend_User">
+            <End Role="User" EntitySet="Users" />
+            <End Role="GroupFriend" EntitySet="GroupFriends" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Invitation_Receiver" Association="Friends.Models.FK_Invitation_Receiver">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Invitation" EntitySet="Invitations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Invitation_Sender" Association="Friends.Models.FK_Invitation_Sender">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Invitation" EntitySet="Invitations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Message_Sender" Association="Friends.Models.FK_Message_Sender">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Message" EntitySet="Messages" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Mind_User" Association="Friends.Models.FK_Mind_User">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Mind" EntitySet="Minds" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PrivateGroup_User" Association="Friends.Models.FK_PrivateGroup_User">
+            <End Role="User" EntitySet="Users" />
+            <End Role="PrivateGroup" EntitySet="PrivateGroups" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Question_User" Association="Friends.Models.FK_Question_User">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Question" EntitySet="Questions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Record_User" Association="Friends.Models.FK_Record_User">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Record" EntitySet="Records" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Visit_User" Association="Friends.Models.FK_Visit_User">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Visit" EntitySet="Visits" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Visit_Vistor" Association="Friends.Models.FK_Visit_Vistor">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Visit" EntitySet="Visits" />
+          </AssociationSet>
+          <AssociationSet Name="MessageReciver" Association="Friends.Models.MessageReciver">
+            <End Role="Message" EntitySet="Messages" />
+            <End Role="User" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="QuestionTag" Association="Friends.Models.QuestionTag">
+            <End Role="Question" EntitySet="Questions" />
+            <End Role="Tag" EntitySet="Tags" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Answer">
+          <Key>
+            <PropertyRef Name="AnswerId" />
+          </Key>
+          <Property Name="AnswerId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="QuestionId" Type="Int32" Nullable="false" />
+          <Property Name="Content" Type="String" Nullable="false" MaxLength="2000" Unicode="true" FixedLength="false" />
+          <Property Name="CreateUserId" Type="Int32" Nullable="false" />
+          <Property Name="CreatedTime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Prize" Type="Int32" />
+          <Property Name="IsBest" Type="Boolean" />
+          <NavigationProperty Name="Question" Relationship="Friends.Models.FK_Answer_Question" FromRole="Answer" ToRole="Question" />
+          <NavigationProperty Name="User" Relationship="Friends.Models.FK_Answer_User" FromRole="Answer" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Comment">
+          <Key>
+            <PropertyRef Name="CommentId" />
+          </Key>
+          <Property Name="CommentId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="ReceiverId" Type="Int32" Nullable="false" />
+          <Property Name="SenderId" Type="Int32" Nullable="false" />
+          <Property Name="Content" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="CreatedTime" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="CommentReplies" Relationship="Friends.Models.FK_CommentReply_Comment" FromRole="Comment" ToRole="CommentReply" />
+        </EntityType>
+        <EntityType Name="CommentReply">
+          <Key>
+            <PropertyRef Name="ReplyId" />
+          </Key>
+          <Property Name="ReplyId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="CommentId" Type="Int32" Nullable="false" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="Content" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="CreatedTime" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="Comment" Relationship="Friends.Models.FK_CommentReply_Comment" FromRole="CommentReply" ToRole="Comment" />
+          <NavigationProperty Name="User" Relationship="Friends.Models.FK_CommentReply_User" FromRole="CommentReply" ToRole="User" />
+        </EntityType>
+        <EntityType Name="FriendRelation">
+          <Key>
+            <PropertyRef Name="UserId" />
+            <PropertyRef Name="FriendId" />
+          </Key>
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="FriendId" Type="Int32" Nullable="false" />
+          <Property Name="GroupId" Type="Int32" />
+          <NavigationProperty Name="User" Relationship="Friends.Models.FK_FriendRelation_Friend" FromRole="FriendRelation" ToRole="User" />
+          <NavigationProperty Name="PrivateGroup" Relationship="Friends.Models.FK_FriendRelation_PrivateGroup" FromRole="FriendRelation" ToRole="PrivateGroup" />
+          <NavigationProperty Name="User1" Relationship="Friends.Models.FK_FriendRelation_User" FromRole="FriendRelation" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Group">
+          <Key>
+            <PropertyRef Name="GroupId" />
+          </Key>
+          <Property Name="GroupId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="GroupName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Category" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="CreaterId" Type="Int32" Nullable="false" />
+          <Property Name="CreateTime" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="User" Relationship="Friends.Models.FK_Group_User" FromRole="Group" ToRole="User" />
+          <NavigationProperty Name="GroupFriends" Relationship="Friends.Models.FK_GroupFriend_Group" FromRole="Group" ToRole="GroupFriend" />
+        </EntityType>
+        <EntityType Name="GroupFriend">
+          <Key>
+            <PropertyRef Name="GroupId" />
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="GroupId" Type="Int32" Nullable="false" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="JoinTime" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="Group" Relationship="Friends.Models.FK_GroupFriend_Group" FromRole="GroupFriend" ToRole="Group" />
+          <NavigationProperty Name="User" Relationship="Friends.Models.FK_GroupFriend_User" FromRole="GroupFriend" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Invitation">
+          <Key>
+            <PropertyRef Name="InvitationId" />
+          </Key>
+          <Property Name="InvitationId" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="SenderId" Type="Int32" Nullable="false" />
+          <Property Name="ReceiverId" Type="Int32" Nullable="false" />
+          <Property Name="Recipient" Type="String" MaxLength="250" Unicode="true" FixedLength="false" />
+          <Property Name="DateSent" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Status" Type="Byte" Nullable="false" />
+          <NavigationProperty Name="User" Relationship="Friends.Models.FK_Invitation_Receiver" FromRole="Invitation" ToRole="User" />
+          <NavigationProperty Name="User1" Relationship="Friends.Models.FK_Invitation_Sender" FromRole="Invitation" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Message">
+          <Key>
+            <PropertyRef Name="MessageId" />
+          </Key>
+          <Property Name="MessageId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="SenderId" Type="Int32" Nullable="false" />
+          <Property Name="Content" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Attachment" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SentTime" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="User" Relationship="Friends.Models.FK_Message_Sender" FromRole="Message" ToRole="User" />
+          <NavigationProperty Name="Users" Relationship="Friends.Models.MessageReciver" FromRole="Message" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Mind">
+          <Key>
+            <PropertyRef Name="MindId" />
+          </Key>
+          <Property Name="MindId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="Content" Type="String" Nullable="false" MaxLength="2000" Unicode="true" FixedLength="false" />
+          <Property Name="MindType" Type="Byte" Nullable="false" />
+          <Property Name="CreatedTime" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="User" Relationship="Friends.Models.FK_Mind_User" FromRole="Mind" ToRole="User" />
+        </EntityType>
+        <EntityType Name="PrivateGroup">
+          <Key>
+            <PropertyRef Name="GroupId" />
+          </Key>
+          <Property Name="GroupId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="GroupName" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="OwnerId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="FriendRelations" Relationship="Friends.Models.FK_FriendRelation_PrivateGroup" FromRole="PrivateGroup" ToRole="FriendRelation" />
+          <NavigationProperty Name="User" Relationship="Friends.Models.FK_PrivateGroup_User" FromRole="PrivateGroup" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Question">
+          <Key>
+            <PropertyRef Name="QuestionId" />
+          </Key>
+          <Property Name="QuestionId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Content" Type="String" Nullable="false" MaxLength="1000" Unicode="true" FixedLength="false" />
+          <Property Name="Prize" Type="Int32" Nullable="false" />
+          <Property Name="CreateUserId" Type="Int32" Nullable="false" />
+          <Property Name="CreatedTime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="VisitCount" Type="Int32" Nullable="false" />
+          <Property Name="State" Type="Byte" Nullable="false" />
+          <NavigationProperty Name="Answers" Relationship="Friends.Models.FK_Answer_Question" FromRole="Question" ToRole="Answer" />
+          <NavigationProperty Name="User" Relationship="Friends.Models.FK_Question_User" FromRole="Question" ToRole="User" />
+          <NavigationProperty Name="Tags" Relationship="Friends.Models.QuestionTag" FromRole="Question" ToRole="Tag" />
+        </EntityType>
+        <EntityType Name="Record">
+          <Key>
+            <PropertyRef Name="RecordId" />
+          </Key>
+          <Property Name="RecordId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="Content" Type="String" Nullable="false" MaxLength="2000" Unicode="true" FixedLength="false" />
+          <Property Name="CreatedTime" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="User" Relationship="Friends.Models.FK_Record_User" FromRole="Record" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Tag">
+          <Key>
+            <PropertyRef Name="TagId" />
+          </Key>
+          <Property Name="TagId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="TagName" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Questions" Relationship="Friends.Models.QuestionTag" FromRole="Tag" ToRole="Question" />
+        </EntityType>
+        <EntityType Name="TitleSetting">
+          <Key>
+            <PropertyRef Name="TitleId" />
+          </Key>
+          <Property Name="TitleId" Type="Int32" Nullable="false" />
+          <Property Name="MinValue" Type="Int32" Nullable="false" />
+          <Property Name="MaxValue" Type="Int32" Nullable="false" />
+          <Property Name="Title" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Mail" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="RealName" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="Password" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="Gender" Type="String" Nullable="false" MaxLength="1" Unicode="true" FixedLength="true" />
+          <Property Name="Birthday" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="City" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="HomeCity" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="Situation" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="HeaderImage" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="BloodStyle" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="RegisterTime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="GenderPrivate" Type="Byte" />
+          <Property Name="BirthdayPrivate" Type="Byte" />
+          <Property Name="CityPrivate" Type="Byte" />
+          <Property Name="HomeCityPrivate" Type="Byte" />
+          <Property Name="SituationPrivate" Type="Byte" />
+          <Property Name="BloodStylePrivate" Type="Byte" />
+          <Property Name="InitialPrize" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Answers" Relationship="Friends.Models.FK_Answer_User" FromRole="User" ToRole="Answer" />
+          <NavigationProperty Name="CommentReplies" Relationship="Friends.Models.FK_CommentReply_User" FromRole="User" ToRole="CommentReply" />
+          <NavigationProperty Name="FriendRelations" Relationship="Friends.Models.FK_FriendRelation_Friend" FromRole="User" ToRole="FriendRelation" />
+          <NavigationProperty Name="FriendRelations1" Relationship="Friends.Models.FK_FriendRelation_User" FromRole="User" ToRole="FriendRelation" />
+          <NavigationProperty Name="Groups" Relationship="Friends.Models.FK_Group_User" FromRole="User" ToRole="Group" />
+          <NavigationProperty Name="GroupFriends" Relationship="Friends.Models.FK_GroupFriend_User" FromRole="User" ToRole="GroupFriend" />
+          <NavigationProperty Name="Invitations" Relationship="Friends.Models.FK_Invitation_Receiver" FromRole="User" ToRole="Invitation" />
+          <NavigationProperty Name="Invitations1" Relationship="Friends.Models.FK_Invitation_Sender" FromRole="User" ToRole="Invitation" />
+          <NavigationProperty Name="Messages" Relationship="Friends.Models.FK_Message_Sender" FromRole="User" ToRole="Message" />
+          <NavigationProperty Name="Minds" Relationship="Friends.Models.FK_Mind_User" FromRole="User" ToRole="Mind" />
+          <NavigationProperty Name="PrivateGroups" Relationship="Friends.Models.FK_PrivateGroup_User" FromRole="User" ToRole="PrivateGroup" />
+          <NavigationProperty Name="Questions" Relationship="Friends.Models.FK_Question_User" FromRole="User" ToRole="Question" />
+          <NavigationProperty Name="Records" Relationship="Friends.Models.FK_Record_User" FromRole="User" ToRole="Record" />
+          <NavigationProperty Name="Visits" Relationship="Friends.Models.FK_Visit_User" FromRole="User" ToRole="Visit" />
+          <NavigationProperty Name="Visits1" Relationship="Friends.Models.FK_Visit_Vistor" FromRole="User" ToRole="Visit" />
+          <NavigationProperty Name="Messages1" Relationship="Friends.Models.MessageReciver" FromRole="User" ToRole="Message" />
+        </EntityType>
+        <EntityType Name="Visit">
+          <Key>
+            <PropertyRef Name="VisitID" />
+          </Key>
+          <Property Name="VisitID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="UserID" Type="Int32" Nullable="false" />
+          <Property Name="VisitorID" Type="Int32" Nullable="false" />
+          <Property Name="LastVisitTime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="LastVisitIP" Type="String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="false" />
+          <Property Name="VisitTimes" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="User" Relationship="Friends.Models.FK_Visit_User" FromRole="Visit" ToRole="User" />
+          <NavigationProperty Name="User1" Relationship="Friends.Models.FK_Visit_Vistor" FromRole="Visit" ToRole="User" />
+        </EntityType>
+        <Association Name="FK_Answer_Question">
+          <End Role="Question" Type="Friends.Models.Question" Multiplicity="1" />
+          <End Role="Answer" Type="Friends.Models.Answer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Question">
+              <PropertyRef Name="QuestionId" />
+            </Principal>
+            <Dependent Role="Answer">
+              <PropertyRef Name="QuestionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Answer_User">
+          <End Role="User" Type="Friends.Models.User" Multiplicity="1" />
+          <End Role="Answer" Type="Friends.Models.Answer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Answer">
+              <PropertyRef Name="CreateUserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CommentReply_Comment">
+          <End Role="Comment" Type="Friends.Models.Comment" Multiplicity="1" />
+          <End Role="CommentReply" Type="Friends.Models.CommentReply" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Comment">
+              <PropertyRef Name="CommentId" />
+            </Principal>
+            <Dependent Role="CommentReply">
+              <PropertyRef Name="CommentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CommentReply_User">
+          <End Role="User" Type="Friends.Models.User" Multiplicity="1" />
+          <End Role="CommentReply" Type="Friends.Models.CommentReply" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="CommentReply">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_FriendRelation_Friend">
+          <End Role="User" Type="Friends.Models.User" Multiplicity="1" />
+          <End Role="FriendRelation" Type="Friends.Models.FriendRelation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="FriendRelation">
+              <PropertyRef Name="FriendId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_FriendRelation_PrivateGroup">
+          <End Role="PrivateGroup" Type="Friends.Models.PrivateGroup" Multiplicity="0..1" />
+          <End Role="FriendRelation" Type="Friends.Models.FriendRelation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PrivateGroup">
+              <PropertyRef Name="GroupId" />
+            </Principal>
+            <Dependent Role="FriendRelation">
+              <PropertyRef Name="GroupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_FriendRelation_User">
+          <End Role="User" Type="Friends.Models.User" Multiplicity="1" />
+          <End Role="FriendRelation" Type="Friends.Models.FriendRelation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="FriendRelation">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Group_User">
+          <End Role="User" Type="Friends.Models.User" Multiplicity="1" />
+          <End Role="Group" Type="Friends.Models.Group" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Group">
+              <PropertyRef Name="CreaterId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_GroupFriend_Group">
+          <End Role="Group" Type="Friends.Models.Group" Multiplicity="1" />
+          <End Role="GroupFriend" Type="Friends.Models.GroupFriend" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Group">
+              <PropertyRef Name="GroupId" />
+            </Principal>
+            <Dependent Role="GroupFriend">
+              <PropertyRef Name="GroupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_GroupFriend_User">
+          <End Role="User" Type="Friends.Models.User" Multiplicity="1" />
+          <End Role="GroupFriend" Type="Friends.Models.GroupFriend" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="GroupFriend">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Invitation_Receiver">
+          <End Role="User" Type="Friends.Models.User" Multiplicity="1" />
+          <End Role="Invitation" Type="Friends.Models.Invitation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Invitation">
+              <PropertyRef Name="ReceiverId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Invitation_Sender">
+          <End Role="User" Type="Friends.Models.User" Multiplicity="1" />
+          <End Role="Invitation" Type="Friends.Models.Invitation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Invitation">
+              <PropertyRef Name="SenderId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Message_Sender">
+          <End Role="User" Type="Friends.Models.User" Multiplicity="1" />
+          <End Role="Message" Type="Friends.Models.Message" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Message">
+              <PropertyRef Name="SenderId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Mind_User">
+          <End Role="User" Type="Friends.Models.User" Multiplicity="1" />
+          <End Role="Mind" Type="Friends.Models.Mind" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Mind">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PrivateGroup_User">
+          <End Role="User" Type="Friends.Models.User" Multiplicity="1" />
+          <End Role="PrivateGroup" Type="Friends.Models.PrivateGroup" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="PrivateGroup">
+              <PropertyRef Name="OwnerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Question_User">
+          <End Role="User" Type="Friends.Models.User" Multiplicity="1" />
+          <End Role="Question" Type="Friends.Models.Question" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Question">
+              <PropertyRef Name="CreateUserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Record_User">
+          <End Role="User" Type="Friends.Models.User" Multiplicity="1" />
+          <End Role="Record" Type="Friends.Models.Record" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Record">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Visit_User">
+          <End Role="User" Type="Friends.Models.User" Multiplicity="1" />
+          <End Role="Visit" Type="Friends.Models.Visit" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Visit">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Visit_Vistor">
+          <End Role="User" Type="Friends.Models.User" Multiplicity="1" />
+          <End Role="Visit" Type="Friends.Models.Visit" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Visit">
+              <PropertyRef Name="VisitorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MessageReciver">
+          <End Role="Message" Type="Friends.Models.Message" Multiplicity="*" />
+          <End Role="User" Type="Friends.Models.User" Multiplicity="*" />
+        </Association>
+        <Association Name="QuestionTag">
+          <End Role="Question" Type="Friends.Models.Question" Multiplicity="*" />
+          <End Role="Tag" Type="Friends.Models.Tag" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="FriendsModelsStoreContainer" CdmEntityContainer="FriendsEntities1">
+          <EntitySetMapping Name="Answers">
+            <EntityTypeMapping TypeName="Friends.Models.Answer">
+              <MappingFragment StoreEntitySet="Answer">
+                <ScalarProperty Name="AnswerId" ColumnName="AnswerId" />
+                <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="CreateUserId" ColumnName="CreateUserId" />
+                <ScalarProperty Name="CreatedTime" ColumnName="CreatedTime" />
+                <ScalarProperty Name="Prize" ColumnName="Prize" />
+                <ScalarProperty Name="IsBest" ColumnName="IsBest" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Comments">
+            <EntityTypeMapping TypeName="Friends.Models.Comment">
+              <MappingFragment StoreEntitySet="Comment">
+                <ScalarProperty Name="CommentId" ColumnName="CommentId" />
+                <ScalarProperty Name="ReceiverId" ColumnName="ReceiverId" />
+                <ScalarProperty Name="SenderId" ColumnName="SenderId" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="CreatedTime" ColumnName="CreatedTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CommentReplies">
+            <EntityTypeMapping TypeName="Friends.Models.CommentReply">
+              <MappingFragment StoreEntitySet="CommentReply">
+                <ScalarProperty Name="ReplyId" ColumnName="ReplyId" />
+                <ScalarProperty Name="CommentId" ColumnName="CommentId" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="CreatedTime" ColumnName="CreatedTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FriendRelations">
+            <EntityTypeMapping TypeName="Friends.Models.FriendRelation">
+              <MappingFragment StoreEntitySet="FriendRelation">
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="FriendId" ColumnName="FriendId" />
+                <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Groups">
+            <EntityTypeMapping TypeName="Friends.Models.Group">
+              <MappingFragment StoreEntitySet="Group">
+                <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+                <ScalarProperty Name="GroupName" ColumnName="GroupName" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="CreaterId" ColumnName="CreaterId" />
+                <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GroupFriends">
+            <EntityTypeMapping TypeName="Friends.Models.GroupFriend">
+              <MappingFragment StoreEntitySet="GroupFriend">
+                <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="JoinTime" ColumnName="JoinTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Invitations">
+            <EntityTypeMapping TypeName="Friends.Models.Invitation">
+              <MappingFragment StoreEntitySet="Invitation">
+                <ScalarProperty Name="InvitationId" ColumnName="InvitationId" />
+                <ScalarProperty Name="SenderId" ColumnName="SenderId" />
+                <ScalarProperty Name="ReceiverId" ColumnName="ReceiverId" />
+                <ScalarProperty Name="Recipient" ColumnName="Recipient" />
+                <ScalarProperty Name="DateSent" ColumnName="DateSent" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Messages">
+            <EntityTypeMapping TypeName="Friends.Models.Message">
+              <MappingFragment StoreEntitySet="Message">
+                <ScalarProperty Name="MessageId" ColumnName="MessageId" />
+                <ScalarProperty Name="SenderId" ColumnName="SenderId" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="Attachment" ColumnName="Attachment" />
+                <ScalarProperty Name="SentTime" ColumnName="SentTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Minds">
+            <EntityTypeMapping TypeName="Friends.Models.Mind">
+              <MappingFragment StoreEntitySet="Mind">
+                <ScalarProperty Name="MindId" ColumnName="MindId" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="MindType" ColumnName="MindType" />
+                <ScalarProperty Name="CreatedTime" ColumnName="CreatedTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PrivateGroups">
+            <EntityTypeMapping TypeName="Friends.Models.PrivateGroup">
+              <MappingFragment StoreEntitySet="PrivateGroup">
+                <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+                <ScalarProperty Name="GroupName" ColumnName="GroupName" />
+                <ScalarProperty Name="OwnerId" ColumnName="OwnerId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Questions">
+            <EntityTypeMapping TypeName="Friends.Models.Question">
+              <MappingFragment StoreEntitySet="Question">
+                <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="Prize" ColumnName="Prize" />
+                <ScalarProperty Name="CreateUserId" ColumnName="CreateUserId" />
+                <ScalarProperty Name="CreatedTime" ColumnName="CreatedTime" />
+                <ScalarProperty Name="VisitCount" ColumnName="VisitCount" />
+                <ScalarProperty Name="State" ColumnName="State" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Records">
+            <EntityTypeMapping TypeName="Friends.Models.Record">
+              <MappingFragment StoreEntitySet="Record">
+                <ScalarProperty Name="RecordId" ColumnName="RecordId" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="CreatedTime" ColumnName="CreatedTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tags">
+            <EntityTypeMapping TypeName="Friends.Models.Tag">
+              <MappingFragment StoreEntitySet="Tag">
+                <ScalarProperty Name="TagId" ColumnName="TagId" />
+                <ScalarProperty Name="TagName" ColumnName="TagName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TitleSettings">
+            <EntityTypeMapping TypeName="Friends.Models.TitleSetting">
+              <MappingFragment StoreEntitySet="TitleSetting">
+                <ScalarProperty Name="TitleId" ColumnName="TitleId" />
+                <ScalarProperty Name="MinValue" ColumnName="MinValue" />
+                <ScalarProperty Name="MaxValue" ColumnName="MaxValue" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="Friends.Models.User">
+              <MappingFragment StoreEntitySet="User">
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Mail" ColumnName="Mail" />
+                <ScalarProperty Name="RealName" ColumnName="RealName" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="HomeCity" ColumnName="HomeCity" />
+                <ScalarProperty Name="Situation" ColumnName="Situation" />
+                <ScalarProperty Name="HeaderImage" ColumnName="HeaderImage" />
+                <ScalarProperty Name="BloodStyle" ColumnName="BloodStyle" />
+                <ScalarProperty Name="RegisterTime" ColumnName="RegisterTime" />
+                <ScalarProperty Name="GenderPrivate" ColumnName="GenderPrivate" />
+                <ScalarProperty Name="BirthdayPrivate" ColumnName="BirthdayPrivate" />
+                <ScalarProperty Name="CityPrivate" ColumnName="CityPrivate" />
+                <ScalarProperty Name="HomeCityPrivate" ColumnName="HomeCityPrivate" />
+                <ScalarProperty Name="SituationPrivate" ColumnName="SituationPrivate" />
+                <ScalarProperty Name="BloodStylePrivate" ColumnName="BloodStylePrivate" />
+                <ScalarProperty Name="InitialPrize" ColumnName="InitialPrize" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Visits">
+            <EntityTypeMapping TypeName="Friends.Models.Visit">
+              <MappingFragment StoreEntitySet="Visit">
+                <ScalarProperty Name="VisitID" ColumnName="VisitID" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="VisitorID" ColumnName="VisitorID" />
+                <ScalarProperty Name="LastVisitTime" ColumnName="LastVisitTime" />
+                <ScalarProperty Name="LastVisitIP" ColumnName="LastVisitIP" />
+                <ScalarProperty Name="VisitTimes" ColumnName="VisitTimes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="MessageReciver" TypeName="Friends.Models.MessageReciver" StoreEntitySet="MessageReciver">
+            <EndProperty Name="Message">
+              <ScalarProperty Name="MessageId" ColumnName="MessageId" />
+            </EndProperty>
+            <EndProperty Name="User">
+              <ScalarProperty Name="UserId" ColumnName="ReceiverId" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="QuestionTag" TypeName="Friends.Models.QuestionTag" StoreEntitySet="QuestionTag">
+            <EndProperty Name="Question">
+              <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
+            </EndProperty>
+            <EndProperty Name="Tag">
+              <ScalarProperty Name="TagId" ColumnName="TagId" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

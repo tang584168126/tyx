@@ -1,0 +1,86 @@
+﻿@model Friends.Models.Question
+
+@{
+    ViewBag.Title = "创建问题";
+    Layout = "~/Views/Shared/_common.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <div id="Question">
+        <div class="quesList">
+            <p>创建问题</p>
+            <dl>
+                <dt>标题</dt>
+                <dd>@Html.TextBoxFor(m => m.Title, new { @class = "textInputBig" })
+                    @Html.ValidationMessageFor(m => m.Title)</dd>
+            </dl>
+
+            <dl>
+                <dt>内容</dt>
+                <dd>
+                    @Html.EditorFor(m => m.Content, "CkEditor")
+                    @Html.ValidationMessageFor(m => m.Content)</dd>
+            </dl>
+
+            <dl>
+                <dt>悬赏</dt>
+                <dd>@Html.TextBoxFor(m => m.Prize, new { @class = "textInputSmall" })
+                    @Html.ValidationMessageFor(m => m.Prize)您目前有<span style="color: red; font-weight: bold">@ViewBag.LimitidBeans</span>青鸟豆</dd>
+            </dl>
+
+            <dl>
+                <dt>标签</dt>
+                <dd>
+                    <ul id="myTags" style="width: 360px;"></ul>
+                    @Html.ValidationMessageFor(m => m.TagList)
+                      @Html.TextBoxFor(m => m.TagList, new { style="visibility:hidden"})
+                </dd>
+            </dl>
+
+            <dl>
+                <dt>&nbsp;&nbsp;</dt>
+                <dd>
+                    <input name="submit" type="submit" value="填写完毕，提交问题 " class="btnSubmit" id="submit" style="visibility: visible" />
+
+                </dd>
+            </dl>
+        </div>
+    </div>
+}
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Scripts/tag-it.min.js"></script>
+
+    <link href="~/Content/jquery.tagit.css" rel="stylesheet" />
+    <script src="~/ckeditor/ckeditor.js"></script>
+    <script type="text/javascript">
+        //['c++', 'java', 'php']
+        $(
+            function () {
+                $("#submit").button();
+
+                $.getJSON("@Url.Action("GetTags", "Question")", null, function (data) {
+                    $("#myTags").tagit(
+                 {
+                     availableTags: data,//自动提示数据源
+                     autocomplete: { delay: 0, minLength: 2 },//自动提示
+                     allowSpaces: true,//允许空格
+                     singleField: true,
+                     singleFieldNode: $("#TagList"),//对应表单DOM
+                     singleFieldDelimiter: ",",//分割字符
+                     caseSensitive: false, //区分大小写
+                 });
+
+                });
+
+            });
+
+    </script>
+
+}

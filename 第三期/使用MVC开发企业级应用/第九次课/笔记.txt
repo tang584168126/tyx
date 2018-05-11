@@ -1,0 +1,57 @@
+LINQ(Language Integrated Query):语言集成化查询，通过使用C#语言或者其他编程语言编写符合LINQ语法的C#代码，用于查询支持LINQ语法的数据源
+
+数据源：XML、Object、Entities、DataSet、SQL等
+
+根据数据源的不同，LINQ又分以下分类：Linq to XML、Linq to Entities、Linq to Object、Linq to DataSet、Linq to SQL
+
+Linq查询的语法结构：
+from 变量 in 数据源对象
+where 条件表达式
+orderby 排序列 [ascending|descending]
+group 变量 by 分组条件
+into 临时标识符
+select 选择列
+其中：from in select 部分是必须的
+
+Linq to Object：其基本的对象类型有：string、List<T>、ArrayList
+说明：将ArrayList作为数据源时，必须为from后的变量指明数据类型，是因为ArrayList类没有实现IEnumerable接口；因此，只有将未实现IEnumerable接口的容器作为数据源，都必须为from后的变量指明数据类型
+
+查询语句与查询方法对应
+分类		查询方法		查询关键字
+投影		Select()、SelectMany()	select
+筛选		Where()			where
+排序		OrderBy()		order、ascending、descending
+		OrderByAscending()
+		OrderByDescending()
+集方法		Union()、Distinct()
+分组方法	GroupBy()		group by
+聚合		Max()、Min()
+		Average()、Count()、Sum()
+分区		Skip()、Take()
+
+SingleOrDefault()和FristOrDefault()之间的区别
+SingleOrDefault()所作用的数据源中值可以包含一个元素，超出则报错，如果没有元素则返回默认值，如果也没有默认值则返回null
+FirstOrDefault()则获取其所作用的数据源的第一个元素，如果没有元素则返回默认值，如果也没有默认值则返回null
+
+Linq to Entities
+Linq to Entities 与 Linq to Object 之间的异同
+1.查询的表达式语法一致
+2.LinqToEntities在执行之前，首先需要将表达式转换为Sql语句，然后在执行，在转换的过程中，表达式中方法会转换为数据库中对应的函数
+注意事项：只有特定的方法(规范函数)才能转换为数据库中的对应函数查IncLinq表达式中能够使用的方法时有限的
+
+数据投影：把实体对象对应成一个新的对象，用于查询单表或多表的部分数据
+
+查询多表数据
+1.通过导航属性	=>表间有外键关系
+2.通过join	=>表间没有关联关系
+
+EF性能优化
+查看Linq表达式转换之后的Sql语句
+1.使用ToString()方法
+2.使用SQL SERVER Profiler跟踪
+注意：查询延迟执行的时候，可以使用ToList()方法强制执行
+
+建议：Linq查询表达式中查询条件尽量用参数
+原因：这样，Linq表达式转换为Sql语言只需要一次，之后可以复用
+
+无跟踪查询：AsNoTracking()

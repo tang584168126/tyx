@@ -1,0 +1,39 @@
+﻿@*@model IEnumerable<Friends.Model.PrivateGroup>*@
+
+<form action="" method="get" name="myforms">
+    <input name="searchs" type="text" value="搜索好友" class="searchInput" />
+</form>
+<div class="clear10"></div>
+<ul class="friendTypeHeader">
+    <li><span>@ViewBag.TotalCount</span>全部好友</li>
+</ul>
+<ul class="friendCatalog">
+    @foreach (Friends.Model.PrivateGroup g in ViewBag.GroupList)
+    {
+        <li>
+            @*<a href="@Url.Action("FriendList", "Friend", new { groupId=g.GroupId})">@g.GroupName</a>*@
+            @Ajax.ActionLink(g.GroupName, "FriendList", "Friend", new { groupId = g.GroupId }, new AjaxOptions() { OnSuccess = "loadFriendListByGroup" })
+            <span>@g.FriendRelations.Count()</span>
+        </li>
+    }
+
+
+    <li>
+        <a href="#">未分组好友</a><span>@ViewBag.UnGroupCount</span>
+    </li>
+    <li class="addGroupBtn">
+        <input name="group" type="button" value="添加分组" />
+    </li>
+    @*<li>
+            <a href="#">已发好友请求</a><span>5</span>
+        </li>
+        <li>
+            <a href="#">我关注的人</a><span>6</span>
+        </li>
+        <li>
+            <a href="#">关注我的人</a><span>7</span>
+        </li>
+        <li>
+            <a href="#">谁来看过我</a><span>18</span>
+        </li>*@
+</ul>

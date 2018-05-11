@@ -1,0 +1,168 @@
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Friends.Web.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Friends.Web.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Antlr3.Runtime.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\EntityFramework.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Friends.Models.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Microsoft.Web.Infrastructure.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Newtonsoft.Json.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Net.Http.Formatting.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Http.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Http.WebHost.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Mvc.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Optimization.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Providers.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Razor.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.Deployment.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.Razor.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\WebGrease.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Friends.Models.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\EntityFramework.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Newtonsoft.Json.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Net.Http.Formatting.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Http.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Http.WebHost.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Mvc.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Razor.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.Deployment.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.Razor.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\EntityFramework.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Http.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Optimization.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Providers.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\obj\Release\Friends.Web.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\obj\Release\Friends.Web.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\obj\Release\Friends.Web.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Friends.Web.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Friends.Web.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Antlr3.Runtime.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\EntityFramework.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Friends.Models.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Newtonsoft.Json.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Net.Http.Formatting.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Http.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Http.WebHost.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Mvc.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Optimization.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Providers.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Razor.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.Deployment.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.Razor.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\WebGrease.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Friends.Models.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\EntityFramework.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Newtonsoft.Json.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Net.Http.Formatting.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Http.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Http.WebHost.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Mvc.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Razor.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.Deployment.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.Razor.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\EntityFramework.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Http.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Optimization.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Providers.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\obj\Release\Friends.Web.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\obj\Release\Friends.Web.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\obj\Release\Friends.Web.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Friends.Web.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Friends.Web.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Antlr3.Runtime.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\EntityFramework.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Friends.Models.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Newtonsoft.Json.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Net.Http.Formatting.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Http.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Http.WebHost.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Mvc.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Optimization.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Providers.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Razor.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.Deployment.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.Razor.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\WebGrease.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Friends.Models.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\EntityFramework.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\Newtonsoft.Json.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Net.Http.Formatting.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Http.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Http.WebHost.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Mvc.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.Razor.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.Deployment.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.Razor.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\EntityFramework.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Http.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Optimization.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Providers.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\obj\Release\Friends.Web.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\obj\Release\Friends.Web.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12 (安全、单元测试和部署)\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web\obj\Release\Friends.Web.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\Friends.Web.dll.config
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\Friends.Web.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\Friends.Web.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\Antlr3.Runtime.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\EntityFramework.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\Friends.Models.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\Newtonsoft.Json.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\System.Net.Http.Formatting.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\System.Web.Http.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\System.Web.Http.WebHost.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\System.Web.Mvc.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\System.Web.Optimization.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\System.Web.Providers.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\System.Web.Razor.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.Deployment.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.Razor.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\WebGrease.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\Friends.Models.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\EntityFramework.xml
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\Newtonsoft.Json.xml
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\System.Net.Http.Formatting.xml
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\System.Web.Http.xml
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\System.Web.Http.WebHost.xml
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\System.Web.Mvc.xml
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\System.Web.Razor.xml
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.xml
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.Deployment.xml
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\System.Web.WebPages.Razor.xml
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\zh-Hans\EntityFramework.resources.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Http.resources.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Providers.resources.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\obj\Release\Friends.Web.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\obj\Release\Friends.Web.dll
+E:\代码\第三期\使用MVC开发企业级应用\第十二次课\ASP.NET MVC第十二章素材\案例使用\6、测试青鸟朋友网\Friends.Web\obj\Release\Friends.Web.pdb

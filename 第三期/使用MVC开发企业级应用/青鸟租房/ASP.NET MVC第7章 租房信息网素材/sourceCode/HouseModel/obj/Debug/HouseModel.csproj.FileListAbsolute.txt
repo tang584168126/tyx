@@ -1,0 +1,12 @@
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter07\代码\HouseRent\HouseModel\bin\Debug\HouseModel.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter07\代码\HouseRent\HouseModel\bin\Debug\HouseModel.pdb
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter07\代码\HouseRent\HouseModel\obj\Debug\HouseModel.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter07\代码\HouseRent\HouseModel\obj\Debug\HouseModel.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter07\02 上机练习参考答案\HouseRent\HouseModel\bin\Debug\HouseModel.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter07\02 上机练习参考答案\HouseRent\HouseModel\bin\Debug\HouseModel.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter07\02 上机练习参考答案\HouseRent\HouseModel\obj\Debug\HouseModel.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter07\02 上机练习参考答案\HouseRent\HouseModel\obj\Debug\HouseModel.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter07\03 提供给学员的上机练习素材\sourceCode\HouseModel\bin\Debug\HouseModel.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter07\03 提供给学员的上机练习素材\sourceCode\HouseModel\bin\Debug\HouseModel.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter07\03 提供给学员的上机练习素材\sourceCode\HouseModel\obj\Debug\HouseModel.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter07\03 提供给学员的上机练习素材\sourceCode\HouseModel\obj\Debug\HouseModel.pdb

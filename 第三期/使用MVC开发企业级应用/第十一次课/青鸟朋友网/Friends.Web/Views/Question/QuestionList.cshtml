@@ -1,0 +1,33 @@
+﻿@model PagedList<Friends.Models.Question>
+@using Friends.Web.Helpers;
+
+<div class="clear10"></div>
+
+@foreach (var item in Model)
+{
+    <dl class="questList">
+        <dt>
+            <p>@item.Answers.Count()</p>
+            回答数</dt>
+        <dd>
+            <p>@item.Prize<img src="~/images/icon-24.jpg" width="18" height="10" />
+                @Html.ActionLink(item.Title, "Detail", "Question", new { id = item.QuestionId }, null)
+            </p>
+            <div>@Html.Raw(item.Content.ToShortString(100))</div>
+            <ul>
+                @foreach (var tag in item.Tags)
+                {
+                    <li><span>@tag.TagName</span></li>
+                }
+                <li class="last"><a href="#">@item.User.RealName</a><br />
+                    浏览(@item.VisitCount) @item.CreatedTime.ToSpanDays()</li>
+                <li class="third">
+                    <img src="@Url.Content("~/images/headers/" + @item.User.HeaderImage)" width="36" height="36" /></li>
+            </ul>
+        </dd>
+    </dl>
+}
+
+
+@Html.Raw(Ajax.Pager(Model,ViewData["PagerContainer"].ToString()))
+

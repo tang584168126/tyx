@@ -1,0 +1,44 @@
+﻿
+@using (Ajax.BeginForm("SearchFriend", new AjaxOptions { UpdateTargetId = "ajaxFriendSearchResult" }))
+{
+    <fieldset style="padding:5px 5px 5px 5px">
+        <legend>精确搜索</legend>
+
+        <div class="searchForm">
+            <dl>
+
+                <dt>
+                    <label for="username">姓名:</label></dt>
+                <dd>
+                    <input type="text" name="RealName" />
+
+                    @Html.DropDownList("Gender", Friends.Models.FriendListItems.Genders, "性别")</dd>
+            </dl>
+
+            <dl>
+                <dt>
+                    <label for="City">居住地:</label>
+                </dt>
+                <dd>
+                    <input type="text" name="City"  style="width:400px"/></dd>
+            </dl>
+            <dl>
+                <dt>
+                    <label for="City" >家乡:</label>
+                </dt>
+                <dd>
+                    <input type="text" name="HomeCity" style="width:400px"/></dd>
+            </dl>
+            <dl>
+                <dt>&nbsp;&nbsp;</dt>
+                <dd>
+                    <input type="submit" value="查 找"  class="button"/>
+                </dd>
+            </dl>
+        </div>
+    </fieldset>
+}
+<div id="ajaxFriendSearchResult"></div>
+<script type="text/javascript">
+
+</script>

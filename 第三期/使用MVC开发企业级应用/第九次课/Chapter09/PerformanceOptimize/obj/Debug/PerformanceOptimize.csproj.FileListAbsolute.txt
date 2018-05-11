@@ -1,0 +1,12 @@
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\PerformanceOptimize\bin\Debug\PerformanceOptimize.exe.config
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\PerformanceOptimize\bin\Debug\PerformanceOptimize.exe
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\PerformanceOptimize\bin\Debug\PerformanceOptimize.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\PerformanceOptimize\bin\Debug\EntityFramework.dll
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\PerformanceOptimize\bin\Debug\EntityFramework.xml
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\PerformanceOptimize\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\PerformanceOptimize\obj\Debug\PerformanceOptimize.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\PerformanceOptimize\obj\Debug\PerformanceOptimize.exe
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\PerformanceOptimize\obj\Debug\PerformanceOptimize.pdb
+E:\TYX_Projiect\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\PerformanceOptimize\bin\Debug\PerformanceOptimize.exe.config
+E:\TYX_Projiect\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\PerformanceOptimize\obj\Debug\PerformanceOptimize.exe
+E:\TYX_Projiect\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\PerformanceOptimize\obj\Debug\PerformanceOptimize.pdb

@@ -1,0 +1,7 @@
+E:\代码\第三期\使用MVC开发企业级应用\青鸟租房\HouseRent\HouseRentDAL\obj\Debug\HouseRentDAL.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用MVC开发企业级应用\青鸟租房\HouseRent\HouseRentDAL\bin\Debug\HouseRent.DAL.dll
+E:\代码\第三期\使用MVC开发企业级应用\青鸟租房\HouseRent\HouseRentDAL\bin\Debug\HouseRent.DAL.pdb
+E:\代码\第三期\使用MVC开发企业级应用\青鸟租房\HouseRent\HouseRentDAL\bin\Debug\HouseRent.Model.dll
+E:\代码\第三期\使用MVC开发企业级应用\青鸟租房\HouseRent\HouseRentDAL\bin\Debug\HouseRent.Model.pdb
+E:\代码\第三期\使用MVC开发企业级应用\青鸟租房\HouseRent\HouseRentDAL\obj\Debug\HouseRent.DAL.dll
+E:\代码\第三期\使用MVC开发企业级应用\青鸟租房\HouseRent\HouseRentDAL\obj\Debug\HouseRent.DAL.pdb

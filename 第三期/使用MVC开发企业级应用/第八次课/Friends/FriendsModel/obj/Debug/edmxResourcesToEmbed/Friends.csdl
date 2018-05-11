@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FriendsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Answer">
+    <Key>
+      <PropertyRef Name="AnswerId" />
+    </Key>
+    <Property Name="AnswerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="QuestionId" Type="Int32" Nullable="false" />
+    <Property Name="Content" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreateUserId" Type="Int32" Nullable="false" />
+    <Property Name="CreatedTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Prize" Type="Int32" />
+    <Property Name="IsBest" Type="Boolean" />
+    <NavigationProperty Name="Question" Relationship="Self.FK_Answer_Question" FromRole="Answer" ToRole="Question" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Answer_User" FromRole="Answer" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="CommentId" />
+    </Key>
+    <Property Name="CommentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReceiverId" Type="Int32" Nullable="false" />
+    <Property Name="SenderId" Type="Int32" Nullable="false" />
+    <Property Name="Content" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedTime" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="CommentReplies" Relationship="Self.FK_CommentReply_Comment" FromRole="Comment" ToRole="CommentReply" />
+  </EntityType>
+  <EntityType Name="CommentReply">
+    <Key>
+      <PropertyRef Name="ReplyId" />
+    </Key>
+    <Property Name="ReplyId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CommentId" Type="Int32" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="Content" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedTime" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Comment" Relationship="Self.FK_CommentReply_Comment" FromRole="CommentReply" ToRole="Comment" />
+    <NavigationProperty Name="User" Relationship="Self.FK_CommentReply_User" FromRole="CommentReply" ToRole="User" />
+  </EntityType>
+  <EntityType Name="FriendRelation">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="FriendId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="FriendId" Type="Int32" Nullable="false" />
+    <Property Name="GroupId" Type="Int32" />
+    <NavigationProperty Name="User" Relationship="Self.FK_FriendRelation_Friend" FromRole="FriendRelation" ToRole="User" />
+    <NavigationProperty Name="PrivateGroup" Relationship="Self.FK_FriendRelation_PrivateGroup" FromRole="FriendRelation" ToRole="PrivateGroup" />
+    <NavigationProperty Name="User1" Relationship="Self.FK_FriendRelation_User" FromRole="FriendRelation" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="GroupId" />
+    </Key>
+    <Property Name="GroupId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GroupName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Category" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreaterId" Type="Int32" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Group_User" FromRole="Group" ToRole="User" />
+    <NavigationProperty Name="GroupFriends" Relationship="Self.FK_GroupFriend_Group" FromRole="Group" ToRole="GroupFriend" />
+  </EntityType>
+  <EntityType Name="GroupFriend">
+    <Key>
+      <PropertyRef Name="GroupId" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="GroupId" Type="Int32" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="JoinTime" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Group" Relationship="Self.FK_GroupFriend_Group" FromRole="GroupFriend" ToRole="Group" />
+    <NavigationProperty Name="User" Relationship="Self.FK_GroupFriend_User" FromRole="GroupFriend" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Invitation">
+    <Key>
+      <PropertyRef Name="InvitationId" />
+    </Key>
+    <Property Name="InvitationId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SenderId" Type="Int32" Nullable="false" />
+    <Property Name="ReceiverId" Type="Int32" Nullable="false" />
+    <Property Name="Recipient" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="DateSent" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Status" Type="Byte" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Invitation_Receiver" FromRole="Invitation" ToRole="User" />
+    <NavigationProperty Name="User1" Relationship="Self.FK_Invitation_Sender" FromRole="Invitation" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="MessageId" />
+    </Key>
+    <Property Name="MessageId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SenderId" Type="Int32" Nullable="false" />
+    <Property Name="Content" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Attachment" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SentTime" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Message_Sender" FromRole="Message" ToRole="User" />
+    <NavigationProperty Name="Users" Relationship="Self.MessageReciver" FromRole="Message" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Mind">
+    <Key>
+      <PropertyRef Name="MindId" />
+    </Key>
+    <Property Name="MindId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="Content" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MindType" Type="Byte" Nullable="false" />
+    <Property Name="CreatedTime" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Mind_User" FromRole="Mind" ToRole="User" />
+  </EntityType>
+  <EntityType Name="PrivateGroup">
+    <Key>
+      <PropertyRef Name="GroupId" />
+    </Key>
+    <Property Name="GroupId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GroupName" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="OwnerId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="FriendRelations" Relationship="Self.FK_FriendRelation_PrivateGroup" FromRole="PrivateGroup" ToRole="FriendRelation" />
+    <NavigationProperty Name="User" Relationship="Self.FK_PrivateGroup_User" FromRole="PrivateGroup" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="QuestionId" />
+    </Key>
+    <Property Name="QuestionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Content" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Prize" Type="Int32" Nullable="false" />
+    <Property Name="CreateUserId" Type="Int32" Nullable="false" />
+    <Property Name="CreatedTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="VisitCount" Type="Int32" Nullable="false" />
+    <Property Name="State" Type="Byte" Nullable="false" />
+    <NavigationProperty Name="Answers" Relationship="Self.FK_Answer_Question" FromRole="Question" ToRole="Answer" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Question_User" FromRole="Question" ToRole="User" />
+    <NavigationProperty Name="Tags" Relationship="Self.QuestionTag" FromRole="Question" ToRole="Tag" />
+  </EntityType>
+  <EntityType Name="Record">
+    <Key>
+      <PropertyRef Name="RecordId" />
+    </Key>
+    <Property Name="RecordId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="Content" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedTime" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Record_User" FromRole="Record" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Tag">
+    <Key>
+      <PropertyRef Name="TagId" />
+    </Key>
+    <Property Name="TagId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TagName" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Questions" Relationship="Self.QuestionTag" FromRole="Tag" ToRole="Question" />
+  </EntityType>
+  <EntityType Name="TitleSetting">
+    <Key>
+      <PropertyRef Name="TitleId" />
+    </Key>
+    <Property Name="TitleId" Type="Int32" Nullable="false" />
+    <Property Name="MinValue" Type="Int32" Nullable="false" />
+    <Property Name="MaxValue" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RealName" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Gender" Type="String" MaxLength="1" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Birthday" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="City" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="HomeCity" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Situation" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="HeaderImage" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BloodStyle" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="RegisterTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="GenderPrivate" Type="Byte" />
+    <Property Name="BirthdayPrivate" Type="Byte" />
+    <Property Name="CityPrivate" Type="Byte" />
+    <Property Name="HomeCityPrivate" Type="Byte" />
+    <Property Name="SituationPrivate" Type="Byte" />
+    <Property Name="BloodStylePrivate" Type="Byte" />
+    <Property Name="InitialPrize" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Answers" Relationship="Self.FK_Answer_User" FromRole="User" ToRole="Answer" />
+    <NavigationProperty Name="CommentReplies" Relationship="Self.FK_CommentReply_User" FromRole="User" ToRole="CommentReply" />
+    <NavigationProperty Name="FriendRelations" Relationship="Self.FK_FriendRelation_Friend" FromRole="User" ToRole="FriendRelation" />
+    <NavigationProperty Name="FriendRelations1" Relationship="Self.FK_FriendRelation_User" FromRole="User" ToRole="FriendRelation" />
+    <NavigationProperty Name="Groups" Relationship="Self.FK_Group_User" FromRole="User" ToRole="Group" />
+    <NavigationProperty Name="GroupFriends" Relationship="Self.FK_GroupFriend_User" FromRole="User" ToRole="GroupFriend" />
+    <NavigationProperty Name="Invitations" Relationship="Self.FK_Invitation_Receiver" FromRole="User" ToRole="Invitation" />
+    <NavigationProperty Name="Invitations1" Relationship="Self.FK_Invitation_Sender" FromRole="User" ToRole="Invitation" />
+    <NavigationProperty Name="Messages" Relationship="Self.FK_Message_Sender" FromRole="User" ToRole="Message" />
+    <NavigationProperty Name="Minds" Relationship="Self.FK_Mind_User" FromRole="User" ToRole="Mind" />
+    <NavigationProperty Name="PrivateGroups" Relationship="Self.FK_PrivateGroup_User" FromRole="User" ToRole="PrivateGroup" />
+    <NavigationProperty Name="Questions" Relationship="Self.FK_Question_User" FromRole="User" ToRole="Question" />
+    <NavigationProperty Name="Records" Relationship="Self.FK_Record_User" FromRole="User" ToRole="Record" />
+    <NavigationProperty Name="Visits" Relationship="Self.FK_Visit_User" FromRole="User" ToRole="Visit" />
+    <NavigationProperty Name="Visits1" Relationship="Self.FK_Visit_Vistor" FromRole="User" ToRole="Visit" />
+    <NavigationProperty Name="Messages1" Relationship="Self.MessageReciver" FromRole="User" ToRole="Message" />
+  </EntityType>
+  <EntityType Name="Visit">
+    <Key>
+      <PropertyRef Name="VisitID" />
+    </Key>
+    <Property Name="VisitID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="VisitorID" Type="Int32" Nullable="false" />
+    <Property Name="LastVisitTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="LastVisitIP" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="VisitTimes" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Visit_User" FromRole="Visit" ToRole="User" />
+    <NavigationProperty Name="User1" Relationship="Self.FK_Visit_Vistor" FromRole="Visit" ToRole="User" />
+  </EntityType>
+  <Association Name="FK_Answer_Question">
+    <End Role="Question" Type="Self.Question" Multiplicity="1" />
+    <End Role="Answer" Type="Self.Answer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Question">
+        <PropertyRef Name="QuestionId" />
+      </Principal>
+      <Dependent Role="Answer">
+        <PropertyRef Name="QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Answer_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Answer" Type="Self.Answer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Answer">
+        <PropertyRef Name="CreateUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CommentReply_Comment">
+    <End Role="Comment" Type="Self.Comment" Multiplicity="1" />
+    <End Role="CommentReply" Type="Self.CommentReply" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Comment">
+        <PropertyRef Name="CommentId" />
+      </Principal>
+      <Dependent Role="CommentReply">
+        <PropertyRef Name="CommentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CommentReply_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="CommentReply" Type="Self.CommentReply" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="CommentReply">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FriendRelation_Friend">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="FriendRelation" Type="Self.FriendRelation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="FriendRelation">
+        <PropertyRef Name="FriendId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FriendRelation_PrivateGroup">
+    <End Role="PrivateGroup" Type="Self.PrivateGroup" Multiplicity="0..1" />
+    <End Role="FriendRelation" Type="Self.FriendRelation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PrivateGroup">
+        <PropertyRef Name="GroupId" />
+      </Principal>
+      <Dependent Role="FriendRelation">
+        <PropertyRef Name="GroupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FriendRelation_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="FriendRelation" Type="Self.FriendRelation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="FriendRelation">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Group_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Group" Type="Self.Group" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Group">
+        <PropertyRef Name="CreaterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GroupFriend_Group">
+    <End Role="Group" Type="Self.Group" Multiplicity="1" />
+    <End Role="GroupFriend" Type="Self.GroupFriend" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="GroupId" />
+      </Principal>
+      <Dependent Role="GroupFriend">
+        <PropertyRef Name="GroupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GroupFriend_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="GroupFriend" Type="Self.GroupFriend" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="GroupFriend">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Invitation_Receiver">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Invitation" Type="Self.Invitation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Invitation">
+        <PropertyRef Name="ReceiverId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Invitation_Sender">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Invitation" Type="Self.Invitation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Invitation">
+        <PropertyRef Name="SenderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Message_Sender">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Message" Type="Self.Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="SenderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Mind_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Mind" Type="Self.Mind" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Mind">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PrivateGroup_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="PrivateGroup" Type="Self.PrivateGroup" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="PrivateGroup">
+        <PropertyRef Name="OwnerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Question_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Question" Type="Self.Question" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Question">
+        <PropertyRef Name="CreateUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Record_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Record" Type="Self.Record" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Record">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Visit_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Visit" Type="Self.Visit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Visit">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Visit_Vistor">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Visit" Type="Self.Visit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Visit">
+        <PropertyRef Name="VisitorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MessageReciver">
+    <End Role="Message" Type="Self.Message" Multiplicity="*" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+  </Association>
+  <Association Name="QuestionTag">
+    <End Role="Question" Type="Self.Question" Multiplicity="*" />
+    <End Role="Tag" Type="Self.Tag" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="FriendsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Answers" EntityType="Self.Answer" />
+    <EntitySet Name="Comments" EntityType="Self.Comment" />
+    <EntitySet Name="CommentReplies" EntityType="Self.CommentReply" />
+    <EntitySet Name="FriendRelations" EntityType="Self.FriendRelation" />
+    <EntitySet Name="Groups" EntityType="Self.Group" />
+    <EntitySet Name="GroupFriends" EntityType="Self.GroupFriend" />
+    <EntitySet Name="Invitations" EntityType="Self.Invitation" />
+    <EntitySet Name="Messages" EntityType="Self.Message" />
+    <EntitySet Name="Minds" EntityType="Self.Mind" />
+    <EntitySet Name="PrivateGroups" EntityType="Self.PrivateGroup" />
+    <EntitySet Name="Questions" EntityType="Self.Question" />
+    <EntitySet Name="Records" EntityType="Self.Record" />
+    <EntitySet Name="Tags" EntityType="Self.Tag" />
+    <EntitySet Name="TitleSettings" EntityType="Self.TitleSetting" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="Visits" EntityType="Self.Visit" />
+    <AssociationSet Name="FK_Answer_Question" Association="Self.FK_Answer_Question">
+      <End Role="Question" EntitySet="Questions" />
+      <End Role="Answer" EntitySet="Answers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Answer_User" Association="Self.FK_Answer_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Answer" EntitySet="Answers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CommentReply_Comment" Association="Self.FK_CommentReply_Comment">
+      <End Role="Comment" EntitySet="Comments" />
+      <End Role="CommentReply" EntitySet="CommentReplies" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CommentReply_User" Association="Self.FK_CommentReply_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="CommentReply" EntitySet="CommentReplies" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FriendRelation_Friend" Association="Self.FK_FriendRelation_Friend">
+      <End Role="User" EntitySet="Users" />
+      <End Role="FriendRelation" EntitySet="FriendRelations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FriendRelation_PrivateGroup" Association="Self.FK_FriendRelation_PrivateGroup">
+      <End Role="PrivateGroup" EntitySet="PrivateGroups" />
+      <End Role="FriendRelation" EntitySet="FriendRelations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FriendRelation_User" Association="Self.FK_FriendRelation_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="FriendRelation" EntitySet="FriendRelations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Group_User" Association="Self.FK_Group_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Group" EntitySet="Groups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GroupFriend_Group" Association="Self.FK_GroupFriend_Group">
+      <End Role="Group" EntitySet="Groups" />
+      <End Role="GroupFriend" EntitySet="GroupFriends" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GroupFriend_User" Association="Self.FK_GroupFriend_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="GroupFriend" EntitySet="GroupFriends" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Invitation_Receiver" Association="Self.FK_Invitation_Receiver">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Invitation" EntitySet="Invitations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Invitation_Sender" Association="Self.FK_Invitation_Sender">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Invitation" EntitySet="Invitations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Message_Sender" Association="Self.FK_Message_Sender">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Message" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Mind_User" Association="Self.FK_Mind_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Mind" EntitySet="Minds" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PrivateGroup_User" Association="Self.FK_PrivateGroup_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="PrivateGroup" EntitySet="PrivateGroups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Question_User" Association="Self.FK_Question_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Question" EntitySet="Questions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Record_User" Association="Self.FK_Record_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Record" EntitySet="Records" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Visit_User" Association="Self.FK_Visit_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Visit" EntitySet="Visits" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Visit_Vistor" Association="Self.FK_Visit_Vistor">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Visit" EntitySet="Visits" />
+    </AssociationSet>
+    <AssociationSet Name="MessageReciver" Association="Self.MessageReciver">
+      <End Role="Message" EntitySet="Messages" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="QuestionTag" Association="Self.QuestionTag">
+      <End Role="Question" EntitySet="Questions" />
+      <End Role="Tag" EntitySet="Tags" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

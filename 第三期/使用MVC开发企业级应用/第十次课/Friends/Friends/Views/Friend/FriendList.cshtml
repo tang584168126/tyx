@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Friends.Model.FriendModel>
+
+@foreach(Friends.Model.FriendModel m in Model)
+{
+<dl>
+    <dt><img src=@Href("~/Images/upload/img-0" + m.HeaderImage) /><a href="#">@m.RealName</a></dt>
+    @*<dd>
+        <span class="attribute"><a href="#">属性</a></span> <span class="editGroup">修改分组</span> 
+        <span class="delete">&nbsp;&nbsp;</span>
+        </dd>*@
+</dl>
+}
+@*<div id="page"><a href="#" class="solid">1</a><a href="#">2</a><a href="#">下一页>></a><a href="#">末页</a></div>*@

@@ -1,0 +1,130 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+ <div class="pagehomeContent">
+                <div class="clear10"></div>
+                <ul class="notes">
+                    <li class="first"><a href="#">留言</a></li>
+                </ul>
+                <div class="import">
+                    <div class="arrow">
+                        <img src=@Href("~/images/icon-18.jpg") width="9" height="6" />
+                    </div>
+                    <div class="lock">
+                        <img src=@Href("~/images/icon-19.jpg") width="13" height="13" />
+                    </div>
+                    <form action="" method="get" name="myform">
+                        <textarea name="note" cols="" rows="" class="importArea">在想什么呢？记下来吧</textarea>
+                    </form>
+                </div>
+                <div class="record">人生何其短 把酒正言欢<span>2009年8月26日更新>></span></div>
+                <ul class="publicTab">
+                    <li class="grayLine">他的动态</li>
+                    <li class="empty"><span>好友留言</span></li>
+                </ul>
+                <div class="clear10"></div>
+                <ul class="wordsList">
+                    <li class="first">
+                        <img src="@Href("~/images/upload/img-02.gif")" width="50" height="50" /></li>
+                    <li class="second"><a href="#">钟怜南</a> <span>留言道：</span>
+                        <p>马上就要毕业了，百感交集啊！</p>
+                        <a href="#">回复</a></li>
+                    <li class="third">2011-06-03 11:40</li>
+                </ul>
+                <ul class="wordsList">
+                    <li class="first">
+                        <img src="@Href("~/images/upload/img-02.gif")" width="50" height="50" /></li>
+                    <li class="second"><a href="#">钟怜南</a> <span>留言道：</span>
+                        <p>汗   你的题目我一个也不知道呀，真没面子</p>
+                        <div class="reply">
+                            <ul>
+                                <li class="first1">
+                                    <img src="@Href("~/images/upload/img-17.gif")" width="32" height="32" /></li>
+                                <li class="second1"><a href="#">吴明溪</a> <span>留言道：</span><br />
+                                    哎
+              <li class="third1">2011-06-03 11:40</li>
+                            </ul>
+                            <ul>
+                                <li class="first1">
+                                    <img src="@Href("~/images/upload/img-17.gif")" width="32" height="32" /></li>
+                                <li class="second1"><a href="#">吴明溪</a> <span>留言道：</span><br />
+                                    哎
+              <li class="third1">2011-06-03 11:42</li>
+                            </ul>
+                        </div>
+                        <a href="#">回复</a> </li>
+                    <li class="third">2011-06-03 11:40</li>
+                </ul>
+                <dl class="replyCount">
+                    <dt>共11条留言</dt>
+                    <dd><a href="#">查看好友对他的更多留言</a></dd>
+                </dl>
+                <div class="clear10"></div>
+            </div>
+            <div class="personTypeList">
+                <dl class="pubListTitle">
+                    <dt>最近来访 <span>(34)</span></dt>
+                    <dd><a href="#">&#8226;&#8226;&#8226;</a></dd>
+                </dl>
+                <ul class="recentVisitor">
+                    <li>
+                        <img src="@Href("~/images/upload/img-05.jpg")" width="50" height="50" /><br />
+                        <a href="#">颜婉</a><br />
+                        01月06日</li>
+                    <li>
+                        <img src="@Href("~/images/upload/img-05.jpg")" width="50" height="50" /><br />
+                        <a href="#">颜婉</a><br />
+                        01月06日</li>
+                    <li>
+                        <img src="@Href("~/images/upload/img-05.jpg")" width="50" height="50" /><br />
+                        <a href="#">颜婉</a><br />
+                        01月06日</li>
+                </ul>
+                <div class="clear10"></div>
+                @{Html.RenderPartial("MyFriend");}
+             
+                <dl class="pubListTitle">
+                    <dt>他的问题</dt>
+                    <dd><a href="#">
+                        <img src="@Href("~/images/icon-11.jpg")" width="21" height="12" /></a><a href="#"><img src="@Href("~/images/icon-12.jpg")" width="21" height="12" /></a></dd>
+                </dl>
+                <ul class="myProblem">
+                    <li>
+                        <div class="first number">1</div>
+                        <div class="imgs">
+                            <img src="@Href("~/images/upload/img-06.jpg")" width="62" height="62" />
+                        </div>
+                        <div>
+                            <a href="#">ASP.NET Session问题</a><br />
+                            大家好，由于项目需要，我在用户登录后把一些信息......
+                        </div>
+                    </li>
+                    <li>
+                        <div class="second number">2</div>
+                        <div class="imgs">
+                            <img src="@Href("~/images/upload/img-06.jpg")" width="62" height="62" />
+                        </div>
+                        <div>
+                            <a href="#">紧急求助</a><br />
+                            各位师哥师姐，帮我看一个页面错误......  
+                        </div>
+                    </li>
+                    <li>
+                        <div class="third number">3</div>
+                        <div><a href="#">ASP.NET MVC有哪行典型应用？</a></div>
+                    </li>
+                    <li>
+                        <div class="forth number">4</div>
+                        <div><a href="#">怎么知道一个页面的响应时间？</a></div>
+                    </li>
+                    <li>
+                        <div class="forth number">5</div>
+                        <div><a href="#">试用期都干什么？</a></div>
+                    </li>
+                    <li>
+                        <div class="forth number">6</div>
+                        <div><a href="#">asp.net网站发送邮件问题</a></div>
+                    </li>
+                </ul>
+            </div>

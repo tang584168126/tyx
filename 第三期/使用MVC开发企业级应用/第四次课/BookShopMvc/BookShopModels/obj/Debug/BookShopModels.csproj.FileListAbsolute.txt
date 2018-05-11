@@ -1,0 +1,15 @@
+E:\代码\第三期\使用MVC开发企业级应用\第二次课\BookShopMvc\BookShopModels\bin\Debug\BookShopModels.dll
+E:\代码\第三期\使用MVC开发企业级应用\第二次课\BookShopMvc\BookShopModels\bin\Debug\BookShopModels.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第二次课\BookShopMvc\BookShopModels\obj\Debug\BookShopModels.dll
+E:\代码\第三期\使用MVC开发企业级应用\第二次课\BookShopMvc\BookShopModels\obj\Debug\BookShopModels.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第二次课\BookShopMvc\BookShopModels\obj\Debug\BookShopModels.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用MVC开发企业级应用\第三次课\BookShopMvc\BookShopModels\bin\Debug\BookShopModels.dll
+E:\代码\第三期\使用MVC开发企业级应用\第三次课\BookShopMvc\BookShopModels\bin\Debug\BookShopModels.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第三次课\BookShopMvc\BookShopModels\obj\Debug\BookShopModels.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用MVC开发企业级应用\第三次课\BookShopMvc\BookShopModels\obj\Debug\BookShopModels.dll
+E:\代码\第三期\使用MVC开发企业级应用\第三次课\BookShopMvc\BookShopModels\obj\Debug\BookShopModels.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第四次课\BookShopMvc\BookShopModels\bin\Debug\BookShopModels.dll
+E:\代码\第三期\使用MVC开发企业级应用\第四次课\BookShopMvc\BookShopModels\bin\Debug\BookShopModels.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第四次课\BookShopMvc\BookShopModels\obj\Debug\BookShopModels.dll
+E:\代码\第三期\使用MVC开发企业级应用\第四次课\BookShopMvc\BookShopModels\obj\Debug\BookShopModels.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第四次课\BookShopMvc\BookShopModels\obj\Debug\BookShopModels.csprojResolveAssemblyReference.cache

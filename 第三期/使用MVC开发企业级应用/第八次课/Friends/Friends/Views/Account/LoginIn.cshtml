@@ -1,0 +1,55 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/CSS/common.css" rel="stylesheet" />
+    <title>登录页面</title>
+</head>
+<body class="loginBg">
+    <div id="login">
+        <div class="loginL">
+            <img src="~/Image/bird-01.jpg" width="222" height="107" />
+            <form action="Account/LoginIn" method="post" name="myform">
+                <ul>
+                    <li>
+                        <input name="username" type="text" value="邮箱/手机号/用户名" class="userInput" />
+                    </li>
+                    <li>
+                        <input name="key" type="text" value="请输入密码" class="keyInput" />
+                    </li>
+                    <li>
+                        <input name="autoLogin" type="checkbox" value="" />
+                        下次自动登录 <span><a href="#">忘记密码？</a></span>
+                    </li>
+                    <li>
+                        <input name="submitBtn" type="image" src="~/Image/bg-03.jpg" value=" " />
+                    </li>
+                    <li>
+                        <hr />
+                    </li>
+                    <li></li>
+                    <a href="Account/Register"><img src="~/Image/bg-04.jpg" width="190" height="38" /></a>
+                </ul>
+            </form>
+        </div>
+        <div class="loginR">
+            <dl class="top">
+                <dt><img src="~/Image/bird-04.jpg" width="310" height="33" /></dt>
+                <dd>还没有青鸟朋友网账号，<a href="Account/Register">注册</a></dd>
+            </dl>
+            <dl class="textImg">
+                <dt><img src="~/Image/bird-03.jpg" width="139" height="43" /></dt>
+                <dd>
+                    是一个社交网络，通过它您可以与朋友、同学、同事、家人保持更紧密的联系，
+                    及时了解他们的动态；与他分享你的生活和快乐。
+                </dd>
+            </dl>
+        </div>
+    </div>
+</body>
+</html>

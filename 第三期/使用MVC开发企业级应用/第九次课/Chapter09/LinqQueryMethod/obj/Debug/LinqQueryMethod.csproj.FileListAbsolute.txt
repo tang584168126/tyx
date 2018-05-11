@@ -1,0 +1,6 @@
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\LinqQueryMethod\bin\Debug\LinqQueryMethod.exe.config
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\LinqQueryMethod\bin\Debug\LinqQueryMethod.exe
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\LinqQueryMethod\bin\Debug\LinqQueryMethod.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\LinqQueryMethod\obj\Debug\LinqQueryMethod.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\LinqQueryMethod\obj\Debug\LinqQueryMethod.exe
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\LinqQueryMethod\obj\Debug\LinqQueryMethod.pdb

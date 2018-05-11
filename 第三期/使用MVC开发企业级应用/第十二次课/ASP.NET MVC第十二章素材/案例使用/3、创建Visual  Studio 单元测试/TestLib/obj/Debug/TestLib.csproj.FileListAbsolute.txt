@@ -1,0 +1,9 @@
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\创建单元测试\TestLib\TestLib\bin\Debug\TestLib.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\创建单元测试\TestLib\TestLib\bin\Debug\TestLib.pdb
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\创建单元测试\TestLib\TestLib\obj\Debug\TestLib.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\创建单元测试\TestLib\TestLib\obj\Debug\TestLib.pdb
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\创建单元测试\TestLib\TestLib\obj\Debug\TestLib.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例5：创建Visual  Studio 单元测试\待测试的项目\TestLib\bin\Debug\TestLib.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例5：创建Visual  Studio 单元测试\待测试的项目\TestLib\bin\Debug\TestLib.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例5：创建Visual  Studio 单元测试\待测试的项目\TestLib\obj\Debug\TestLib.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例5：创建Visual  Studio 单元测试\待测试的项目\TestLib\obj\Debug\TestLib.pdb

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FriendsModelStoreContainer" CdmEntityContainer="FriendsEntities1">
+    <EntitySetMapping Name="FriendRelations">
+      <EntityTypeMapping TypeName="FriendsModel.FriendRelation">
+        <MappingFragment StoreEntitySet="FriendRelation">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="FriendId" ColumnName="FriendId" />
+          <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Groups">
+      <EntityTypeMapping TypeName="FriendsModel.Group">
+        <MappingFragment StoreEntitySet="Group">
+          <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+          <ScalarProperty Name="GroupName" ColumnName="GroupName" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="CreaterId" ColumnName="CreaterId" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GroupFriends">
+      <EntityTypeMapping TypeName="FriendsModel.GroupFriend">
+        <MappingFragment StoreEntitySet="GroupFriend">
+          <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="JoinTime" ColumnName="JoinTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Minds">
+      <EntityTypeMapping TypeName="FriendsModel.Mind">
+        <MappingFragment StoreEntitySet="Mind">
+          <ScalarProperty Name="MindId" ColumnName="MindId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="MindType" ColumnName="MindType" />
+          <ScalarProperty Name="CreatedTime" ColumnName="CreatedTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PrivateGroups">
+      <EntityTypeMapping TypeName="FriendsModel.PrivateGroup">
+        <MappingFragment StoreEntitySet="PrivateGroup">
+          <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+          <ScalarProperty Name="GroupName" ColumnName="GroupName" />
+          <ScalarProperty Name="OwnerId" ColumnName="OwnerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Records">
+      <EntityTypeMapping TypeName="FriendsModel.Record">
+        <MappingFragment StoreEntitySet="Record">
+          <ScalarProperty Name="RecordId" ColumnName="RecordId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="CreatedTime" ColumnName="CreatedTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="FriendsModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="RealName" ColumnName="RealName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="HomeCity" ColumnName="HomeCity" />
+          <ScalarProperty Name="Situation" ColumnName="Situation" />
+          <ScalarProperty Name="HeaderImage" ColumnName="HeaderImage" />
+          <ScalarProperty Name="BloodStyle" ColumnName="BloodStyle" />
+          <ScalarProperty Name="RegisterTime" ColumnName="RegisterTime" />
+          <ScalarProperty Name="GenderPrivate" ColumnName="GenderPrivate" />
+          <ScalarProperty Name="BirthdayPrivate" ColumnName="BirthdayPrivate" />
+          <ScalarProperty Name="CityPrivate" ColumnName="CityPrivate" />
+          <ScalarProperty Name="HomeCityPrivate" ColumnName="HomeCityPrivate" />
+          <ScalarProperty Name="SituationPrivate" ColumnName="SituationPrivate" />
+          <ScalarProperty Name="BloodStylePrivate" ColumnName="BloodStylePrivate" />
+          <ScalarProperty Name="InitialPrize" ColumnName="InitialPrize" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Visits">
+      <EntityTypeMapping TypeName="FriendsModel.Visit">
+        <MappingFragment StoreEntitySet="Visit">
+          <ScalarProperty Name="VisitID" ColumnName="VisitID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="VisitorID" ColumnName="VisitorID" />
+          <ScalarProperty Name="LastVisitTime" ColumnName="LastVisitTime" />
+          <ScalarProperty Name="LastVisitIP" ColumnName="LastVisitIP" />
+          <ScalarProperty Name="VisitTimes" ColumnName="VisitTimes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

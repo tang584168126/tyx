@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Friends.Models.VisitorModel>
+<dl class="pubListTitle">
+    <dt>最近来访 <span>@*(34)*@</span></dt>
+    <dd><a href="#">&#8226;&#8226;&#8226;</a></dd>
+</dl>
+<ul class="recentVisitor">
+    @foreach (Friends.Models.VisitorModel v in Model)
+    {
+        <li>
+            <img src="@Url.Content("~/images/headers/" + v.HeaderImage)" 
+                width="50" height="50" /><br />
+            <a href="#">@v.RealName</a><br />
+            @v.LastVisitTime.ToString("MM月dd日")</li>
+    }
+</ul>
+
+
+<div class="clear10"></div>

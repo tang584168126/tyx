@@ -1,0 +1,382 @@
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.dll.config
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.pdb
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Web.Helpers.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Web.Http.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Web.Http.WebHost.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Web.Mvc.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Web.Razor.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Web.Optimization.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\EntityFramework.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\WebGrease.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.pdb
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Web.Helpers.xml
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Web.Http.xml
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Web.Mvc.xml
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Web.Razor.xml
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.xml
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\EntityFramework.xml
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Helpers.resources.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Http.WebHost.resources.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Optimization.resources.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\Friends\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.pdb
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.dll.config
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.pdb
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Helpers.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Http.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Http.WebHost.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Mvc.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Razor.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Optimization.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\EntityFramework.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\WebGrease.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.pdb
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Helpers.xml
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Http.xml
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Mvc.xml
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Razor.xml
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.xml
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\EntityFramework.xml
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Helpers.resources.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Http.WebHost.resources.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Optimization.resources.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\贯穿案例\Friends\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.dll.config
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\Friends.Web.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Helpers.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Http.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Http.WebHost.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Mvc.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Razor.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.WebPages.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\EntityFramework.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Optimization.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\WebGrease.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\Friends.Web.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Helpers.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Http.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Mvc.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Razor.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.WebPages.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\EntityFramework.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Helpers.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Http.WebHost.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Optimization.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例8~9 测试青鸟朋友网\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.dll.config
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\Friends.Web.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Web.Helpers.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Web.Http.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Web.Http.WebHost.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Web.Mvc.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Web.Razor.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Web.WebPages.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\EntityFramework.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Web.Optimization.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\WebGrease.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\Friends.Web.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Web.Helpers.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Web.Http.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Web.Mvc.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Web.Razor.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Web.WebPages.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\EntityFramework.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Helpers.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Http.WebHost.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Optimization.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\02 上机练习参考答案\练习3~4\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.dll.config
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\Friends.Web.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Web.Helpers.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Web.Http.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Web.Http.WebHost.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Web.Mvc.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Web.Razor.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Web.WebPages.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\EntityFramework.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Web.Optimization.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\WebGrease.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\Friends.Web.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Web.Helpers.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Web.Http.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Web.Mvc.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Web.Razor.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Web.WebPages.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\EntityFramework.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Helpers.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Http.WebHost.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Optimization.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\04 作业答案\作业4\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.dll.config
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Helpers.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Http.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Http.WebHost.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Mvc.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Razor.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\EntityFramework.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Optimization.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\Friends.Business.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\WebGrease.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Helpers.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Http.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Mvc.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.Razor.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\EntityFramework.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\Friends.Business.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Helpers.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Http.WebHost.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\01 教学演示案例\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Optimization.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.dll.config
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\Friends.Models.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Web.Helpers.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Web.Http.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Web.Http.WebHost.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Web.Mvc.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Web.Razor.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\EntityFramework.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Web.Optimization.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\Friends.Business.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\WebGrease.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\Friends.Models.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\Friends.Web.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Web.Helpers.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Web.Http.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Web.Mvc.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Web.Razor.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\EntityFramework.xml
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\Friends.Business.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Helpers.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Http.WebHost.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Optimization.resources.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter14\开发代码\Friends\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.dll.config
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\Friends.Web.Tests.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\Friends.Models.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\Friends.Web.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Helpers.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Http.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Http.WebHost.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Mvc.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Razor.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.WebPages.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\EntityFramework.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Optimization.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\Friends.Business.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\WebGrease.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\Friends.Models.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\Friends.Web.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Helpers.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Http.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Mvc.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.Razor.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.WebPages.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\EntityFramework.xml
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\Friends.Business.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Helpers.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\bin\Debug\zh-Hans\System.Web.Optimization.resources.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\青鸟朋友网\Friends.Web.Tests\obj\Debug\Friends.Web.Tests.pdb

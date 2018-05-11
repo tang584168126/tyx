@@ -1,0 +1,2 @@
+E:\代码\第三期\使用MVC开发企业级应用\第八次课\BookShopTest\BookShopTest\bin\Debug\BookShopTest.exe.config
+E:\TYX_Projiect\代码\第三期\使用MVC开发企业级应用\第八次课\BookShopTest\BookShopTest\bin\Debug\BookShopTest.exe.config

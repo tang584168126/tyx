@@ -1,0 +1,16 @@
+1.明确查询参数，编写相应的sql语句
+2.在数据访问层编写方法执行sql语句获取书籍列表数据
+3.业务逻辑层调用数据访问层的方法，然后将获取的数据返回给对应控制器的动作方法
+4.编写控制器的动作方法，调用业务逻辑层的方法并传参
+http://域名：端口/Book/List?categoryId=1&sortField=PublishDate&pageIndex=1
+
+5.编写动作方法对应的视图
+6.调试，单元测试
+
+
+分页的两种方式：
+需求：查询弟5页的数据，每页10条数据
+1.先排除前面4页的数据，然后在剩下的数据中查询前面10条数据
+select top * from Books where CategoryId = 1and Id not in ( select top 10*(5-1) * from Books where CategoryId = 1 order by PublishDate) order by PublishDate
+2.排序后为每行从1开始依次给一个编号了，查询41-50行的数据
+select * from (select *,Row_Number() over(order by Id) as BookId from Books where CategoryId = 1 order by PublishDate) as Temp where BookId between 40 and 50 order by PublishDate

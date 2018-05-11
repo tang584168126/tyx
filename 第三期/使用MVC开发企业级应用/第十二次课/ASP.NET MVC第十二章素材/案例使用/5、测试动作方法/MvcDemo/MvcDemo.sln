@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcDemo", "MvcDemo\MvcDemo.csproj", "{B10F1B7F-A627-4341-9158-50D74EC29827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcDemo.Tests", "MvcDemo.Tests\MvcDemo.Tests.csproj", "{2652F82F-B898-4DE4-9A58-4F950BC07EA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B10F1B7F-A627-4341-9158-50D74EC29827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B10F1B7F-A627-4341-9158-50D74EC29827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B10F1B7F-A627-4341-9158-50D74EC29827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B10F1B7F-A627-4341-9158-50D74EC29827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2652F82F-B898-4DE4-9A58-4F950BC07EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2652F82F-B898-4DE4-9A58-4F950BC07EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2652F82F-B898-4DE4-9A58-4F950BC07EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2652F82F-B898-4DE4-9A58-4F950BC07EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "问答";
+    Layout = null;
+}
+@using Friends.Web.Helpers;
+
+@model PagedList<Friends.Models.Tag>
+<div  class="tabContainer">
+
+    <div id="pagedDataContainer">
+
+        <div>
+            @foreach (var t in Model)
+            {
+                <div style="width: 33%; float: left">
+                    <a href="#">@t.TagName</a> (@t.Questions.Count())
+                </div>
+            }
+        </div>
+
+
+    </div>
+    @Html.Raw(Ajax.Pager(Model, "pagedDataContainer"))
+</div>

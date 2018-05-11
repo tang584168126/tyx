@@ -1,0 +1,10 @@
+EDM:Entity Data Model 实体数据模型
+
+Razor视图引擎语法
+表达式：@(expression)当expression是以对象或变量开头，则括号可省略=>expression
+代码块：@{}
+循环结构和if结构:@foreach()	@if(){}		@foreach(){if(){}}
+打印@字符:@@
+模型声明：@model 类型
+引用命名空间：@using 命名空间
+注释：@* *@

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="185b8a57ca2d435e87ff3e48f577d001" Name="Diagram1">
+        <EntityTypeShape EntityType="FriendsModel.Answer" Width="1.5" PointX="5.25" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.Comment" Width="1.5" PointX="3.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.CommentReply" Width="1.5" PointX="6" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.FriendRelation" Width="1.5" PointX="8.25" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.Group" Width="1.5" PointX="3" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.GroupFriend" Width="1.5" PointX="5.25" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.Invitation" Width="1.5" PointX="3" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.Message" Width="1.5" PointX="3" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.Mind" Width="1.5" PointX="3" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.PrivateGroup" Width="1.5" PointX="3" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.Question" Width="1.5" PointX="3" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.Record" Width="1.5" PointX="3" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.Tag" Width="1.5" PointX="5.25" PointY="32.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.TitleSetting" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.User" Width="1.5" PointX="0.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FriendsModel.Visit" Width="1.5" PointX="3" PointY="38.5" IsExpanded="true" />
+        <AssociationConnector Association="FriendsModel.FK_Answer_Question" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_Answer_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_CommentReply_Comment" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_CommentReply_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_FriendRelation_Friend" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_FriendRelation_PrivateGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_FriendRelation_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_Group_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_GroupFriend_Group" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_GroupFriend_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_Invitation_Receiver" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_Invitation_Sender" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_Message_Sender" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_Mind_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_PrivateGroup_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_Question_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_Record_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_Visit_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.FK_Visit_Vistor" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.MessageReciver" ManuallyRouted="false" />
+        <AssociationConnector Association="FriendsModel.QuestionTag" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

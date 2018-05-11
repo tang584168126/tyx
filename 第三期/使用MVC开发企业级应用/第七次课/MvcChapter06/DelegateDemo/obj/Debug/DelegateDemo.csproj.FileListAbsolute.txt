@@ -1,0 +1,6 @@
+E:\代码\第三期\使用MVC开发企业级应用\第七次课\MvcChapter06\DelegateDemo\bin\Debug\DelegateDemo.exe.config
+E:\代码\第三期\使用MVC开发企业级应用\第七次课\MvcChapter06\DelegateDemo\bin\Debug\DelegateDemo.exe
+E:\代码\第三期\使用MVC开发企业级应用\第七次课\MvcChapter06\DelegateDemo\bin\Debug\DelegateDemo.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第七次课\MvcChapter06\DelegateDemo\obj\Debug\DelegateDemo.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用MVC开发企业级应用\第七次课\MvcChapter06\DelegateDemo\obj\Debug\DelegateDemo.exe
+E:\代码\第三期\使用MVC开发企业级应用\第七次课\MvcChapter06\DelegateDemo\obj\Debug\DelegateDemo.pdb

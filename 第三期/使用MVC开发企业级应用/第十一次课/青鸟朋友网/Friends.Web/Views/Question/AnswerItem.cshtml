@@ -1,0 +1,18 @@
+﻿@using Friends.Web.Helpers;
+@using Friends.Business;
+
+@model Friends.Models.Answer
+
+<div style="padding-bottom: 10px; border-bottom: solid 1px #808080; overflow: auto">
+    <div>
+        @Html.Raw(@Model.Content)
+
+    </div>
+    <div style="float: right">
+        @{
+            var answerTitle = new TagSettingService().GetTitle(@Model.User.InitialPrize);
+        }
+        @Model.User.RealName | 青鸟豆： @Model.User.InitialPrize（@answerTitle） |  @Model.CreatedTime.ToSpanDays()
+
+    </div>
+</div>

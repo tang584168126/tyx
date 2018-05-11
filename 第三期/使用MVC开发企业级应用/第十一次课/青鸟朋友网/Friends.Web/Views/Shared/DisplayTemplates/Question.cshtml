@@ -1,0 +1,24 @@
+﻿@model Friends.Models.Question
+@using Friends.Web.Helpers;
+
+<dl class="questList">
+    <dt>
+        <p>@Model.Answers.Count()</p>
+        回答数</dt>
+    <dd>
+        <p>@Model.Prize<img src="~/images/icon-24.jpg" width="18" height="10" />
+            <a href="#">@Model.Title</a>
+        </p>
+        <div>@Html.Raw(@Model.Content.ToShortString(100))</div>
+        <ul>
+            @foreach (var tag in @Model.Tags)
+            {
+                <li><span>@tag.TagName</span></li>
+            }
+            <li class="last"><a href="#">@Model.User.RealName</a><br />
+                浏览(@Model.VisitCount) @Model.CreatedTime.ToSpanDays()</li>
+            <li class="third">
+                <img src="@Url.Content("~/images/headers/" + @Model.User.HeaderImage)" width="36" height="36" /></li>
+        </ul>
+    </dd>
+</dl>

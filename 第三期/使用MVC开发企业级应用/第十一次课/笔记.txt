@@ -1,0 +1,40 @@
+两种分布视图技术比较
+调用分部视图		调用动作方法
+
+只需实现分部视图	需要实现分部视图和动作方法
+
+只可在容器视图运行，	可独立运行、模块化高
+和容器视图耦合高	
+
+适用不需要动态数据、	适用许使用数据、显示动态变化的内容
+显示静态的内容
+
+Authentication		权限验证
+Authenrization		授权
+
+HandlerError
+
+权限验证[Authorize]:
+1.web.config配置
+<authentication mode="Forms">
+    <forms loginUrl="~/Account/Login" timeout="2880"  />
+</authentication>
+2.用户凭证创建
+FormsAuthentication.SetAuthCookie(user.UserId.ToString(), autoLogin == null ? false : true);
+3.[Authorize]过滤器的使用
+
+错误处理过滤器[HandleError]:
+1.Web.config配置
+<customErrors defaultRedirect="Home/Error" mode="On">
+    <error statusCode="404" redirect="Home/FileNotFound"/>
+</customErrors>
+2.[HandleError]过滤器的使用
+[HandleError(View="Error")]
+一般来说，项目中两种异常处理方式同时存在
+如果web.config处理异常的方式不存在，那么[HandleError]处理异常的方式将失效；反之，如果两种处理异常的方式都存在，那么[HandleError]处理异常的方式将覆盖web.config
+
+一般来说，网站的错误分两种
+1.异常处理(try catch)无法解决的错误；如：用户请求的资源不存在
+这种错误一般通过web.config的配置给用户友好提示
+2.异常处理(try catch)能够解决的错误
+这种错误一般通过try catch返回友好提示给用户，在MVC中将try catch的处理方式提取出来单独放到[HandleError]过滤器中进行处理

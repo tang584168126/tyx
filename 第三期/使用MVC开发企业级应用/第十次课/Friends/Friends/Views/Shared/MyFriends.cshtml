@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Friends.Model.FriendModel>
+
+<dl class="pubListTitle">
+    <dt>我的好友<span>（@Model.Count()人）</span></dt>
+    <dd><a href="#">&#8226;&#8226;&#8226;</a></dd>
+</dl>
+<ul class="recentVisitor">
+    @foreach(Friends.Model.FriendModel m in Model)
+    { 
+    <li>
+        <img src=@Href("~/Images/upload/img-0" + m.HeaderImage) width="50" height="50" /><br />
+        <a href="#">@m.RealName</a>
+    </li>
+    }
+</ul>

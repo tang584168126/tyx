@@ -1,0 +1,14 @@
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\MyBookShopDAL\bin\Debug\MyBookShopDAL.dll
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\MyBookShopDAL\bin\Debug\MyBookShopDAL.pdb
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\MyBookShopDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\MyBookShopDAL\obj\Debug\MyBookShopDAL.dll
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\MyBookShopDAL\obj\Debug\MyBookShopDAL.pdb
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\MyBookShopDAL\bin\Debug\MyBookShopModels.dll
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\MyBookShopDAL\bin\Debug\MyBookShopModels.pdb
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\Web\Bin\MyBookShopDAL.dll
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\Web\Bin\MyBookShopDAL.pdb
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShopPlus\Web\Bin\MyBookShopDAL.dll
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShopPlus\Web\Bin\MyBookShopDAL.pdb
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShopPlus\MyBookShopDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShopPlus\MyBookShopDAL\obj\Debug\MyBookShopDAL.dll
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShopPlus\MyBookShopDAL\obj\Debug\MyBookShopDAL.pdb

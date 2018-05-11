@@ -1,0 +1,9 @@
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\LinqToEntites\bin\Debug\LinqToEntites.exe.config
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\LinqToEntites\bin\Debug\LinqToEntites.exe
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\LinqToEntites\bin\Debug\LinqToEntites.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\LinqToEntites\bin\Debug\EntityFramework.dll
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\LinqToEntites\bin\Debug\EntityFramework.xml
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\LinqToEntites\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\LinqToEntites\obj\Debug\LinqToEntites.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\LinqToEntites\obj\Debug\LinqToEntites.exe
+E:\代码\第三期\使用MVC开发企业级应用\第九次课\Chapter09\LinqToEntites\obj\Debug\LinqToEntites.pdb

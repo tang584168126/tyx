@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Friends.Models.FriendViewModel>
+@if(Model!=null)
+{
+<dl class="pubListTitle">
+    <dt>我的好友<span>（@Model.Count()人）</span></dt>
+    <dd><a href="#">&#8226;&#8226;&#8226;</a></dd>
+</dl>
+<ul class="recentVisitor">
+    @foreach (Friends.Models.FriendViewModel m in Model)
+    {
+        <li>
+            <img src="@Url.Content("~/images/headers/" + m.HeaderImage)" /><br />
+            <a href="@Url.Action("VisitUser", "Home", new { uid=m.UserId })">@m.RealName</a>
+        </li>
+    }
+</ul>
+<div class="clear10"></div>
+}
+
+

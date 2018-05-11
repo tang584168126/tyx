@@ -1,0 +1,227 @@
+﻿@{
+    ViewBag.Title = "公共首页";
+    Layout = "~/Views/Shared/_common.cshtml";
+}
+
+      <div class="pubContent">
+                <ul class="notes">
+                    <li class="first"><a href="#">写记录</a></li>
+                    <li class="second"><a href="#">问问题</a></li>
+                    <li class="third"><a href="#">传照片</a></li>
+                </ul>
+                <div class="import">
+                    <div class="arrow">
+                        <img src="@Href("~/images/icon-18.jpg")" width="9" height="6" /></div>
+                    <div class="lock">
+                        <img src="@Href("~/images/icon-19.jpg")" width="13" height="13" /></div>
+                    <form action="" method="get" name="myform">
+                        <textarea name="note" cols="" rows="" class="importArea">在想什么呢？记下来吧</textarea>
+                    </form>
+                </div>
+                <div class="record">人生何其短 把酒正言欢<span>2009年8月26日更新>></span></div>
+                <div class="dope">
+                    <dl>
+                        <dt>短消息：</dt>
+                        <dd>0条新</dd>
+                    </dl>
+                    <dl>
+                        <dt>留言：</dt>
+                        <dd>0条新</dd>
+                    </dl>
+                    <dl>
+                        <dt>评论：</dt>
+                        <dd>0条新</dd>
+                    </dl>
+                    <dl>
+                        <dt>系统消息：</dt>
+                        <dd class="red">1条新</dd>
+                    </dl>
+                    <dl>
+                        <dt>圈子：</dt>
+                        <dd>0条新</dd>
+                    </dl>
+                    <dl>
+                        <dt>评论回复：</dt>
+                        <dd>0条新</dd>
+                    </dl>
+                </div>
+                <ul class="publicTab">
+                    <li class="empty"><span>全部动态</span></li>
+                    <li class="grayLine">原创文章</li>
+                    <li class="addGroupLink"><a href="#">全部</a><a href="#"><img src="@Href("~/images/icon-20.jpg")" width="15" height="12" /></a><a href="#"><img src="@Href("~/images/icon-21.jpg")" width="15" height="12" /></a></li>
+                </ul>
+                <div class="clear10"></div>
+                <div class="conUpdate">
+                    <img src="@Href("~/images/upload/img-07.jpg")" width="39" height="32" />颜婉更新了1条动态，<a href="#">点击查看</a></div>
+                <dl class="trendList">
+                    <dt>
+                        <img src="@Href("~/images/upload/img-08.jpg")" width="46" height="51" /></dt>
+                    <dd>
+                        <div>今日热门推荐：</div>
+                        <div class="lImages">
+                            <img src="@Href("~/images/upload/img-09.jpg")" width="145" height="98" /></div>
+                        <ul>
+                            <li><a href="#">13岁考上北大，不是个神话...</a><span>(524人转帖)</span></li>
+                            <li><a href="#">女司机被碰瓷者扇耳光 当场掏2千...</a><span>(12020人转帖)</span></li>
+                            <li><a href="#">吃海鲜的季节又到了 有人鸡冻了吗？</a><span>(11071人转帖)</span></li>
+                            <li><a href="#">全球風景最美的廁所。。。</a><span>(207人参与)</span></li>
+                            <li class="textRight"><a href="#">查看更多内容>></a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="trendList">
+                    <dt>
+                        <img src="@Href("~/images/upload/img-08.jpg")" width="46" height="51" /></dt>
+                    <dd>
+                        <div><a href="#">颜婉</a> 的好友 <a href="#">文光</a>  <a href="#">达与璐</a>  转帖给大家：<br />
+                            <a href="#">你们的爱情需要什么养分？</a></div>
+                        <div class="lImages">
+                            <img src="@Href("~/images/upload/img-09.jpg")" width="145" height="98" /></div>
+                        <div>一朵玫瑰需要各种养分和精心的培育，爱情的玫瑰更需要充足的精神养分，缺乏了一种，就很容易凋谢枯萎...  <a href="#">查看全文>></a></div>
+                        <ul class="listBoth">
+                            <li><a href="#">网传“公交上易走光座位图” 公交车5座位短裙美女慎坐</a></li>
+                            <li><a href="#">就让沙巴的萤火虫把我们带回浪漫童真的时空吧 </a></li>
+                            <li><a href="#">冰力畅爽 许慧欣、张智成、牛奶咖啡 舞动校园行</a></li>
+                        </ul>
+                        <p>今天 14:07</p>
+                    </dd>
+                </dl>
+                <dl class="trendList">
+                    <dt>
+                        <img src="@Href("~/images/upload/img-08.jpg")" width="46" height="51" /></dt>
+                    <dd>
+                        <div><a href="#">每日精品推荐</a>
+                            <img src="@Href("~/images/icon-22.jpg")" width="12" height="14" />上传了12张新照片至 <a href="#">那些可爱的饭饭</a></div>
+                        <div>
+                            <img src="@Href("~/images/upload/img-10.jpg")" width="446" height="318" /><br />
+                            <img src="@Href("~/images/upload/img-11.jpg")" width="148" height="148" /><img src="@Href("~/images/upload/img-11.jpg")" width="148" height="148" /><img src="@Href("~/images/upload/img-11.jpg")" width="148" height="148" />
+                        </div>
+                        <ul class="commentList">
+                            <li><a href="#">转发(399)</a></li>
+                            <li><a href="#">评论(200)</a></li>
+                            <li><a href="#">赞(214)</a></li>
+                            <li>昨天14:07</li>
+                            <li class="flRight"><a href="#">更多主页动态>></a></li>
+                        </ul>
+                        <div class="comment">
+                            <dl>
+                                <dt>
+                                    <img src="@Href("~/images/upload/img-07.jpg")" width="39" height="32" /></dt>
+                                <dd>
+                                    <input name="talk" type="text" class="inputTalk" value="我来说一句..." /></dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="@Href("~/images/upload/img-07.jpg")" width="39" height="32" /></dt>
+                                <dd><a href="#">李玉敏</a> ： 吃饭的艺术<br />
+                                    <a href="#">回复</a> <span>昨天 14:07</span></dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="@Href("~/images/upload/img-07.jpg")" width="39" height="32" /></dt>
+                                <dd><a href="#">楚云</a>： 太可爱了，怎舍得张嘴<br />
+                                    <a href="#">回复</a> <span>昨天 14:07</span></dd>
+                            </dl>
+                            <div>
+                                <img src="@Href("~/images/icon-23.jpg")" /><a href="#">阅读最新200条评论</a></div>
+                        </div>
+
+                    </dd>
+                </dl>
+                <div class="clear10"></div>
+                <div class="clear10"></div>
+                <div class="friendMore"><a href="#">更多好友动态</a>&nbsp;<img src="@Href("~/images/icon-20.jpg")" width="15" height="12" /></div>
+                <div class="clear10"></div>
+            </div>
+
+            <div class="publicList">
+                <dl class="pubListTitle">
+                    <dt>最近来访 <span>(34)</span></dt>
+                    <dd><a href="#">&#8226;&#8226;&#8226;</a></dd>
+                    <dd><a href="#">
+                        <img src="@Href("~/images/icon-11.jpg")" width="21" height="12" /></a><a href="#"><img src="@Href("~/images/icon-12.jpg")" width="21" height="12" /></a></dd>
+                </dl>
+                <ul class="visitor">
+                   @* <div class="tips">查看更多来访</div>*@
+                    <li>
+                        <img src="@Href("~/images/upload/img-09.jpg")" width="50" height="50" /><br />
+                        <a href="#">颜婉</a><br />
+                        01月06日</li>
+                    <li>
+                        <img src="@Href("~/images/upload/img-04.jpg")" width="50" height="50" /><br />
+                        <a href="#">陈明</a><br />
+                        01月06日</li>
+                    <li>
+                        <img src="@Href("~/images/upload/img-11.jpg")" width="50" height="50" /><br />
+                        <a href="#">吴姗姗</a><br />
+                        01月06日</li>
+                    <li>
+                        <img src="@Href("~/images/upload/img-05.jpg")" width="50" height="50" /><br />
+                        <a href="#">成龙</a><br />
+                        01月06日</li>
+                </ul>
+                <div class="clear10"></div>
+                <dl class="pubListTitle">
+                    <dt>好友推荐</dt>
+                    <dd><a href="#">&#8226;&#8226;&#8226;</a></dd>
+                    </a>
+        </dd>
+                </dl>
+                <dl class="friendRecommend">
+                    <dt>
+                        <img src="@Href("~/images/upload/img-05.jpg")" width="50" height="50" /></dt>
+                    <dd><a href="#">林俊杰</a>
+                        <div>7个共同的好友</div>
+                        <a href="#" class="add">加为发友</a></dd>
+                </dl>
+                <dl class="friendRecommend">
+                    <dt>
+                        <img src="@Href("~/images/upload/img-13.gif")" width="50" height="50" /></dt>
+                    <dd><a href="#">林燕</a>
+                        <div>3456个共同的好友</div>
+                        <a href="#" class="add">加为发友</a></dd>
+                </dl>
+                <div class="clear10"></div>
+                <dl class="pubListTitle">
+                    <dt>最新问题</dt>
+                    <dd><a href="#">
+                        <img src="@Href("~/images/icon-11.jpg")" width="21" height="12" /></a><a href="#"><img src="@Href("~/images/icon-12.jpg")" width="21" height="12" /></a></dd>
+                </dl>
+                <ul class="myProblem">
+                    <li>
+                        <div class="first number">1</div>
+                        <div class="imgs">
+                            <img src="@Href("~/images/upload/img-06.jpg")" width="62" height="62" /></div>
+                        <div>
+                            <a href="#">租房哪里去？</a><br />
+                            把信息都发上来瞧瞧吧！
+                        </div>
+                    </li>
+                    <li>
+                        <div class="second number">2</div>
+                        <div class="imgs">
+                            <img src="@Href("~/images/upload/img-06.jpg")" width="62" height="62" /></div>
+                        <div>
+                            <a href="#">租房哪里去？</a><br />
+                            把信息都发上来瞧瞧吧！
+                        </div>
+                    </li>
+                    <li>
+                        <div class="third number">3</div>
+                        <div><a href="#">你能驾驭“剪刀手”吗？</a></div>
+                    </li>
+                    <li>
+                        <div class="forth number">4</div>
+                        <div><a href="#">你能驾驭“剪刀手”吗？</a></div>
+                    </li>
+                    <li>
+                        <div class="forth number">5</div>
+                        <div><a href="#">你能驾驭“剪刀手”吗？</a></div>
+                    </li>
+                    <li>
+                        <div class="forth number">6</div>
+                        <div><a href="#">你能驾驭“剪刀手”吗？</a></div>
+                    </li>
+                </ul>
+            </div>
+

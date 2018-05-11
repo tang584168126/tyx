@@ -1,0 +1,12 @@
+E:\代码\第三期\使用MVC开发企业级应用\第八次课\EFDemo\EFDemo\bin\Debug\EFDemo.exe.config
+E:\代码\第三期\使用MVC开发企业级应用\第八次课\EFDemo\EFDemo\bin\Debug\EFDemo.exe
+E:\代码\第三期\使用MVC开发企业级应用\第八次课\EFDemo\EFDemo\bin\Debug\EFDemo.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第八次课\EFDemo\EFDemo\bin\Debug\EntityFramework.dll
+E:\代码\第三期\使用MVC开发企业级应用\第八次课\EFDemo\EFDemo\bin\Debug\EntityFramework.xml
+E:\代码\第三期\使用MVC开发企业级应用\第八次课\EFDemo\EFDemo\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\代码\第三期\使用MVC开发企业级应用\第八次课\EFDemo\EFDemo\obj\Debug\EFDemo.csprojResolveAssemblyReference.cache
+E:\代码\第三期\使用MVC开发企业级应用\第八次课\EFDemo\EFDemo\obj\Debug\EFDemo.exe
+E:\代码\第三期\使用MVC开发企业级应用\第八次课\EFDemo\EFDemo\obj\Debug\EFDemo.pdb
+E:\TYX_Projiect\代码\第三期\使用MVC开发企业级应用\第八次课\EFDemo\EFDemo\bin\Debug\EFDemo.exe.config
+E:\TYX_Projiect\代码\第三期\使用MVC开发企业级应用\第八次课\EFDemo\EFDemo\obj\Debug\EFDemo.exe
+E:\TYX_Projiect\代码\第三期\使用MVC开发企业级应用\第八次课\EFDemo\EFDemo\obj\Debug\EFDemo.pdb

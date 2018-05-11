@@ -1,0 +1,8 @@
+E:\代码\第三期\使用MVC开发企业级应用\第八次课\Friends\FriendsModel\bin\Debug\FriendsModel.dll.config
+E:\代码\第三期\使用MVC开发企业级应用\第八次课\Friends\FriendsModel\bin\Debug\FriendsModel.dll
+E:\代码\第三期\使用MVC开发企业级应用\第八次课\Friends\FriendsModel\bin\Debug\FriendsModel.pdb
+E:\代码\第三期\使用MVC开发企业级应用\第八次课\Friends\FriendsModel\bin\Debug\EntityFramework.dll
+E:\代码\第三期\使用MVC开发企业级应用\第八次课\Friends\FriendsModel\bin\Debug\EntityFramework.xml
+E:\代码\第三期\使用MVC开发企业级应用\第八次课\Friends\FriendsModel\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\代码\第三期\使用MVC开发企业级应用\第八次课\Friends\FriendsModel\obj\Debug\FriendsModel.dll
+E:\代码\第三期\使用MVC开发企业级应用\第八次课\Friends\FriendsModel\obj\Debug\FriendsModel.pdb

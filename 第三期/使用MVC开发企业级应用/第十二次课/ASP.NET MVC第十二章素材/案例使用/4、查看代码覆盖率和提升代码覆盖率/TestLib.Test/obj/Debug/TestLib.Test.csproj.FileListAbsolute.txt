@@ -1,0 +1,21 @@
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\创建单元测试\TestLib\TestLib.Test\bin\Debug\TestLib.Test.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\创建单元测试\TestLib\TestLib.Test\bin\Debug\TestLib.Test.pdb
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\创建单元测试\TestLib\TestLib.Test\bin\Debug\TestLib.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\创建单元测试\TestLib\TestLib.Test\bin\Debug\TestLib.pdb
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\创建单元测试\TestLib\TestLib.Test\obj\Debug\TestLib.Test.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\创建单元测试\TestLib\TestLib.Test\obj\Debug\TestLib.Test.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter12\01 教学示例\创建单元测试\TestLib\TestLib.Test\obj\Debug\TestLib.Test.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例6：查看代码覆盖率和提升代码覆盖率\TestLib.Test\bin\Debug\TestLib.Test.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例6：查看代码覆盖率和提升代码覆盖率\TestLib.Test\bin\Debug\TestLib.Test.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例6：查看代码覆盖率和提升代码覆盖率\TestLib.Test\bin\Debug\TestLib.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例6：查看代码覆盖率和提升代码覆盖率\TestLib.Test\bin\Debug\TestLib.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例6：查看代码覆盖率和提升代码覆盖率\TestLib.Test\obj\Debug\TestLib.Test.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例6：查看代码覆盖率和提升代码覆盖率\TestLib.Test\obj\Debug\TestLib.Test.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter12\01 教学演示案例\示例6：查看代码覆盖率和提升代码覆盖率\TestLib.Test\obj\Debug\TestLib.Test.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例6：查看代码覆盖率和提升代码覆盖率\TestLib.Test\bin\Debug\TestLib.Test.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例6：查看代码覆盖率和提升代码覆盖率\TestLib.Test\bin\Debug\TestLib.Test.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例6：查看代码覆盖率和提升代码覆盖率\TestLib.Test\bin\Debug\TestLib.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例6：查看代码覆盖率和提升代码覆盖率\TestLib.Test\bin\Debug\TestLib.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例6：查看代码覆盖率和提升代码覆盖率\TestLib.Test\obj\Debug\TestLib.Test.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例6：查看代码覆盖率和提升代码覆盖率\TestLib.Test\obj\Debug\TestLib.Test.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\Chapter12\01 教学演示案例\示例6：查看代码覆盖率和提升代码覆盖率\TestLib.Test\obj\Debug\TestLib.Test.pdb

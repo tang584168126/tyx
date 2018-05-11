@@ -1,0 +1,65 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+@using MvcDemo.Models
+@model MvcDemo.Models.Comment
+
+<div id="article-comments">
+    <h3>评论列表</h3>
+    @{ List<Comment> comments = this.ViewData["comments"] as List<Comment>;
+       var i = 0;
+       if (comments != null)
+       {
+           foreach (Comment comment in comments)
+           {
+                i++;     
+                <div id="comment-<%= i %>" class="comment">
+                    <div class="comment-header">
+                        <span class="name">
+                            <a href="@Html.Raw(comment.CommentHome)">@Html.Raw(comment.CommentName)</a>
+                        </span>在 @comment.CommentTime.ToString("yyyy-MM-dd hh MM ss")
+                        提交评论
+                    </div>
+                    <blockquote class="body">
+                        @Html.Raw(comment.CommentBody)
+                    </blockquote>
+                </div>
+           }
+       }
+    }
+</div>
+@using (Html.BeginForm())
+{ 
+    <input type="hidden" id="commentId" name="commentId" value="" />
+    <p class="field input">
+        <label for="name">
+            你的名字</label><br />
+        @Html.TextBox("commentName", null, new { maxlength = 256 })
+        @Html.ValidationMessageFor(m => m.CommentName, "*")
+    </p>
+    <p class="field input">
+        <label for="email">
+            E-Mail</label><br />
+        @Html.TextBox("commentEmail", null, new { maxlength = 256 })
+        <span class="input-message"></span>
+    </p>
+    <p class="field input">
+        <label for="homepage">
+            你的网站</label><br />
+        http:// @Html.TextBox("commentHome", "", new { maxlength = 256 })
+        @Html.ValidationMessageFor(m => m.CommentHome, "*")
+    </p>
+    <p class="field input">
+        <label for="body">
+            评论内容</label><br />
+        @Html.TextArea("commentBody", String.Empty)
+        @Html.ValidationMessageFor(m => m.CommentBody, "*")
+    </p>
+    <hr />
+    <p>
+        <button type="submit" id="comment-create-button">
+            添加评论</button>
+    </p>
+}
+
+@* <iframe src="http://localhost:1932/index.html" height="400" width="500"/> *@

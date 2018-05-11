@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*6.引用命名空间*@
+@using Friends.Model
+
+@*5.模型声明*@
+@model IEnumerable<Friends.Model.User>
+
+@*1.Razor表达式*@
+@DateTime.Now
+@Html.TextBox("Name")
+@("Razor视图".ToString())
+
+@*2.Razor代码块*@
+@{
+    var user = new Friends.Model.User();
+    user.RealName = "王五";
+    user.Gender = "男";
+    <p>姓名：@user.RealName</p>
+    <p>性别：@user.Gender</p>
+}
+
+@*3.Razor循环结构和条件结构*@
+@{
+    List<Friends.Model.User> list = new List<Friends.Model.User>();
+    using(Friends.Model.FriendsEntities entities = new Friends.Model.FriendsEntities())
+    {
+        list = entities.Users.Where(u => u.Gender == "男").ToList();
+    }
+    foreach(var u in list)
+    {
+        <p>姓名：@u.RealName <br/>性别：@u.Gender</p>
+    if(u.RealName=="陈有龙")
+    {
+        <p>@u.Mail</p>
+    }
+    }
+    if(list.Count > 0)
+    {
+        <p>有 @list.Count 个用户符合条件</p>
+    }
+}
+
+@*4.输出特殊字符@*@
+<p>@@2013 copy right</p>
+www.163@@.com

@@ -1,0 +1,59 @@
+﻿@{
+    Layout = null;
+}
+@model Friends.Models.Question
+
+
+
+@using (Ajax.BeginForm("Edit", "Question", new AjaxOptions() { OnSuccess = "editCompleted" }))
+{
+    @Html.ValidationSummary(true)
+    <div id="Question" style="width: 670px">
+        <div>
+            <dl>
+                @Html.HiddenFor(m => m.QuestionId)
+                <dt style="">标题</dt>
+                <dd>@Html.TextBoxFor(model => model.Title, new { @style = "width:660px;" })
+                    @Html.ValidationMessageFor(model => model.Title)</dd>
+            </dl>
+
+            <dl>
+                <dt>内容</dt>
+                <dd>
+                    @Html.EditorFor(model => model.Content, "CkEditor")
+                    @Html.ValidationMessageFor(model => model.Content)</dd>
+            </dl>
+
+            <dl>
+                <dt>&nbsp;&nbsp;</dt>
+                <dd>
+                    <input name="submitQues" type="submit" value="确定修改" class="button" id="submitQues"  onclick="updateContent()"/>
+
+                </dd>
+            </dl>
+        </div>
+    </div>
+}
+
+<script type="text/javascript">
+    $(".button").button();
+
+    function editCompleted(data) {
+        if (data == "1") {
+            alert("修改成功！");
+            closeEditQuestion($("#Question #Title").val(), $("#Question #Content").text());
+        }
+        else {
+            alert(data);
+        }
+    }
+
+    //解决ckeditor 和jQuery ui Dialog 冲突的Bug
+    function updateContent() {
+        var intance = CKEDITOR.instances["Content"];//获取CKEDITOR
+        $("#Content").text(intance.getData());//重新更新TextArea的值
+    }
+
+
+</script>
+

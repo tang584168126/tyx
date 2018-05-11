@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Friends.Models.FriendViewModel>
+   @foreach (Friends.Models.FriendViewModel u in ViewBag.Friends)
+            {
+                <dl name="friend_@u.UserId">
+                    <dt>
+                        <img src="@Url.Content("~/images/headers/" + u.HeaderImage)" /><a href="#">@u.RealName</a>
+
+                    </dt>
+                    <dd><span class="editGroup"> @Html.DropDownList("GroupId", u.Groups, "未分组", new {@class="select",onchange="changeGroup("+@u.UserId+",this.value)" })</span>
+                      <span class="delete" onclick='removeRelation(@u.UserId,"@u.RealName")'>&nbsp;&nbsp;</span></dd>
+                </dl>
+            }
+
+
+          
+
+<script type="text/javascript">
+ 
+    //解除好友关系
+    function removeRelation(userId, realName) {
+        if (confirm("确认要解除和" + realName + "的好友关系么？")) {
+            $.ajax({
+                type: "post",
+                url: "@Url.Action("RemoveFriendRelation", "Friend")",
+                    data: "friendId=" + userId,
+                    success: function (msg) {
+                        if (msg == "1") {
+                            $("dl[name='friend_" + userId + "']").remove();
+                        }
+                        else {
+                            alert("操作失败!");
+                        }
+                    }
+                });
+            }
+    }
+
+    //变更好友分组
+    function changeGroup(friendId, newGroupId) {
+        if (newGroupId!="") {
+            $.ajax({
+                type: "post",
+                url: "@Url.Action("ChangeGroup", "PrivateGroup")",
+                data: { friendId: friendId, newGroupId: newGroupId },
+                success: function (msg) {
+                    if (msg == "1") {
+                        alert("变更成功!");
+                    }
+                    else {
+                        alert("操作失败!");
+                    }
+                }
+            });
+        }
+    }
+</script>

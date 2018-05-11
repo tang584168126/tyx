@@ -1,0 +1,32 @@
+委托：
+定义：委托是一种引用类型，是指向方法的指针，相当于方法的数据类型；她和类是一个级别的
+语法：访问修饰符 delegate 返回值类型 名称(参数列表)
+其声明和方法的签名(没有方法体的方法)类似
+用法：作为其他方法的参数；事件的基础
+
+匿名方法：没有方法名的方法
+语法：delegate(参数列表){方法体代码}
+使用场景：当某个方法只被使用一次的时候可以考虑使用匿名方法来简化代码
+
+Lamda表达式
+语法：
+(参数列表)=>表达式或语句块
+Lamda表达式是一种语法糖(简化代码的编写)，和自动属性一样，在编译时会被编译器做进一步处理
+
+Lamda表达式是对匿名方法的简写，其中"(参数列表)"表示匿名方法的参数列表，"表达式或语句块"表示匿名方法的方法体
+
+泛型委托：
+Func<in T,out TREsult>	=> .NET提供的委托，是委托的另一种表现形式
+T表示参数列表，Tresult表示返回类型
+
+public delegate double MultiOp(double x);
+Func<double,double>op;
+上面两个op是等价的，都是委托的不同表现形式
+Expression<Func<double,double>>op=x=>x*x;
+Expression<Func<TModel,TProperty>代表一个Lamda表达式类型
+
+强类型视图辅助方法
+<%@ Page Title="" Language="C#" Inherits="System.Web.Mvc.ViewPage<BookShop.Models.Book>" %>
+
+<%: Html.TextBox("Authr") %>		//应该是Author,"Authr"出错，编译时无法发现错误
+<%: Html.TextBoxFor(m=>m.Author) %>	//通过Lamda表达式能够在编译时检测错误

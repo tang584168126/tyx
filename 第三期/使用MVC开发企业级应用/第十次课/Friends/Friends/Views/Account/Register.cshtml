@@ -1,0 +1,109 @@
+﻿@model Friends.Model.RegisterModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>注册页面</title>
+    <link href=@Href("~/Content/common.css") rel="stylesheet" />
+    <script src=@Href("~/Scripts/jquery-1.8.2.min.js")></script>
+    <script src=@Href("~/Scripts/jquery.validate.min.js")></script>
+    <script src=@Href("~/Scripts/jquery.validate.unobtrusive.min.js")></script>
+</head>
+<body class="loginBg">
+    <div id="register">
+        <ul id="registerTop">
+            <li class="first"><img src=@Href("~/Images/bird-05.jpg") width="277" height="82" /></li>
+            <li class="second">10秒钟注册账号，找到你的青鸟同学</li>
+            <li class="third">已有青鸟朋友网账号，<a href="#">登录</a></li>
+        </ul>
+        <div class="regList">
+            <p>用户注册</p>
+            @*<form action="" method="post" name="myform">*@
+            @using(@Html.BeginForm())
+            { 
+                <dl>
+                    <dt>注册邮箱</dt>
+                    <dd>
+                        @*<input name="email" type="text" class="textInputBig" />*@ 
+                        @Html.TextBoxFor(m => m.Mail, new { @class = "textInputBig", placeholder="请输入邮箱"})
+                        @Html.ValidationMessageFor(m=>m.Mail)
+                        
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>创建密码</dt>
+                    <dd>
+                        @*<input name="pwd" type="text" class="textInputBig" />*@ 
+                        @Html.TextBoxFor(m => m.Password, new { @class = "textInputBig", placeholder = "请输入密码" })
+                        @Html.ValidationMessageFor(m => m.Password)
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>真实姓名</dt>
+                    <dd>
+                        @*<input name="realName" type="text" class="textInputBig" />*@ 
+                        @Html.TextBoxFor(m => m.Password, new { @class = "textInputBig", placeholder = "请输入真实姓名" })
+                        @Html.ValidationMessageFor(m => m.RealName)
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>性别</dt>
+                    <dd>
+                        @*<input name="sex" type="radio" value="1" />*@ 
+                        @Html.DropDownListFor(m=>m.Gender,Friends.Model.FriendsListItems.Genders)
+                        @Html.ValidationMessageFor(m => m.Gender)
+                        @*<input name="sex" type="radio" value="0" />*@ 
+                        
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>生日</dt>
+                    <dd>
+                        @*<select name="birYear"><option>请选择</option><option>1980</option></select>*@
+                        @Html.DropDownListFor(m=>m.Year,Friends.Model.FriendsListItems.Years,"") 年 
+                        @*<select name="birMonth"><option>请选择</option><option>12</option></select>*@
+                        @Html.DropDownListFor(m => m.Month, Friends.Model.FriendsListItems.Months, "") 月 
+                        @*<select name="birDay"><option>请选择</option><option>30</option></select>*@
+                        @Html.DropDownListFor(m => m.Day, Friends.Model.FriendsListItems.Days, "") 日
+                        @Html.ValidationMessageFor(m => m.Year)
+                        @Html.ValidationMessageFor(m => m.Month)
+                        @Html.ValidationMessageFor(m => m.Day)
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>我现在</dt>
+                    <dd>
+                        @*<input name="status" type="radio" value="2" /> 在工作 
+                        <input name="status" type="radio" value="1" /> 在学习 
+                        <input name="status" type="radio" value="0" /> 其他*@
+                        @Html.DropDownListFor(m => m.SecurityCode, Friends.Model.FriendsListItems.Situations, "")
+                        @Html.ValidationMessageFor(m => m.Situation)
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>验证码</dt>
+                    <dd>
+                        @*<input name="validate" type="text" class="textInputSmall" />*@
+                        @Html.TextBoxFor(m => m.SecurityCode, new { @class = "textInputSmall", placeholder = "请输入验证码" })
+                        <p><img id="validateCode" src=@Url.Action("SecurityCode") width="109" height="40" /> <br />
+                        <a href="#" onclick="document.getElementById('validateCode').src = document.getElementById('validateCode').src + '?'">看不清换一张</a></p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>&nbsp;&nbsp;</dt>
+                    <dd>
+                        <input name="submitBtn" type="submit" value=" " class="btnSubmit" />
+                    </dd>
+                </dl>
+            @*</form>*@
+            }
+        </div>
+    </div>
+</body>
+</html>

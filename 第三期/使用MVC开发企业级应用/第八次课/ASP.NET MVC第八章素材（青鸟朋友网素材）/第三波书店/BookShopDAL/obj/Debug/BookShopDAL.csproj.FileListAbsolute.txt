@@ -1,0 +1,75 @@
+E:\work\课件开发\学士后\BookShop\BookShopDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\work\课件开发\学士后\BookShop\Web\Bin\BookShopDAL.dll
+E:\work\课件开发\学士后\BookShop\Web\Bin\BookShopDAL.pdb
+E:\work\课件开发\学士后\BookShop\BookShopDAL\obj\Debug\BookShopDAL.dll
+E:\work\课件开发\学士后\BookShop\BookShopDAL\obj\Debug\BookShopDAL.pdb
+E:\work\课件开发\学士后\BookShopPlus\Web\Bin\BookShopDAL.dll
+E:\work\课件开发\学士后\BookShopPlus\Web\Bin\BookShopDAL.pdb
+E:\work\课件开发\学士后\BookShopPlus\BookShopDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\work\课件开发\学士后\BookShopPlus\BookShopDAL\obj\Debug\BookShopDAL.dll
+E:\work\课件开发\学士后\BookShopPlus\BookShopDAL\obj\Debug\BookShopDAL.pdb
+E:\work\课件开发\ACCP6.0\Control+Ajax\BookShopPlus\BookShopDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\work\课件开发\ACCP6.0\Control+Ajax\BookShopPlus\BookShopDAL\obj\Debug\BookShopDAL.pdb
+E:\work\课件开发\ACCP6.0\Control+Ajax\BookShopPlus\Web\Bin\BookShopDAL.dll
+E:\work\课件开发\ACCP6.0\Control+Ajax\BookShopPlus\Web\Bin\BookShopDAL.pdb
+E:\work\课件开发\ACCP6.0\Control+Ajax\BookShopPlus\BookShopDAL\obj\Debug\BookShopDAL.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\BookShop\MVC\Web\Bin\BookShopDAL.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\BookShop\MVC\Web\Bin\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\BookShop\MVC\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\BookShop\MVC\BookShopDAL\obj\Debug\BookShopDAL.dll
+G:\课件开发\ACCP7.0\课程设计\Y2A设计\BookShop\MVC\BookShopDAL\obj\Debug\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter01\Web\Bin\BookShopDAL.dll
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter01\Web\Bin\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter01\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter01\BookShopDAL\obj\Debug\BookShopDAL.dll
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter01\BookShopDAL\obj\Debug\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter01\案例2\Web\Bin\BookShopDAL.dll
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter01\案例2\Web\Bin\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter01\案例2\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter01\案例2\BookShopDAL\obj\Debug\BookShopDAL.dll
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter01\案例2\BookShopDAL\obj\Debug\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter02\案例1\Web\Bin\BookShopDAL.dll
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter02\案例1\Web\Bin\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter02\案例1\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter02\案例1\BookShopDAL\obj\Debug\BookShopDAL.dll
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter02\案例1\BookShopDAL\obj\Debug\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter03\案例1\Web\Bin\BookShopDAL.dll
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter03\案例1\Web\Bin\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter03\案例1\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter03\案例1\BookShopDAL\obj\Debug\BookShopDAL.dll
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter03\案例1\BookShopDAL\obj\Debug\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter04\案例1\Web\Bin\BookShopDAL.dll
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter04\案例1\Web\Bin\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter04\案例1\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter04\案例1\BookShopDAL\obj\Debug\BookShopDAL.dll
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter04\案例1\BookShopDAL\obj\Debug\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter05\案例1\Web\Bin\BookShopDAL.dll
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter05\案例1\Web\Bin\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter05\案例1\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter05\案例1\BookShopDAL\obj\Debug\BookShopDAL.dll
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter05\案例1\BookShopDAL\obj\Debug\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter06\案例1\Web\Bin\BookShopDAL.dll
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter06\案例1\Web\Bin\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter06\案例1\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter06\案例1\BookShopDAL\obj\Debug\BookShopDAL.dll
+G:\课件开发\ACCP7.0\课程设计\章节设计\Chapter06\案例1\BookShopDAL\obj\Debug\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter06\01 教学示例\贯穿案例\Web\Bin\BookShopDAL.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter06\01 教学示例\贯穿案例\Web\Bin\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter06\01 教学示例\贯穿案例\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter06\01 教学示例\贯穿案例\BookShopDAL\obj\Debug\BookShopDAL.dll
+G:\课件开发\ACCP7.0\学生用书\ASP.NET MVC\Chapter06\01 教学示例\贯穿案例\BookShopDAL\obj\Debug\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter06\02 上机练习参考答案\练习1~4：第三波书店\Web\bin\BookShopDAL.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter06\02 上机练习参考答案\练习1~4：第三波书店\Web\bin\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter06\02 上机练习参考答案\练习1~4：第三波书店\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter06\02 上机练习参考答案\练习1~4：第三波书店\BookShopDAL\obj\Debug\BookShopDAL.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\Chapter06\02 上机练习参考答案\练习1~4：第三波书店\BookShopDAL\obj\Debug\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\贯穿案例代码\第三波书店\Web\Bin\BookShopDAL.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\贯穿案例代码\第三波书店\Web\Bin\BookShopDAL.pdb
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\贯穿案例代码\第三波书店\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\贯穿案例代码\第三波书店\BookShopDAL\obj\Debug\BookShopDAL.dll
+G:\课件开发\ACCP7.0\PPT\ASP.NET MVC\贯穿案例代码\第三波书店\BookShopDAL\obj\Debug\BookShopDAL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\第三波书店\Web\Bin\BookShopDAL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\第三波书店\Web\Bin\BookShopDAL.pdb
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\第三波书店\BookShopDAL\obj\Debug\BookShopDAL.csprojResolveAssemblyReference.cache
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\第三波书店\BookShopDAL\obj\Debug\BookShopDAL.dll
+E:\Worked Company\优越教育集团\课件\ACCP 7.0\02 教学电子课件\Y2\使用ASP.NET MVC开发企业级应用\贯穿案例\第三波书店\BookShopDAL\obj\Debug\BookShopDAL.pdb

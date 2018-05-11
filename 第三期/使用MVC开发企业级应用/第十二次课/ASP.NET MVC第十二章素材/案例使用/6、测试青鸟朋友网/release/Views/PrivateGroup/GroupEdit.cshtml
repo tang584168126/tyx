@@ -1,0 +1,45 @@
+﻿<script type="text/javascript">
+    function submitGroup(obj) {
+          if ($("#groupName").val() == "")
+          {
+              $("#messError").html("请输入分组名称！").show();
+              return;
+          }
+
+        //提交分组数据
+        $.ajax({
+            type: "post",
+            url: "@Url.Action("EditGroup", "PrivateGroup")",
+            data: "groupName=" + $("#groupName").val() + "&groupId=" + $("#groupId").val(),
+            success: function (msg) {
+                if (msg == "1") {
+                    $("#groupName").val("");
+                    $(obj).parent().parent().dialog("close");
+                    $(obj).parent().parent().html("");//注意
+                    $("#groupList").load("@Url.Action("ListGroups", "PrivateGroup")");
+                   
+                }
+                else {
+                    $("#messError").html("保存失败!");
+                }
+            }
+        });
+    }
+    $(function () {
+        $("input[type=button]").button();
+    });
+</script>
+
+
+<p style="height: 50px;">
+    <label>分组名称：</label>
+    <input type="hidden" id="groupId" name="groupId" value="@ViewBag.GroupId"/>
+    <input type="text" id="groupName" name="groupName" value="@ViewBag.GroupName"/><br />
+    <span id="messError"></span>
+</p>
+
+<p>
+    <input type="button" value="确定" id="submit" onclick="submitGroup(this)" />
+    <input type="button" value="取消" id="cancel" onclick='$(this).parent().parent().dialog("close")' />
+</p>
+

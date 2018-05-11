@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "GroupList";
+  
+}
+
+<script type="text/javascript">
+
+    //打开分组对话框-添加
+    $(function () {
+        $("#addGroup").click(function () {
+            $("#friendGroup").attr("title", "添加好友分组")
+                .load("@Url.Action("EditGroup", "PrivateGroup")")
+                .dialog();
+        })
+    });
+
+    //打开分组对话框-编辑
+    function editGroup(url) {
+        $("#friendGroup").attr("title", "编辑好友分组")
+            .load(url).dialog();
+    }
+
+    //删除分组数据
+    function deleteGroup(id) {
+        $.ajax({
+            type: "post",
+            url: "@Url.Action("DeleteGroup", "PrivateGroup")",
+            data: "id=" + id,
+            beforeSend: function () {
+
+            },
+            success: function (msg) {
+                if (msg == "1") {
+                    $("#groupItems").parent().load("@Url.Action("ListGroups", "PrivateGroup")");
+                    }
+                }
+        });
+        }
+
+
+</script>
+
+
+
+
+<div class="clear10"></div>
+<ul class="friendTypeHeader">
+    <li><span>@ViewBag.TotalCount</span>全部好友</li>
+</ul>
+<ul class="friendCatalog" id="groupItems">
+    @foreach (Friends.Models.PrivateGroup m in ViewBag.Groups)
+    {
+        <li>@Ajax.ActionLink(m.GroupName, "ListFriends", "Friend", new { groupId = m.GroupId }, new AjaxOptions() { OnSuccess = "loadFriendsByGroup" })
+            <img src="@Url.Content("~/images/edit.gif")"  onclick="editGroup('@Url.Action("EditGroup", "PrivateGroup", new { id = m.GroupId })')"/>
+            <img  src="@Url.Content("~/images/delete.gif")"  onclick="deleteGroup(@m.GroupId)"/><span>&nbsp;@m.FriendRelations.Count()</span></li>
+    }
+
+    <li>@Ajax.ActionLink("未分组好友", "ListFriends", "Friend", new { groupId = -1 }, new AjaxOptions() { OnSuccess = "loadFriendsByGroup" })<span>@ViewBag.UnGroupCount</span></li>
+
+
+    <li class="addGroupBtn">
+        <input name="addGroup" id="addGroup" type="button" value="添加分组" />
+        <div id="friendGroup" style="display: none" title="添加好友分组">
+        </div>
+    </li>
+
+</ul>

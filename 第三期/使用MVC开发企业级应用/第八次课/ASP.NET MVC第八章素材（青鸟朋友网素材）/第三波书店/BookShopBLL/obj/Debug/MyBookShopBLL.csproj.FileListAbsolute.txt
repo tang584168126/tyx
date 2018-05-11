@@ -1,0 +1,16 @@
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\MyBookShopBLL\bin\Debug\MyBookShopBLL.dll
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\MyBookShopBLL\bin\Debug\MyBookShopBLL.pdb
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\MyBookShopBLL\obj\Debug\ResolveAssemblyReference.cache
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\MyBookShopBLL\obj\Debug\MyBookShopBLL.dll
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\MyBookShopBLL\obj\Debug\MyBookShopBLL.pdb
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\MyBookShopBLL\bin\Debug\MyBookShopDAL.dll
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\MyBookShopBLL\bin\Debug\MyBookShopModels.dll
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\MyBookShopBLL\bin\Debug\MyBookShopModels.pdb
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\MyBookShopBLL\bin\Debug\MyBookShopDAL.pdb
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\Web\Bin\MyBookShopBLL.dll
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShop6\Web\Bin\MyBookShopBLL.pdb
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShopPlus\Web\Bin\MyBookShopBLL.dll
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShopPlus\Web\Bin\MyBookShopBLL.pdb
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShopPlus\MyBookShopBLL\obj\Debug\ResolveAssemblyReference.cache
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShopPlus\MyBookShopBLL\obj\Debug\MyBookShopBLL.dll
+E:\work\课件开发\ASP.NET-ACCP6\MyBookShopPlus\MyBookShopBLL\obj\Debug\MyBookShopBLL.pdb

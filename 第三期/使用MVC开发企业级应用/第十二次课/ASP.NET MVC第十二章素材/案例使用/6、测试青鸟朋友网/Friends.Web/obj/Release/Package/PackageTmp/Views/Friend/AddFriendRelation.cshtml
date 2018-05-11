@@ -1,0 +1,41 @@
+﻿<script type="text/javascript">
+    $(function () {
+           $("input[type=button]").button();
+    })
+
+    function submitMessage() {
+        if ($("#message").val() == "") {
+            $("#messError").html("请输入留言！").show();
+            return;
+        }
+        $.ajax({
+            type: "post",
+            url: "@Url.Action("AddFriendRelation", "Friend")",
+            data: "message=" + $("#message").val() + "&friendId=" + $("#friendId").val(),
+            success: function (msg) {
+                if (msg == "1") {
+                    $("#message").val("");
+                    $("#friendId").val("");
+                    alert("添加成功！");
+                    $("#AddFriendRelation").dialog("close");
+                }
+                else {
+                    $("#messError").html("保存失败");
+                }
+            }
+        });
+    }
+</script>
+
+
+<p>好友请求留言：</p>
+<p>
+    <input type="hidden" id="friendId" name="groupId" value="@ViewBag.FriendId"/>
+    <textarea id="message" name="message" style="width: 95%; height: 50px;"  value="@ViewBag.Message"></textarea>
+    <span id="messError"></span>
+</p>
+<p>
+    <input type="button" value="确定" id="submit" onclick="submitMessage()" />
+    <input type="button" value="取消" id="cancel" onclick='$("#AddFriendRelation").dialog("close")' />
+</p>
+
