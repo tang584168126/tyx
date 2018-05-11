@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class text2 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入本金：");
+		int benJin = sc.nextInt();
+		System.out.println("本金为：" + benJin);
+		double benXi1 = benJin * 0.0225 + benJin;
+		System.out.println("存取一年后的本息为：" + benXi1);
+		double benXi2 = benJin * 0.027 * 2 + benJin;
+		System.out.println("存取二年后的本息为：" + benXi2);
+		double benXi3 = benJin * 0.0324* 3 + benJin;
+		System.out.println("存取三年后的本息为：" + benXi3);
+		double benXi5 = benJin * 0.036* 5 + benJin;
+		System.out.println("存取二五年后的本息为：" + benXi5);
+	}
+
+}

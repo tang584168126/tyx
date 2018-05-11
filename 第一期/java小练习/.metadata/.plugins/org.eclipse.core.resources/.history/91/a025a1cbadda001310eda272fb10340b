@@ -1,0 +1,33 @@
+package class8;
+
+import java.util.Scanner;
+
+public class Test4 {
+	public static void main(String[] args){
+		int[] sums = new int[10];
+		int i = 0;
+		int a = 0;
+		int b = 0 ;
+		int c = 0;
+		int z = 0 ;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入十个数：");
+		for(i = 0 ;i < sums.length ; i++){
+			sums[i] = sc.nextInt();
+			if(a == 1){
+				a++;
+			}else if(b == 2){
+				b++;
+			}else if(c == 3){
+				c++;
+			}
+			
+		}
+		z = 10 - a -b -c;
+		System.out.println("数字1 的个数：" + a);
+		System.out.println("数字2的个数：" + b);
+		System.out.println("数字3 的个数：" + c);
+		System.out.println("非法数字 的个数：" + z);
+	}
+
+}

@@ -1,0 +1,12 @@
+E:\数据库应用系统\MyComputer\MyComputer\bin\Debug\MyComputer.exe.config
+E:\数据库应用系统\MyComputer\MyComputer\bin\Debug\MyComputer.exe
+E:\数据库应用系统\MyComputer\MyComputer\bin\Debug\MyComputer.pdb
+E:\数据库应用系统\MyComputer\MyComputer\obj\Debug\MyComputer.csprojResolveAssemblyReference.cache
+E:\数据库应用系统\MyComputer\MyComputer\obj\Debug\MyComputer.FrmMain.resources
+E:\数据库应用系统\MyComputer\MyComputer\obj\Debug\MyComputer.Properties.Resources.resources
+E:\数据库应用系统\MyComputer\MyComputer\obj\Debug\MyComputer.csproj.GenerateResource.Cache
+E:\数据库应用系统\MyComputer\MyComputer\obj\Debug\MyComputer.exe
+E:\数据库应用系统\MyComputer\MyComputer\obj\Debug\MyComputer.pdb
+E:\代码\数据库应用系统\MyComputer\MyComputer\bin\Debug\MyComputer.exe.config
+E:\代码\数据库应用系统\MyComputer\MyComputer\obj\Debug\MyComputer.exe
+E:\代码\数据库应用系统\MyComputer\MyComputer\obj\Debug\MyComputer.pdb

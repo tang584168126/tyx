@@ -1,0 +1,14 @@
+E:\代码\数据库应用系统\MySchool_1\MySchool_1\bin\Debug\MySchool_1.exe.config
+E:\代码\数据库应用系统\MySchool_1\MySchool_1\bin\Debug\MySchool_1.exe
+E:\代码\数据库应用系统\MySchool_1\MySchool_1\bin\Debug\MySchool_1.pdb
+E:\代码\数据库应用系统\MySchool_1\MySchool_1\obj\Debug\MySchool_1.csprojResolveAssemblyReference.cache
+E:\代码\数据库应用系统\MySchool_1\MySchool_1\obj\Debug\MySchool_1.FrmLogin.resources
+E:\代码\数据库应用系统\MySchool_1\MySchool_1\obj\Debug\MySchool_1.Properties.Resources.resources
+E:\代码\数据库应用系统\MySchool_1\MySchool_1\obj\Debug\MySchool_1.csproj.GenerateResource.Cache
+E:\代码\数据库应用系统\MySchool_1\MySchool_1\obj\Debug\MySchool_1.exe
+E:\代码\数据库应用系统\MySchool_1\MySchool_1\obj\Debug\MySchool_1.pdb
+E:\代码\数据库应用系统\MySchool_1\MySchool_1\obj\Debug\MySchool_1.FrmMain.resources
+E:\代码\数据库应用系统\MySchool_1\MySchool_1\obj\Debug\MySchool_1.FrmInsert.resources
+E:\代码\数据库应用系统\MySchool_1\MySchool_1\obj\Debug\MySchool_1.FrmUpdatePwd.resources
+E:\代码\第一期\数据库应用系统\MySchool_1\MySchool_1\bin\Debug\MySchool_1.exe.config
+E:\代码\第一期\数据库应用系统\MySchool_1\MySchool_1\obj\Debug\MySchool_1.exe

@@ -1,0 +1,23 @@
+package class8;
+
+import java.util.Scanner;
+
+public class Test5 {
+	public static void mian(String[] args){
+		int[] array = new int[5];
+		int i = 0;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("原数组为");
+		for(i = 0 ;  i < array.length ; i++){
+			array[i] = sc.nextInt();
+			if(array[i] < 0){
+				continue;
+			}
+		}
+		System.out.println("逆序并处理后的数组为：");
+		for(i = array.length - 1 ; i >= 0; i-- ){
+			System.out.println(array[i]);
+		}
+	}
+
+}

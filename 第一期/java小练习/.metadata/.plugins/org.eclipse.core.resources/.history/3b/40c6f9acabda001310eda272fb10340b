@@ -1,0 +1,19 @@
+package class8;
+
+public class Test3 {
+	public static void main(String[] args){
+		int[] custs = new int[]{18,25,7,36,13,2,89,63};
+		int i = 0;
+		int min = 0;
+		min = custs[0];
+		for(i = 0 ; i < custs.length ; i++){
+			if(min > custs[i]){
+				min = custs[i];
+				
+			}
+			System.out.println(i);
+		}
+		System.out.println(min);
+	}
+
+}

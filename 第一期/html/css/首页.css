@@ -1,0 +1,34 @@
+.page{
+	border:1px solid blue;
+	width:1300px;
+	height:550px;
+}
+.page .page_1{
+	height:100px;
+	background-color:blue;
+}
+.page .page_2{
+	height:350px;
+}
+.page .page_2 .page_2_1{
+	width:299px;
+	height:350px;
+	background-color:green;
+	float:left;
+}
+.page .page_2 .page_2_2{
+	width:700px;
+	height:350px;
+	background-color:black;
+	float:left;
+}
+.page .page_2 .page_2_3{
+	width:299px;
+	height:350px;
+	background-color:#F00D52;
+	float:left;
+}
+.page .page_3{
+	height:100px;
+	background-color:purple;
+}

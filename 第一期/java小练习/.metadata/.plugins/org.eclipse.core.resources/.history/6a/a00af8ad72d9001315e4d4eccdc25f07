@@ -1,0 +1,21 @@
+
+public class Test_2 {
+	public static void main(String[] args){
+		int sum = 0,i;
+		for(i=0;i<=4;i++)
+		{
+			switch(i)
+			{
+			case 1:
+				sum += 2;
+			case 2:
+				sum += 3;
+				continue;
+			case 3:
+				sum += 16;
+				break;
+			}
+		}
+	}
+
+}

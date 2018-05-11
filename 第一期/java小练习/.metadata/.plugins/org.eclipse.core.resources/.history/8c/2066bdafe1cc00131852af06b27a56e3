@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class text1 {
+	public static void main(String[] args){
+		double zhe;
+		int shirt;
+		int qiuXie;
+		boolean shirtz, qiuXiez;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("«Î ‰»Î’€ø€£∫");
+		zhe = sc.nextDouble();
+		System.out.println("«Î ‰»ÎT–Ùº€∏Ò£∫");
+		shirt = sc.nextInt();
+		System.out.println("«Î ‰»Î«Ú–¨º€∏Ò£∫");
+		qiuXie = sc.nextInt();
+		double shirts = shirt * (1 - zhe);
+		double qiuXies = qiuXie * (1 - zhe);
+		shirtz = shirts  < 100;
+		qiuXiez = qiuXies < 100;
+		System.out.println("T–Ùµƒ’€ø€º€µÕ”⁄100¬£ø" + shirtz);
+		System.out.println("«Ú–¨µƒ’€ø€º€µÕ”⁄100¬£ø" + qiuXiez);
+	}
+}

@@ -1,0 +1,344 @@
+import java.util.Scanner;
+
+public class Test_4 {
+	public static void main(String[] args) {
+
+		int num = 0 ,num1 = 0, i = 0 ;
+		double score = 0, count = 0;
+		String isOK;
+		double rate=0;
+		int random;
+		double time = 0 , price = 0;
+		String name ,pwd;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("************************************\n");
+		System.out.println("欢迎进入青鸟游戏平台\n");
+		System.out.println("\n1.登录系统");
+		System.out.println("\n2.退出\n");
+		System.out.println("************************************\n");
+		System.out.print("请选择，输入数字:");
+
+		System.out.println("欢迎进入青鸟游戏平台\n");
+		System.out.println("请选择您喜爱的游戏\n");
+		System.out.println("************************************\n");
+		System.out.println("\n\t1.斗地主");
+		System.out.println("\n\t2.斗牛");
+		System.out.println("\n\t3.泡泡龙");
+		System.out.println("\n\t4.连连看");
+		System.out.println("************************************\n");
+		System.out.println("请选择，输入数字：");
+		num = sc.nextInt();
+
+		switch (num) {
+		case 1:
+			System.out.println("您已进入斗地主房间！\n");
+			System.out.println("************************************\n");
+			System.out.println("青鸟迷你游戏平台 > 游戏币支付\n");
+			System.out.println("请选择您要玩的游戏类型：");
+			System.out.println("\t1.牌类");
+			System.out.println("\t2.休闲竞技类");
+			num1 = sc.nextInt();
+			switch(num1){
+			
+			case 1:
+				System.out.println("请输入游戏时长：");
+				time = sc.nextInt();
+				if(time > 10){
+					price = time * 10 * 0.5;
+					System.out.println("您玩的是牌类游戏，时长是"+ time + "小时，可享受5折优惠");
+					System.out.println("您需要支付"+ price +"个游戏币");
+				}else{
+					price = time * 10 * 0.8;
+					System.out.println("您玩的是牌类游戏，时长是"+ time + "小时，可享受8折优惠");
+					System.out.println("您需要支付"+ price +"个游戏币");
+				}
+				break;
+				
+			case 2:
+				System.out.println("请输入游戏时长：");
+				time = sc.nextInt();
+				if(time > 10){
+					price = time * 20 * 0.5;
+					System.out.println("您玩的是休闲竞技类游戏，时长是"+ time + "小时，可享受5折优惠");
+					System.out.println("您需要支付"+ price +"个游戏币");
+				}else{
+					price = time * 20 * 0.8;
+					System.out.println("您玩的是休闲竞技类游戏，时长是"+ time + "小时，可享受8折优惠");
+					System.out.println("您需要支付"+ price +"个游戏币");
+				}
+				break;
+			}
+			
+			System.out.println("************************************\n");
+			System.out.println("青鸟迷你游戏平台 > 游戏晋级\n");
+
+			do {
+				random = (int) (Math.random() * 9+ 1);
+				score = random * 10;
+				System.out.println("您正在玩第" + (i + 1) + "局，成绩为：" + score);
+				i++;
+				if (score >= 80) {
+				}
+				if (i >= 5) {
+					System.out.println("游戏结束");
+					break;
+				}
+				System.out.println("继续玩下一局吗？（Y/N）");
+				isOK = sc.next();
+				if (isOK.equalsIgnoreCase("Y")) {
+					System.out.println("进入下一局");
+				} else {
+					System.out.println("您已中途退出游戏");
+
+					break;
+				}
+				
+
+			} while (i < 5);
+			rate = count / 5.0;
+			if (rate >= 0.8) {
+				System.out.println("恭喜！通过一级");
+			} else if (rate >= 0.6) {
+				System.out.println("恭喜！通过二级");
+			} else {
+				System.out.println("对不起，您未能晋级，继续加油啊！");
+			}
+			break;
+			
+		case 2:
+			System.out.println("您已进入斗牛房间！\n\n");
+			System.out.println("************************************\n");
+			System.out.println("青鸟迷你游戏平台 > 游戏币支付\n");
+			System.out.println("请选择您要玩的游戏类型：");
+			System.out.println("\t1.牌类");
+			System.out.println("\t2.休闲竞技类");
+			num1 = sc.nextInt();
+			
+			switch(num1){
+			
+			case 1:
+				System.out.println("请输入游戏时长：");
+				time = sc.nextInt();
+				if(time > 10){
+					price = time * 10 * 0.5;
+					System.out.println("您玩的是牌类游戏，时长是"+ time + "小时，可享受5折优惠");
+					System.out.println("您需要支付"+ price +"个游戏币");
+				}else{
+					price = time * 10 * 0.8;
+					System.out.println("您玩的是牌类游戏，时长是"+ time + "小时，可享受8折优惠");
+					System.out.println("您需要支付"+ price +"个游戏币");
+				}
+				break;
+				
+			case 2:
+				System.out.println("请输入游戏时长：");
+				time = sc.nextInt();
+				if(time > 10){
+					price = time * 20 * 0.5;
+					System.out.println("您玩的是休闲竞技类游戏，时长是"+ time + "小时，可享受5折优惠");
+					System.out.println("您需要支付"+ price +"个游戏币");
+				}else{
+					price = time * 20 * 0.8;
+					System.out.println("您玩的是休闲竞技类游戏，时长是"+ time + "小时，可享受8折优惠");
+					System.out.println("您需要支付"+ price +"个游戏币");
+				}
+				break;
+			}
+			
+			System.out.println("************************************\n");
+			System.out.println("青鸟迷你游戏平台 > 游戏晋级\n");
+
+			do {
+				random = (int) (Math.random() * 9 + 1);
+				score = random * 10;
+				System.out.println("您正在玩第" + (i + 1) + "局，成绩为：" + score);
+				i++;
+				
+				if (score >= 80) {
+					count++;
+				}
+				if (i >= 5) {
+					System.out.println("游戏结束");
+					break;
+				}
+				System.out.println("继续玩下一局吗？（Y/N）");
+				isOK = sc.next();
+				if (isOK.equalsIgnoreCase("Y")) {
+					System.out.println("进入下一局");
+				} else {
+					System.out.println("您已中途退出游戏");
+
+					break;
+
+				}
+
+			} while (i < 5);
+			rate = count / 5.0;
+			if (rate >= 0.8) {
+				System.out.println("恭喜！通过一级");
+			} else if (rate >= 0.6) {
+				System.out.println("恭喜！通过二级");
+			} else {
+				System.out.println("对不起，您未能晋级，继续加油啊！");
+			}
+			break;
+			
+		case 3:
+			System.out.println("您已进入泡泡龙房间！\n\n");
+			System.out.println("************************************\n");
+			System.out.println("青鸟迷你游戏平台 > 游戏币支付\n");
+			System.out.println("请选择您要玩的游戏类型：");
+			System.out.println("\t1.牌类");
+			System.out.println("\t2.休闲竞技类");
+			num1 = sc.nextInt();
+			
+			switch(num1){
+			case 1:
+				System.out.println("请输入游戏时长：");
+				time = sc.nextInt();
+				if(time > 10){
+					price = time * 10 * 0.5;
+					System.out.println("您玩的是牌类游戏，时长是"+ time + "小时，可享受5折优惠");
+					System.out.println("您需要支付"+ price +"个游戏币");
+				}else{
+					price = time * 10 * 0.8;
+					System.out.println("您玩的是牌类游戏，时长是"+ time + "小时，可享受8折优惠");
+					System.out.println("您需要支付"+ price +"个游戏币");
+				}
+				break;
+				
+			case 2:
+				System.out.println("请输入游戏时长：");
+				time = sc.nextInt();
+				if(time > 10){
+					price = time * 20 * 0.5;
+					System.out.println("您玩的是休闲竞技类游戏，时长是"+ time + "小时，可享受5折优惠");
+					System.out.println("您需要支付"+ price +"个游戏币");
+				}else{
+					price = time * 20 * 0.8;
+					System.out.println("您玩的是休闲竞技类游戏，时长是"+ time + "小时，可享受8折优惠");
+					System.out.println("您需要支付"+ price +"个游戏币");
+				}
+				break;
+			}
+			System.out.println("************************************\n");
+			System.out.println("青鸟迷你游戏平台 > 游戏晋级\n");
+
+			do {
+				random = (int) (Math.random() * 9 + 1);
+				score = random * 10;
+				System.out.println("您正在玩第" + (i + 1) + "局，成绩为：" + score);
+
+				i++;
+				if (score >= 80) {
+					count++;
+				}
+				if (i >= 5) {
+					System.out.println("游戏结束");
+					break;
+				}
+				System.out.println("继续玩下一局吗？（Y/N）");
+				isOK = sc.next();
+				if (isOK.equalsIgnoreCase("Y")) {
+					System.out.println("进入下一局");
+				} else {
+					System.out.println("您已中途退出游戏");
+
+					break;
+
+				}
+
+			} while (i < 5);
+			
+			rate = count / 5.0;
+			if (rate >= 0.8) {
+				System.out.println("恭喜！通过一级");
+			} else if (rate >= 0.6) {
+				System.out.println("恭喜！通过二级");
+			} else {
+				System.out.println("对不起，您未能晋级，继续加油啊！");
+			}
+			break;
+			
+		case 4:
+			System.out.println("您已进入连连看房间！\n\n");
+			System.out.println("************************************\n");
+			System.out.println("青鸟迷你游戏平台 > 游戏币支付\n");
+			System.out.println("请选择您要玩的游戏类型：");
+			System.out.println("\t1.牌类");
+			System.out.println("\t2.休闲竞技类");
+			num1 = sc.nextInt();
+			
+			switch(num1){
+			case 1:
+				System.out.println("请输入游戏时长：");
+				time = sc.nextInt();
+				if(time > 10){
+					price = time * 10 * 0.5;
+					System.out.println("您玩的是牌类游戏，时长是"+ time + "小时，可享受5折优惠");
+					System.out.println("您需要支付"+ price +"个游戏币");
+				}else{
+					price = time * 10 * 0.8;
+					System.out.println("您玩的是牌类游戏，时长是"+ time + "小时，可享受8折优惠");
+					System.out.println("您需要支付"+ price +"个游戏币");
+				}
+				break;
+				
+			case 2:
+				System.out.println("请输入游戏时长：");
+				time = sc.nextInt();
+				if(time > 10){
+					price = time * 20 * 0.5;
+					System.out.println("您玩的是休闲竞技类游戏，时长是"+ time + "小时，可享受5折优惠");
+					System.out.println("您需要支付"+ price +"个游戏币");
+				}else{
+					price = time * 20 * 0.8;
+					System.out.println("您玩的是休闲竞技类游戏，时长是"+ time + "小时，可享受8折优惠");
+					System.out.println("您需要支付"+ price +"个游戏币");
+				}
+				break;
+			}
+			System.out.println("************************************\n");
+			System.out.println("青鸟迷你游戏平台 > 游戏晋级\n");
+
+			do {
+				random = (int) (Math.random() * 9 + 1);
+				score = random * 10;
+				System.out.println("您正在玩第" + (i + 1) + "局，成绩为：" + score);
+
+				i++;
+				if (score >= 80) {
+					count++;
+				}
+				if (i >= 5) {
+					System.out.println("游戏结束");
+					break;
+				}
+				System.out.println("继续玩下一局吗？（Y/N）");
+				isOK = sc.next();
+				if (isOK.equalsIgnoreCase("Y")) {
+					System.out.println("进入下一局");
+				} else {
+					System.out.println("您已中途退出游戏");
+
+					break;
+
+				}
+
+			} while (i < 5);
+			
+			rate = count / 5.0;
+			if (rate >= 0.8) {
+				System.out.println("恭喜！通过一级");
+			} else if (rate >= 0.6) {
+				System.out.println("恭喜！通过二级");
+			} else {
+				System.out.println("对不起，您未能晋级，继续加油啊！");
+			}
+			break;
+		}
+	}
+
+}

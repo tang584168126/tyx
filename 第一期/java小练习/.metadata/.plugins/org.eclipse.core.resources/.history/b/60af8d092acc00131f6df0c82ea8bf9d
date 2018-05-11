@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+
+public class Test1 {
+	public static void main(String[] args){
+		System.out.println("请输入四位会员卡号：");
+		Scanner sc = new Scanner(System.in);
+		int custNo = sc.nextInt();
+		int gewei = custNo % 10;
+		int shiwei = custNo / 10 % 10;
+		int baiwei = custNo / 100 % 10;
+		int qianwei = custNo / 1000;
+		int sum = gewei + shiwei + baiwei +qianwei;
+		System.out.println("会员卡号" + custNo + "各位之和" + sum);
+		boolean isLuck = sum > 20;
+		System.out.println("是幸运客户吗？" + isLuck);
+	}
+}

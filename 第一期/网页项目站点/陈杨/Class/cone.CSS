@@ -1,0 +1,235 @@
+#regist{border:1px #3a6587 solid;background-color:blue;
+        margin:0px auto;
+}
+h1{color:green;
+}
+ #frist{ text-align:left;}
+ .class{ font-size:12px; color:purple;}
+ #regist table{background-color:blue;}
+ #regist table td{height:28px;font:12px "??";}
+ .leftTitle{ width:80px;text-align:right;}
+ 
+ .textInput1{
+        width:230px;
+	    border:1px ;
+	    margin:0px auto ;
+
+ }
+ .textInput{
+        width:130px;
+	    border:1px ;
+	    margin:0px auto;
+
+ }
+ .textInput2{
+		width:130px;
+        border:1px ;
+        margin:0px auto;
+
+
+
+
+ }
+  .btnRegist{  /*???????*/
+	    margin:16px;
+	    width:84px;
+	    height:31px;
+	    border:0px;
+	    cursor:pointer;
+	    background-image:url("../picture/experencebtnpressed.png" );
+  }
+  .navigation{
+		height:278px;
+        width:255px;
+        margin:0px auto;
+        padding:4px;
+		padding-top:-10;
+        border-width:2px;
+		border-style:solid;
+		border-color:orange;
+
+  }
+
+   div a:hover{color:blue;text-decoration:underline;}
+   a:link{color:black;   }
+   a:visited{color:green;   }
+   a{text-decoration:none;}
+   a:active{color:blue;}
+   .color{background-color:blue;}
+	hr{border-style:dotted;}
+
+
+  /*???????*/
+  .sfso a:hover div {
+	    cursor:pointer;
+		background-image:url(../picture/2.png);
+		color:red;
+  }
+    /*????*/
+  .sdfds ol li{
+		display:none;
+  }
+   ol{ position:absolute;
+       right:12px;
+	   top:-16px;
+	  
+      
+   }
+  /* 安全服务的下拉列表*/
+ .sdfds ol:hover li {
+     
+       display:block;
+	  text-align:center;
+  }
+  
+  .big {	margin:0px auto;
+		width:1000px;
+		height:1125px;
+		
+		
+		}
+		/* 联系图片放在最下面*/
+   .big_one{ 		  
+		   position:fixed;
+		   right:23px;
+		   float:right;
+		   bottom:78px;
+   }
+  .top { width:996px;
+		height:110px;
+		
+		position:relative;
+	    margin-top:5px;
+	
+		
+		}
+		
+		
+
+		/*样式巢焕*/
+   .bottom {
+		   width:1000px;
+		   height:300px;
+           margin-top:-15px;	
+           background-color:f1f0ee;	 
+           text-align:center;	
+          		   
+		}
+    .bottom_one{
+		   width:400;
+		   height:110;
+		   float:left;
+		 
+		   background-image:url("../i/ziying2.jpg");		   
+           margin:47px;
+		}
+		
+	.bottom_one_two  {
+		   width:100px;
+		   height:32px;
+		   margin:0px 0px 6px 307px;		  
+		   position:relative;		  
+		   top:25px;		   
+		   text-align:right;
+		   overflow:hidden;
+		 
+		 
+		  	  
+		}
+	
+   .among{ width:996px;
+		  height:400px;
+		  margin:0px auto;		 
+		  position:relative;			 
+		  background:url( "../i/top6.png");
+		  
+		 
+		 }
+		 
+  .among_1{ width:300px;
+           height:396px;
+           
+		   background-repeat:no-repeat;
+           position:absolute;
+		   right:-6px;
+         
+		   
+       }
+	.among_1_2 { width:296px;
+                height:188px;
+			    position:absolute;
+				bottom:20px;
+				text-align:center;
+
+               
+	}
+	   
+    .ln{
+	    width:75px;
+		height:25px;
+		
+	    position:absolute;
+        top:5px;
+	    right:20px;
+		float:left;
+		font-size:12px;
+		text-align:right;
+		
+	
+	    }
+	.ln_m{ width:599px;
+		height:44px;
+		
+	    position:absolute;
+        top:50px;
+	    right:20px;
+		font-size:18px;
+		text-align:left;
+		}
+	.picture_1{
+	      	position:relative;
+			float:left;
+			left:70px;
+		    top:45px;
+		    background-position:repeat-x;	        	  		 
+		    font-size:12px;
+		    font-style:center;
+	
+	
+	}
+	.picture_2 { 
+		  position:relative;
+		  float:left;
+		  left:140px;
+		  top:45px;
+		  padding-left:12px;
+		  font-size:12px;
+		  font-style:center;
+	
+		  	}
+	   span{
+	    color:787878;
+		
+	}
+   .picture_3{
+	      position:relative;
+		  float:left;
+		  left:210px;
+		  top:45px;
+		  padding-left:12px;
+		  font-size:12px;
+		  font-style:center;
+
+		  
+		  	}
+	.picture_4{
+	      position:relative;
+		  left:280px;
+		  top:45px;
+		  background-position:repeat-y;	        	  
+		  float:left;
+		  font-size:12px;
+		  	}
+	
+	 
+	.ulo{position:relative; left:45px;}

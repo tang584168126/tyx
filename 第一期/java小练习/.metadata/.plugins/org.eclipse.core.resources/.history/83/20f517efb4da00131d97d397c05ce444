@@ -1,0 +1,30 @@
+package class8;
+
+import java.util.*;
+
+public class Test6 {
+	public static void main(String[] args){
+		String[] music1 = new String[]{"Island","Ocean","Pretty","Sun"};
+		String[] music2 = new String[music1.length+1];
+		int i = 0;
+		String index = "";
+		Scanner sc = new Scanner(System.in);
+		System.out.print("插入前的数组：");
+		for(i = 0 ; i < music1.length; i++){
+			System.out.print(music1[i] + "\t");
+		}
+		for(i=0;i<music1.length;i++){
+			music2[i]=music1[i];
+		}
+		System.out.println();
+		System.out.println("插入的歌曲名称：");
+		index = sc.next();
+		music2[music2.length-1]=index;
+		Arrays.sort(music2);
+		for(i = 0 ; i < music2.length; i++){
+			System.out.print(music2[i] + "\t");
+		}
+		
+	}
+
+}

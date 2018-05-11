@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/复习Java基础/src/class7___青鸟游戏平台/Sc_Text3.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="class7___青鸟游戏平台.Sc_Text3"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="复习Java基础"/>
+</launchConfiguration>

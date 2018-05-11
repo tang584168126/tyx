@@ -1,0 +1,12 @@
+package class5;
+
+public class Test2 {
+	public static void main(String[] args){
+		int i = 100 ;
+		while(i > 0)
+		{
+			i = i - 5;
+		}
+	}
+
+}

@@ -1,0 +1,313 @@
+网页基本结构组成：
+
+<html>
+	
+	<head>
+		<title>S1T182班</title>
+	</head>
+	
+	<body>
+		1111111111111
+	</body>
+</html>
+
+h1 ~ h6 为 标题标签
+<h1>	
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>
+
+<h1></h1>
+
+<p> 	段落标签
+
+
+<br/>	换行标签（只能这样写）
+
+
+<hr/>	水平线标签（只能这样写）
+
+<img>	图像标签
+	src	要显示的图像路径
+		路径：
+			绝对路径
+				c:\a\1.jpg
+			相对路径
+				文档相对路径
+				1.jpg
+				Images/1.jpg
+				
+				站点根目录相对路径
+				/Images/1.jpg
+	alt		图片的替代文字(也可用于鼠标悬停提示)
+	title	鼠标悬停提示文字
+	width	图片宽(如果没有设置，将使用图片原始宽度)
+	height	图片高(如果没有设置，将使用图片原始高度)
+	
+<a/>	超链接标签(跳转到对应的内容)
+	href 	要跳转的内容(路径)
+			../Test.html
+			访问 上一级目录中的 Test.html
+	
+	target	决定 打开方式
+			默认：_blank	新页面打开
+				  _self		本页面打开
+
+锚链接：
+	1、设定 命名锚记
+	2、创建 锚链接
+
+	命名锚记:
+		指要跳转到的位置
+		<a name="aa"></a>
+		
+		name 属性 表示 命名锚记的 名称
+	
+	锚链接:
+		<a href="#aa">跳转到 aa 的锚链接</a>
+
+		#aa 表示 超链接 跳转到 aa 的命名锚记处	
+		
+		
+src 和 href 的区别
+
+目前
+src 	属于 <img>	从哪儿来
+href	属于 <a>	到哪儿去
+	
+<ul>	无序列表
+<ol>	有序列表
+<li>	列表项
+
+<dl>	定义列表
+<dt>	相当于标题
+<dd>	相当于内容，与 <dt> 间隔 一个制表位
+
+
+<table>	表格
+<tr>	表格的行
+<td>	表格的列
+
+大批量展示数据，要求整齐的情况下，
+可使用表格来进行局部布局，呈现数据。
+
+<th>	表格的行 或 列 的 标题 标签
+		默认 居中 并 加粗
+		
+<caption>	表格的标题标签
+<thead>		表格的页眉标签
+<tbody>		表格的主体标签
+<tfoot>		表格的页脚标签
+
+框架
+<frameset>	框架体
+	rows	横向切割
+	cols	纵向切割
+	
+<frame>		填充框架
+
+
+第三章：
+
+<form>	表单
+	action:	提交地址（指定表单元素的值提交到的地方）
+	method:	提交方式(get 或 post)
+		get:
+			显示提交数据
+			相对不安全
+			提交速度相对较快
+			提交有字符限制,长 255 字符
+			
+		post:
+			隐式提交数据
+			相对安全
+			提交速度相对较慢
+			提交没有字符限制
+	
+<input />	表单元素标签
+	type:
+			text	文本框(输入明文信息)	
+			
+			password 密码框(输入暗文信息)	
+			
+			radio	单选按钮(name 属性必须一致,才是同一组，同一组只能选择一个，圆形选框)
+				checked
+				checked="checked"
+				checked="true"
+			
+			checkbox复选框(可以选择多个，方形选框)
+				checked
+			
+			submit	提交按钮
+				
+			reset	重置按钮
+			
+			button	普通按钮
+			
+			image	图片按钮(等同于 submit)
+			
+			file	文件选择控件
+			
+			
+<select>	下拉列表框
+<option>	下拉列表的 项
+	selected	默认选项
+		selected
+		selected="selected"
+		selected="true"
+
+<textarea>	文本区域
+	rows	行数
+	cols	列数
+	readonly 只读属性
+	
+
+第四章：
+
+	<span>	行级容器标签 ， 通常用来 装载文字，对文字进行修饰
+		
+	<style>	样式表的格式标签
+	
+	关于样式的属性：
+		style 属性 写在标签里，作为 行内样式存在
+		
+		
+行内样式				最优先
+内嵌样式（内部样式）	其次
+外部样式				最后
+
+
+关于样式的选择器：
+HTML标签选择器(使用频次一般)
+	以网页的标签为名称，为同类标签设定样式
+	
+class类选择器(使用频次最高)
+	以名称前打点的方式确定样式
+		设定样式：
+		.p{
+			
+		}
+	
+		
+		使用样式：
+		
+		<span class="p" >1234567</span>
+	
+ID选择器(使用频次最低)
+	设定时：
+		#d123{
+			color:yellow;
+		}
+		
+	使用时：
+	<span id="d123" >1234567</span>
+
+
+		
+三种选择器的优先级别：
+id > class > html
+
+	
+第五章：
+
+取色后自行计算颜色值：
+
+假定：
+红：191 ->	BF
+绿：51	->	33
+蓝：132	->	84
+
+BF3384
+	
+<span>	行级容器标签 
+<div>	块级容器标签
+
+	
+块级容器标签:
+		<div>
+		<h1>~<h6>
+		<table>
+		<p>
+		<hr/>
+		
+文档类型声明：	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	
+第六章：
+	
+	margin	外边距
+	border	边框
+	padding	内边距
+	
+	
+border	边框
+
+border:	 			边框本类样式	
+border-color:	 	边框颜色
+border-width:	 	边框尺寸
+border-style:	 	边框线型
+
+border-top:	 		上边框本类样式	
+border-top-color: 	上边框颜色
+border-top-width:	上边框尺寸
+border-top-style:	上边框线型	
+
+border-right:	 	右边框本类样式	
+border-right-color: 右边框颜色
+border-right-width:	右边框尺寸
+border-right-style:	右边框线型	
+
+border-bottom:	 	下边框本类样式	
+border-bottom-color:下边框颜色
+border-bottom-width:下边框尺寸
+border-bottom-style:下边框线型	
+
+border-left:	 	左边框本类样式	
+border-left-color: 	左边框颜色
+border-left-width:	左边框尺寸
+border-left-style:	左边框线型	
+
+边框样式属性合计：20个
+
+外边距：
+margin:			外边距本类样式
+margin-top:		上外边距样式
+margin-right:	右外边距样式
+margin-bottom:	下外边距样式
+margin-left:	左外边距样式
+
+内边距：
+padding:		内边距本类样式
+padding-top:	上内边距样式
+padding-right:	右内边距样式
+padding-bottom:	下内边距样式
+padding-left:	左内边距样式
+
+
+margin:5px	上右下左 各 5 像素
+
+margin:5px 10px	上左各 5、10 像素	
+
+margin:5px 10px 15px 20px
+上5  右10  下15  左 20  
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+		

@@ -1,0 +1,29 @@
+.mid_mid_top_font{
+	line-height:35px;
+	color:#EDE6CD;
+	font-size:24px;
+}
+li{
+	list-style-type:none;
+}
+.caa li div{
+			display:none;
+			text-align:center;
+			float:height;
+}
+
+.caa a:hover div{
+			display:block;
+}
+.caa a:link{
+	color:#FF0000;
+	text-decoration:none;
+}
+.a{
+	text-decoration:none;
+	
+}
+.a1{
+	font-size:35;
+	color:#F6AB8C;
+}

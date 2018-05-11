@@ -1,0 +1,10 @@
+E:\数据库应用系统\MobileManager\MobileManager\bin\Debug\MobileManager.exe.config
+E:\数据库应用系统\MobileManager\MobileManager\bin\Debug\MobileManager.exe
+E:\数据库应用系统\MobileManager\MobileManager\bin\Debug\MobileManager.pdb
+E:\数据库应用系统\MobileManager\MobileManager\obj\Debug\MobileManager.csprojResolveAssemblyReference.cache
+E:\数据库应用系统\MobileManager\MobileManager\obj\Debug\MobileManager.FrmMain.resources
+E:\数据库应用系统\MobileManager\MobileManager\obj\Debug\MobileManager.Properties.Resources.resources
+E:\数据库应用系统\MobileManager\MobileManager\obj\Debug\MobileManager.csproj.GenerateResource.Cache
+E:\数据库应用系统\MobileManager\MobileManager\obj\Debug\MobileManager.exe
+E:\数据库应用系统\MobileManager\MobileManager\obj\Debug\MobileManager.pdb
+E:\数据库应用系统\MobileManager\MobileManager\obj\Debug\MobileManager.FrmInsert.resources

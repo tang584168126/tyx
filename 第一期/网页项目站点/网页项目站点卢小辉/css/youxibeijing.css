@@ -1,0 +1,57 @@
+/*主体中部布局*/
+.page_body .page_body_middle{
+	
+	margin:0px auto;
+	width:1000px;
+	height:1125px;
+	z-index:100;
+	background-image:url(../images/zhiyejishao/background.gif);
+}
+.mid_top_top{
+	width:1000px;
+	height:84px;
+	
+	background-image:url(../images/zhiyejishao/xiushi.png)
+}
+
+
+.mid_mid{
+	width:100px;
+	height:40px;
+	margin-top:45px;
+	margin-left:240px;
+	float:left;
+}
+.mid_mid_img{
+	border:0px;
+}
+.mid_mid1{
+	width:100px;
+	height:40px;
+	margin-top:45px;
+	margin-left:300px;
+	background-image:url(../images/zhiyejishao/第二章.png);
+	float:left;
+}.mid_mid2{
+	width:210px;
+	height:40px;
+	margin-top:45px;
+	float:left;
+}
+.mid_mid_top_left{
+	width:22px;
+	height:auto;
+	margin:15px;
+	float:left;
+	
+	}
+.mid_mid_top_right{
+	width:880px;
+	height:100px;
+	margin-top:55px;
+	color:#FFFFFF;
+	font-family:"Adobe 黑体 Std";
+	font-size:25px;
+	float:left;
+	z-index:50;
+}

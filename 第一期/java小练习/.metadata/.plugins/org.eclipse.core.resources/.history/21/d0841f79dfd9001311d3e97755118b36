@@ -1,0 +1,30 @@
+package class7;
+
+import java.util.Scanner;
+
+public class Test2 {
+	public static void main(String[] args){
+		int n = 0;
+		int sum = 1;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("输入正整数为：");
+		n = sc.nextInt();
+		if(n <= 0 || n > 10)
+		{
+			System.out.println("无效数据");
+			System.exit(1);
+		}
+		for(int i = 1 ; i <= n ; i++){
+			sum *= i;
+			System.out.print(i );
+			if(i==n-1){
+				
+			}else{
+				System.out.print("*");
+			}
+		}System.out.println("="+sum);
+		
+	}
+
+}

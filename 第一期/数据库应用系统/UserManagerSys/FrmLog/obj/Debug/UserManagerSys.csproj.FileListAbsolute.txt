@@ -1,0 +1,13 @@
+E:\数据库应用系统\FrmLog\FrmLog\bin\Debug\FrmLog.exe.config
+E:\数据库应用系统\FrmLog\FrmLog\bin\Debug\FrmLog.exe
+E:\数据库应用系统\FrmLog\FrmLog\bin\Debug\FrmLog.pdb
+E:\数据库应用系统\FrmLog\FrmLog\obj\Debug\UserManagerSys.csprojResolveAssemblyReference.cache
+E:\数据库应用系统\FrmLog\FrmLog\obj\Debug\FrmLog.FrmLog.resources
+E:\数据库应用系统\FrmLog\FrmLog\obj\Debug\FrmLog.Properties.Resources.resources
+E:\数据库应用系统\FrmLog\FrmLog\obj\Debug\UserManagerSys.csproj.GenerateResource.Cache
+E:\数据库应用系统\FrmLog\FrmLog\obj\Debug\FrmLog.exe
+E:\数据库应用系统\FrmLog\FrmLog\obj\Debug\FrmLog.pdb
+E:\数据库应用系统\FrmLog\FrmLog\obj\Debug\FrmLog.FrmMain.resources
+E:\数据库应用系统\UserManagerSys\FrmLog\bin\Debug\FrmLog.exe.config
+E:\数据库应用系统\UserManagerSys\FrmLog\obj\Debug\FrmLog.exe
+E:\数据库应用系统\UserManagerSys\FrmLog\obj\Debug\FrmLog.pdb

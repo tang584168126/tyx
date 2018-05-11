@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class text3 {
+	public static void main(String[] args) {
+		int nian = 0;
+		char sex = ' ';
+		Scanner sc = new Scanner(System.in);
+		System.out.println("年龄：");
+		nian = sc.nextInt();
+		if(nian >= 7 || (nian >= 5 && sex == '男')){
+			System.out.println("能搬动桌子");
+		}
+		else{
+			System.out.println("不能搬动桌子");
+		}
+	}
+
+}

@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class text0 {
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		System.out.print("华氏温度为：\t");
+		double hua = sc.nextDouble();
+		double she = 5/9.0*(hua - 32);
+		System.out.print("摄氏温度为：%.2f\t" + she);
+	}
+}

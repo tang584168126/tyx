@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+
+public class Test_3 {
+	public static void main(String[] args ){
+		int val = 1;
+		int r_digit;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入多位数");
+		val = sc.nextInt();
+		while(val != 0)
+		{
+			r_digit = val % 10;
+			System.out.println(r_digit);
+			val = val / 10;
+		}
+	}
+
+}

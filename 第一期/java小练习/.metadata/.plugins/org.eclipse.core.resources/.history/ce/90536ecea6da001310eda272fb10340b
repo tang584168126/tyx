@@ -1,0 +1,25 @@
+package class8;
+
+import java.util.Scanner;
+
+public class Test2 {
+	public static void main(String[] args){
+		String[] huas = new String[5];
+		int i = 0;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("请输入5句话");
+		for(i = 0 ; i < huas.length ; i++){
+			huas[i] = sc.next();
+			System.out.println("第" + (i+1) + "句话" + huas[i]);
+		}
+		System.out.println("逆序输出5句话为：");
+		for(i = huas.length - 1 ; i >= 0 ; i--){
+			huas[i] = sc.next();
+			System.out.println(huas[i]);
+		}
+		
+	}
+
+}

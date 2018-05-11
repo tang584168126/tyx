@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class text4 {
+	public static void main(String[] args){
+		int one,two,three;
+		//int a,b,c;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入三个数字：");
+		one = sc.nextInt();
+		two = sc.nextInt();
+		three = sc.nextInt();
+		System.out.println(one + "\t" + two +"\t" +three);
+		
+	}
+}

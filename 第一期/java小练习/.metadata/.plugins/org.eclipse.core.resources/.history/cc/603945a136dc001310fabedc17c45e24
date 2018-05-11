@@ -1,0 +1,20 @@
+package class9;
+
+import java.util.Scanner;
+
+public class Test6 {
+	public static void main(String[] args){
+		int rows = 0 ;			//行数
+		int i = 0 ; 
+		int j = 0 ;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入菱形的行数：");
+		rows = sc.nextInt();
+		while(rows % 2 == 1){
+			System.out.println("请输入高度：");
+			rows = sc.nextInt();
+		}
+		
+	}
+
+}

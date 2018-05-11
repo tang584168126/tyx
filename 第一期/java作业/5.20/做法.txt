@@ -1,0 +1,195 @@
+[java] view plaincopyprint?
+01.package wzs.arithmetics;  
+02.  
+03.import java.util.Scanner;  
+04.  
+05./** 
+06. * 题目：输入某年某月某日，判断这一天是这一年的第几天？ 
+07. * @author wWX154783 
+08. *  
+09. */  
+10.public class Test_wzs13  
+11.{  
+12.    public static void main(String[] args)  
+13.    {  
+14.        System.out.println("请输入年,月,日");  
+15.        Scanner input = new Scanner(System.in);  
+16.        int year = input.nextInt(); // 年   
+17.        int month = input.nextInt(); // 月   
+18.        int day = input.nextInt(); // 日   
+19.  
+20.        int sum = 0;// 总数   
+21.        int temp = 0;// 闰年标志   
+22.  
+23.        // 计算每月日期和   
+24.        switch (month)  
+25.        {  
+26.        case 1:  
+27.            sum = 0;  
+28.            break;  
+29.        case 2:  
+30.            sum = 31;  
+31.            break;  
+32.        case 3:  
+33.            sum = 59;  
+34.            break;  
+35.        case 4:  
+36.            sum = 90;  
+37.            break;  
+38.        case 5:  
+39.            sum = 120;  
+40.            break;  
+41.        case 6:  
+42.            sum = 151;  
+43.            break;  
+44.        case 7:  
+45.            sum = 181;  
+46.            break;  
+47.        case 8:  
+48.            sum = 212;  
+49.            break;  
+50.        case 9:  
+51.            sum = 243;  
+52.            break;  
+53.        case 10:  
+54.            sum = 273;  
+55.            break;  
+56.        case 11:  
+57.            sum = 304;  
+58.            break;  
+59.        case 12:  
+60.            sum = 334;  
+61.            break;  
+62.        default:  
+63.            System.out.println("日期错误.");  
+64.            break;  
+65.        }  
+66.  
+67.        // 计算总天数   
+68.        sum = sum + day;  
+69.        // 闰年判断   
+70.        if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0))  
+71.        {  
+72.            temp = 1;  
+73.        }  
+74.        else  
+75.        {  
+76.            temp = 0;  
+77.        }  
+78.        if (temp == 1 && month > 2)  
+79.        {  
+80.            sum++;  
+81.        }  
+82.        System.out.println(year + "年" + month + "月" + day + "日是今年的第" + sum + "天.");  
+83.    }  
+84.}  
+
+
+
+# include<stdio.h>
+void main()
+{
+int i,j;
+printf("\1\1\n");
+for(i=1;i<11;i++)
+{
+for(j=1;j<=i;j++)
+printf("%c%c",219,219);
+printf("\n");
+}
+笑脸
+
+
+#include<stdio.h>void main() { long f1,f2;int i,n,m;f1=f2=1;printf("输入月数:\n");scanf("%d",&n);for(i=3;i<=n;i++){    m=f2;    f2+=f1;    f1=m;}     printf("%d\n",f2);}兔子
+
+
+import java.util.Scanner;  
+
+02    
+
+03 public class Qiu {  
+
+04     public static void main(String[] args){  
+
+05         Scanner sc = new Scanner(System.in);  
+
+06         System.out.println("输入球落地的次数(正整数)：");  
+
+07         double n = sc.nextDouble();   
+
+08         double i =1.0;  
+
+09         double h =100.0;  
+
+10         double s =100.0;                      
+
+11         while(i<n){  
+
+12             h = h/2;  
+
+13             s =s + 2*h;  
+
+14             i++;  
+
+15         }         
+
+16         System.out.println("第"+n+"次落地经过"+s+"米");  
+
+17                   System.out.println("第"+n+"次落地后会反弹"+h+"米");            
+
+18                  }  
+
+19                } 
+
+
+
+#include<stdio.h>void main(){	int day=1,t,a=0;	for(t=1;a!=1;t++)	{		a=t;		day=0;		do		{       if(a%2)break;			a=a/2-1;			day++;		}while(day<10);	if(a==1&&day==10)	printf("t=%d\n",t);	else a=0;	}}桃子
+
+import java.util.ArrayList;
+
+public class aa {
+String a,b,c;
+
+public static void main(String[] args) {
+String[] op = { "x", "y", "z" };
+ArrayList<aa>arrayList=new ArrayList<aa>();
+for (int i = 0; i < 3; i++)
+for (int j = 0; j < 3; j++)
+for (int k = 0; k < 3; k++) {
+aa a=new aa(op[i],op[j],op[k]);
+if(!a.a.equals(a.b)&&!a.b.equals(a.c)&&!a.a.equals("x")
+&&!a.c.equals("x")&&!a.c.equals("z")){
+arrayList.add(a);
+}
+}
+for(Object a:arrayList){
+System.out.println(a);
+}
+
+}
+
+public aa(String a, String b, String c) {
+super();
+this.a = a;
+this.b = b;
+this.c = c;
+}
+
+@Override
+public String toString() {
+// TODO Auto-generated method stub
+return "a的对手是"+a+","+"b的对手是"+b+","+"c的对手是"+c+"\n";
+}
+
+
+}
+
+
+#include <stdio.h>int age(int n){int c;if( n==1 ) c=10;else   c=age(n-1)+2;return c;}void main(){ printf("%d \n",age(5) );}5各人
+
+
+
+//4*4*4=64个。#include<stdio.h>void main(){ 	int i,j,k;	for(i=1;i<=4;i++)		for(j=1;j<=4;j++)			for(k=1;k<=4;k++)				printf("%d ",i*100+j*10+k);}  4个数
+
+
+import java.util.Scanner;public class Testch0_6 {public static void main(String[] args) {// TODO Auto-generated method stub//调用java.util.Scanner可以获得从键盘输入的数字;Scanner sc= new Scanner(System.in);//定义两个整型数字的变量int min;int max;System.out.print("请输入一个数：");min= sc.nextInt();//nextInt();方法用来获取输入的Int NUMSystem.out.print("请输入另一个数：");max= sc.nextInt();//调用后面的静态方法；System.out.println(gongyue(min, max));System.out.println(gongbei(min, max));}// a与b的最大公约数public static int gongyue(int min, int max) {while(max%min!=0){/**运用递归调用将求余之后的值作为min* 将之前的min作为max直到求余值为0为止结束循环*/int temp=max%min;max=min;min=temp;}return min;}// a与b的最小公倍数public static int gongbei(int min, int max) {//求公倍数就是将两个数相乘除以最大公约数return min* max / gongyue(min, max);}}

@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<meta http-equiv="Concent-Type" concent="text/html" charset=gb2312 />
+		<title>注册信息</title>
+	</head>
+	<body>
+		<form method="post" action="">
+			<table border="0">
+				<tr>
+					<td colspan="2" align="center">注册</td>
+				</tr>
+				<tr>
+					<td align="right">呢称:</td>
+					<td><input name="textName" type="text" value="" maxlength="6" /></td>
+				</tr>
+				<tr>
+					<td align="right">用户名:</td>
+					<td><input name="textUrses" type="text" value="" maxlength="18" /></td>
+				</tr>
+				<tr>
+					<td align="right">密码:</td>
+					<td><input name="pwd" type="password" value="" maxlength="18" /></td>
+				</tr>
+				<tr>
+					<td align="right">确认密码:</td>
+					<td><input name="surePwd" type="password" value="" maxlength="18" /></td>
+				</tr>
+				<tr>
+					<td align="right">性别:</td>
+					<td><input name="sex" type="radio" value="男" checked />男&nbsp;
+						<input name="sex" type="radio" value="女" />女
+					</td>
+				</tr>
+				<tr>
+					<td align="right" rowspan="2">兴趣:</td>
+					<td><input name="cheLike" type="checkbox" value="运动" />运动&nbsp;
+					<input name="cheLike" type="checkbox" value="上网" checked />上网&nbsp;
+					<input name="cheLike" type="checkbox" value="看书" />看书
+					</td>
+				</tr>
+				<tr>
+					<td><input name="cheLike" type="checkbox" value="旅游" />旅游&nbsp;
+					<input name="cheLike" type="checkbox" value="冒险" />冒险&nbsp;
+					<input name="cheLike" type="checkbox" value="聊天" />聊天
+					</td>
+				</tr>
+				<tr>
+					<td align="right">你来自:</td>
+					<td>
+						<select name="sels">
+							<option value="北京">北京</option>
+							<option value="上海">上海</option>
+							<option value="四川" selected>四川</option>
+						</select>省&nbsp;
+						<select name="selCity">
+							<option value="成都" selected>成都</option>
+							<option value="绵阳">绵阳</option>
+							<option value="眉山">眉山</option>
+						</select>市
+					</td>
+				</tr>
+				<tr>
+					<td align="right">注册协议:</td>
+					<td><textarea rows="10" name="txtXy" cols="40" readonly></textarea><br/>
+					<input type="checkbox" name="chkOk" value="同意" />同意协议
+					</td>
+				</tr>
+				<tr>
+					<td align="center"colspan="2">
+						<input name="btnSubmit" type="submit" value="注册" disabled />&nbsp;
+						<input name="btnReset" type="reset" value="刷新" />&nbsp;
+						<input name="btnExit" type="button" value="退出" onclick="window.close();" />&nbsp;
+					</td>
+				</tr>
+			</table>
+		</form>	
+	</body>
+</html>

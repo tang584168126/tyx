@@ -1,0 +1,13 @@
+E:\数据库应用系统\DVDSYS\DVDSYS\bin\Debug\DVDSYS.exe.config
+E:\数据库应用系统\DVDSYS\DVDSYS\obj\Debug\DVDSYS.csprojResolveAssemblyReference.cache
+E:\数据库应用系统\DVDSYS\DVDSYS\obj\Debug\DVDSYS.FrmMain.resources
+E:\数据库应用系统\DVDSYS\DVDSYS\obj\Debug\DVDSYS.Properties.Resources.resources
+E:\数据库应用系统\DVDSYS\DVDSYS\obj\Debug\DVDSYS.csproj.GenerateResource.Cache
+E:\数据库应用系统\DVDSYS\DVDSYS\bin\Debug\DVDSYS.exe
+E:\数据库应用系统\DVDSYS\DVDSYS\bin\Debug\DVDSYS.pdb
+E:\数据库应用系统\DVDSYS\DVDSYS\obj\Debug\DVDSYS.exe
+E:\数据库应用系统\DVDSYS\DVDSYS\obj\Debug\DVDSYS.pdb
+E:\数据库应用系统\DVDSYS\DVDSYS\obj\Debug\DVDSYS.FrmInfo.resources
+E:\TYX_Projiect\代码\第一期\数据库应用系统\DVDSYS\DVDSYS\bin\Debug\DVDSYS.exe.config
+E:\TYX_Projiect\代码\第一期\数据库应用系统\DVDSYS\DVDSYS\obj\Debug\DVDSYS.exe
+E:\TYX_Projiect\代码\第一期\数据库应用系统\DVDSYS\DVDSYS\obj\Debug\DVDSYS.pdb

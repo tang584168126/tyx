@@ -1,0 +1,18 @@
+package class8;
+
+import java.util.Scanner;
+
+public class Test4 {
+	public static void main(String[] args){
+		int[] sums = new int[10];
+		int i = 0;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入十个数：");
+		for(i = 0 ;i < sums.length ; i++){
+			sums[i] = sc.nextInt();
+			
+			
+		}
+	}
+
+}

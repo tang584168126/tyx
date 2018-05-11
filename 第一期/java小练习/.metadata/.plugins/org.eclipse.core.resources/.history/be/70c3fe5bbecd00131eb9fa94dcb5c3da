@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Text4 {
+	public static void main(String[] args){
+		int a,b,c;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入1个整数：");
+		a = sc.nextInt();
+		System.out.println("请输入2个整数：");
+		b = sc.nextInt();
+		System.out.println("请输入3个整数：");
+		c = sc.nextInt();
+		
+		//假设A最大
+		if(a>b && a>c)
+		{
+			System.out.println("a最大");
+		}
+		//假设B最大
+		if(b>a && b>a)
+		{
+			System.out.println("b最大");
+		}
+		//假设C最大
+		if(c>a && c>b)
+		{
+			System.out.println("c最大");
+		}
+	}
+}

@@ -1,0 +1,39 @@
+package class5;
+
+import java.util.Scanner;
+
+public class Test4 {
+	public static void main(String[] args){
+		 
+		int i;
+		int max,min;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("请输入一个整数（输入0结束）：");
+		i = sc.nextInt();
+		max = i;
+		min = i;
+		
+		do{
+			
+			
+				if(i > max )
+				{
+					max = i ;
+					
+				}else if(i < min)
+					{
+						min = i ;
+					}
+					
+				
+				System.out.print("请输入一个整数（输入0结束）：" + i);
+				
+				
+			
+		}while(i !=0);
+		System.out.println("最大值是：" + max);
+		System.out.println("最小值是：" + min);
+	}
+
+}

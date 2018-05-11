@@ -1,0 +1,55 @@
+package class5;
+
+import java.util.Scanner;
+
+public class Test5 {
+	public static void main(String[] args){
+		
+		int num = 0;
+		int day = 0;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		do{
+			System.out.print("请输入数字1 - 7（输入0结束）：");
+			if(!sc.hasNextInt())
+			{
+				System.out.println("输入错误，请重新输入");
+				sc = new Scanner(System.in);
+			}else{
+				num = sc.nextInt();
+			}
+			/*if(num == 0)
+			{
+				System.out.println("程序结束");
+				System.exit(1);
+			}
+			*/
+			switch(day){
+			case 1:
+				System.out.println("今天是 MON");
+				break;
+			case 2:
+				System.out.println("今天是 TUE");
+				break;
+			case 3:
+				System.out.println("今天是 WED");
+				break;
+			case 4:
+				System.out.println("今天是 THU");
+				break;
+			case 5:
+				System.out.println("今天是 FRI");
+				break;
+			case 6:
+				System.out.println("今天是 SAT");
+				break;
+			case 7:
+				System.out.println("今天是 SUN");
+				break;
+			}
+			
+		}while(true);
+	}
+
+}

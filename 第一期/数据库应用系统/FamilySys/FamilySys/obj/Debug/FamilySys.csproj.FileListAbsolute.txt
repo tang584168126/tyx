@@ -1,0 +1,11 @@
+E:\数据库应用系统\FamilySys\FamilySys\bin\Debug\FamilySys.exe.config
+E:\数据库应用系统\FamilySys\FamilySys\bin\Debug\FamilySys.exe
+E:\数据库应用系统\FamilySys\FamilySys\bin\Debug\FamilySys.pdb
+E:\数据库应用系统\FamilySys\FamilySys\obj\Debug\FamilySys.csprojResolveAssemblyReference.cache
+E:\数据库应用系统\FamilySys\FamilySys\obj\Debug\FamilySys.FrmMain.resources
+E:\数据库应用系统\FamilySys\FamilySys\obj\Debug\FamilySys.FrmSelect.resources
+E:\数据库应用系统\FamilySys\FamilySys\obj\Debug\FamilySys.Properties.Resources.resources
+E:\数据库应用系统\FamilySys\FamilySys\obj\Debug\FamilySys.csproj.GenerateResource.Cache
+E:\数据库应用系统\FamilySys\FamilySys\obj\Debug\FamilySys.exe
+E:\数据库应用系统\FamilySys\FamilySys\obj\Debug\FamilySys.pdb
+E:\数据库应用系统\FamilySys\FamilySys\obj\Debug\FamilySys.FrmInsert.resources

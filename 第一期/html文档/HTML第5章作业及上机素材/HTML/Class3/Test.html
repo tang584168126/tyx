@@ -1,0 +1,189 @@
+<html>
+	
+	<head>
+		<title>S1T182班</title>
+	</head>
+	
+	<script type="text/javascript">
+		function checkXy(){
+		
+			//当用户点击 同意协议 的 复选框 时
+			
+			//判断 同意协议的复选框是否被 选中
+			if(document.myForm.chkOk.checked){
+			
+				//如果为真，表示选中了 同意协议的复选框
+				//放开 注册 按钮 和 登录图片按钮的 使用
+				document.myForm.btnSubmit.disabled = false;
+				document.myForm.btnRegs.disabled = false;
+				
+			}
+			else{
+				//如果为假，表示没有选中 同意协议的复选框
+				//禁止 注册 按钮 和 登录图片按钮的 使用
+				document.myForm.btnSubmit.disabled = true;
+				document.myForm.btnRegs.disabled = true;
+			}
+			
+		}
+	</script>
+	
+	<style type="text/css">
+	
+		.wh{
+			width:160px;
+			height:22px;
+		}
+	</style>
+	
+	
+	<body>
+		<h1 align="center">表单案例演示页面</h1>
+		<hr/>
+		
+		<form name="myForm" action="" method="post" onsubmit=""> 
+			
+			<table width="500" align="center" border="1">
+				
+				<tr>
+					<th colspan="2">注册信息</th>
+				</tr>
+				
+				<!-- 用户名 -->
+				<tr>
+					<td align="right">
+						用户名：
+					</td>
+					<td>
+						<input name="txtName" class="wh" type="text" size="30"/>
+					</td>
+				</tr>
+				
+				<!-- 密码 -->
+				<tr>
+					<td align="right">
+						密码：
+					</td>
+					<td>
+						<input name="txtPassword" class="wh" type="password" size="30"/>
+					</td>
+				</tr>
+				
+				<!-- 确认密码 -->
+				<tr>
+					<td align="right">
+						确认密码：
+					</td>
+					<td>
+						<input name="txtPwd" class="wh" type="password" size="30"/>
+					</td>
+				</tr>
+				
+				<!-- 性别 -->
+				<tr>
+					<td align="right">
+						性别：
+					</td>
+					<td>
+						<input name="rdoSex" type="radio" value="男" checked />男 &nbsp;&nbsp;&nbsp;&nbsp;
+						<input name="rdoSex" type="radio" value="女"/>女
+					</td>
+				</tr>
+				
+				<!-- 爱好 -->
+				<tr>
+					<td align="right" rowspan="2">
+						爱好：
+					</td>
+					<td>
+						<input name="chkLike" type="checkbox" value="游戏" checked="true" />游戏 &nbsp;&nbsp;
+						<input name="chkLike" type="checkbox" value="游泳" />游泳 &nbsp;&nbsp;
+						<input name="chkLike" type="checkbox" value="游乐" />游乐 
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input name="chkLike" type="checkbox" value="游玩" />游玩 &nbsp;&nbsp;
+						<input name="chkLike" type="checkbox" value="游荡" />游荡 &nbsp;&nbsp;
+						<input name="chkLike" type="checkbox" value="游耍" />游耍
+					</td>
+				</tr>
+				
+				<!--  您来自哪里？ -->
+				<tr>
+					<td align="right">
+						您来自:
+					</td>
+					<td>
+						<select name="selS" >
+							<option value="北京">北京</option>
+							<option value="四川" selected>四川</option>
+							<option value="上海">上海</option>
+						</select> &nbsp;&nbsp;
+						<select name="selCity">
+							<option value="成都" selected >成都</option>
+							<option value="绵阳" >绵阳</option>
+							<option value="汶川">汶川</option>
+						</select>
+					</td>
+					
+					<!-- 选择头像 -->
+					<tr>
+						<td align="right">
+							选择头像：
+						</td>
+						<td>
+							<input name="fileHead" type="file" />		
+						</td>
+					</tr>
+					
+					<!-- 隐藏域 -->
+					<input name="hidValue" type="hidden" value=""/>
+					
+					<!-- 注册协议 -->
+					<tr>
+						<td align="right">
+							注册协议：
+						</td>
+						<td>
+							<textarea name="txtXy" rows="10" cols="40" readonly>你好！这是网站注册协议
+    凡注册本网站人员，需向本网站捐款：人民币100000元</textarea>
+							<br/>
+							<input name="chkOk" type="checkbox" value="同意" onclick="checkXy()" />同意协议
+						</td>
+					</tr>
+					
+					<tr>
+						<td align="right">
+							验证码：
+						</td>
+						<td>
+							<input name="txtYzm" class="wh" type="text" /> &nbsp;
+							<img src="../Images/yzm.png" height="20" />
+						</td>
+					</tr>
+					
+					<!-- 按钮 -->
+					<tr>
+						<td align="center" colspan="2">	
+							<input name="btnSubmit" type="submit" value="注册" disabled />&nbsp;&nbsp;
+							<input name="btnReset" type="reset" value="刷新" />&nbsp;&nbsp;
+							<input name="btnExit" type="button" value="退出" onclick="window.close();" />
+						</td>
+					</tr>
+					<!-- 图片按钮 login.gif -->
+					<tr>
+						<td align="center" colspan="2">	
+							<input name="btnRegs" type="image" src="../Images/login.gif" disabled />
+						</td>
+					</tr>
+				</tr>
+			</table>
+			
+		</form>
+	</body>
+</html>
+
+
+
+

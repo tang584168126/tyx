@@ -1,0 +1,21 @@
+import java.util.*;
+public class Text7 {
+	public static void main(String[] args){
+		int javascore = 0;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("刘珊珊同学的成绩：");
+		switch(javascore){
+			case 1:
+				System.out.println("车");
+				break;
+			case 2:
+				System.out.println("电脑");
+				break;
+			case 3:
+				System.out.println("手机");
+				break;
+				default:
+					System.out.println("什么都没有");
+		}
+	}
+}

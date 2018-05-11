@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+
+public class text {
+	public static void main(String[] args){
+		System.out.println("调换前");
+		Scanner sc = new Scanner(System.in);
+		System.out.print("请输出陈的成绩:");
+		int chen = sc.nextInt();
+		System.out.print("请输出张的成绩：");
+		int zhang = sc.nextInt();
+		System.out.println("调换后");
+		int xiang = chen;
+		System.out.println("请输出张的成绩：" + zhang);
+		System.out.println("请输出陈的成绩：" + xiang);
+	}
+
+}

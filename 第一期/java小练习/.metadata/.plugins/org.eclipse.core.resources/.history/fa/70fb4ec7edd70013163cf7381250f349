@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+
+public class Console5 {
+	public static void main(String[] args){
+		
+		int num1 =0;
+		
+		Scanner sc = new Scanner(System.in);
+		do{
+		System.out.println("			欢迎使用我行我素购物管理系统	\n	");
+		System.out.println("				1. 登陆系统				\n	");
+		System.out.println("				2. 退出					\n	");
+		System.out.println("********************************************\n");
+		System.out.print("请选择，输入数字：");
+		if(!sc.hasNextInt())
+		{
+			System.out.println("输入错误，请重新输入");
+			System.out.print("请选择，输入数字：");
+			num1 = sc.nextInt();
+		}else{
+			num1 = sc.nextInt();
+		}
+		if(num1 > 2 || num1 < 0)
+		{
+			System.out.println("输入错误，请重新输入");
+			continue;
+		}
+		}while(num1 == 1 && num1 == 2);
+	}
+}

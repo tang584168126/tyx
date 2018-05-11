@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class text1 {
+	public static void main(String[] args){
+		int li = 80;
+		int zhang ;
+		boolean s;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("张三的成绩：");
+		zhang = sc.nextInt();
+		s = zhang >li;
+		System.out.println("张三的成绩比李四高吗?" + s);
+	}
+}

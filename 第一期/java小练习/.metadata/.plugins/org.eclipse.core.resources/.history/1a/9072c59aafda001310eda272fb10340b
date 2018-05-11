@@ -1,0 +1,16 @@
+package class8;
+
+import java.util.Scanner;
+
+public class Test5 {
+	public static void mian(String[] args){
+		int[] array = new int[5];
+		int i = 0;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("原数组为");
+		for(i = 0 ;  i < array.length ; i++){
+			array[i] = sc.nextInt();
+		}
+	}
+
+}

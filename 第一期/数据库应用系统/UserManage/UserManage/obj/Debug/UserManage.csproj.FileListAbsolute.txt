@@ -1,0 +1,13 @@
+E:\数据库应用系统\UserManage\UserManage\bin\Debug\UserManage.exe.config
+E:\数据库应用系统\UserManage\UserManage\bin\Debug\UserManage.exe
+E:\数据库应用系统\UserManage\UserManage\bin\Debug\UserManage.pdb
+E:\数据库应用系统\UserManage\UserManage\obj\Debug\UserManage.csprojResolveAssemblyReference.cache
+E:\数据库应用系统\UserManage\UserManage\obj\Debug\UserManage.FrmLogin.resources
+E:\数据库应用系统\UserManage\UserManage\obj\Debug\UserManage.Properties.Resources.resources
+E:\数据库应用系统\UserManage\UserManage\obj\Debug\UserManage.csproj.GenerateResource.Cache
+E:\数据库应用系统\UserManage\UserManage\obj\Debug\UserManage.exe
+E:\数据库应用系统\UserManage\UserManage\obj\Debug\UserManage.pdb
+E:\数据库应用系统\UserManage\UserManage\obj\Debug\UserManage.FrmRegion.resources
+E:\代码\第一期\数据库应用系统\UserManage\UserManage\bin\Debug\UserManage.exe.config
+E:\代码\第一期\数据库应用系统\UserManage\UserManage\obj\Debug\UserManage.exe
+E:\代码\第一期\数据库应用系统\UserManage\UserManage\obj\Debug\UserManage.pdb

@@ -1,0 +1,201 @@
+!SESSION 2014-07-29 18:23:09.464 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_43
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2014-07-29 18:24:26.862
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-29 18:24:26.863
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.RemoveAction,Remove,
+		Remove selected Pictogram Elements,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@1d4fe75,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.genuitec.eclipse.core 1 0 2014-07-29 18:24:27.189
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-07-29 18:24:50.174
+!MESSAGE Installed snippet library: G:\myeclipse\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-07-29 18:24:50.528
+!MESSAGE Installed snippet library: G:\myeclipse\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-07-29 18:24:50.560
+!MESSAGE Installed snippet library: G:\myeclipse\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-07-29 18:24:50.577
+!MESSAGE Installed snippet library: G:\myeclipse\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-07-29 18:24:50.600
+!MESSAGE Installed snippet library: G:\myeclipse\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-07-29 18:24:50.623
+!MESSAGE Installed snippet library: G:\myeclipse\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-07-29 18:24:50.649
+!MESSAGE Installed snippet library: G:\myeclipse\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-07-29 18:24:50.672
+!MESSAGE Installed snippet library: G:\myeclipse\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-07-29 18:24:50.695
+!MESSAGE Installed snippet library: G:\myeclipse\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-07-29 18:24:50.717
+!MESSAGE Installed snippet library: G:\myeclipse\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-07-29 18:24:50.735
+!MESSAGE Installed snippet library: G:\myeclipse\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-07-29 18:24:53.303
+!MESSAGE Unable to update index for central|http://repo.maven.apache.org/maven2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-07-29 18:25:32.540
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-07-29 18:25:32.546
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-07-29 18:25:32.552
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-07-29 18:25:32.617
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-07-29 18:25:32.623
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-07-29 18:25:32.630
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-07-29 18:25:32.636
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-07-29 18:25:32.642
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-07-29 18:25:32.764
+!MESSAGE Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): No connector available to access repository central (http://repo.maven.apache.org/maven2) of type default using the available factories 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-07-29 18:25:32.765
+!MESSAGE Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): No connector available to access repository central (http://repo.maven.apache.org/maven2) of type default using the available factories 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-07-29 18:25:32.767
+!MESSAGE Failure to transfer org.apache.maven.plugins/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): No connector available to access repository central (http://repo.maven.apache.org/maven2) of type default using the available factories 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-07-29 18:25:32.769
+!MESSAGE Failure to transfer org.codehaus.mojo/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): No connector available to access repository central (http://repo.maven.apache.org/maven2) of type default using the available factories 
+
+!ENTRY org.eclipse.core.jobs 4 2 2014-07-29 18:25:32.770
+!MESSAGE An internal error occurred during: "Importing MyEclipse dependencies to Local Maven Repository".
+!STACK 0
+java.lang.NullPointerException
+	at com.genuitec.eclipse.maven.core.RepositoryUtil.importJarToLocalRepository(RepositoryUtil.java:81)
+	at com.genuitec.eclipse.maven.core.RepositoryUtil.addDependency(RepositoryUtil.java:31)
+	at com.genuitec.eclipse.maven.core.LocalMavenRepositoryImportsJob.run(LocalMavenRepositoryImportsJob.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2014-07-30 13:53:29.773 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_43
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2014-07-30 13:54:03.578
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-30 13:54:03.578
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.RemoveAction,Remove,
+		Remove selected Pictogram Elements,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@387bc2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.genuitec.eclipse.core 1 0 2014-07-30 13:54:13.749
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY org.eclipse.core.jobs 2 2 2014-07-30 13:54:23.936
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob
+!SESSION 2014-08-19 16:28:41.920 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_43
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2014-08-19 16:29:10.442
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-19 16:29:10.442
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.RemoveAction,Remove,
+		Remove selected Pictogram Elements,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@11483a0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-08-19 16:29:15.790
+!MESSAGE Unable to update index for central|http://repo.maven.apache.org/maven2
+
+!ENTRY com.genuitec.eclipse.core 1 0 2014-08-19 16:29:19.596
+!MESSAGE Unable to locate .myeclipse.properties file

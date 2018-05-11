@@ -1,0 +1,28 @@
+package class14;
+
+import java.util.Scanner;
+
+public class Testf {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		
+		String []a1=new String[5];
+		
+		for (int i = 0; i < a1.length; i++) {
+			a1[i]=i+10+"";
+		}
+		
+		shuzubangzhulei s=new shuzubangzhulei();
+		s.Show(a1);
+		
+		System.out.println("请输入你要删除的名字");
+		String tf=input.next();
+		
+		s.Del(a1, tf);
+	}
+
+}

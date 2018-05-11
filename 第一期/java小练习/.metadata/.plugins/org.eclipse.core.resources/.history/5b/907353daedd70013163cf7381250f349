@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+
+public class Console5 {
+	public static void main(String[] args){
+		
+		int a = 0;
+		Scanner sc = new Scanner(System.in);
+		do
+		{
+			System.out.println("请输入a的值：" + a);
+			
+			if(! sc.hasNextInt())
+			{
+				System.out.println("输入错误");
+				System.exit(1);
+			}else{
+				a = sc.nextInt();
+			}
+			
+		}while(true );
+	}
+}
