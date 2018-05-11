@@ -1,0 +1,10 @@
+E:\代码\第二期\深入.NET平台和C#编程\Class2\example3\example3\bin\Debug\example3.exe.config
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class2\example3\example3\bin\Debug\example3.exe.config
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class2\example3\example3\bin\Debug\example3.exe
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class2\example3\example3\bin\Debug\example3.pdb
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class2\example3\example3\obj\Debug\example3.csprojResolveAssemblyReference.cache
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class2\example3\example3\obj\Debug\example3.FrmShow.resources
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class2\example3\example3\obj\Debug\example3.Properties.Resources.resources
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class2\example3\example3\obj\Debug\example3.csproj.GenerateResource.Cache
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class2\example3\example3\obj\Debug\example3.exe
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class2\example3\example3\obj\Debug\example3.pdb

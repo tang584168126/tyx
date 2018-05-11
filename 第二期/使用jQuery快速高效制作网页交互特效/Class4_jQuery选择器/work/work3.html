@@ -1,0 +1,46 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>近期热门栏目</title>
+		<style type="text/css">
+			div{
+				width:300px;
+				height:auto;
+			}
+			span{
+				display:none;
+			}
+		</style>
+		<script src="js/jquery-1.11.2.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("dt:odd").css("background-color","#CCC");
+				$("dt:even").css("background-color","#FF99CC");
+				$("a").click(function(){
+					$("span").show();
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div>
+			<p>淘乐，发现更多生活，快乐就在你身边...</p>
+			<p>近期热门......<a href="#">(更多)</a></p>
+			<dl>
+				<dt>言语之庭</dt>
+				<dt>斯托克</dt>
+				<dt>宿醉</dt>
+				<dt>巨人捕手杰克</dt>
+				<dt>副作用</dt>
+				<dt><span>血肉之躯</span></dt>
+				<dt><span>7号房的礼物</span></dt>
+				<dt><span>惊声尖叫</span></dt>
+			</dl>
+			<br/>
+			<a href="#">更多排名</a>
+		</div>
+	</body>
+</html>

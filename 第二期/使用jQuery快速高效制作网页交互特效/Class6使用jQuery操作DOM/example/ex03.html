@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>toggleClass的应用</title>
+		<style type="text/css">
+			*{
+				margin:0px;
+				padding:0px;
+				font-size:12px;
+			}
+			a{
+				color:#999;
+				text-decoration:none;
+			}
+			dl{
+				width:200px;
+			}
+			dl dd{
+				width:200px;
+				line-height:30px;
+			}
+			dl dt{
+				display:block;
+				height:25px;
+				line-height:25px;
+				background-color:#00F;
+				color:#fff;
+				text-align:center;
+			}
+			.current{
+				color:#fff;
+				background-color:#0CF;
+			}
+		</style>
+		<script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("dd").click(function(){
+					$(this).toggleClass("current");
+				})
+			});
+		</script>
+	</head>
+	<body>
+		<dl>
+	      <dt>新手上路</dt>
+	      <dd><a href="#">注册登录</a></dd>
+	      <dd><a href="#">易付宝账户激活</a></dd>
+	      <dd><a href="#">易付宝实名认证</a></dd>
+	      <dd><a href="#">密码相关</a></dd>
+	      <dd><a href="#">会员购买</a></dd>
+	    </dl>
+	</body>
+</html>

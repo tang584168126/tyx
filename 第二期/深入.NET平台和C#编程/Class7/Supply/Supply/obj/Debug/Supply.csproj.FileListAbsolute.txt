@@ -1,0 +1,6 @@
+E:\代码\第二期\深入.NET平台和C#编程\Class7\Supply\Supply\bin\Debug\Supply.exe.config
+E:\代码\第二期\深入.NET平台和C#编程\Class7\Supply\Supply\bin\Debug\Supply.exe
+E:\代码\第二期\深入.NET平台和C#编程\Class7\Supply\Supply\bin\Debug\Supply.pdb
+E:\代码\第二期\深入.NET平台和C#编程\Class7\Supply\Supply\obj\Debug\Supply.csprojResolveAssemblyReference.cache
+E:\代码\第二期\深入.NET平台和C#编程\Class7\Supply\Supply\obj\Debug\Supply.exe
+E:\代码\第二期\深入.NET平台和C#编程\Class7\Supply\Supply\obj\Debug\Supply.pdb

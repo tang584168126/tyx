@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>增减购物商品</title>
+		<script type="text/javascript" src="../../js/jquery-1.8.3.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//创建新节点
+				var $newPro = 
+				"<tr>"
+				+ "<td>"
+					+ "<input name='' type='checkbox' value='' />"
+				+ "</td>"
+				+ "<td>"
+					+ "<img src='computer.jpg'  class='products' />"
+					+ "<a href='#'>联想笔记本电脑</a>"
+				+ "</td>"
+				+ "<td>￥3189元</td>"
+				+ "<td>"
+					+ "<img src='subtraction.gif' width='20' height='20' />"
+					+ "<input type='text' class='quantity' value='1' />"
+					+ "<img src='add.gif' width='20' height='20' />"
+				+ "</td>"
+				+ "<td><a href='#' class='del'>删除</a></td>"
+				+ "</tr>"
+				//删除
+				$(".del").live("click",function(){
+					$(this).parent().parent().remove();
+				});
+				
+				//添加
+			$(".add").click(function(){
+				//在table中插入新建节点
+				$("table").append($newPro);
+				$newPro.appendTo("table");
+			});
+			});
+			
+		</script>
+	</head>
+	<body>
+		<table border="1" cellpadding="0" cellspacing="0"> 
+	<tr>
+    	<th><input type='checkbox' />全选</th>
+        <th>商品信息</th>
+        <th>宜美惠价</th>
+        <th>数量</th>
+        <th>操作</th>
+        
+    </tr>
+
+   	<tr class="tr_0">
+       	<td>
+           	<input name="" type="checkbox" value=""/>
+           </td>
+           <td>
+           	<img src="sang.gif" class="products"/><a href="#">天堂雨伞</a></td><td>￥32.9元
+           </td>
+           <td>
+         	  	<img src="images/subtraction.gif" width="20" height="20"/>
+           	<input type="text" class="quantity" value="1"/>
+           	<img src="add.gif" width="20" height="20"/>
+          </td>
+          <td>
+          		<a href="#" class="del">删除</a>
+          </td>
+       </tr>
+       <tr>
+       	<td>
+           	<input name="" type="checkbox" value=""/>
+           </td>
+           <td>
+           	<img src="iphone.gif" class="products"/><a href="#">苹果手机iphone5</a></td><td>￥3339元
+           </td>
+           <td>
+         	  	<img src="subtraction.gif" width="20" height="20"/>
+           	<input type="text" class="quantity" value="1"/>
+           	<img src="add.gif" width="20" height="20"/>
+          </td>
+          <td>
+          		<a href="#" class="del">删除</a>
+          </td>
+       </tr>
+
+ </table>
+ 
+ <a href="#" class="add">添加</a>
+ <a href="#">删除</a>
+	</body>
+</html>

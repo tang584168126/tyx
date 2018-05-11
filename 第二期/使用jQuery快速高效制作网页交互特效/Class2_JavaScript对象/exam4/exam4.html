@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+		<title>问候语</title>
+		
+		<script>
+			function chTime(){
+				var today = new Date();
+				
+				//获取小时
+				var hh = today.getHours();
+				
+				var say = "";
+				if(hh <= 12){
+					say = "上午好";
+				}else if(hh <=18){
+					say = "下午好";
+				}else{
+					say = "晚上好";
+				}
+				document.getElementById("hao").innerHTML = alert(say);
+			}
+		</script>
+	</head>
+	
+	<body>
+		<input type="button" value="问候语" onclick="chTime()"></input>
+	</body>
+</html>	

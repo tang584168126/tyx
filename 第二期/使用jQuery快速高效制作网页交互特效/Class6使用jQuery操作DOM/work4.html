@@ -1,0 +1,154 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+		<title>凡客诚品帮助中心</title>
+		<script src="js/jquery-1.11.2.js"></script>
+		<style type="text/css">
+			#a{
+				background-image:url("03 提供给学员的上机练习素材/练习4：制作凡客诚品帮助中心页面/images/bg.jpg");
+				background-repeat:no-repeat;
+				width:1016px;
+				height:1176px;
+			}
+			.first{
+				position:absolute;
+				top:375px;
+				left:30px;
+				width:200px;
+				height:422px;
+				margin:0px;					
+				line-height:30px;	
+				list-style:none;
+				padding-left:0px;
+				font-weight:bold;	
+			}
+			.second{
+				border-bottom:1px dotted;
+				border-top:1px dotted;
+				padding:0px;
+				padding-left:10px;
+				margin:0px;
+				width:190px;
+				height:auto;
+				font-size:16px;
+				cursor:pointer;	
+			}
+			.third{
+				list-style:none;
+				line-height:20px;				
+				font-weight:lighter;
+				border-top:1px dotted;
+				padding-left:15px;
+				display:none;
+			}
+			.one{
+				position:absolute;
+				top:400px;
+				left:260px;
+				width:700px;
+				height:36px;
+				background-image:url("03 提供给学员的上机练习素材/练习4：制作凡客诚品帮助中心页面/images/news_bghover.gif");
+				cursor:pointer;				
+			}
+			.two{
+				position:absolute;
+				top:720px;
+				left:750px;
+				width:250px;
+				height:150px;
+				font-size:12px;
+			}
+			.three{
+				display:none;
+			}
+			.one li{
+				list-style:none;
+				float:left;
+				width:130px;
+			}
+		</style>
+		
+		<script>
+			$(function(){
+				$(".second").click(function(){
+					$(this).siblings().children().slideUp();	
+					$(this).children().slideDown();							
+				});
+				$(".one li").mouseover(function(){					
+					var i = $(this).attr("name");
+					i = i * -36;
+					var j = "0px "+i+"px";
+					$(this).parent().parent().css("background-position",j);
+				});
+				$("input[value=未解决]").click(function(){
+					$(".three").show();
+				});
+				$("input[value=已解决]").click(function(){
+					$(".three").hide();
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div id="a">
+			<ul class="first">
+				<li class="second">账户管理
+				<ul class="third">
+					<li>账户注册</li>
+					<li>找回密码</li>
+					<li>“我的凡客”功能说明</li>
+					<li>账户关联登陆</li>
+					<li>促销信息退订</li>
+				</ul>
+				</li>	
+				<li class="second">购物指南
+				<ul class="third">
+					<li>服务条款</li>
+					<li>购物流程</li>
+					<li>会员制度</li>
+					<li>积分计划</li>
+					<li>常见问题</li>
+				</ul>
+				</li>
+				<li class="second">配送方式
+				<ul class="third">
+					<li>国内配送</li>
+					<li>订单拆分</li>
+				</ul>
+				</li>
+				<li class="second">支付方式
+				<ul class="third">
+					<li>在线支付</li>
+					<li>货到付款</li>
+					<li>虚拟账户支付</li>
+					<li>发票制度</li>
+				</ul>
+				</li>				
+			</ul>
+		</div>
+		<div class="one">
+			<ul>
+				<li name="0">&nbsp;<li>
+				<li name="1">&nbsp;<li>
+				<li name="2">&nbsp;<li>
+				<li name="3">&nbsp;<li>
+				<li name="4">&nbsp;<li>
+			</ul>
+		</div>
+		<div class="two">
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这条帮助是否解决了您的问题？</p>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="demo" value="已解决" checked="true" />已解决
+				<input type="radio" name="demo" value="未解决" />未解决
+			</p>
+			<p class="three">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;问题没解决？请选择原因：</p>
+			<p class="three">&nbsp;&nbsp;&nbsp;<select name="select" style="width:200px">
+				<option>文字太多，阅读困难</option>
+			</select></p>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit"></p>
+		</div>
+	</body>
+</html>

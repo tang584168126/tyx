@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>休闲网注册页面</title>
+    <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+ 	<style type="text/css">
+	*{padding:0; margin:0;}
+	body{
+		font-size:13px;
+		color:#000;
+		line-height:25px;
+		 }
+	.main{
+		float:none;
+		margin-top: 0px;
+		margin-right: auto;
+		margin-bottom: 0px;
+		margin-left: auto;
+		clear:both;
+	}
+	#header{
+		background-image: url(images/bg.gif);
+		background-repeat: repeat-x;
+		height: 36px;
+		}
+	#headerLeft{width:200px;
+	           float:left;
+			   }
+	#headerRight{width:160px;
+	             float:right;
+		         color:#FFF;
+				 }
+	#center{
+		margin-top: 20px;
+		margin-right: auto;
+		margin-bottom: 20px;
+		margin-left: auto;
+		width:100%;
+		
+		}
+	.left{width:35%;
+	      text-align:right;
+		  height:25px;
+		  }
+	
+	.bg{
+		background-image: url(../images/dl_l_bg.gif);
+		background-repeat: repeat-y;
+		}
+	.inputs{width:110px;
+	height:16px;
+	border:solid 1px #666666;
+	
+	}
+	.bold{
+		font-size:18px;
+		font-weight:bold;
+		text-align:center;
+		line-height:35px;
+		height:35px;
+	}
+	.rb1{
+		height:20x;
+		color:#fff;
+		font-size:13px;
+		background:#d32c47;
+		padding:3px 10px;
+		border-left:1px solid #fff;
+		border-top:1px solid #fff;
+		border-right:1px solid #6a6a6a;
+		border-bottom:1px solid #6a6a6a;
+		cursor:pointer;
+		}
+	#footer{text-align:center;
+	color:#333;
+	line-height:35px;
+	}
+	#footer a{
+		color:#333;
+		text-decoration:underline;
+	}
+	#footer hover{
+		color:#333;
+		text-decoration:none;
+	}
+	</style>
+   
+	<script type="text/javascript">
+        //验证函数
+        function check() {
+            var pwd = $("#pwd").val();
+            if (pwd == "") {
+                alert("密码不能为空");
+                return false;
+            }
+            if (pwd.length < 6) {
+                alert("密码必须等于或大于6个字符");
+                return false;
+            }
+            var repwd = $("#repwd").val();
+            if (pwd != repwd) {
+                alert("两次输入的密码不一致");
+                return false;
+            }
+            var user = $("#user").val();
+            if (user == "") {
+                alert("姓名不能为空");
+                return false;
+            }
+            for (var i = 0; i < user.length; i++) {
+                var j = user.substring(i, i + 1);
+                if (isNaN(j) == false) {
+                    alert("姓名中不能包含数字");
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        $(function () {
+            //提交表单
+            $("#myform").submit(function () {
+                return check();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header" class="main">
+        <div id="headerLeft">
+            <img src="images/logo.gif" />
+        </div>
+        <div id="headerRight">注册 | 登录 | 帮助</div>
+    </div>
+    <div class="main">
+        <form method="post" name="myform" id="myform">
+            <table id="center" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td class="bold" colspan="2">注册休闲网</td>
+                </tr>
+
+                <tr>
+                    <td class="left">您的Email：</td>
+                    <td>
+                        <input id="email" type="text" class="inputs" /></td>
+                </tr>
+                <tr>
+                    <td class="left">输入密码：</td>
+                    <td>
+                        <input id="pwd" type="password" class="inputs" /></td>
+                </tr>
+                <tr>
+                    <td class="left">再输入一遍密码：</td>
+                    <td>
+                        <input id="repwd" type="password" class="inputs" /></td>
+                </tr>
+                <tr>
+                    <td class="left">您的姓名：</td>
+                    <td>
+                        <input id="user" type="text" class="inputs" /></td>
+                </tr>
+                <tr>
+                    <td class="left">性别：</td>
+                    <td>
+                        <input name="sex" type="radio" value="1" />
+                                                    男
+    					<input name="sex" type="radio" value="0" />
+                                                   女</td>
+                </tr>
+                <tr>
+                    <td class="left">出生日期：</td>
+                    <td>
+                        <select name="year" size="1">
+                            <option value="1998" selected="selected" >1998</option>
+                        </select>年
+					    <select name="month">
+					        <option value="1">1</option>
+					    </select>月
+					    <select name="day">
+					        <option value="12">12</option>
+					    </select>日
+				    </td>
+				</tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>
+                        <input name="btn" type="submit" value="注册" class="rb1" /></td>
+                </tr>
+
+            </table>
+        </form>
+
+    </div>
+    <div id="footer" class="main"><a href="#">关于我们</a> | <a href="#">诚聘英才</a> |<a href="#"> 联系方式</a>  | <a href="#">帮助中心</a></div>
+</body>
+</html>

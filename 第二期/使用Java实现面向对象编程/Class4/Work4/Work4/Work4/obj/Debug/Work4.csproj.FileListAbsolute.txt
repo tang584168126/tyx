@@ -1,0 +1,6 @@
+E:\代码\第二期\使用Java实现面向对象编程\Class4\Work4\Work4\Work4\bin\Debug\Work4.exe.config
+E:\代码\第二期\使用Java实现面向对象编程\Class4\Work4\Work4\Work4\obj\Debug\Work4.csprojResolveAssemblyReference.cache
+E:\代码\第二期\使用Java实现面向对象编程\Class4\Work4\Work4\Work4\bin\Debug\Work4.exe
+E:\代码\第二期\使用Java实现面向对象编程\Class4\Work4\Work4\Work4\bin\Debug\Work4.pdb
+E:\代码\第二期\使用Java实现面向对象编程\Class4\Work4\Work4\Work4\obj\Debug\Work4.exe
+E:\代码\第二期\使用Java实现面向对象编程\Class4\Work4\Work4\Work4\obj\Debug\Work4.pdb

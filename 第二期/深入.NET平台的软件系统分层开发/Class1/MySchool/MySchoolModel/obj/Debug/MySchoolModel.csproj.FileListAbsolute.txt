@@ -1,0 +1,5 @@
+E:\代码\第二期\深入.NET平台的软件系统分层开发\Class1\MySchool\MySchoolModel\bin\Debug\MySchoolModel.dll
+E:\代码\第二期\深入.NET平台的软件系统分层开发\Class1\MySchool\MySchoolModel\bin\Debug\MySchoolModel.pdb
+E:\代码\第二期\深入.NET平台的软件系统分层开发\Class1\MySchool\MySchoolModel\obj\Debug\MySchoolModel.dll
+E:\代码\第二期\深入.NET平台的软件系统分层开发\Class1\MySchool\MySchoolModel\obj\Debug\MySchoolModel.pdb
+E:\代码\第二期\深入.NET平台的软件系统分层开发\Class1\MySchool\MySchoolModel\obj\Debug\MySchoolModel.csprojResolveAssemblyReference.cache

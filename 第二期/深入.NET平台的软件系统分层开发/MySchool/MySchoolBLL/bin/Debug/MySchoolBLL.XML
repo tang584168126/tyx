@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MySchoolBLL</name>
+    </assembly>
+    <members>
+        <member name="T:MySchoolBLL.LoginBLL">
+            <summary>
+            登录逻辑类
+            </summary>
+        </member>
+        <member name="M:MySchoolBLL.LoginBLL.LoginSys(MySchoolModel.StudentEntity)">
+            <summary>
+            登录系统
+            </summary>
+            <param name="objStuEntity">学生实体类对象</param>
+            <returns>登录是否成功</returns>
+        </member>
+        <member name="T:MySchoolBLL.ResultBLL">
+            <summary>
+            成绩业务类
+            </summary>
+        </member>
+        <member name="M:MySchoolBLL.ResultBLL.GetResBusiEntity(MySchoolModel.ResultBusinessEntity)">
+            <summary>
+            获取成绩列表
+            </summary>
+            <param name="objResBusiEntity">成绩实体扩展类对象</param>
+            <returns>成绩列表</returns>
+        </member>
+        <member name="T:MySchoolBLL.StudentBLL">
+            <summary>
+            学生业务逻辑类
+            </summary>
+        </member>
+        <member name="M:MySchoolBLL.StudentBLL.InsertStudent(MySchoolModel.StudentEntity)">
+            <summary>
+            新增学生信息
+            </summary>
+            <param name="objStuEntity">学生实体类对象</param>
+            <returns>是否新增成功(true:成功 false:失败)</returns>
+        </member>
+        <member name="T:MySchoolBLL.SubjectBLL">
+            <summary>
+            科目业务逻辑类
+            </summary>
+        </member>
+        <member name="M:MySchoolBLL.SubjectBLL.GetSubList(MySchoolModel.SubjectEntity)">
+            <summary>
+            获取科目信息列表
+            </summary>
+            <param name="objStuEntity">科目实体类对象</param>
+            <returns>科目信息列表</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>英雄联盟</title>
+		<script src="js/jquery-1.11.2.js"></script>
+		<script>
+			$(function(){
+				$("p").click(function(){
+					$("[class=current]").css("background-color","#6FF");
+					$("p span").css("background-color","#F9F");
+					$("h1+p").css("background-color","#F06");
+					$("strong~span").css("color","#00C");
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<h1>英雄联盟</h1>
+		<p>
+			《英雄联盟》，简称LOL。
+		</p>
+		<p>
+			由<strong>Riot Games</strong>开发，为3D竞技场战游戏，其<span>主创团队<br/>由实力强劲的<strong>魔兽争霸</strong>系列
+			游戏多人即时对战自定义<br/>地图开发团队</span>...<a href="#">更多详情</a>
+		</p>
+		<h2>目录</h2>
+		<ul class="txt_box">
+			<li class="current">开发团队</li>
+			<li>游戏周边</li>
+			<li>游戏介绍</li>
+			<li>配置要求</li>
+			<li>游戏背景</li>
+		</ul>
+	</body>
+</html>

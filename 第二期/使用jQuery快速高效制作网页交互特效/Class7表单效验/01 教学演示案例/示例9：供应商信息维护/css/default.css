@@ -1,0 +1,396 @@
+BODY {
+	BACKGROUND-COLOR: white
+}
+.ControlPanel {
+	BACKGROUND-COLOR: #ffffff; WIDTH: 100%
+}
+.SkinObject {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: #003366; FONT-SIZE: 8.5pt; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.SkinObject:link {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.SkinObject:visited {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.SkinObject:active {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.SkinObject:hover {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+.Head {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: #333333; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold
+}
+.SubHead {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: #003366; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.SubSubHead {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: black; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.Normal {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.Normal105 {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; FONT-SIZE: 10.5pt; FONT-WEIGHT: normal
+}
+.NormalBold {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.NormalRed {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: #ff0000; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.NormalTextBox {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.TreeMenu_Node {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.TreeMenu_NodeSelected {
+	BACKGROUND-COLOR: #dcdcdc; FONT-FAMILY: Tahoma, Arial, Helvetica; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+A.TreeMenu_Node:link {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.TreeMenu_NodeSelected:link {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.TreeMenu_Node:visited {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.TreeMenu_NodeSelected:visited {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.TreeMenu_Node:active {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.TreeMenu_NodeSelected:active {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.TreeMenu_Node:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.TreeMenu_NodeSelected:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.FileManager {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; HEIGHT: 400px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid
+}
+.FileManager_ToolBar {
+	BORDER-BOTTOM: black 1px solid; HEIGHT: 25px
+}
+.FileManager_Explorer {
+	BORDER-BOTTOM: dimgray 1px solid; BORDER-LEFT: dimgray 1px solid; BACKGROUND-COLOR: white; MARGIN: 2px; HEIGHT: 100%; BORDER-TOP: dimgray 1px solid; BORDER-RIGHT: dimgray 1px solid
+}
+.FileManager_FileList {
+	BORDER-BOTTOM: dimgray 1px solid; BORDER-LEFT: dimgray 1px solid; BACKGROUND-COLOR: white; MARGIN: 2px; HEIGHT: 100%; OVERFLOW: auto; BORDER-TOP: dimgray 1px solid; BORDER-RIGHT: dimgray 1px solid
+}
+.FileManager_MessageBox {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 25px; BACKGROUND-COLOR: white; PADDING-LEFT: 25px; PADDING-RIGHT: 25px; VERTICAL-ALIGN: middle; PADDING-TOP: 25px
+}
+.FileManager_Header {
+	BORDER-BOTTOM: dimgray 1px solid; BACKGROUND-COLOR: #9ebff6; FONT-FAMILY: Tahoma, Arial, Helvetica; HEIGHT: 25px; COLOR: #e7e7ff; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.FileManager_Pager {
+	BACKGROUND-COLOR: #adb2c6; FONT-FAMILY: Tahoma, Arial, Helvetica; HEIGHT: 25px; FONT-SIZE: 12px; BORDER-TOP: dimgray 1px solid; FONT-WEIGHT: bold
+}
+.FileManager_StatusBar {
+	BACKGROUND-COLOR: #dedfde; MARGIN: 2px; FONT-FAMILY: Tahoma, Arial, Helvetica; HEIGHT: 25px; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.FileManager_Item {
+	BORDER-BOTTOM: black 1px dashed; BACKGROUND-COLOR: #f8f8f8; FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: black; FONT-SIZE: 12px; BORDER-TOP: black 1px dashed; FONT-WEIGHT: normal
+}
+.FileManager_AltItem {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: #eeeeee; FONT-FAMILY: Tahoma, Arial, Helvetica; BORDER-TOP-STYLE: none; COLOR: black; FONT-SIZE: 12px; BORDER-LEFT-STYLE: none; FONT-WEIGHT: normal
+}
+.FileManager_SelItem {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: #9ebff6; FONT-FAMILY: Tahoma, Arial, Helvetica; BORDER-TOP-STYLE: none; COLOR: white; FONT-SIZE: 12px; BORDER-LEFT-STYLE: none; FONT-WEIGHT: bold
+}
+.FileManagerTreeNode {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.FileManagerTreeNodeSelected {
+	BACKGROUND-COLOR: #dcdcdc; FONT-FAMILY: Tahoma, Arial, Helvetica; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+A.FileManagerTreeNode:link {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.FileManagerTreeNodeSelected:link {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.FileManagerTreeNode:visited {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.FileManagerTreeNodeSelected:visited {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.FileManagerTreeNode:active {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.FileManagerTreeNodeSelected:active {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.FileManagerTreeNode:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.FileManagerTreeNodeSelected:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.Wizard {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; WIDTH: 700px; HEIGHT: 400px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid
+}
+.WizardButton {
+	BORDER-BOTTOM: dimgray 1px solid; BORDER-LEFT: dimgray 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: gainsboro; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-TOP: dimgray 1px solid; BORDER-RIGHT: dimgray 1px solid; PADDING-TOP: 2px
+}
+.WizardHeader {
+	BORDER-BOTTOM: black 1px solid; BACKGROUND: #ffffff; HEIGHT: 40px
+}
+.WizardFooter {
+	TEXT-ALIGN: right; BACKGROUND: #d5e8ff; HEIGHT: 25px; BORDER-TOP: black 1px solid
+}
+.WizardBody {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 325px; PADDING-TOP: 10px
+}
+.WizardHelp {
+	BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #ccffff; PADDING-LEFT: 5px; WIDTH: 180px; PADDING-RIGHT: 5px; FONT-SIZE: 9pt; PADDING-TOP: 5px
+}
+.WizardHelpText {
+	WIDTH: 180px; FONT-FAMILY: Tahoma, Verdana, Arial, Sans-Serif; HEIGHT: 300px; COLOR: black; FONT-SIZE: 8pt; OVERFLOW: auto
+}
+.WizardText {
+	FONT-FAMILY: Tahoma, Verdana, Arial, Sans-Serif; COLOR: black; FONT-SIZE: 9pt
+}
+.Help {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #ffff99; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: black; FONT-SIZE: 12px; BORDER-TOP: black 1px solid; FONT-WEIGHT: normal; BORDER-RIGHT: black 1px solid; PADDING-TOP: 2px
+}
+.CommandButton {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+A.CommandButton:link {
+	COLOR: #003366; TEXT-DECORATION: underline
+}
+A.CommandButton:visited {
+	COLOR: #003366; TEXT-DECORATION: underline
+}
+A.CommandButton:active {
+	COLOR: #003366; TEXT-DECORATION: underline
+}
+A.CommandButton:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.StandardButton {
+	PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT-FAMILY: Verdana, sans-serif; BACKGROUND: #dddddd; COLOR: #000000; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+H1 {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: #000099; FONT-SIZE: 24px; FONT-WEIGHT: bold
+}
+H2 {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: #000000; FONT-SIZE: 20px; FONT-WEIGHT: bold
+}
+H3 {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: #003366; FONT-SIZE: 16px; FONT-WEIGHT: bold
+}
+H4 {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: #003366; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+H5 {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: #003366; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+DT {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: #003366; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+H6 {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: #003366; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+TFOOT {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: #003366; FONT-SIZE: 12px
+}
+THEAD {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: #003366; FONT-SIZE: 12px
+}
+TH {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: #003366; FONT-SIZE: 12px; VERTICAL-ALIGN: baseline; FONT-WEIGHT: bold
+}
+A:link {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+SMALL {
+	FONT-SIZE: 8px
+}
+BIG {
+	FONT-SIZE: 14px
+}
+BLOCKQUOTE {
+	FONT-FAMILY: Lucida Console, monospace
+}
+PRE {
+	FONT-FAMILY: Lucida Console, monospace
+}
+UL LI {
+	LIST-STYLE-TYPE: square
+}
+UL LI LI {
+	LIST-STYLE-TYPE: disc
+}
+UL LI LI LI {
+	LIST-STYLE-TYPE: circle
+}
+OL LI {
+	LIST-STYLE-TYPE: decimal
+}
+OL OL LI {
+	LIST-STYLE-TYPE: lower-alpha
+}
+OL OL OL LI {
+	LIST-STYLE-TYPE: lower-roman
+}
+HR {
+	TEXT-ALIGN: left; HEIGHT: 1pt
+}
+.ModuleTitle_MenuContainer {
+	BORDER-BOTTOM: blue 0px solid; BORDER-LEFT: blue 0px solid; BORDER-TOP: blue 0px solid; BORDER-RIGHT: blue 0px solid
+}
+.ModuleTitle_MenuBar {
+	BACKGROUND-COLOR: transparent; HEIGHT: 16px; CURSOR: hand
+}
+.ModuleTitle_MenuItem {
+	BORDER-BOTTOM: white 1px solid; BORDER-LEFT: white 0px solid; BACKGROUND-COLOR: transparent; FONT-STYLE: normal; FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: black; FONT-SIZE: 9pt; BORDER-TOP: white 1px solid; CURSOR: hand; FONT-WEIGHT: bold; BORDER-RIGHT: white 0px solid
+}
+.ModuleTitle_MenuIcon {
+	BORDER-BOTTOM: #eeeeee 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #eeeeee 1px solid; BACKGROUND-COLOR: #eeeeee; WIDTH: 15px; HEIGHT: 21px; BORDER-TOP: #eeeeee 1px solid; CURSOR: hand
+}
+.ModuleTitle_SubMenu {
+	Z-INDEX: 1000; BORDER-BOTTOM: #ffffff 0px solid; FILTER: progid:DXImageTransform.Microsoft.Shadow(color='DimGray', Direction=135, Strength=3); BORDER-LEFT: #ffffff 0px solid; BACKGROUND-COLOR: #ffffff; BORDER-TOP: #ffffff 0px solid; CURSOR: hand; BORDER-RIGHT: #ffffff 0px solid
+}
+.ModuleTitle_MenuBreak {
+	BORDER-BOTTOM: #eeeeee 1px solid; BORDER-LEFT: #eeeeee 0px solid; BACKGROUND-COLOR: #eeeeee; HEIGHT: 1px; BORDER-TOP: #eeeeee 1px solid; BORDER-RIGHT: #eeeeee 0px solid
+}
+.ModuleTitle_MenuItemSel {
+	BACKGROUND-COLOR: #c1d2ee; FONT-STYLE: normal; FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: black; FONT-SIZE: 9pt; CURSOR: hand; FONT-WEIGHT: bold
+}
+.ModuleTitle_MenuArrow {
+	BORDER-BOTTOM: #ffffff 1px solid; FONT-FAMILY: webdings; FONT-SIZE: 10pt; BORDER-TOP: #ffffff 0px solid; CURSOR: hand; BORDER-RIGHT: #ffffff 1px solid
+}
+.ModuleTitle_RootMenuArrow {
+	FONT-FAMILY: webdings; FONT-SIZE: 10pt; CURSOR: hand
+}
+.MainMenu_MenuContainer {
+	BACKGROUND-COLOR: transparent
+}
+.MainMenu_MenuBar {
+	BACKGROUND-COLOR: transparent; HEIGHT: 16px; CURSOR: hand
+}
+.MainMenu_MenuItem {
+	BORDER-BOTTOM: white 1px solid; BORDER-LEFT: white 0px solid; BACKGROUND-COLOR: transparent; FONT-STYLE: normal; FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: black; FONT-SIZE: 9pt; BORDER-TOP: white 1px solid; CURSOR: hand; FONT-WEIGHT: bold; BORDER-RIGHT: white 0px solid
+}
+.MainMenu_MenuIcon {
+	BORDER-BOTTOM: #eeeeee 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #eeeeee 1px solid; BACKGROUND-COLOR: #eeeeee; WIDTH: 15px; HEIGHT: 21px; BORDER-TOP: #eeeeee 1px solid; CURSOR: hand
+}
+.MainMenu_SubMenu {
+	Z-INDEX: 1000; BORDER-BOTTOM: #ffffff 0px solid; FILTER: progid:DXImageTransform.Microsoft.Shadow(color='DimGray', Direction=135, Strength=3); BORDER-LEFT: #ffffff 0px solid; BACKGROUND-COLOR: #ffffff; BORDER-TOP: #ffffff 0px solid; CURSOR: hand; BORDER-RIGHT: #ffffff 0px solid
+}
+.MainMenu_MenuBreak {
+	BORDER-BOTTOM: #eeeeee 1px solid; BORDER-LEFT: #eeeeee 0px solid; BACKGROUND-COLOR: #eeeeee; HEIGHT: 1px; BORDER-TOP: #eeeeee 1px solid; BORDER-RIGHT: #eeeeee 0px solid
+}
+.MainMenu_MenuItemSel {
+	BACKGROUND-COLOR: #c1d2ee; FONT-STYLE: normal; FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: black; FONT-SIZE: 9pt; CURSOR: hand; FONT-WEIGHT: bold
+}
+.MainMenu_MenuArrow {
+	BORDER-BOTTOM: #ffffff 1px solid; FONT-FAMILY: webdings; FONT-SIZE: 10pt; BORDER-TOP: #ffffff 0px solid; CURSOR: hand; BORDER-RIGHT: #ffffff 1px solid
+}
+.MainMenu_RootMenuArrow {
+	FONT-FAMILY: webdings; FONT-SIZE: 10pt; CURSOR: hand
+}
+.HeadBg {
+	BACKGROUND-COLOR: #cccccc
+}
+.TabBg {
+	BACKGROUND-COLOR: black
+}
+.SelectedTab {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: #ffffff; FONT-SIZE: 8.5pt; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.SelectedTab:link {
+	COLOR: white; TEXT-DECORATION: none
+}
+A.SelectedTab:visited {
+	COLOR: #eeeeee; TEXT-DECORATION: none
+}
+A.SelectedTab:active {
+	COLOR: #eeeeee; TEXT-DECORATION: none
+}
+A.SelectedTab:hover {
+	COLOR: #cccccc; TEXT-DECORATION: none
+}
+.OtherTabs {
+	FONT-FAMILY: Tahoma, Arial, Helvetica; COLOR: white; FONT-SIZE: 8.5pt; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.OtherTabs:link {
+	COLOR: white; TEXT-DECORATION: none
+}
+A.OtherTabs:visited {
+	COLOR: #eeeeee; TEXT-DECORATION: none
+}
+A.OtherTabs:active {
+	COLOR: #eeeeee; TEXT-DECORATION: none
+}
+A.OtherTabs:hover {
+	COLOR: #cccccc; TEXT-DECORATION: none
+}
+.TabPaneNormal {
+	PADDING-RIGHT: 1px; FLOAT: left
+}
+.TabPaneActive {
+	Z-INDEX: 2; POSITION: relative; PADDING-RIGHT: 1px; FLOAT: left
+}
+.TabPaneNormalLeft {
+	BACKGROUND-IMAGE: url(../../images/tab.left.gif); WIDTH: 3px; HEIGHT: 25px
+}
+.TabPaneNormalCenter {
+	BACKGROUND-IMAGE: url(../../images/tab.back.gif); TEXT-ALIGN: center; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT: 12px Tahoma; HEIGHT: 25px; VERTICAL-ALIGN: text-bottom; CURSOR: hand; PADDING-TOP: 4px
+}
+.TabPaneNormalRight {
+	BACKGROUND-IMAGE: url(../../images/tab.right.gif); WIDTH: 3px; HEIGHT: 25px
+}
+.TabPaneActiveLeft {
+	BACKGROUND-IMAGE: url(../../images/tab.active.left.gif); WIDTH: 3px; HEIGHT: 25px
+}
+.TabPaneActiveCenter {
+	BACKGROUND-IMAGE: url(../../images/tab.active.back.gif); TEXT-ALIGN: center; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT: 12px Tahoma; HEIGHT: 25px; VERTICAL-ALIGN: text-bottom; CURSOR: hand; PADDING-TOP: 6px
+}
+.TabPaneActiveRight {
+	BACKGROUND-IMAGE: url(../../images/tab.active.right.gif); WIDTH: 3px; HEIGHT: 25px
+}
+.TabPaneItemStyle {
+	BORDER-BOTTOM: rgb(145,155,156) 1px solid; POSITION: relative; BORDER-LEFT: rgb(145,155,156) 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; WIDTH: 100%; PADDING-RIGHT: 5px; FONT: 12px Tahoma; BACKGROUND: rgb(252,252,254); FLOAT: left; COLOR: #333; BORDER-TOP: rgb(145,155,156) 1px solid; TOP: -1px; BORDER-RIGHT: rgb(145,155,156) 1px solid; PADDING-TOP: 5px
+}
+.datagrid-main {
+	BACKGROUND-COLOR: #d5d5d5; WIDTH: 100%; FONT-FAMILY: Tahoma, Arial, Helvetica; FONT-SIZE: 12px
+}
+.datagrid-Header {
+	BACKGROUND-IMAGE: url(../../css/cellpic4.gif); BACKGROUND-COLOR: #d5d5d5; HEIGHT: 26px; COLOR: #ffffff; FONT-WEIGHT: bold
+}
+.datagrid-Pager {
+	BORDER-BOTTOM-COLOR: #f7f7de; BACKGROUND-COLOR: #f7f7de; BORDER-TOP-COLOR: #f7f7de; BORDER-RIGHT-COLOR: #f7f7de; BORDER-LEFT-COLOR: #f7f7de
+}
+.datagrid-Item {
+	BACKGROUND-COLOR: #ffffff
+}
+.datagrid-Alter {
+	BACKGROUND-COLOR: #fffdef
+}
+.datagrid-Footer {
+	BACKGROUND-COLOR: #e9eff3; HEIGHT: 24px
+}
+TABLE.TableHeader {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f1f1f1; MARGIN: 0px; PADDING-LEFT: 0px; BORDER-SPACING: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; PADDING-TOP: 0px
+}

@@ -1,0 +1,196 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+    <title>供应商信息维护</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+    <link
+        rel="stylesheet" type="text/css" href="css/default.css">
+    <link
+        rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="GENERATOR" content="MSHTML 8.00.7600.16385">
+
+    <script type="text/javascript">
+
+        //验证供应商名称;
+        function checkCompanyName($name) {
+            if ($name.val() == "") {
+                //验证不通过，显示提示
+                if ($name.find("~span").length == 0) {
+                    $name.after("<span>请输入供应商名称</span>");
+                }
+                return false;
+            }
+            else {
+                //验证通过，清除提示
+                $name.find("~span").remove();
+                return true;
+            }
+        }
+
+        //验证开户行;
+        function checkBank($bank) {
+            if ($bank.val() == "") {
+                if ($bank.find("~span").length == 0) {
+                    $bank.after("<span>请输入开户行</span>");
+                }
+                return false;
+            }
+            else {
+                $bank.find("~span").remove();
+                return true;
+            }
+        }
+        //验证银行账号;
+        function checkAccount($account) {
+            //必填验证
+            if ($account.val() == "") {
+                $account.find("~span").remove();
+                $account.after("<span>请输入银行账号</span>");
+                return false;
+            }
+            else {
+                var reg = /^\d{13,19}$/;   // 匹配13~19位银行卡号
+                if (reg.test($account.val()) == false) {
+                    $account.find("~span").remove();
+                    $account.after("<span>银行账号有误</span>");
+                    return false;
+                }
+                else {
+                    $account.find("~span").remove();
+                    return true;
+                }
+            }
+        }
+
+
+        $(function () {
+            $(":input[id*='CompanyName']").blur(function () {
+                checkCompanyName($(this));
+            });
+            $(":input[id*='Bank']").blur(function () {
+                checkBank($(this));
+            });
+            $(":input[id*='Account']").blur(function () {
+                checkAccount($(this));
+            });
+
+            $("#vendorForm").submit(function () {
+                var flag = true;
+                $(":input[id*='CompanyName']").each(function () {
+                    if (!checkCompanyName($(this))) flag = false;
+                });
+                $(":input[id*='Bank']").each(function () {
+                   if (!checkBank($(this))) flag = false;
+               });
+               $(":input[id*='Account']").each(function () {
+                   if (!checkAccount($(this))) flag = false;
+			  });
+                return flag;
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <div class="Edu_InfoTD">
+        <form method="post" id="vendorForm">
+            <table border="0" cellspacing="1" cellpadding="3" width="100%" bgcolor="#cccccc">
+                <tbody>
+                    <tr align="left">
+                      
+                        <th bgcolor="#dddddd" width="33%">供应商名称 </th>
+                        <th bgcolor="#dddddd" width="33%">开户行 </th>
+                        <th bgcolor="#dddddd" width="33%">银行账号 </th>
+                    </tr>
+                    <tr align="left">
+                      
+                        <td bgcolor="#ffffff">
+                            <input id="venders_0_CompanyName" type="text"
+                                name="venders[0].CompanyName">
+                        </td>
+                        <td bgcolor="#ffffff">
+                            <input id="venders_0_Bank" type="text"
+                                name="venders[0].Bank">
+                        </td>
+                        <td bgcolor="#ffffff">
+                            <input id="venders_0_Account" type="text"
+                                name="venders[0].Account">
+                        </td>
+                    </tr>
+                    <tr align="left">
+                      
+                        <td bgcolor="#ffffff">
+                            <input id="venders_1_CompanyName" type="text"
+                                name="venders[1].CompanyName">
+                        </td>
+                        <td bgcolor="#ffffff">
+                            <input id="venders_1_Bank" type="text"
+                                name="venders[1].Bank">
+                        </td>
+                        <td bgcolor="#ffffff">
+                            <input id="venders_1_Account" type="text"
+                                name="venders[1].Account">
+                        </td>
+                    </tr>
+                    <tr align="left">
+                       
+                        <td bgcolor="#ffffff">
+                            <input id="venders_2_CompanyName" type="text"
+                                name="venders[2].CompanyName">
+                        </td>
+                        <td bgcolor="#ffffff">
+                            <input id="venders_2_Bank" type="text"
+                                name="venders[2].Bank">
+                        </td>
+                        <td bgcolor="#ffffff">
+                            <input id="venders_2_Account" type="text"
+                                name="venders[2].Account">
+                        </td>
+                    </tr>
+                    <tr align="left">
+                      
+                        <td bgcolor="#ffffff">
+                            <input id="venders_3_CompanyName" type="text"
+                                name="venders[3].CompanyName">
+                        </td>
+                        <td bgcolor="#ffffff">
+                            <input id="venders_3_Bank" type="text"
+                                name="venders[3].Bank">
+                        </td>
+                        <td bgcolor="#ffffff">
+                            <input id="venders_3_Account" type="text"
+                                name="venders[3].Account">
+                        </td>
+                    </tr>
+                    <tr align="left">
+                       
+                        <td bgcolor="#ffffff">
+                            <input id="venders_4_CompanyName" type="text"
+                                name="venders[4].CompanyName">
+                        </td>
+                        <td bgcolor="#ffffff">
+                            <input id="venders_4_Bank" type="text"
+                                name="venders[4].Bank">
+                        </td>
+                        <td bgcolor="#ffffff">
+                            <input id="venders_4__Account" type="text"
+                                name="venders[4].Account">
+                        </td>
+                    </tr>
+                    <tr>
+                       
+                        <td bgcolor="#ffffff">&nbsp; </td>
+                        <td bgcolor="#ffffff">&nbsp; </td>
+                        <td bgcolor="#ffffff">&nbsp; </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>
+                <input value="全部提交" type="submit">
+            </p>
+        </form>
+    </div>
+</body>
+</html>

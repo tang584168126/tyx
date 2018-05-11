@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>休闲网登录页面</title>
+    <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+    <style type="text/css"> 
+		*{padding:0; margin:0;}
+		body{
+			font-size:12px;
+			color:#000;
+			line-height:25px;
+			 }
+		.main{
+			float:none;
+			margin-top: 0px;
+			margin-right: auto;
+			margin-bottom: 0px;
+			margin-left: auto;
+			clear:both;
+		}
+		#header{
+			background-image: url(./images/bg.gif);
+			background-repeat: repeat-x;
+			height: 36px;
+			}
+		#headerLeft{width:200px;
+		           float:left;
+				   }
+		#headerRight{width:160px;
+		             float:right;
+			         color:#FFF;
+					 }
+		#center{
+			width:362px;
+			text-align:center;
+				margin-top: 20px;
+			margin-right: auto;
+			margin-bottom: 0px;
+			margin-left: auto;
+			
+			}
+		.bg{
+			background-image: url(./images/dl_l_bg.gif);
+			background-repeat: repeat-y;
+			}
+		.inputs{width:130px;
+		height:17px;
+		border:solid 1px #666666;
+		color:#666666;
+		font-size:12px;
+		line-height:20px;
+		padding-left:1px;
+		
+		}
+		.bold{
+			font-size:18px;
+			font-weight:bold;
+			text-align:center;
+			line-height:45px;
+			height:40px;
+		}
+		.rb1{
+			height:20x;
+			color:#fff;
+			font-size:13px;
+			background:#d32c47;
+			padding:3px 10px;
+			border-left:1px solid #fff;
+			border-top:1px solid #fff;
+			border-right:1px solid #6a6a6a;
+			border-bottom:1px solid #6a6a6a;
+			cursor:pointer;
+			}
+		#footer{text-align:center;
+		color:#333;
+		line-height:35px;
+		}
+		#footer a{
+			color:#333;
+			text-decoration:underline;
+		}
+		#footer hover{
+			color:#333;
+			text-decoration:none;
+		}
+	</style>
+    <script type="text/javascript">
+        function check() {
+            var mail = $("#email").val();
+            if (mail == "") {//检测Email是否为空
+                alert("Email不能为空");
+                $("#email").focus(); 
+                return false;
+            }
+            if (mail.indexOf("@") == -1 || mail.indexOf(".") == -1) {
+                alert("Email格式不正确\n必须包含符号@和.");
+                $("#email").select();
+                return false;
+            }
+            return true;
+        }
+        function clearText() {
+            var $mail = $("#email");
+            if ($mail.val() == "请输入正确的电子邮箱") {
+                $mail.val("");
+                $mail.css("borderColor", "#ff0000");
+            }
+        }
+
+        $(function () {
+            //绑定失去焦点事件
+            $("#email").focus(clearText);
+            //提交表单
+            $("#myform").submit(function () {
+                return check();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header" class="main">
+        <div id="headerLeft">
+            <img src="images/logo.gif" /></div>
+        <div id="headerRight">注册 | 登录 | 帮助</div>
+    </div>
+    <div class="main">
+        <table id="center" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td>
+                    <img src="images/dl_l_t.gif" /></td>
+            </tr>
+            <tr>
+                <td class="bg">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td class="bold">登录休闲网</td>
+                        </tr>
+                        <form action="success.html" method="post" name="myform" id="myform">
+                            <tr>
+                                <td>Email：<input id="email" type="text" class="inputs" value="请输入正确的电子邮箱"/></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;密码：<input id="pwd" type="password" class="inputs" /></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 35px; padding-left: 30px;">
+                                    <input name="btn" type="submit" value="登录" class="rb1" /></td>
+                            </tr>
+                        </form>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="images/dl_l_b.gif" width="362" height="5" /></td>
+            </tr>
+        </table>
+    </div>
+    <div id="footer" class="main"><a href="#">关于我们</a> | <a href="#">诚聘英才</a> |<a href="#"> 联系方式</a>  | <a href="#">帮助中心</a></div>
+</body>
+</html>

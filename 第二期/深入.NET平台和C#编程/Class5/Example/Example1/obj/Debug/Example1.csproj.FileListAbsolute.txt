@@ -1,0 +1,15 @@
+F:\Program\Net\S2T182\C#OOP\ch04\Example\Example1\bin\Debug\Example1.exe.config
+F:\Program\Net\S2T182\C#OOP\ch04\Example\Example1\bin\Debug\Example1.exe
+F:\Program\Net\S2T182\C#OOP\ch04\Example\Example1\bin\Debug\Example1.pdb
+F:\Program\Net\S2T182\C#OOP\ch04\Example\Example1\obj\Debug\Example1.csprojResolveAssemblyReference.cache
+F:\Program\Net\S2T182\C#OOP\ch04\Example\Example1\obj\Debug\Example1.FrmMain.resources
+F:\Program\Net\S2T182\C#OOP\ch04\Example\Example1\obj\Debug\Example1.Properties.Resources.resources
+F:\Program\Net\S2T182\C#OOP\ch04\Example\Example1\obj\Debug\Example1.csproj.GenerateResource.Cache
+F:\Program\Net\S2T182\C#OOP\ch04\Example\Example1\obj\Debug\Example1.exe
+F:\Program\Net\S2T182\C#OOP\ch04\Example\Example1\obj\Debug\Example1.pdb
+E:\代码\第二期\深入.NET平台和C#编程\Class5\Example\Example1\bin\Debug\Example1.exe.config
+E:\代码\第二期\深入.NET平台和C#编程\Class5\Example\Example1\obj\Debug\Example1.exe
+E:\代码\第二期\深入.NET平台和C#编程\Class5\Example\Example1\obj\Debug\Example1.pdb
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class5\Example\Example1\bin\Debug\Example1.exe.config
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class5\Example\Example1\obj\Debug\Example1.exe
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class5\Example\Example1\obj\Debug\Example1.pdb

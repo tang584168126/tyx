@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="zh-CN" />
+	<meta name="Keywords" content="" />
+	<meta name="Description" content="" />
+	<link rel="stylesheet" href="style/.css" type="text/css" />
+</head>
+<script>
+	function showTime(){
+		var dt = new Date();
+		//年
+		var y = dt.getFullYear();
+		//月
+		var m = dt.getMonth()+1;
+		//日
+		var d = dt.getDate();
+		//小时
+		var h = dt.getHours();
+		//分钟
+		var ms = dt.getMinutes();
+		//秒
+		var s = dt.getSeconds();
+		
+		var time = y+"年"+m+"月"+d+"日:"+h+":"+ms+":"+s;
+		var $div = document.getElementById("clock"); 
+		$div.innerHTML=time;
+		//setTimeout("showTime()",1000);
+	}
+	var id = setInterval("showTime()",1000);
+	function $stop_start(obj){
+		if(obj.value=="停止"){
+			clearInterval(id);
+			obj.value="重新开始";
+		}else if(obj.value=="重新开始"){
+			id = setInterval("showTime()",1000);
+			obj.value="停止";
+		}
+	}
+</script>
+<body onload="showTime()">
+<h1 id="clock"></h1>
+<input type="button" value="停止" onclick="$stop_start(this)"/>
+</body>
+</html>

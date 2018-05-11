@@ -1,0 +1,50 @@
+﻿<!DOCTYPE>
+
+<html>	
+	<head>
+		<meta  http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>导航</title>
+		<script src="js/jquery-1.11.2.js"></script>
+		<style type="text/css">
+			ul{
+				list-style-type:none;
+				float:left;
+				padding-left:0px;
+			}
+			li{
+				height:33px;
+				width:100px;
+				float:left;
+				border:0px;
+				padding-top:15px;
+				margin:0px;
+				background-color:#EB6119;
+				background-repeat:no-repeat;
+				text-align:center;
+				color:#fff;
+			}
+		</style>
+		<script>
+			$(function(){
+				$("li").mouseover(function(){
+					$(this).css("background-color","#A60000");
+				});
+				$("li").mouseout(function(){
+					$(this).css("background-color","#EB6119");
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<a href="#"><ul>
+			<li>首页</li>
+			<li>身边团购</li>
+			<li>美食</li>
+			<li>电影</li>
+			<li>KTV</li>
+			<li>酒店</li>
+			<li>购物</li>
+		</ul></a>
+	</body>
+</html>	

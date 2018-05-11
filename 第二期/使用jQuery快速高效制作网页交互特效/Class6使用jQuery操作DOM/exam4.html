@@ -1,0 +1,68 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>exam4</title>
+		<script src="js/jquery-1.11.2.js"></script>
+		<style type="text/css">
+			.one{
+				width:380px;
+				height:auto;
+			}
+			.two{
+				width:110px;
+				height:150px;
+				margin:10px;
+				float:left;	
+			}
+			.three{
+				font-size:14px;
+				color:#06F;
+			}
+			a{
+				text-decoration:none;
+			}
+			a:hover{
+				text-decoration:underline;
+			}
+		</style>	
+		<script>
+			$(function(){
+				$("a").click(function(){
+					$(this).parent().remove();
+				});
+				$("input[type=button]").click(function(){
+					var $one = $("<div class='two'>"
+					+"<img src='05 作业素材/作业4：游戏推荐/images/p3.jpg' /><br/>"
+					+"<p class='three'>斗破乾坤</p>"
+					+"<a>删除</a>");
+					$(".one").append($one);
+				},function(){
+					var $two = $("<div class='two'>"
+					+"<img src='05 作业素材/作业4：游戏推荐/images/p4.jpg' /><br/>"
+					+"<p class='three'>大航海家OL</p>"
+					+"<a>删除</a>");
+					$(".one").append($two);
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div class="one">
+			<h2>游戏推荐</h2>
+			<div class="two">
+				<img src="05 作业素材/作业4：游戏推荐/images/p1.jpg" /><br/>
+				<p class="three">街机三国</p>
+				<a>删除</a>
+			</div>
+			<div class="two">
+				<img src="05 作业素材/作业4：游戏推荐/images/p2.jpg" /><br/>
+				<p class="three">蛮域</p>
+				<a>删除</a>
+			</div>
+		</div>
+		<input type="button" value="新增游戏" />
+	</body>
+</html>

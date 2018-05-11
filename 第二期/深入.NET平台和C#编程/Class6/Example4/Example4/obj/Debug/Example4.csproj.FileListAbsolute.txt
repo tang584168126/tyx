@@ -1,0 +1,14 @@
+E:\代码\第二期\深入.NET平台和C#编程\Clsass6\Example4\Example4\bin\Debug\Example4.exe.config
+E:\代码\第二期\深入.NET平台和C#编程\Clsass6\Example4\Example4\obj\Debug\Example4.csprojResolveAssemblyReference.cache
+E:\代码\第二期\深入.NET平台和C#编程\Clsass6\Example4\Example4\obj\Debug\Example4.FrmMain.resources
+E:\代码\第二期\深入.NET平台和C#编程\Clsass6\Example4\Example4\obj\Debug\Example4.Properties.Resources.resources
+E:\代码\第二期\深入.NET平台和C#编程\Clsass6\Example4\Example4\obj\Debug\Example4.csproj.GenerateResource.Cache
+E:\代码\第二期\深入.NET平台和C#编程\Class6\Example4\Example4\bin\Debug\Example4.exe.config
+E:\代码\第二期\深入.NET平台和C#编程\Class6\Example4\Example4\obj\Debug\Example4.csprojResolveAssemblyReference.cache
+E:\代码\第二期\深入.NET平台和C#编程\Class6\Example4\Example4\obj\Debug\Example4.FrmMain.resources
+E:\代码\第二期\深入.NET平台和C#编程\Class6\Example4\Example4\obj\Debug\Example4.Properties.Resources.resources
+E:\代码\第二期\深入.NET平台和C#编程\Class6\Example4\Example4\obj\Debug\Example4.csproj.GenerateResource.Cache
+E:\代码\第二期\深入.NET平台和C#编程\Class6\Example4\Example4\bin\Debug\Example4.exe
+E:\代码\第二期\深入.NET平台和C#编程\Class6\Example4\Example4\bin\Debug\Example4.pdb
+E:\代码\第二期\深入.NET平台和C#编程\Class6\Example4\Example4\obj\Debug\Example4.exe
+E:\代码\第二期\深入.NET平台和C#编程\Class6\Example4\Example4\obj\Debug\Example4.pdb

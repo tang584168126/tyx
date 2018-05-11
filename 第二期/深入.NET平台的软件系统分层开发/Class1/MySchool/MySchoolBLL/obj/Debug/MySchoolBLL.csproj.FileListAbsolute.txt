@@ -1,0 +1,9 @@
+E:\代码\第二期\深入.NET平台的软件系统分层开发\Class1\MySchool\MySchoolBLL\bin\Debug\MySchoolBLL.dll
+E:\代码\第二期\深入.NET平台的软件系统分层开发\Class1\MySchool\MySchoolBLL\bin\Debug\MySchoolBLL.pdb
+E:\代码\第二期\深入.NET平台的软件系统分层开发\Class1\MySchool\MySchoolBLL\bin\Debug\MySchoolDAL.dll
+E:\代码\第二期\深入.NET平台的软件系统分层开发\Class1\MySchool\MySchoolBLL\bin\Debug\MySchoolModel.dll
+E:\代码\第二期\深入.NET平台的软件系统分层开发\Class1\MySchool\MySchoolBLL\bin\Debug\MySchoolDAL.pdb
+E:\代码\第二期\深入.NET平台的软件系统分层开发\Class1\MySchool\MySchoolBLL\bin\Debug\MySchoolModel.pdb
+E:\代码\第二期\深入.NET平台的软件系统分层开发\Class1\MySchool\MySchoolBLL\obj\Debug\MySchoolBLL.csprojResolveAssemblyReference.cache
+E:\代码\第二期\深入.NET平台的软件系统分层开发\Class1\MySchool\MySchoolBLL\obj\Debug\MySchoolBLL.dll
+E:\代码\第二期\深入.NET平台的软件系统分层开发\Class1\MySchool\MySchoolBLL\obj\Debug\MySchoolBLL.pdb

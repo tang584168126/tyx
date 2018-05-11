@@ -1,0 +1,1 @@
+﻿document.write("<h1>学习JavaScript<h1>");

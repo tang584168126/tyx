@@ -1,0 +1,36 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>work4</title>
+		<style type="text/css">
+			ul{
+				font-size:12px;
+				display:none;
+			}
+			.first{
+				background-color:blue;
+			}
+		</style>
+		<script src="js/jquery-1.11.2.js"></script>
+		<script>
+			$(function(){
+				$("h3").click(function(){
+					$("h3").addClass("first");
+					$("#id").css("display","block");
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<h3><strong>如何使用叮当网购物</strong></h3>
+		<p>
+			<ul id="id">
+				<li>方法一：注册成为网站会员</li>
+				<li>方法二：使用合作企业账号登陆，如新浪微博、QQ、人人网账户</li>
+			</ul>
+		</p>
+	</body>
+</html>

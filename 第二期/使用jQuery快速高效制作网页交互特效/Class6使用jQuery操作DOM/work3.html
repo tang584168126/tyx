@@ -1,0 +1,68 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>会员信息</title>
+		<script src="js/jquery-1.11.2.js"></script>
+		<style type="text/css">
+			
+		</style>
+		<script>
+			$(function(){
+				$("input[type=image]").click(function(){
+					$(this).parent().parent().remove();
+				});
+				$("a").click(function(){
+					var $new = $("<tr>"
+					+"<td><input type='checkbox' name='first' />张三</td>"
+					+"<td>男</td>"
+					+"<td>123456789</td>"
+					+"<td>短工</td>"
+					+"<td>1111111</td>"
+					+"<td>1995-12-05</td>"
+					+"<td>16.000.00</td>"					
+					+"<td><input type='image' src='03 提供给学员的上机练习素材/练习3：制作会员信息模块/images/del.jpg' /></td>"
+					+"</tr>");
+					$("table").append($new);
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<table border="1">
+			<tr>
+				<td><input type="checkbox" name="first" />姓名</td>
+				<td>性别</td>
+				<td>卡号</td>
+				<td>会员级别</td>
+				<td>电话号码</td>
+				<td>出生年月</td>
+				<td>消费金额</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="first" />张三</td>
+				<td>男</td>
+				<td>123456789</td>
+				<td>短工</td>
+				<td>1111111</td>
+				<td>1995-12-05</td>
+				<td>16.000.00</td>
+				<td><input type="image" src="03 提供给学员的上机练习素材/练习3：制作会员信息模块/images/del.jpg" /></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="first" />张三</td>
+				<td>男</td>
+				<td>123456789</td>
+				<td>短工</td>
+				<td>1111111</td>
+				<td>1995-12-05</td>
+				<td>16.000.00</td>
+				<td><input type="image" src="03 提供给学员的上机练习素材/练习3：制作会员信息模块/images/del.jpg" /></td>
+			</tr>
+		</table>
+		<a>新增</a>
+	</body>
+</html>

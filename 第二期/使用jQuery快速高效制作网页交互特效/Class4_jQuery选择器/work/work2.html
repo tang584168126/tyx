@@ -1,0 +1,58 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>非缘勿扰</title>
+		<style type="text/css">
+			div{
+				width:155px;
+				height:500px;
+				float:left;
+			}	
+			#second{
+				width:112px;
+				height:33px;
+				background-image:url("images/btn.gif");
+			}
+			.first{
+				background-color:#E0F8EA;
+				color:#10A14B;
+				padding:2px;
+			}	
+		</style>
+		<script src="js/jquery-1.11.2.js"></script>
+		<script>
+			$(function(){
+				$("p").click(function(){
+					$("strong").css("color","#FF0099");
+				});
+				$("[class=a]").click(function(){
+					$("[class=a]").next().css("font-weight","bold");
+				});
+				$("[id=b]").click(function(){
+					$("[id=b]~span").addClass("first");
+				});
+				$("a").click(function(){
+					alert("您已成功收藏！");
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div>
+			<img src="images/pic.gif" />
+			<a href="#"><img src="images/col.gif" /></a>
+		</div>
+		<p>
+		<strong>非缘勿扰（共36集）</strong><br/>
+		<strong>主演：</strong>苏有朋/秦岚/傅艺伟等<br/>
+		<strong class="a">导演：</strong><span>赖水清</span><br/>
+		<strong id="b">标签：</strong><span>苏有朋</span> 国产电视剧 <span>2013</span> 连续剧<br/>
+		<strong>剧情：</strong>当代都市，大龄女刘琳、杨阳都在寻找着<br/>自己的如意郎君。刘琳偶遇陆氏房产总裁路西<br/>
+		落，两人成了欢喜冤家，遭到暗恋路西落的丁娟<br/>的记恨...<a href="#">点击获取更多</a>
+		</p><br/>
+		<input type="button" id="second" />
+	</body>
+</html>

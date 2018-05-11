@@ -1,0 +1,7 @@
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolDAL\bin\Debug\MySchoolDAL.dll
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolDAL\bin\Debug\MySchoolDAL.pdb
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolDAL\bin\Debug\MySchoolModel.dll
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolDAL\bin\Debug\MySchoolModel.pdb
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolDAL\obj\Debug\MySchoolDAL.dll
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolDAL\obj\Debug\MySchoolDAL.pdb
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolDAL\obj\Debug\MySchoolDAL.csprojResolveAssemblyReference.cache

@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>节点操作 </title>
+<script type="text/javascript" src="./js/jquery-1.8.3.min.js" ></script>
+<style type="text/css" >
+ 
+</style>
+<script type="text/javascript">
+	$(function(){
+		 $("li:last").click(function(){
+			alert(123);
+		 });
+		$("h2").click(function(){
+			//创建节点
+			var $obj = $("<li style='color:red'>熊出没</li>");
+			//添加节点
+			//$("ul").append($obj);
+			//$obj.appendTo($("ul"));
+			//添加到元素内部的前面
+			//$("ul").prepend($obj);
+			//$obj.prependTo($("ul"));
+			//添加同辈元素节点
+			//$("li:eq(1)").after($obj);
+			//$obj.insertAfter($("li:eq(0)"));
+			//$("li:eq(0)").before($obj);
+			//$obj.insertBefore($("li:eq(2)"));
+			//替换节点
+			//$("li:gt(0)").replaceWith($obj);
+			//$obj.replaceAll($("li:eq(1)"));
+			//复制元素
+			//$("li:eq(1)").clone(true).appendTo($("ul"));
+			//var $con = $("<div></div>").append($("li:last").clone()).html();
+			 //alert($con);
+			 //演示删除节点的操作
+			 //1.remove();
+			
+			 //var $del = $("li:last").remove();
+			 //alert($del.html());
+			 //$("ul").append($del);
+			 //2.detach()
+			// var $del = $("li:last").detach();
+			 //$("ul").prepend($del);
+			 //3.empty()
+			 $("li:last").empty();
+		});
+	});
+</script>
+</head>
+<body>
+
+<h2>热门动画排行</h2>
+<ul>
+  <li>名侦探柯南</li>
+    <li>阿拉蕾</li>
+  <li>海贼王</li>
+</ul>
+</body>
+</html>

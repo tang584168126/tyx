@@ -1,0 +1,2 @@
+E:\代码\第二期\深入.NET平台和C#编程\Class6\Demo4\Demo4\bin\Debug\Demo4.exe.config
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class6\Demo4\Demo4\bin\Debug\Demo4.exe.config

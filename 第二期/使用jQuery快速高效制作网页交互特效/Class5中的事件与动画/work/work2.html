@@ -1,0 +1,76 @@
+﻿<!DOCTYPE>
+
+<html>	
+	<head>
+		<meta  http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>登陆特效框</title>
+		<script src="js/jquery-1.11.2.js"></script>
+		<style type="text/css">
+			.first{
+				width:300px;
+				height:350px;
+				padding:0px;
+				border:0px;
+			}
+			.second{
+				width:280px;
+				margin-left:20px;
+				border:0px;
+				padding-top:10px;
+				height:60px;
+				background-color:#FEDFEC;
+			}
+			.third{
+				width:300px;
+				height:260px;
+				border:0px;
+				margin:0px;
+			}
+			.fouth{
+				height:30px;
+				border:0px;
+				margin:0px;
+				width:300px;
+				background-color:#FEDFEC;
+			}
+			img{
+				vertical-align:middle;
+			}
+			ul{
+				list-style-type:none;
+			}
+		</style>
+		<script>
+			$(function(){
+				$("[name=user]").focus(function(){
+					$(this).css("background","blue");
+				});
+				$("[name=user]").blur(function(){
+					$(this).css("background","#FFF");
+				});
+				$("[name=password]").focus(function(){
+					$(this).css("background","blue");
+				});
+				$("[name=password]").blur(function(){
+					$(this).css("background","#FFF");
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div class="first">
+			<div class="second">
+				<img src="images/7.gif" /><strong>登陆通行证</strong>
+			</div>
+			<div class="third">
+				<ul>
+					<p><li>账号：<input type="text" name="user" /></li></p>
+					<p><li>密码：<input type="password" name="password" /></li></p>
+					<p><li><input type="button" value="登陆" /><input type="button" value="注册" /></li></p>
+				</ul>
+			</div>
+			<div class="fouth">使用合作网站账号登陆<img src="images/9.gif" /><img src="images/8.gif" /></div>
+		</div>
+	</body>
+</html>

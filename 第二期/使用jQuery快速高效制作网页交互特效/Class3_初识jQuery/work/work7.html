@@ -1,0 +1,46 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>work7</title>
+		<style type="text/css">
+			div{
+				border:1px solid;
+				width:300px;
+				height:auto;
+			}
+			.first{
+				font-size:14px;
+				font-weight:bold;
+				color:write;
+				background-color:blue;
+			}
+			ul{
+				display:none;
+			}
+		</style>
+		<script src="js/jquery-1.11.2.js"></script>
+		<script>
+			$(function(){
+				$("h3").click(function(){
+					$("ul").css("display","block");
+					$("#d").addClass("first").next().css("font-size","14px");
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div>
+			<h3>新手指南</h3>
+			<ul>
+				<li id="d">会员注册</li>
+				<li>订阅更新</li>
+				<li>用户协议</li>
+				<li>常见问题</li>
+				
+			</ul>
+		</div>
+	</body>
+</html>

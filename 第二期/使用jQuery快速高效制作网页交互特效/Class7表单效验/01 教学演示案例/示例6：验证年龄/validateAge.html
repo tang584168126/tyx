@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>验证年龄</title>
+    <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+    <script type="text/javascript">
+
+        function checkAge() {
+            var age = $("#age").val();
+            var $ageId = $("#age_prompt");
+            //var regAge = /^[0]*(120|((1[0-1]|[1-9])?\d))$/m;
+            var regAge = /^120$|^((1[0-1]|[1-9])?\d)$/m;
+            //var regAge=/^[0-120]$/;
+            if (regAge.test(age) == false) {
+                $ageId.html("年龄不正确，请重新输入");
+                return false;
+            }
+            $ageId.html("");
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+   年龄： <input id="age" type="text" onblur="checkAge()" /><div id="age_prompt"></div>
+</body>
+</html>

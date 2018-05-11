@@ -1,0 +1,41 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>键盘事件</title>
+		<script src="js/jquery-1.11.2.js"></script>
+		<script>
+			$(function(){
+				$("[type=password]").keyup(function(){
+					$("#events").append("keyup");
+				}).keydown(function(){
+					$("#events").append("keydown");
+				}).keypress(function(){
+					$("#events").append("keypress");
+				});
+				$(document).keydown(function (event){
+					if(event.keyCode == "13"){
+						alert("确定要提交吗？");
+					}
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<dl>
+			<dt>用户名</dt>
+			<dd><input id="userName" type="text" /></dd>
+		</dl>
+		<dl>
+			<dt>密码</dt>
+			<dd><input id="password" type="password" /></dd>
+		</dl>
+		<dl>
+			<dt></dt>
+			<dd><input type="submit" value="登陆" /></dd>
+		</dl>
+		<span is="events"></span>
+	</body>
+</html>

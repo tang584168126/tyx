@@ -1,0 +1,334 @@
+第一章：深入.NET框架
+	.NET FRAMEWORK(.NET 框架)
+	
+	版本
+	
+			1.0
+			1.1 ==> Visual Studio2003
+			2.0 ==> Visual Studio2005
+			3.0 ==> Visual Studio2008
+			3.5 
+			4.0 ==> Visual Studio2010
+			4.5 ==> Visual Studio2012
+			
+	组成
+
+			1. CLR(Common Language Runtime)：公共语言运行时
+			
+					1)CTS(Common Type System):通用类型系统
+					
+					2)CLS(Common Language Specification):公共语言规范
+			
+			2.FCL(FrameWork Class Library):框架类库
+			
+	面向对象
+			特征
+					封装、继承、多态
+					
+			语法
+					public class 类名(
+							//字段
+							
+							//属性
+							
+							//方法
+						
+					)
+					
+	
+第二章：深入.NET数据类型
+	C#数据类型
+			值数据类型
+					int：整型
+					float：单精度浮点型
+					double：双精度浮点型
+					char：字符
+					bool：布尔值
+					enum：枚举
+					struct：结构
+							语法：
+									public struct 结构名
+									{
+										//字段
+										
+										//属性
+										
+										//方法
+									}
+							
+							与类(class)区别：
+									1.数据类型
+									
+									2.读取数据
+											结构读取速度快
+											
+									3.字段不能直接赋初值
+									
+									4.在没有属性的前提下，定义结构可以不用new
+									
+									5.使用场合:
+											结构：对象的字段较少并且修改不频繁
+											类：一般程序都用类
+			引用数据类型
+					string：字符串
+					数组：
+							int ==> 0
+							double ==> 0.0
+							bool ==> false
+							string ==> null
+					类的对象
+					接口
+					
+			值传递与引用传递
+					值传递：
+							传递值的副本，与值在方法中改变无关
+							
+					引用传递：
+							传递值的地址，与值在方法中改变相关
+							
+							
+第三章：使用集合组织相关数据
+	集合
+			ArrayList
+					1.命名空间：using System.Collections;
+					
+					2.元素类型：object
+					
+					3.应用：
+							1）获取ArrayList的长度：ArrayList名.Count
+							2)新增ArrayList的元素:ArrayList名.Add(值)
+							3）获取ArrayList的元素：ArrayList名[下标值]
+							4）删除ArrayList的元素：
+												ArrayList名.RemoveAt(下标值)
+												ArrayList名.Remove(对象名)
+												ArrayList名.Clear()
+												
+			HashTable
+					1.命名空间：using System.Collections;
+					
+					2.元素类型：object
+					
+					3.应用：
+							1)验证HashTable已存在某值：HashTable名.ContainsKey(键值);
+							2)新增HashTable的元素：HashTable名.Add(键值,值);
+							3)获取HashTable元素:HashTable名[键值];
+							4)删除HashTable元素：HashTable名.Remove(键值);
+							
+			List<T>	
+					1.命名空间：using System.Collection.Generic;
+					
+					2.元素类型：泛型(由使用时指定)
+					
+					3.应用：
+							1)获取List的长度：List名.Count
+							2)新增List元素：List名.Add(符合T数据类型的值)
+							3)获取List的元素：List[下标值]
+							4)删除List的元素：
+											List名.RemoveAt(下标值)
+											List名.Remov(符合T数据类型的值)
+											List名.Clear();
+											
+			Dictionary(K,V)	
+					1.命名空间：using System.Collection.Generic;
+					
+					2.元素类型：泛型
+					
+					3.应用：
+							1)验证Dictionary已存在某值：Dictionary名.ContainsKey(键值);
+							2)新增Dictionary的元素：Dictionary名，Add(键值,值)
+							3)获取Dictionary元素：Dictioanry名[键值]
+							4)删除Dictionary元素：Dictionary名.Remove(键值)
+											
+											
+第四章:深入类的方法
+	1.构造函数
+			1.语法：
+					public 类名()
+					{
+							//方法体
+					}
+					
+			2.执行
+					创建对象时执行
+					
+			3.类别：
+					1)隐式构造函数
+							类默认提供一个无参的构造函数，创建类时，可省略无参构造函数的编写
+							
+					2)显示构造函数
+							可以自行编写无参或有参的构造函数，当具备显示构造函数时，类不再默认提供无参构造函数
+							
+	2.方法的重载(Over)		
+			1.方法名相同
+			
+			2.参数不同
+					参数类型、参数个数、参数顺序
+					
+					
+第六章：继承和多态
+	面向对象的特点：封装、继承、多态
+	
+	继承：
+			1.定义：一个类继承另一个类，可以使用被继承类中的非私有的属性和方法
+			
+			2.组成：
+					父类(基类)
+					
+					子类(派生类)
+					
+			3.关系
+					is - a: A是B
+					
+			4.形式
+					public class 子类:父类
+			
+			5.执行
+					1)创建子类时，首先执行父类的构造函数，将执行子类构造函数
+					2)父类存在有无参构造函数时，需显示声明无参构造函数
+					3)父类存在有参构造函数时，子类若声明继承哪个构造函数，父类可以省略无参构造函数
+					
+			6.特性
+					1)传递性
+					2)单根性
+					
+	多态
+			父类
+					1.使用virtual关键字修饰方法，使之为虚方法
+					
+					2.使用abstract关键字修饰方法，使之为抽象方法，抽象方法没有方法体
+							1)拥有抽象方法的类一定为抽象类，需要使用abstract关键字修饰
+							2)抽象类不一定拥有抽象方法，也可以拥有其他方法
+			
+			子类
+					1.使用override关键字重写父类虚方法,对于父类的虚方法可以重写也可以不重写
+					
+					2.使用override关键字重写父类抽象方法，对于父类的抽象方法必须重写
+			
+			
+第七章 继承和多态的应用
+	1.历史替代原则
+			1)父类引用指向子类对象
+					类 父类引用 = new 子类();
+					
+			2)数据类型
+					编译时类型:指代程序编译时所拥有的类型
+					
+					运行时类型:指代程序运行时，数据类型被替代成为另一种类型使用
+					
+	2，is与as
+			1)is：判断对象是否与某类兼容
+			
+			2)as：将对象强制转化为某类对象，若转化失败，则以null赋值
+			
+	3.简单工厂模式	
+	
+	
+第八章 可扩展标记语言XML
+	读取Xml文件
+			1.引用命名空间
+					using System.XML;
+					
+			2.创建Xml文件类对象
+					XmlDocument objXmlDoc = new XmlDocument();
+					
+			3.加载Xml文件
+					objXmlDoc.LoadXml(@"文件地址");
+					
+			4.获取xml文件的根节点
+					xmlNode rootNote = objXmlDoc.DocumentElement;
+					
+			5.循环读取数据
+					foreach(xmlNode objNode1 in rootNote.ChildNodes)
+					{
+						switch(objNode1.Name)
+						{
+							case "Channel":
+								foreach(xmlNode objNode2 in objNode1.ChildNodes)
+								{
+									switch(objNode2.Name)
+									{
+									
+									}
+								}
+						}
+					}
+					
+					
+第九章 文件操作
+	文本文件的写入
+			1.引用命名空间
+					using System.IO;
+					
+			2.创建文件对话框
+					1)创建保存文件对话框对象
+							SaveFileDialog objSaveFile = new SaveFileDialog();
+							
+					2)筛选文件类型
+							objSaveFile.Filter = "文本文档(*.txt)|*.txt|所有文件(*.*)|*.*";
+							
+					3)打开文件对话框
+							objSaveFile.ShowDialog();
+							
+					4)获取文件路径
+							string strPath = objSaveFile.FileName;
+							
+			3.写入文件
+					1)创建文件流对象
+							FileStream objFS = new FileStream(strPath,FileMode.Create);
+							
+					2)创建文件写入器
+							StreamWriter objSW = new StreamWriter(objFS,Encoding.Default);
+							
+					3)写入内容
+							objSW.Write(文本内容);
+							
+					4)关闭文件写入器和文件流对象
+							objSW.Close();
+							objFS.Close();
+							
+	文本文件的读取
+			1.引用命名空间
+					using System.IO;
+					
+			2.创建文件对话框
+					1)创建打开打开文件对话框对象
+							OpenFileDialog objOpenFile = new OpenFileDialog();
+							
+					2)筛选文件类型
+							objOpenFile.Filter = "文本文档(*.txt)|*.txt|所有文件(*.*)|*.*";
+							
+					3)打开文件对话框
+							objOpenFile.ShowDialog();
+
+					4)获取文件路径
+							string strPath = objOpenFile.FileName;
+							
+			3.读取文件
+					1)创建文件流对象
+							FileStream objFS = new FileStream(strPath,FileMode.Open);
+							
+					2)创建文件读取器
+							StreamReader objSR = new StreamReader(objFS);
+							
+					3)读取内容
+							objSR.ReadToEnd();
+							
+					4)关闭文件读取器和文件流对象
+							objSR.Close();
+							objFS.Close();
+							
+							
+							//上传按钮事件
+							if(!string.IsNullOrEmpty(this.txtNote.Text.Trim()))
+							{
+								string upLodPath = System..Environment.CurrentDirectory + @"\images\";
+								
+								if(File.Exists(upLodPath))
+								{
+									File.Delete(upLodPath);
+								}
+								
+								File.Copy(this.txtNote.Text.Trim(),upLodPath);
+								
+								MessegeBox.Show("上传成功");
+							}

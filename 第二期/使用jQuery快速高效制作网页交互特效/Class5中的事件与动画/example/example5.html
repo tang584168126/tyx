@@ -1,0 +1,36 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>bind()绑定单个事件</title>
+		<script src="js/jquery-1.11.2.js"></script>
+		<script>
+			$(function(){
+				$("input[name=event_1]").bind(function(){
+					mouseover:function(){
+						$("ul").css("display","none");
+					},
+					mouse:function(){
+						$("ul").css("display","block");
+					}
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<h1>壹基金</h1>
+		<h2>简介</h2>
+		<p>2007年，李连杰先生创立启动了壹基金。深圳市壹基金公益基金会2010年12月3日在深圳市注册成立，是中国第一家民间公募基金会。</p>
+		<h2>战略及策略</h2>
+		<p>壹基金的公益愿景为“尽我所能，人人公益”。壹基金战略模式为“一个平台+三个领域，即搭建专业透明的壹基金公益平台。”</p>
+		<h2>公益活动</h2>
+		<ul>
+			<li>为爱同行</li>
+			<li>关注自闭儿童</li>
+			<li>雅安地震救援</li>
+		</ul>
+		<input name="event_1" type="button" value="绑定单个事件" />
+	</body>
+</html>

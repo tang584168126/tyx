@@ -1,0 +1,30 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>问答特效</title>
+		<style type="text/css">
+			h2{padding:5px;}
+			p{display:none;}
+		</style>
+		
+		<script src="js/jquery-1.11.2.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("h2").click(function(){
+					$("h2").css("background-color","#CCFFFF").next().css("display","block");
+				});	
+			});
+		</script>
+	</head>
+	
+	<body>
+		<h2>什么是受益人？</h2>
+		<p>
+			<strong>解答：</strong>
+			受益人是指人身保险中由被保险的人或者投保人指定的享有
+			保险金请求权的人，投保人、被保险人可以为受益人。
+		</p>
+	</body>
+</html>

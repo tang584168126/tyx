@@ -1,0 +1,9 @@
+E:\代码\第二期\深入.NET平台和C#编程\Class9\NotePat+++\NotePat+++\bin\Debug\NotePat+++.exe.config
+E:\代码\第二期\深入.NET平台和C#编程\Class9\NotePat+++\NotePat+++\obj\Debug\NotePat+++.exe
+E:\代码\第二期\深入.NET平台和C#编程\Class9\NotePat+++\NotePat+++\obj\Debug\NotePat+++.pdb
+E:\代码\第二期\深入.NET平台和C#编程\Class9\NotePat+++\NotePat+++\bin\Debug\NotePat+++.exe
+E:\代码\第二期\深入.NET平台和C#编程\Class9\NotePat+++\NotePat+++\bin\Debug\NotePat+++.pdb
+E:\代码\第二期\深入.NET平台和C#编程\Class9\NotePat+++\NotePat+++\obj\Debug\Txt.csprojResolveAssemblyReference.cache
+E:\代码\第二期\深入.NET平台和C#编程\Class9\NotePat+++\NotePat+++\obj\Debug\NotePat___.FrmMain.resources
+E:\代码\第二期\深入.NET平台和C#编程\Class9\NotePat+++\NotePat+++\obj\Debug\NotePat___.Properties.Resources.resources
+E:\代码\第二期\深入.NET平台和C#编程\Class9\NotePat+++\NotePat+++\obj\Debug\Txt.csproj.GenerateResource.Cache

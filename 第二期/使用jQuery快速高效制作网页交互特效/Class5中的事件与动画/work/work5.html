@@ -1,0 +1,60 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html charset=utf-8" />
+		<title>当当网</title>
+		<script src="js/jquery-1.11.2.js"></script>
+		<style type="text/css">
+			.first{
+				width:1040px;
+				height:872px;
+				background-image:url("images/13.jpg");
+				background-repeat:no-repeat;
+			}
+			.second{
+				position:relative;
+				top:235px;
+				left:230px;
+				height:28px;
+				width:800px;
+				border-bottom:1px solid;
+			}
+			.third{
+				position:relative;
+				top:235px;
+				left:230px;
+				height:480px;
+				width:800px;
+			}
+			.fouth{
+				height:26px;
+				width:70px;
+			}
+			.fifth{
+				height:26px;
+				width:100px;
+			}
+		</style>
+		<script>
+			$(function(){
+				$(".fouth").click{function(){
+					$(".third").css("background-image","url('images/14.jpg')");
+				}};
+				$(".fifth").click{function(){
+					$(".third").css("background-image","url('images/15.jpg')");
+				}};
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div class="first">
+			<div class="second">
+				<input type="button" class="fouth" value="我的订单" />
+				<input type="button" class="fifth" value="我的团购订单" />
+			</div>
+			<div class="third"></div>
+		</div>
+	</body>
+</html>

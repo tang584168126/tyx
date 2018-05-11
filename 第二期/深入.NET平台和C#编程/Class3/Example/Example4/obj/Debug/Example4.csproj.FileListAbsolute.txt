@@ -1,0 +1,9 @@
+F:\Program\Net\MyProgram\C#OOP\ch03\Example\Example4\bin\Debug\Example4.exe.config
+F:\Program\Net\MyProgram\C#OOP\ch03\Example\Example4\bin\Debug\Example4.exe
+F:\Program\Net\MyProgram\C#OOP\ch03\Example\Example4\bin\Debug\Example4.pdb
+F:\Program\Net\MyProgram\C#OOP\ch03\Example\Example4\obj\Debug\Example4.csprojResolveAssemblyReference.cache
+F:\Program\Net\MyProgram\C#OOP\ch03\Example\Example4\obj\Debug\Example4.FrmMain.resources
+F:\Program\Net\MyProgram\C#OOP\ch03\Example\Example4\obj\Debug\Example4.Properties.Resources.resources
+F:\Program\Net\MyProgram\C#OOP\ch03\Example\Example4\obj\Debug\Example4.csproj.GenerateResource.Cache
+F:\Program\Net\MyProgram\C#OOP\ch03\Example\Example4\obj\Debug\Example4.exe
+F:\Program\Net\MyProgram\C#OOP\ch03\Example\Example4\obj\Debug\Example4.pdb

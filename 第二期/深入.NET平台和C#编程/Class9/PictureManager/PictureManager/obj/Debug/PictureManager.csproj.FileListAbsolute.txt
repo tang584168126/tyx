@@ -1,0 +1,1 @@
+E:\代码\第二期\深入.NET平台和C#编程\Class9\PictureManager\PictureManager\bin\Debug\PictureManager.exe.config

@@ -1,0 +1,19 @@
+package exm5;
+
+/**
+ * ≤‚ ‘¿‡
+ * @author Administrator
+ *
+ */
+public class Test {
+
+	public static void main(String[] args){
+		Bird bird = new Bird(4,"∫Ï…´");
+		bird.info();
+		
+		System.out.println();
+		
+		Fish fish = new Fish(2,"5ΩÔ");
+		fish.info();
+	}
+}

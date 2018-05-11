@@ -1,0 +1,41 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html charset=utf-8" />
+		<title>登陆</title>
+		<script src="js/jquery-1.11.2.js"></script>
+		<style type="text/css">
+			.first{
+				width:450px;
+				height:250px;
+				border:1px solid;
+			}
+			ul{
+				list-style-type:none;
+			}
+		</style>
+		<script>
+			$(function(){
+				$("input[name=user]").focus(function(){
+					$(this).css("border-color","green");
+				});
+				$("input[name=user]").blur(function(){
+					$(this).css("border-color","#fff");
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div class="first">
+			<img src="images/23.jpg" />
+			<ul>
+				<p><li>用户名：<input type="text" name="user" /><li></p>
+				<p><li>&nbsp;密码：<input type="password" name="user" />忘记密码<li></p>
+				<p><li>验证码：<input type="text" name="user" size="8" /><img src="images/20.jpg" />换张图<li></p>
+			</ul>
+			<img src="images/22.jpg" />
+		</div>
+	</body>
+</html>

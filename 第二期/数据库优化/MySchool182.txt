@@ -1,0 +1,56 @@
+use master
+
+if exists(select * from sysdatabases where name = 'MySchool182')
+		drop databases MySchool182
+		
+create database MySchool182
+on primary
+(
+	name = 'MySchool182',
+	filename = 'E:\代码\数据库优化',
+	size = 5,
+	maxsize = 100,
+	filegrowth = 1MB,
+)
+log on
+(
+	name = 'MySchool182_log',
+	filename = 'E:\代码\数据库优化',
+	size = 3,
+	maxsize = 50,
+	filegrowth = 1MB,
+)
+
+use MySchool182
+
+if exists(select * from sysobjects where name = 'Student')
+		drop table Student
+		
+if exists(select * from sysobjects where name = 'Grade')
+		drop table Grade
+
+if exists(select * from sysobjects where name = 'Subject')
+		drop table Subject
+
+if exists(select * from sysobjects where name = 'Result')
+		drop table Result		
+		
+create table Student
+(
+	StudentNo int not null,
+	LoginPwd nvarchar(20) not null,
+	StudentName nvarchar(20) not null,
+	Sex bit not null,
+	GradeId int not null,
+	Phone nvarchar(50) not null,
+	BornDate datetime not null,
+	Address nvarchar(255),
+	Email nvarchar(50),
+	IDENTITYCard int not null,
+)		
+
+create table Grade
+(
+	GradeId int identity(1,1) not null,
+	GradeName nvarchar(50) not null,
+)

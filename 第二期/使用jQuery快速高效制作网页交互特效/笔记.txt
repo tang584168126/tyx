@@ -1,0 +1,176 @@
+S2T182_唐宇翔——jQuery第一章
+
+第一章：javascript基础
+声明数组
+var array = [];
+array[0] = 123;
+array[1]=true;
+array.push(null);
+for(var i =0;i<array.length;i++){
+	document.write(array[i] + "<br/>");
+}
+
+isNaN:is not a number
+
+
+第二章：JavaScript对象
+BOM：浏览器对象模型
+DOM：文档对象模型location.href="url":在jsp页面中的定位用的比较多
+
+history对象
+1.浏览器前进一个页面：history.forword();或history.go(1);
+2.浏览器后退一个页面:heistory.back();或history.go(-1);
+location对象
+1.重载：reload();
+2.属性：href
+	location.href="url"
+	
+<a href="javascript:void(0) onclick="show()"></a>	
+javascript:void(0)在<a>中的使用
+
+obj.style.width='100px';
+
+随机数：Math.random()*(最大数-最小数+1) + 小;
+
+基本过滤选择器
+	li:first
+	li:last
+	li:ewen ==>奇数行(偶数索引)
+	li:odd ==>偶数行(奇数索引)
+	li:eq(index) index ==>索引
+	li:gt(index)查找索引打印index的元素
+	li:lt(index)查找索引小于index的元素
+	:focus==>获取焦点的元素
+可见过滤选择器
+	$(":visible")查找可见的元素
+	$(":hidden")查找不可见的元素
+	显示:show()
+	隐藏:hide()
+
+第三章：初识jQuery
+jQuery是javascript的一个子库
+体积小：轻量级
+function(){} ==>回执/回调函数
+HTML:超文本标记语言
+DOM：Document Object Modal文档对象模型
+节点对象就是DOM对象
+1.节点元素：标签
+2.文本元素：文本内容
+3.属性元素：属性和属性值
+
+$ ==》jQuery防止命名冲突
+
+this为当前产生事件的节点对象
+
+实践要求：
+1.jQuery的语法结构
+2.jQuery的基本选择器：ID、标签
+3.基本方法：css("属性名","属性值")；addClass("类样式名")
+4.基本事件：click();
+click(function(){
+	//代码
+});
+5.DOM对象与jQuery对象互相转化
+	DOM对象 ==> jQuery对象
+	1.使用javascript的方式获取元素(三种方式)
+		最常用的方式：
+		var obj = document.getElementById("id属性值");
+	2.讲DOM转成jQuery对象
+		var $obj = $(obj);
+	jQuery 对象 ==> DOM对象
+	var $obj = $(selector);//jquery	对象
+	var obj = $obj[0];//DOM对象
+	var obj = $obj.get(0);//DOM对象
+	
+	经典布局方式
+	div-ul-li:导航栏
+	浮动：float
+	取消li标签的style:list-style:none;
+	常用样式
+	1.字体样式
+	2.文本样式
+	3.标签样式
+
+	
+第四章：jQuery选择器	
+1.基本选择器
+	ID选择器
+		$("#id名");
+	类选择器
+		$(".类名");
+	标签选择器
+		$("表签名");
+	并集选择器
+		$("h2,.title");
+	交集选择器
+		$("h2.title");
+	全局选择器
+		$("*");
+2.层次选择器
+	后代选择器
+		$("h2 .title");空格符号
+	子选择器
+		$("h2>.title");
+	相邻选择器：下一个相邻的同辈元素
+		$("div+span");
+	同辈元素选择器：后面所有同辈元素
+		$("div~span");
+属性选择器：使用"[]"
+	$("[title^=s]");title的属性以s开头
+	$("[title$=s]");title的属性值以s结尾
+	$("[title*=s]");title的属性值包含s
+	$("[title!=s]");title的属性值不等于s
+	
+	
+第五章：jQuery中的事件与动画
+	//判断用户点击鼠标的左(1)、右(3)键
+	$(document).mousedown(function(event){
+		alert(event.which);
+	});
+	事件
+	1.window事件(jQuery:ready();javascript:window.onload)
+	2.鼠标事件：
+		mouseover:鼠标移过
+		mouseout:鼠标移除
+		click:单机事件
+		mousedown:按下鼠标事件
+		dblclick:双击事件
+	3.键盘事件：
+		keydown:所有按键有效
+		keypress:只针对可打印字符有效
+		keyup:松开按键
+	4.表单事件：
+		focus:获取焦点
+		blur:失去焦点
+	伪类样式：
+		1.visited
+		2.hover
+		3.active
+		4.link
+		
+		
+第六章：使用jQuery操作DOM
+	html()与text()区别
+		1.html()：获取的是节点中所有的内容，包含标签和文本
+		text():只获取节点中的文本内容(不会获取标签)
+		2.html("参数")：设置节点中的html结构(会把标签元素解析成标签)
+		text("参数")：设置节点中的文本(会把标签元素当成文本进行设置)
+		live()
+		find():
+			$("li").find("hot");
+			筛选出li元素，然后在所有的li元素中去找含义class=hot的元素
+		filter():
+			$("li").filter("hot");
+			找出元素，筛选出class=hot的li元素
+		
+第七章表单校验		
+	表单验证的常用方式：
+		1.非空验证
+		2.长度验证
+		3.是否含有某个字符
+		4.输入合法性验证
+		
+	表单提交之前如何进行表单验证：
+		1.使用jQuery的submit();
+		2.使用javascript中的form的onsubmit
+			<form onsubmit="return 函数();"></form>

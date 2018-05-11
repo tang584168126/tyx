@@ -1,0 +1,32 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>鼠标事件</title>
+		<script src="js/jquery-1.11.2.js"></script>
+		<script>
+			$(function(){
+				$("#nav li").mouseover(function(){
+					$(this).addClass("heightlight");
+				});
+				$("#nav li").mouseout(function(){
+					$(this).removeClass();
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div id="nav">
+			<ul>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">服装城</a></li>
+				<li><a href="#">电器城</a></li>
+				<li><a href="#">易购超市</a></li>
+				<li><a href="#">易购团</a></li>
+				<li><a href="#">在线游戏</a></li>
+			</ul>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>work6</title>
+		
+		<script src="js/jquery-1.11.2.js"></script>
+		<script>
+			$(function(){
+				var oInput = document.getElementById("d");
+				var $oInput = $(oInput);
+				$oInput.click(function(){
+					if(oInput.checked == true){
+						alert("操作成功，感谢你的使用！");
+					}
+				});	
+			});
+		</script>
+	</head>
+	
+	<body>
+		<form method="post" >
+			<input type="checkbox" id="d" />接受服务条款
+		</form>
+	</body>
+</html>

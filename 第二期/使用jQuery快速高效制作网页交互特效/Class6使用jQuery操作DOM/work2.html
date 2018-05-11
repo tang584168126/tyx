@@ -1,0 +1,68 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>登陆框</title>
+		<script src="js/jquery-1.11.2.js"></script>
+		<style type="text/css">
+			.one{
+				background-image:url("03 提供给学员的上机练习素材/练习2：制作YY安全中心登录框特效/images/bg.jpg");
+				background-repeat:no-repeat;
+				width:494px;
+				height:282px;
+			}
+			.two{
+				position:absolute;
+				left:200px;
+				top:117px;				
+			}
+			.three{
+				position:absolute;
+				left:200px;
+				top:157px;	
+			}
+			.four{
+				position:absolute;
+				left:200px;
+				top:180px;
+			}
+		</style>
+		<script>
+			$(function(){
+				$(".two").focus(function(){
+					var val1 = $(this).val();
+					if(val1 == "通行证账号/邮箱"){
+						$(this).val("");
+					}
+				});
+				$(".two").blur(function(){
+					var val2 = $(this).val();
+					if(val2 == ""){
+						$(this).val("通行证账号/邮箱");
+					}
+				});
+				$(".three").focus(function(){
+					var val1 = $(this).val();
+					if(val1 == "密码"){
+						$(this).val("");
+					}
+				});
+				$(".three").blur(function(){
+					var val2 = $(this).val();
+					if(val2 == ""){
+						$(this).val("密码");
+					}
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div class="one">
+			<input type="text" class="two" size="24" value="通行证账号/邮箱" />
+			<input type="text" class="three" size="24" value="密码" />
+			<input type="image" class="four" src="03 提供给学员的上机练习素材/练习2：制作YY安全中心登录框特效/images/btn.jpg" />
+		</div>
+	</body>
+</html>

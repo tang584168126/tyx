@@ -1,0 +1,2 @@
+[Log4jTest.java]2015-01-12 16:55:35 DEBUG com.cdqy.demo4.Log4jTest.main(Log4jTest.java:24) 除数为零
+[Log4jTest.java]2015-01-12 17:04:24 ERROR com.cdqy.demo4.Log4jTest.main(Log4jTest.java:24) 除数为零

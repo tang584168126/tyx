@@ -1,0 +1,56 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html charset=utf-8" />
+		<title>购物特权</title>
+		<script src="js/jquery-1.11.2.js"></script>
+		<style type="text/css">
+			ul{
+				width:300px;
+				height:auto;
+			}
+			li{
+				border-left:0px;
+			}
+			#b{
+				list-style-type:none;
+				padding-left:4px;
+			}
+			.first{
+				display:none;
+			}
+			div{
+				align:center;
+				background-image:url("images/16.jpg");
+				width:47px;
+				height:11px;
+			}
+		</style>
+		<script>
+			$(function(){
+				$("div").click(function(){
+					if($(".first").is(":visible")){
+						$(".first").css("display","none");
+						$("div").css("background-image","url('images/16.jpg')");
+						return;
+					}
+					$(".first").css("display","block");
+					$("div").css("background-image","url('images/19.jpg')");					
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<ul>
+			<li id="b"><strong>全部商品详细分类</strong></li>
+			<li>唯品会</li>
+			<li>图书信箱数学馆</li>
+			<li>美妆个护</li>
+			<li class="first">珠宝饰品</li>
+			<li class="first">电脑办公</li>
+			<div></div>
+		</ul>
+	</body>
+</html>

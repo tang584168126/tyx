@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>节点遍历</title>
+<script type="text/javascript" src="./js/jquery-1.8.3.min.js" ></script>
+<style type="text/css" >
+ .hot{
+	 color:#F00;
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+
+</style>
+<script type="text/javascript">
+	$(function(){
+		//获取body中的所有子元素
+		//var size = $("body").children().length;
+		//alert(size);
+		//设置第二个li的背景色
+		//$("li:eq(0)").next().css("background","#ccc");
+		//上一个同辈元素
+		//$("li:eq(1)").prev().css("background","blue");
+		//所有的同辈元素
+		//$("li:eq(0)").siblings().css("background","#09F");
+		//设置.hot的祖先元素的背景色
+		//$(".hot").parents().css("background","#ccc");
+	//	$("li").each(function(i){
+		//	var str = $(this).html();
+		//	alert(i);
+		//});
+		 var str = $("li").find(".hot").length;
+		 //var str = $("li").filter(".hot").html();
+		 alert(str);
+	});
+</script>
+</head>
+<body>
+
+<img src="images/ad.jpg" alt="美梦成真系列抽奖" />
+<ul>
+  <li><a href="#">小米的MI 2手机</a><span class="hot">火爆销售中</span></li>
+  <li class="hot"><a href="#">苹果iPad mini</a></li>
+  <li><a href="#">三星GALAXY Ⅲ</a></li>
+<li><a href="#">苹果iPhone 5</a></li>
+</ul>
+</body>
+</html>

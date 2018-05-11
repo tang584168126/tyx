@@ -1,0 +1,65 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+		<title>保险</title>
+		<script src="js/jquery-1.11.2.js"></script>
+		<style type="text/css">
+			.first{
+				width:730px;
+				height:35px;
+				padding:0px;
+			}
+			.second{
+				width:730px;
+				height:auto;
+			}
+			.third{
+				width:16px;
+				height:16px;
+				background-image:url("images/+.jpg");
+				background-repeat:no-repeat;
+				float:left;
+			}
+			.fouth{
+				float:left;
+			}
+			ul{
+				display:none;
+				list-style-type:none;
+			}
+		</style>
+		<script>
+			$(function(){
+				$(".first").mouseover(function(){
+					$(this).css("background-image","url('images/11.jpg')");
+				});
+				$(".first").mouseout(function(){
+					$(this).css("background","#fff");
+				});
+
+				$(".first").click(function(){
+					if($("ul").is(":visible")){
+						$(".third").css("background-image","url('images/+.jpg')");
+						$("ul").slideUp("slow");
+						return;
+					}
+					$(".third").css("background-image","url('images/10.jpg')");
+					$("ul").slideDown(1500);
+				});			
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div class="first">
+			<a href="#"><div class="third"></div>
+			<div class="fouth">什么是人生保险？</div></a>
+		</div>
+		<ul>
+			<li><img src="images/12.jpg" /></li>
+			<li>人寿保险是以人的寿命和身体为保险标的保险。当被保险人发现死亡、伤残、疾病、年老等风险事故时或者达到合同约<br/>定的年龄、期限时。保险公司按照保险合同约定提供经济补偿或给付保险金。人寿保险具有保值和长期粗存功能。可以<br/>用于为人民的生活进行长期财务规划。</li>
+		</ul>
+	</body>
+</html>

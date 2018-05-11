@@ -1,0 +1,9 @@
+E:\代码\第二期\深入.NET平台和C#编程\Class9\TestBook\TestBook\bin\Debug\TestBook.exe.config
+E:\代码\第二期\深入.NET平台和C#编程\Class9\TestBook\TestBook\obj\Debug\TestBook.csprojResolveAssemblyReference.cache
+E:\代码\第二期\深入.NET平台和C#编程\Class9\TestBook\TestBook\obj\Debug\TestBook.FrmMain.resources
+E:\代码\第二期\深入.NET平台和C#编程\Class9\TestBook\TestBook\obj\Debug\TestBook.Properties.Resources.resources
+E:\代码\第二期\深入.NET平台和C#编程\Class9\TestBook\TestBook\obj\Debug\TestBook.csproj.GenerateResource.Cache
+E:\代码\第二期\深入.NET平台和C#编程\Class9\TestBook\TestBook\bin\Debug\TestBook.exe
+E:\代码\第二期\深入.NET平台和C#编程\Class9\TestBook\TestBook\bin\Debug\TestBook.pdb
+E:\代码\第二期\深入.NET平台和C#编程\Class9\TestBook\TestBook\obj\Debug\TestBook.exe
+E:\代码\第二期\深入.NET平台和C#编程\Class9\TestBook\TestBook\obj\Debug\TestBook.pdb

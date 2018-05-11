@@ -1,0 +1,18 @@
+<World>
+	<Prefecture>
+		<Name>亚洲</Name>
+		<Country>
+			<Name>中国</Name>
+			<Capital>北京</Capital>			<!--首都-->
+			<Leader>胡景涛</Leader>			<!--领导人-->
+			<Population>13亿</Population>	<!--人口-->
+		</Country>
+		
+		<Country>
+			<Name>日本</Name>
+			<Capital>东京</Capital>			<!--首都-->
+			<Leader>安倍敬三</Leader>			<!--领导人-->
+			<Population>13亿</Population>	<!--人口-->
+		</Country>
+	</Prefecture>
+</World>

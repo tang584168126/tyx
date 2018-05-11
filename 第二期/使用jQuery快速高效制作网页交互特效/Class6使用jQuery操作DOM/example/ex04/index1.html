@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>text()的应用</title>
+		<script type="text/javascript" src="../../js/jquery-1.8.3.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var html_txt=$("div.left").text();
+				alert(html_txt);
+				$("input[type=button]").click(function(){
+					$("div.left").text("<div class='content'><h2>良好的习惯从今天开始养成</h2></div>")
+				})
+			});
+		</script>
+	</head>
+	<body>
+		<div class="left">文本内容</div>
+		<input type="button" value="改变文本内容"/>
+	</body>
+</html>

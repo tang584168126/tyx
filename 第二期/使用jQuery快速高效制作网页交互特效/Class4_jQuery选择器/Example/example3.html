@@ -1,0 +1,30 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>example1</title>
+		<script src="js/jquery-1.11.2.js"></script>
+		<script>
+			$(function(){
+				$("[type=button]").click(function(){
+					$("[name][type=text]").css("background-color","#09F");
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<form method="post" action="">
+			姓名：<input type="text" /><br/>
+			性别：<input type="radio" value="男" />/男&nbsp;<input type="radio" value="女" />女<br/>
+			年龄：<input type="text" /><br/>
+			爱好：<input type="checkbox" name="a" value="游泳" />游泳&nbsp;
+			<input type="checkbox" name="a" value="篮球" />篮球&nbsp;
+			<input type="checkbox" name="a" value="足球" />足球&nbsp;
+			<input type="checkbox" name="a" value="写作" />写作&nbsp;
+			<input type="checkbox" name="a" value="旅游" />旅游<br/>
+			<input type="button" value="提交" />
+		</form>
+	</body>
+</html>

@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="zh-CN" />
+	<meta name="Keywords" content="" />
+	<meta name="Description" content="" />
+	<link rel="stylesheet" href="style/.css" type="text/css" />
+	<script src="js/jquery-1.8.0.js"></script>
+	<style>
+		ul{
+			list-style:none;
+		}
+		#help{
+			border:1px solid red;
+			width:100px;
+			padding-left:0px;
+			float:left;
+		}
+		#help ul{
+			padding-left:20px;
+			display:none;
+			border-bottom:1px solid #ccc;
+			font-size:12px;
+		}
+		#help div{
+			border-bottom:1px solid #ccc;
+			padding-left:10px;
+		}
+		/*操作流程的样式*/
+		#flow{
+			border:1px solid blue ;
+			width:710px;
+			height:36px;
+			padding-left:0px;
+			float:left;
+			margin-left:50px;
+		}
+		#flow li{
+			float:left;
+			width:140px;
+			text-align:center;
+			cursor:pointer;
+		}
+		#flow li a{
+			text-decoration:none;
+			font-size:12px;
+			line-height:36px;
+			color:#000;
+		}
+		.bg1{
+			background:url(images/news_bghover.gif) no-repeat;
+			background-position:0px 0px;
+		}
+		.bg2{
+			background:url(images/news_bghover.gif) no-repeat;
+			background-position:0px -36px;
+		}
+		.bg3{
+			background:url(images/news_bghover.gif) no-repeat;
+			background-position:0px -72px;
+		}
+		.bg4{
+			background:url(images/news_bghover.gif) no-repeat;
+			background-position:0px -108px;
+		}
+		.bg5{
+			background:url(images/news_bghover.gif) no-repeat;
+			background-position:0px -144px;
+		}
+	</style>
+	<script>
+		$(function(){
+			$("#help div").click(function(){
+				if($(this).next().css("display")=='none'){
+					$("#help ul").slideUp();
+					$(this).next().slideDown();
+				}
+			});
+		});
+		$(function(){
+			//默认选中第一个
+			$("#flow").addClass("bg1");
+			//设置文本颜色
+			$("#flow li:first a").css("color","#fff");
+			$("#flow li").mouseover(function(){
+				var index = $("#flow li").index($(this))+1;
+				$("#flow").removeClass().addClass("bg"+index);
+				$("#flow li a").css("color","#000");
+				$(this).find("a").css("color","#fff");
+			});
+		});
+	</script>
+</head>
+<body
+>
+	<ul id="help">
+		<li>
+		<div>账号管理</div>
+		<ul>
+			<li>账号管理1</li>
+			<li>账号管理1</li>
+			<li>账号管理1</li>
+			<li>账号管理1</li>
+		</ul>
+		</li>
+		<li>
+		<div>购物指南</div>
+		<ul>
+			<li>购物指南1</li>
+			<li>购物指南1</li>
+			<li>购物指南1</li>
+			<li>购物指南1</li>
+		</ul>
+		</li>
+		<li>
+		<div>配送方式</div>
+		<ul>
+			<li>配送方式1</li>
+			<li>配送方式1</li>
+			<li>配送方式1</li>
+			<li>配送方式1</li>
+		</ul>
+		</li>
+		<li>
+			<div>支付方式</div>
+			<ul>
+				<li>支付方式1</li>
+				<li>支付方式1</li>
+				<li>支付方式1</li>
+				<li>支付方式1</li>
+			</ul>
+		</li>
+	</ul>
+<!--操作流程开始处-->
+<ul id="flow">
+	<li><a href="#">1.新用户注册</a></li>
+	<li><a href="#">2.挑选商品</a></li>
+	<li><a href="#">3.确认下单</a></li>
+	<li><a href="#">4订单跟踪</a></li>
+	<li><a href="#">5验货签收</a></li>
+</ul>
+<!--操作流程结束-->
+<!--底部-->
+</body>
+</html>

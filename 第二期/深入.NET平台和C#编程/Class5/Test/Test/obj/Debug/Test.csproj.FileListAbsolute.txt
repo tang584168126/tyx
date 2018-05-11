@@ -1,0 +1,9 @@
+E:\代码\第二期\深入.NET平台和C#编程\Class5\Test\Test\bin\Debug\Test.exe.config
+E:\代码\第二期\深入.NET平台和C#编程\Class5\Test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+E:\代码\第二期\深入.NET平台和C#编程\Class5\Test\Test\obj\Debug\Test.frmMain.resources
+E:\代码\第二期\深入.NET平台和C#编程\Class5\Test\Test\obj\Debug\Test.Properties.Resources.resources
+E:\代码\第二期\深入.NET平台和C#编程\Class5\Test\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+E:\代码\第二期\深入.NET平台和C#编程\Class5\Test\Test\bin\Debug\Test.exe
+E:\代码\第二期\深入.NET平台和C#编程\Class5\Test\Test\bin\Debug\Test.pdb
+E:\代码\第二期\深入.NET平台和C#编程\Class5\Test\Test\obj\Debug\Test.exe
+E:\代码\第二期\深入.NET平台和C#编程\Class5\Test\Test\obj\Debug\Test.pdb

@@ -1,0 +1,39 @@
+﻿<!DOCTYP>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>网站左导航</title>
+		<style type="text/css">
+			li{
+				list-style:none;
+				line-height:22px;
+				cursor:pointer;
+			}
+			.current{
+				background:#6cf;
+				font-weight:bold;
+				color:#fff;
+			}
+		</style>
+		
+		<script src="js/jquery-1.11.2.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("li").click(function(){
+					$("#current").addClass("current");
+				})
+			});
+		</script>
+	</head>
+	
+	<body>
+		<ul>
+			<li id="current">jQuery简介</li>
+			<li>jQuery语法</li>
+			<li>jQuery选择器</li>
+			<li>jQuery事件与动画</li>
+			<li>jQuery方法</li>
+		</ul>
+	</body>
+</html>

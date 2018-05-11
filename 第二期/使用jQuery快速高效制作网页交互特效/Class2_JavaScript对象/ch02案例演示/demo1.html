@@ -1,0 +1,24 @@
+﻿<!DOCTYPE>
+<html >
+<head>
+	<title></title>
+	<script>
+		//	打开新窗口
+		function open1(){
+			window.open("adv.html","width=500,height=500");
+		}
+		function open2(){
+			var result = confirm("确认关闭?");
+			alert(result);
+		}
+		function open3(){
+			window.close();
+		}
+	</script>
+</head>
+<body>
+<input type="button" value="打开新窗口" onclick="open1()"/><br/>
+<input type="button" value="打开确认对话框" onclick="open2()"/><br/>
+<input type="button" value="关闭窗口" onclick="open3()"/><br/>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>追加和移除类样式</title>
+<script type="text/javascript" src="./js/jquery-1.8.3.min.js" ></script>
+<style type="text/css" >
+*{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+}
+.style1 {font-size:14px; color:#03F; }
+.style2 {background-color:#FFFF00; padding:10px; }
+.style3 {border:1px dashed #333; }
+.style4{text-align:center;}
+</style>
+<script type="text/javascript">
+	$(function(){
+		$("h2").hover(function(){
+			$(this).addClass("style2 style3 style4");
+		},function(){
+			$(this).removeClass("style2 style4");
+		});
+	});
+
+</script>
+</head>
+<body>
+
+ <h2 class="style1" >addClass()可为元素追加多个类样式</h2>
+
+</body>
+</html>

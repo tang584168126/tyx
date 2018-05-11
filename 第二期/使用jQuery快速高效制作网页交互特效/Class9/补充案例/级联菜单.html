@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="zh-CN" />
+	<meta name="Keywords" content="" />
+	<meta name="Description" content="" />
+	<link rel="stylesheet" href="style/.css" type="text/css" />
+	<script src="js/jquery-1.8.0.js"></script>
+	<style>
+		
+	</style>
+	<script>
+	/**
+	*使用二维数组来演示级联菜单
+	*/
+		//班级
+		//var classes=['s1t192','s2t182','y2t170'];
+		var classes = new Array();
+		//学生列表
+		classes["s1t192"]=["张三","李四","王五"];
+		classes["s2t182"]=["小月月","小赖","小陈","旺旺","xxx"];
+		classes["y2t170"]=["大志","帕克","肖恩"];
+		$(function(){
+			var $items='';
+			for(var c in classes){  //c代表的是班级,因为classes是个二维数组
+				$items +="<option value='"+c+"'>"+c+"</option>";
+			}
+			//默认讲班级放在班级列表
+			$("#class").append($items);
+			//为班级下拉列表设置change事件(javascript中交onchange())
+			$("#class").change(function(){
+				//获取班级
+				var c = $(this).val();
+				var $stu =$("#stu");
+				if(c=="请选择班级"){
+					$stu.html("<option value='请选择学生'>请选择学生</option>");
+				}else{
+					var stus = classes[c];
+					var html="<option value='请选择学生'>请选择学生</option>";
+					for(var i in stus ){ //i代表的是索引,因为stus是一位数组
+						html+="<option value='"+stus[i]+"'>"+stus[i]+"</option>"//代码B
+					}
+					//遍历也可以使用以下代码实现
+				/*	$.each(stus,function(i,stu){//jQuery的通用遍历方法,查询帮助文档,仔细阅读
+						//i.代表索引,stu代表的是当前的遍历到的元素
+						html+="<option value='"+stu+"'>"+stu+"</option>";
+					});  */
+					$stu.html(html);
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+	<p>
+		班级:<select id="class"><option value="请选择班级名称"  >请选择班级名称</option></select>
+		学生:<select id="stu"><option value="请选择学生">请选择学生</option></select>
+	</p>
+</body>
+</html>

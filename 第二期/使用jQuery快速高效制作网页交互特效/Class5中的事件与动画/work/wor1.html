@@ -1,0 +1,76 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html charset=utf-8" />
+		<title>购物特权</title>
+		<script src="js/jquery-1.11.2.js"></script>
+		<style type="text/css">
+			.first{
+				width:180px;
+				height:auto;
+				background-color:#FE9837;
+				margin:0px;
+			}
+			.second{
+				background-color:#AD0000;
+				padding:0px;
+				border:0px;
+				height:50px;
+				width:10px;
+				float:left;
+				margin:0px;
+			}
+			.third{
+				font-size:16px;
+				font-weight:bolder;
+				float:left;
+				padding-top:15px;
+				padding-left:20px;
+				border:0px;
+				height:35px;
+				width:150px;
+				background-color:#FE9837;
+			}
+			ul{
+				list-style-type:none;
+				display:none;
+				line-height:20px;
+			}
+			img{
+				vertical-align:middle;
+			}
+		</style>
+		<script>
+			$(function(){
+				$("a").click(function(){
+					if($("ul").css("display")=="block"){
+						$("ul").css("display","none");
+					}else{
+						$("ul").css("display","block");
+					}					
+				});
+				$("li").mouseover(function(){
+					$(this).css("background-color","#AD0000");
+				});
+				$("li").mouseout(function(){
+					$(this).css("background-color","#FE9837");
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div class="first">
+			<div class="second"></div>
+			<a href="#"><div class="third">购物特权</div></a>
+			<ul>
+				<li><img src="images/2.gif" />全额兑换</li>
+				<li><img src="images/4.gif" />俱乐部包邮卡</li>
+				<li><img src="images/1.gif" />购物领金币</li>
+				<li><img src="images/3.gif" />每日领金币</li>
+				<li><img src="images/5.gif" />VIP阶梯价</li>
+			</ul>
+		</div>
+	</body>
+</html>

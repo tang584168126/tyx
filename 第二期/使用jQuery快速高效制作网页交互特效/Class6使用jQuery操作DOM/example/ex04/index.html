@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>获取元素中的html代码</title>
+		<style type="text/css">
+			*{
+				margin:0px;
+				padding:0px;
+				font-size:12px;
+			}
+			#mainbox{
+				float:left;}
+			input{
+				display:block;
+				float:left;
+			}
+			.content{
+				background-color:#F00;
+				height:200px;
+			}
+		</style>
+		<script type="text/javascript" src="../../js/jquery-1.8.3.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var html_txt=$("div.left").html();
+				alert(html_txt);
+				$("input[type=button]").click(function(){
+					$("div.left").html("<div class='content'><h2>良好的习惯从今天开始养成</h2></div>")
+				})
+			});
+		</script>
+	</head>
+	<body>
+			<div id="mainbox">
+			  <h1>飘飞雨絮</h1>
+			  <div class="left"> <img src="headimg.jpg" width="100" height="100" />
+			    <p>心情头像</p>
+			  </div>
+			</div>
+			<input type="button" value="单击改变内容" />
+	</body>
+</html>

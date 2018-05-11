@@ -1,0 +1,9 @@
+F:\Program\Net\S2T182\C#OOP\ch07\Example1\Demo5\bin\Debug\Demo5.exe.config
+F:\Program\Net\S2T182\C#OOP\ch07\Example1\Demo5\bin\Debug\Demo5.exe
+F:\Program\Net\S2T182\C#OOP\ch07\Example1\Demo5\bin\Debug\Demo5.pdb
+F:\Program\Net\S2T182\C#OOP\ch07\Example1\Demo5\obj\Debug\Demo5.csprojResolveAssemblyReference.cache
+F:\Program\Net\S2T182\C#OOP\ch07\Example1\Demo5\obj\Debug\Demo5.exe
+F:\Program\Net\S2T182\C#OOP\ch07\Example1\Demo5\obj\Debug\Demo5.pdb
+E:\代码\第二期\深入.NET平台和C#编程\Class7\ch07\Example1\Demo5\bin\Debug\Demo5.exe.config
+E:\代码\第二期\深入.NET平台和C#编程\Class7\ch07\Example1\Demo5\obj\Debug\Demo5.exe
+E:\代码\第二期\深入.NET平台和C#编程\Class7\ch07\Example1\Demo5\obj\Debug\Demo5.pdb

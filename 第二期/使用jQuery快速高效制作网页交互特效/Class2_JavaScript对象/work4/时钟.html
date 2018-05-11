@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+		<title>制作12小时进制的时钟</title>
+		<style type="text/css">
+			p{
+				font-size:20px;
+			}
+		</style>
+		
+		<script>
+			function disTime(){
+				//获取当前时间
+				var today = new Date();
+				
+				//获取年
+				var yy = today.getFullYear();
+				
+				//获取月
+				var MM = today.getMonth() + 1;
+				
+				//获取日
+				var dd = today.getDate();
+				
+				//获取星期
+				var mon = today.getDay();
+				
+				//获取时
+				var hh = today.getHours();
+				
+				//变量：上下午的变量
+				var cc = "";
+				if(hh >= 12){
+					cc = "PM";
+				}else{
+					cc = "AM";
+				}
+				var a = "";
+				switch(mon){
+					case 1:
+						a = "一";
+						break;
+					case 2:
+						a = "二";
+						break;
+					case 3:
+						a = "三";
+						break;
+					case 4:
+						a = "四";
+						break;
+					case 5:
+						a = "五";
+						break;
+					case 6:
+						a = "六";
+						break;
+					case 0:
+						a = "日";
+						break;		
+				}
+				//获取分
+				var mm = today.getMinutes();
+				
+				//获取秒
+				var ss = today.getSeconds();
+
+				document.getElementById("myClock").innerHTML=yy+ "年" + MM + "月" + dd + "日" + " " + hh + ":" + mm + ":" + ss + " " + cc + " 星期" + a;
+			}
+				
+			var myTime = setInterval("disTime()",1000);	
+		</script>
+	</head>
+	
+	<body>
+		<p>你好，欢迎访问贵美商城！</p>
+		<p id="myClock"></p>
+	</body>
+</html>

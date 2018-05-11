@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>休闲网注册页面</title>
+    <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+    <style type="text/css"> 
+		
+		*{padding:0; margin:0;}
+		body{
+			font-size:13px;
+			color:#000;
+			line-height:25px;
+			 }
+		.main{
+			float:none;
+			margin-top: 0px;
+			margin-right: auto;
+			margin-bottom: 0px;
+			margin-left: auto;
+			clear:both;
+		}
+		#header{
+			background-image: url(images/bg.gif);
+			background-repeat: repeat-x;
+			height: 36px;
+			}
+		#headerLeft{width:200px;
+		           float:left;
+				   }
+		#headerRight{width:160px;
+		             float:right;
+			         color:#FFF;
+		 }
+		#center{
+			margin-top: 20px;
+			margin-right: auto;
+			margin-bottom: 20px;
+			margin-left: auto;
+			width:100%;
+			
+			}
+		.left{width:35%;
+		      text-align:right;
+			  height:25px;
+			  }
+		
+		.bg{
+			background-image: url(./images/dl_l_bg.gif);
+			background-repeat: repeat-y;
+			}
+		.inputs{width:110px;
+		height:16px;
+		border:solid 1px #666666;
+		
+		}
+		.bold{
+			font-size:18px;
+			font-weight:bold;
+			text-align:center;
+			line-height:35px;
+			height:35px;
+		}
+		.rb1{
+			height:20x;
+			color:#fff;
+			font-size:13px;
+			background:#d32c47;
+			padding:3px 10px;
+			border-left:1px solid #fff;
+			border-top:1px solid #fff;
+			border-right:1px solid #6a6a6a;
+			border-bottom:1px solid #6a6a6a;
+			cursor:pointer;
+			}
+		#footer{text-align:center;
+		color:#333;
+		line-height:35px;
+		}
+		#footer a{
+			color:#333;
+			text-decoration:underline;
+		}
+		#footer hover{
+			color:#333;
+			text-decoration:none;
+		}
+	</style>
+    <script type="text/javascript">
+
+
+        $(function () {
+            var html = "";
+            $("#userform :selected").each(
+                function () {
+                    html = $("<div></div>").append($(this).clone()).html();
+                    
+                });
+          
+alert(html);
+            //
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header" class="main">
+        <div id="headerLeft">
+            <img src="images/logo.gif" />
+        </div>
+        <div id="headerRight">注册 | 登录 | 帮助</div>
+    </div>
+    <div style="padding:5px 5px 5px 5px">
+
+        <form id="userform" name="userform">
+            <p>
+                编号：
+            <input name="code" disabled="disabled"  value="10010"/>
+            </p>
+            <p>
+                姓名：
+                <input name="name" type="text"  value="张三"/>
+            </p>
+            <p>
+                性别：
+                <input name="sex" type="radio" value="1" checked="checked" />
+                男
+                        <input name="sex" type="radio" value="0" />
+                女
+            </p>
+            <p>
+                爱好： 
+                        <input type="checkbox" checked="checked"  />编程 
+                        <input type="checkbox" />读书 
+                        <input type="checkbox" />运动
+            </p>
+            <p>
+                家乡：
+              <select name="hometown">
+                  <option value="1" selected="selected">北京</option>
+                  <option value="2">上海</option>
+                  <option value="3">天津</option>
+              </select>
+            </p>
+        </form>
+
+    </div>
+    <div id="footer" class="main"><a href="#">关于我们</a> | <a href="#">诚聘英才</a> |<a href="#"> 联系方式</a>  | <a href="#">帮助中心</a></div>
+</body>
+</html>

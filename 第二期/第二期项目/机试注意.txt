@@ -1,0 +1,38 @@
+﻿数据库:10'
+实体类:10'
+  属性
+  getter和setter
+ BaseDao:10'
+	url;
+	user
+	pwd:
+	getConnection();
+	closeAll( , , );
+  实现类:三个方法 24'
+	查询所有:8'
+	根据id,查询单个对象
+	修改/删除
+  Jsp:3个  10-15'
+	EL和JSTL
+	表单
+	超链接的传值
+	在js里面是有,location.href="jsp?id="+id;
+   操作结果的提示
+   隔行变色:2'
+   CSS美化,3'
+   验证:3-5'
+   Servlet:2-3个  20'
+		获取数据,调用实现类
+		返回数据,保存,session,request,
+		页面的跳转
+		重定向或者转发
+	提交数据库:sql语句,分离数据库
+	打包(压缩包)
+	注释,try-catch-finally;编码规范,运行通过, 8'
+
+	
+	
+	
+		
+   
+	

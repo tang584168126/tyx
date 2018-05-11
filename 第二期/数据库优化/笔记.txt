@@ -1,0 +1,317 @@
+一.数据库设计
+	软件开发步骤：
+			1.需求分析阶段
+			
+			2.概要设计阶段
+			
+			3.详细设计阶段
+			
+			4.代码编辑阶段
+			
+			5.软件测试阶段
+			
+			6.安装部署阶段
+			
+	实体之间的关系：
+			1.一对一
+			
+			2.一对多
+			
+			3.多对一
+			
+			4.多对多
+			
+	三大范式：
+			1.第一范式（1st NF）
+					目标：保证数据的原子性
+					定义：每列都是不可再分的最小数据单元
+					
+			2.第二范式（2nd NF）
+					目标：每张表只描述一件事
+					定义：满足第一范式，除主键外，其余列都依赖于主键
+					
+			3.第三范式（3rd NF）
+					目标：
+					定义：满足第二范式，除主键外，其余列都不传递依赖于主键
+					
+					
+					
+二.数据库实现
+	T-SQL的类别
+			1.数据操作语言（DML）
+					INSERT、UPDATE、DELETE
+			
+			2.数据控制语言（DCL）
+
+			3.数据查询语言（DQL）
+					SELECT
+			
+			4.数据定义语言（DDL）
+					CREATE DATABASE、CREATE TABLE
+
+	创建数据库的步骤
+			1.确定使用的数据库
+					use master
+			
+			2.判断此数据库是否存在；若存在，则删除数据库
+					IF EXISTS(select * from sysdatabases where name = '数据库名')
+						DROP DATABASE 数据库名
+					
+			3.创建数据库
+					CREATE DATABASE 数据库名
+					ON PRIMARY
+					(
+						--数据库主数据文件
+						NAME = '主数据文件逻辑名称',
+						FILENAME = '主数据文件的物理名称',
+						SIZE = 初始大小,
+						MAXSIZE = 最大值,
+						FILEGROWTH = 增长率
+					)
+					,
+					(
+						--数据库次数据文件
+						NAME = '次数据文件逻辑名称',
+						FILENAME = '次数据文件的物理名称',
+						SIZE = 初始大小,
+						MAXSIZE = 最大值,
+						FILEGROWTH = 增长率
+					)
+					LOG ON
+					(
+						--数据库日志数据文件
+						NAME = '日志数据文件逻辑名称',
+						FILENAME = '日志数据文件的物理名称',
+						SIZE = 初始大小,
+						MAXSIZE = 最大值,
+						FILEGROWTH = 增长率
+					)
+				
+	创建数据表的步骤
+			1.确定使用的数据库
+					use 数据库名
+			
+			2.判断数据库表是否存在，若存在，删除数据库表
+					IF EXISTS(select * from sysobjects where name = '表名')
+						DROP TABLE 数据表名
+						
+			3.创建表
+					CREATE TABLE 表名
+					(
+						//IDENTITY(1,1)  标识列
+						列名1 数据类型 是否为标识列 是否为空,
+						列名2 数据类型 是否为标识列 是否为空,
+						......
+						列名2 数据类型 是否为标识列 是否为空
+					)
+					
+	创建数据库约束
+			1.确定使用的数据库
+					use 数据库名
+			
+			2.创建约束
+					1)主键约束
+						ALTER TABLE 表名 [WITH NOCHECK] ADD
+								CONSTRAINT 主键约束名称(PK_*) PRIMARY KEY(列名)
+								
+					2)唯一约束
+						ALTER TABLE 表名 [WITH NOCHECK] ADD
+								CONSTRAINT 唯一约束名称(UQ_*) UNIQUE(列名)
+								
+					3)默认约束
+						ALTER TABLE 表名 [WITH NOCHECK] ADD
+								CONSTRAINT 默认约束名称(DF_*) DEFAULT(值) FOR 列名	
+
+					4)检查约束
+						ALTER TABLE 表名 [WITH NOCHECK] ADD
+								CONSTRAINT 检查约束名称(CK_*) CHECK(表达式)
+								
+					5)外键约束
+						ALTER TABLE 子表表名 [WITH NOCHECK] ADD
+								CONSTRAINT 外键约束名称(FK_*) FOREIGN KEY(列名)	REFERENCES 主表名(列名)		
+								
+三.T-SQL编程
+	T-SQL的变量
+			1.局部变量
+					定义：有程序开发者自己定义的变量
+					
+					形式：@局部变量名
+					
+					应用：
+							1.定义变量
+									DECLARE @变量名 数据类型
+									
+							2.赋值
+									1)SET形式
+											SET @变量名 = 值
+											
+									2)SELECT形式
+											select @变量名 = 列名 from 表名 where 查询条件
+											
+											注意事项：
+													1.变量赋值时，查询条件一般不省略
+													2.赋值时，当查询结果为多个值时，赋值为最后一个值
+													3.赋值时，当查询结果不存在时，赋值为NULL
+													4.赋值时，变量已存在值，若查询结果不存在，赋值为原有值；若查询结果存在，赋值为查询结果
+							
+							3.调用
+									PRINT @变量名
+					
+			2.全局变量
+					定义：由系统定义和维护，只能读取，不能修改
+					
+					形式：@@全局变量名
+					
+					常用全局变量：
+							@@ERROR			==> 最后一个T-SQL的错误编号
+							@@IDENTITY		==> 最后一个插入的标识列
+							@@SERVERNAME	==> 本地服务器名称
+							@@VERSION		==> SQL SERVER版本信息
+							
+	T-SQL的逻辑控制语言
+			分支结构
+					1.IF-ELSE结构
+							语法：
+									IF(选择条件)
+											BEGIN
+													//语句块1
+											END
+									ELSE		
+											BEGIN
+													//语句块2
+											END
+					
+					2.CASE-WHEN结构：
+							语法：
+									CASE
+											WHEN 条件一 THEN 结果一
+											WHEN 条件二 THEN 结果二
+											......
+											WHEN 条件N THEN 结果N
+											ELSE 结果
+									END		
+					
+			循环结构
+					1.WHILE结构
+							语法：
+									WHILE(循环条件)
+											BEGIN
+													//循环操作
+											END
+											
+六.事物、视图和索引
+事物：
+		属性：
+				原子性
+				
+				一致性
+				
+				隔离性
+				
+				永久性
+		步骤：
+				1.开始事物
+						BEGIN TRANSACTION
+						
+				2.执行业务并且获得业务错误编号
+						DECLARE @SumError int	--错误编号
+		
+				3.判断业务错误编号
+						1）若业务编号等于0，提交事物
+								COMMIT TRANSACTION
+						
+						2）若业务编号不等于0，回滚事物
+								ROLLBACK TRANSACTION
+								
+		分类：
+				显式事物
+				隐性事物
+				
+		判断某条语句是否错误
+				DECLARE @SumError += @@ERROR
+				
+视图：
+		语法：
+				1.使用数据库
+						use 数据库名
+				
+				2.判断视图是否存在
+						IF EXISTS(select * from sysobjects where name = '视图名')
+							DROP VIEW 视图名
+							
+				3.创建视图
+						CREATE VIEW 视图名
+						
+索引
+		唯一索引
+
+		主键索引
+		
+		聚集索引
+				数据中的物理顺序与逻辑顺序相同，只能有一个聚集索引
+				
+		非聚集索引
+				物理顺序与逻辑顺序不同，有多个聚集索引
+				
+七。存储过程 
+		分类：
+				1.系统存储过程 sp_开头
+				
+				2.扩展存储过程 xp_开头
+				
+				3.用户自定义存储过程
+				
+						语法：
+								1）确定数据库
+									use 数据库
+									
+								2）判断存储过程是否存在
+									IF EXISTS(select * from sysobjects where name = '存储过程名')
+										DROP PROCEDURE 存储过程名
+										
+								3)创建存储过程
+									CREATE PROC[EDURE] 存储过程名
+										参数列表
+										
+										AS
+												--SQL语言
+												
+						调用：
+								EXECUTE 存储过程名
+
+
+复习
+1.设计
+	1）软件开发步骤：
+	
+	2）实体：关系==> E-R图 ==>数据库模型图 ==>三大范式
+	
+	3）T-SQL语句进行建库、建表、建约束
+	
+2.高级应用			
+	1）SQL编程 ==> SQL变量（局部、全局）==> 程序控制语句
+
+	2）高级查询 ==> 子查询 与 多表连接查询	
+	
+	3）事物 ==> BEGIN TARANSACTION、 COMMIT TARANSACTION、 ROLLBACK TARANSACTION
+	
+	4)视图 ==> 虚拟表
+	
+	5）索引 ==> 主键索引、聚集索引、非聚集索引
+	
+	6）存储过程 ==> 参数列表 ==> 调用存储过程
+	
+	
+补充：
+		触发器（TRIGGER）：
+		
+				类型：
+					insert\update\delete
+					
+				语法：
+					CREATE TRIGGER trigger_BankBusiness
+					ON BankBusiness
+					FOR insert
+						AS
+							
+						GO

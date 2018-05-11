@@ -1,0 +1,12 @@
+$(document).ready(function(){
+	$("body").toggle(function(){
+		$(this).css("background-color","red");
+	},
+	function(){
+		$(this).css("background-color","green");
+	},
+	function(){
+		$(this).css("background-color","blue");
+	}
+	);
+});

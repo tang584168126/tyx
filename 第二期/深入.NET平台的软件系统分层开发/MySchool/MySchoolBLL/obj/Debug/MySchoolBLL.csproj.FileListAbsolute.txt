@@ -1,0 +1,12 @@
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolBLL\bin\Debug\MySchoolBLL.dll
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolBLL\bin\Debug\MySchoolBLL.pdb
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolBLL\obj\Debug\MySchoolBLL.dll
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolBLL\obj\Debug\MySchoolBLL.pdb
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolBLL\bin\Debug\MySchoolDAL.dll
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolBLL\bin\Debug\MySchoolModel.dll
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolBLL\bin\Debug\MySchoolDAL.pdb
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolBLL\bin\Debug\MySchoolModel.pdb
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolBLL\bin\Debug\MySchoolBLL.XML
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolBLL\obj\Debug\MySchoolBLL.csprojResolveAssemblyReference.cache
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolBLL\bin\Debug\MySchoolTool.dll
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolBLL\bin\Debug\MySchoolTool.pdb

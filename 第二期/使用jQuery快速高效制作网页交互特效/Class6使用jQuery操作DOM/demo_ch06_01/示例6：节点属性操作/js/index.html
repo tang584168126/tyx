@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>节点及属性操作 </title>
+<script type="text/javascript" src="./js/jquery-1.8.3.min.js" ></script>
+<style type="text/css" >
+ 
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+	//查找节点
+	//$("h2").hide();     //获取<h2>元素，并将其隐藏
+	//$("li").css("background-color","blue");     //获取<li>元素，并为其添加背景颜色
+	
+	//创建节点
+	var $newNode1=$("<li>死神</li>"); //创建含文本的<li>元素节点
+	
+	//追加子节点
+	//$("ul").append($newNode1);
+	//$newNode1.appendTo("ul");
+	
+	//前置插入子节点
+	//$("ul").prepend ($newNode1);
+	//$newNode1.prependTo ("ul");
+	
+	//元素之后插入兄弟节点
+	//$("ul").after($newNode1);
+	//$newNode1.insertAfter("ul");
+	
+	//元素之前插入兄弟节点
+	//$("ul").before($newNode1);
+	//$newNode1.insertBefore("ul");
+	
+	//删除、清空节点
+	//$("ul li:eq(1)").remove();
+	//$("ul li:eq(1)").detach();
+	//$("ul li:eq(1)").empty();
+	
+	//替换节点
+	//$("ul li:eq(1)").replaceWith($newNode1);
+	//$($newNode1).replaceAll("ul li:eq(1)");
+	
+	//复制节点
+	//$("ul li:eq(1)").clone(true).appendTo("ul");
+	
+	//输出元素本身html
+	//alert($("<div></div>").append($("ul li:eq(1)").clone()).html());
+	
+	
+});
+</script>
+</head>
+<body>
+
+<h2>热门动画排行</h2>
+<ul>
+  <li>名侦探柯南</li>
+      <li>阿拉蕾</li>
+  <li>海贼王</li>
+</ul>
+</body>
+</html>

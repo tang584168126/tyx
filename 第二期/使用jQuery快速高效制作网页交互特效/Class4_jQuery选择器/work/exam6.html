@@ -1,0 +1,29 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>exam6</title>
+		<style type="text/css">
+			.first{
+				display:none;
+			}
+		</style>
+		<script src="js/jquery-1.11.2.js"></script>
+		<script>
+			$(function(){
+				$("a").click(function(){
+					$("[class]").show();
+				});
+				$("[class]").click(function(){
+					$("[class]").hide();
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		&nbsp;&nbsp;<img src="images/text.gif" class="first" /><br/>
+		分享到：<a href="#"><img src="images/iocns.gif" /></a>
+	</body>
+</html>

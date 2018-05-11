@@ -1,0 +1,33 @@
+﻿<!DOCTYPE>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>example1</title>
+		<style type="text/css">
+			.tips{
+				width:170px;
+				background:#ddd;
+				border:1px solid #000;
+				font-size:17px;
+				font-family:Arial;
+				color:#0033FF;
+				display:none;
+			}
+			p{color:#FF0033;}
+		</style>
+		<script src="js/jquery-1.11.2.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("p").click(function(){
+					$(".tips:hidden").show();
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<p>“萝莉”是什么意思？</p>
+		<div class="tips">萝莉，是洛丽塔的缩写，是指一部美国小说，后在日报引申发展成一种次文化</div>
+	</body>
+</html>

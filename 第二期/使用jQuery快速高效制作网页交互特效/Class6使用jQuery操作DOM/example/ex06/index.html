@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>节点操作</title>
+		<script type="text/javascript" src="../../js/jquery-1.8.3.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var $newNodn=$("<li>死神</li>");
+				//append
+				//$("ul").append($newNodn);
+				//appendto
+				//$newNodn.appendTo("ul");
+				//prepend
+				//$("ul").prepend($newNodn);
+				//prependTo
+				//$newNodn.prependTo("ul");
+				//after
+				//$("ul").after($newNodn);
+				//insertAfter
+				//$newNodn.insertAfter("ul");
+				//before
+				//$("ul").before($newNodn);
+				//insertbefore
+				$newNodn.insertBefore("ul");
+			});
+		</script>
+	</head>
+	<body>
+		<h2>热门动画排行</h2>
+		<ul>
+		  <li>名侦探柯南</li>
+		  <li>阿拉蕾</li>
+		  <li>海贼王</li>
+		</ul>
+	</body>
+</html>

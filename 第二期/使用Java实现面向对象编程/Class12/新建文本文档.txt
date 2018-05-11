@@ -1,0 +1,15 @@
+登录类：login
+loginId loginpwd 
+
+主人类：master
+id name money loginId 
+
+商店类：store
+id name balance loginId 
+
+宠物类:Pet
+id name typeName health love birthday 
+
+账目类：account
+id deal_type pet_id seller_id buyer_id price deal_time
+

@@ -1,0 +1,4 @@
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolModel\bin\Debug\MySchoolModel.dll
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolModel\bin\Debug\MySchoolModel.pdb
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolModel\obj\Debug\MySchoolModel.dll
+F:\Program\Net\S2T182\N-Tier\MySchool\MySchoolModel\obj\Debug\MySchoolModel.pdb

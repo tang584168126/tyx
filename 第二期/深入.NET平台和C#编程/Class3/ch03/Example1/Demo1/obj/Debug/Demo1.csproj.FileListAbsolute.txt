@@ -1,0 +1,12 @@
+F:\Program\Net\S2T171\C# OOP\ch03\Example1\Demo1\bin\Debug\Demo1.exe.config
+F:\Program\Net\S2T171\C# OOP\ch03\Example1\Demo1\bin\Debug\Demo1.exe
+F:\Program\Net\S2T171\C# OOP\ch03\Example1\Demo1\bin\Debug\Demo1.pdb
+F:\Program\Net\S2T171\C# OOP\ch03\Example1\Demo1\obj\Debug\Demo1.csprojResolveAssemblyReference.cache
+F:\Program\Net\S2T171\C# OOP\ch03\Example1\Demo1\obj\Debug\Demo1.exe
+F:\Program\Net\S2T171\C# OOP\ch03\Example1\Demo1\obj\Debug\Demo1.pdb
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class3\ch03\Example1\Demo1\bin\Debug\Demo1.exe.config
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class3\ch03\Example1\Demo1\obj\Debug\Demo1.exe
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class3\ch03\Example1\Demo1\obj\Debug\Demo1.pdb
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class3\ch03\Example1\Demo1\bin\Debug\Demo1.exe
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class3\ch03\Example1\Demo1\bin\Debug\Demo1.pdb
+E:\TYX_Projiect\代码\第二期\深入.NET平台和C#编程\Class3\ch03\Example1\Demo1\obj\Debug\Demo1.csprojResolveAssemblyReference.cache

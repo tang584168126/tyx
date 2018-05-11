@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="zh-CN" />
+	<meta name="Keywords" content="" />
+	<meta name="Description" content="" />
+	<link rel="stylesheet" href="style/.css" type="text/css" />
+	<script>
+		//
+		function change(){
+			//获取标签对象
+			//var obj = document.getElementById("sign1");
+			var obj = document.getElementsByName("s");
+			//var obj = document.getElementsByTagName("h1");
+			alert(obj.length);
+			//for(var i=0;i<obj.length;i++){
+				///alert(obj[i]);
+				//obj[i].innerHTML="青羊";
+			//}
+			//设置值
+			//obj[0].innerHTML="青羊";
+			
+		}
+		function change1(){
+			var season = document.getElementsByName("season");
+			var ps = document.getElementsByTagName("p");
+			for(var i=0;i<season.length;i++){
+				ps[i].innerHTML=season[i].value;
+			}
+		}
+		function getAll1(){
+			//获取全选的复选框的对象
+			var obj = document.getElementById("all");
+			//obj.style.width='100px';
+			//obj.style.height='100px';
+			var hbs = document.getElementsByName("habby");
+			for(var i=0;i<hbs.length;i++){
+				hbs[i].checked=obj.checked;
+			}
+		}
+	
+		function getAll2(){
+			//获取全选的复选框的对象
+			var obj = document.getElementById("a");
+			obj.onclick=function(){
+				var hbs = document.getElementsByName("habby");
+				for(var i=0;i<hbs.length;i++){
+					hbs[i].checked=obj.checked;
+				}
+			}
+		}
+	</script>
+</head>
+<!--使用动态绑定事件,需要加载这个函数,
+因为浏览器加载的时候,标签还没有被加载进去,所以就不会获取到标签,更不会设置事件了,当然也可以把设置事件的js写在标签之后-->
+<!--
+<body onload="getAll2()"> -->
+<body >
+<h1 id="sign1" >锦江</h1>
+<input type="button" name="s" value="改变值" onclick="change()"/><br/>
+<input type="text" value="春" name="season"/>
+<input type="text" value="夏" name="season"/>
+<input type="text" value="秋" name="season"/>
+<input type="text" value="冬" name="season"/>
+<input type="button" name="s" value="改变值1" onclick="change1()"/><br/>
+<p ></p>
+<p></p>
+<p></p>
+<p></p>
+<input type="checkbox" id="all" onclick="getAll1()"/>:全选<br/>
+<input type="checkbox" id="a" />:全选<br/>
+
+爱好:<br/>
+<input type="checkbox" name="habby"/>:游泳<br/>	<input type="checkbox" name="habby"/>:篮球<br/>	<input type="checkbox" name="habby"/>:羽毛球<br/>
+<input type="checkbox" name="habby"/>:排球<br/>	<input type="checkbox" name="habby"/>:足球<br/>
+<input type="checkbox" name="habby"/>:高尔夫<br/>
+
+</body>
+<script>
+	var a = document.getElementById("a");
+	a.onclick=function(){
+	var hbs = document.getElementsByName("habby");
+			for(var i=0;i<hbs.length;i++){
+				hbs[i].checked=a.checked;
+			}
+	}
+</script>
+</html>

@@ -1,0 +1,17 @@
+F:\Program\Net\S2T165\C#OOP\ch03\Example\Example3\bin\Debug\Example3.exe.config
+F:\Program\Net\S2T165\C#OOP\ch03\Example\Example3\bin\Debug\Example3.exe
+F:\Program\Net\S2T165\C#OOP\ch03\Example\Example3\bin\Debug\Example3.pdb
+F:\Program\Net\S2T165\C#OOP\ch03\Example\Example3\obj\Debug\Example3.FrmMain.resources
+F:\Program\Net\S2T165\C#OOP\ch03\Example\Example3\obj\Debug\Example3.Properties.Resources.resources
+F:\Program\Net\S2T165\C#OOP\ch03\Example\Example3\obj\Debug\Example3.csproj.GenerateResource.Cache
+F:\Program\Net\S2T165\C#OOP\ch03\Example\Example3\obj\Debug\Example3.exe
+F:\Program\Net\S2T165\C#OOP\ch03\Example\Example3\obj\Debug\Example3.pdb
+F:\Program\Net\MyProgram\C#OOP\ch03\Example\Example3\bin\Debug\Example3.exe.config
+F:\Program\Net\MyProgram\C#OOP\ch03\Example\Example3\obj\Debug\Example3.exe
+F:\Program\Net\MyProgram\C#OOP\ch03\Example\Example3\obj\Debug\Example3.pdb
+F:\Program\Net\MyProgram\C#OOP\ch03\Example\Example3\bin\Debug\Example3.exe
+F:\Program\Net\MyProgram\C#OOP\ch03\Example\Example3\bin\Debug\Example3.pdb
+F:\Program\Net\MyProgram\C#OOP\ch03\Example\Example3\obj\Debug\Example3.csprojResolveAssemblyReference.cache
+F:\Program\Net\MyProgram\C#OOP\ch03\Example\Example3\obj\Debug\Example3.FrmMain.resources
+F:\Program\Net\MyProgram\C#OOP\ch03\Example\Example3\obj\Debug\Example3.Properties.Resources.resources
+F:\Program\Net\MyProgram\C#OOP\ch03\Example\Example3\obj\Debug\Example3.csproj.GenerateResource.Cache
