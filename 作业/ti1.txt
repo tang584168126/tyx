@@ -1,0 +1,487 @@
+void main()
+{
+	int a=15;
+	float b=138.35762;
+	double c=35648256.3645687; 
+	char d='p'; 
+	printf("a=%d,a=%o\n",a,a); 
+	printf("b=%f,b=%5.4lf,b=%e\n",b,b,b); 
+	printf("c=%lf,c=%8.4lf\n",c,c); 
+	printf("d=%c,d=%d\n",d,d); 
+}
+
+
+
+#include <stdio.h>
+int main()
+{
+	char ch;
+	printf("Input a character: ");
+	ch=getchar();
+	printf("%x\n",ch);
+	return 0;
+}
+
+
+#include <stdio.h>
+
+int main()
+{
+	int n;
+	int s1,s2,s3,s4,sum;
+	printf("Input a number with 4-digit: ");
+	scanf("%d",&n);
+	s1=n/1000;
+	s2=n/100%10;
+	s3=n/10%10;
+	s4=n%10;
+	sum=s1+s2+s3+s4;
+	printf("sum=%d\n",sum);
+}
+
+
+
+#include <stdio.h>
+int main()
+{
+	int side;
+	int vol, area;
+	printf("Input a side of cube: ");
+	scanf("%d",&side);
+	vol=side*side*side;
+	area=6*(side*side);
+	printf("The volume of cube is %d, the surface area of cube is %d.\n", vol, area);
+}
+
+
+
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	int side;
+	int circle;
+	double area,halfcircle;
+	printf("Input a side of triangle: ");
+	scanf("%d",&side);
+	circle=3*side;
+	halfcircle=circle/2.0;
+	area=sqrt(halfcircle*(halfcircle-side)*(halfcircle-side)*(halfcircle-side));
+	printf("The area of triangle is %.2f, the circle of triangle is %d.\n",area,circle);
+
+}
+
+
+
+include <stdio.h>
+void main()
+{
+	int a,b,c;
+	printf("please input data:\n");
+	scanf("%d%d",&a,&b);
+	c=a+b;
+	printf("%2d+%2d=%3d\n",a,b,c);
+}
+
+
+
+#define PRICE 30
+#include <stdio.h>
+void main()
+{ 
+	int num,total;
+	printf("please input num:");
+	scanf("%d",&num);
+	total=num*PRICE;
+	printf("total=%d\n",total);
+}
+
+
+
+#include <stdio.h>
+
+void main()
+{ 
+	float a,b;
+
+	printf("please input two numbers:");
+	scanf("%f,%f",&a,&b);
+	printf("\na=%f,b=%f",a,b);
+}
+
+
+
+
+#include "stdio.h"
+
+void main()
+{
+	float x,y,r;
+	int z;
+
+	
+	printf("please input x,y,z:");
+	scanf("%f,%f,%d",&x,&y,&z);
+	r=x+z%3*(int)(x+y)%2/4;
+	printf("%f",r);
+}
+
+
+
+#include "stdio.h"
+
+void main()
+{
+	int y,m,n;
+	
+	printf("\nplease input a date:");
+	scanf("%d-%d-%d",&y,&m,&n);
+	printf("\nthe date is:%d-%d-%d\n",y,m,n);
+}
+
+
+
+include  <stdio.h>
+
+void main()
+{
+	unsigned int d;
+                   int bai,shi,ge;
+
+	printf("Input an integer:");
+                   scanf("%d",&d);
+                   bai=d/100;
+                   shi=d%100/10;
+                   ge=d%10;
+                   printf("\nThe result is %d%d%d",ge,shi,bai);
+}
+
+
+
+#include <stdio.h>
+
+void main()
+{
+       float F,c;
+	printf("Input the degree:");
+        scanf("%f",&F);
+        c=5*(F-32)/9;
+	printf("\nF(%.2f)=C(%.2f)",F,c);
+}
+
+
+
+#include <stdio.h>
+
+void main()
+{
+	char ch;
+                    
+	printf("Input a lowercase letter:");
+	ch=getchar();
+                   printf("\n%c(%d)",ch,ch);
+                   ch -= 'a'-'A';
+                   printf("\n%c(%d)",ch,ch);
+}
+
+
+
+#include <stdio.h>
+#define Pi 3.14
+
+void main()
+{
+    float r,h,C1,S,V;
+        
+	printf("Input: ");
+	scanf("r=%f,h=%f",&r,&h);
+        C1=2*Pi*r;
+        S=Pi*r*r;
+        V=S*h;
+	printf("C1=%.2f\n",C1);
+        printf("S=%.2f\nV=%.2f\n",S,V);
+}
+
+
+
+
+/*有一函数：当x<1时，y=x；当x>=1且x<10时，y=2x-1；当x>=10时，y=3x-11，写一程序，输入x，输出y值*/
+main()
+{int x,y;
+ clrscr();
+ printf("please input x:\n");
+ scanf("%d",&x);
+ if(x<1) y=x;
+   else if(x<10) y=2*x-1;
+      else y=3*x-11;
+ printf("when x=%d, y=%d\n",x,y);
+}
+
+
+
+
+/*从键盘输入一个一百分制成绩，如果不在0-100范围内，则要求重新输入数据。将输入的数据转换成等级‘A’，‘B’，‘C’，‘D’，‘E’。90分以上为‘A’，80~89分为‘B’，70~79分为‘C’，60~69分为‘D’，60分以下为‘E’，要求使用switch case语句，结果赋值给变量grade，并将变量grade的值输出到屏幕上*/
+main()
+{float score;
+ int temp;
+ char grade;
+ clrscr();
+ do
+ {
+ printf("please input the score(0-100):\n");
+ scanf("%f",&score);
+ }while(score>100||score<0);
+ temp=(int)score/10;
+ switch(temp)
+   { case 10:
+     case  9: grade='A';break;
+     case  8: grade='B';break;
+     case  7: grade='C';break;
+     case  6: grade='D';break;
+     default:   grade='E';
+   }
+ printf("score=%.1f,grade=%c\n",score,grade);
+} 
+
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
+	double a,b;
+	printf("Input 2 numbers: ");
+	scanf("%lf %lf",&a,&b);
+	if(b!=0)
+	{
+		printf("The result is: %.2f\n",a/b);
+	}
+	else
+	{
+		printf("Divid by zero\n");
+	}
+}
+
+
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+	int a,b,c;
+	int max;
+	printf("Input 3 numbers: ");
+	scanf("%d,%d,%d",&a,&b,&c);
+	if(abs(a)>abs(b))
+	{
+		max=a;
+	}
+	else
+	{
+		max=b;
+	}
+	if(abs(max)<abs(c))
+	{
+		max=c;
+	}
+	printf("The number with maximum absolute value is %d.\n",max);
+	return 0;
+}
+
+
+
+#include <stdio.h>
+void main()
+{
+	int x,y;
+	printf("please input x,y:");
+	scanf("%d,%d",&x,&y);
+	if(x>y)printf("%d is bigger\n",x);
+	else printf("%d is bigger\n",y);
+}
+
+
+#include <stdio.h>
+void main()
+{
+	int x,y;
+	scanf("%d%d",&x,&y);
+	if(x==y) printf("yes\n");
+		else printf("no\n");
+}
+
+
+#include "stdio.h"
+main()
+{
+	int month;
+	int day;
+	printf(" please input the month number :");
+	scanf("%d",&month);
+	switch (month) 
+	{
+		case 1:
+		case 3:
+		case 5:
+		case 7:
+		case 8:
+		case 10:
+		case 12: day=31;         break;
+		case 4:
+		case 6:
+		case 9:
+		case 11: day=30;         break;
+		case 2: day=28;         break;
+		default : day=-1;
+    }
+	if (day==-1)
+		 printf("Invalid month input !\n");
+	else
+		 printf(" 2003.%d has %d days\n",   month,day);
+ }
+
+
+
+#include "stdio.h"
+main()
+{
+     long profit;
+     int grade;
+     float salary=500;
+     printf("Input  profit: ");
+     scanf("%ld",&profit);
+     grade=(profit-1)/1000;
+     switch(grade)
+	 {
+		case  0:  break;
+		case  1: salary+=profit*0.1; break;
+		case  2: 
+		case  3: 
+		case  4: salary+=profit*0.15; break;
+		case  5: 
+		case  6: 
+		case  7: 
+		case  8: 
+		case  9: salary+=profit*0.2; break;
+		default: salary+=profit*0.25;	
+	 }
+	printf("salary=%.2f\n", salary);							
+}
+
+
+
+
+#include <math.h>
+#include <stdio.h>
+
+void main()
+{   
+		float a,b,c,s,area;
+		printf("\nplease input triange sides:");
+		scanf("%f,%f,%f",&a,&b,&c);
+		if(a<0||b<0||c<0||((a+b)<c)||((a+c)<b)||((b+c)<a))
+		{
+			printf("\ndata error\n");
+		}
+		else
+		{
+			s=1.0/2*(a+b+c);
+			area=sqrt(s*(s-a)*(s-b)*(s-c));
+			printf("\narea=%7.2f\n",area);
+		}
+}
+
+
+
+#include<stdio.h>
+
+void main()
+{
+	int a;
+
+	printf("\ninput a plus number:");
+	scanf("%d",&a);
+	if(a%5==0&&a%7==0)
+  	{
+		printf("yes");
+	}
+	else
+ 	{
+		printf("no");
+	}
+}
+
+
+
+
+#include <stdio.h>
+
+void main()
+{
+	int d;
+          
+	printf("Please input an integer:");
+	scanf("%d",&d);
+	if ((d%5==0)&&(d%7)) 
+		printf("\nYes.");
+	else printf("\nNo.");
+}
+
+
+
+
+
+#include <stdio.h>
+
+void main()
+{
+	int day,month,year,sum,leap;
+	printf("Please input: year-month-day\n");
+	scanf("%d-%d-%d",&year,&month,&day);
+	switch(month)/*先计算某月以前月份的总天数*/
+	{
+		case 1:sum=0;break;
+		case 2:sum=31;break;
+		case 3:sum=59;break;
+		case 4:sum=90;break;
+		case 5:sum=120;break;
+		case 6:sum=151;break;
+		case 7:sum=181;break;
+		case 8:sum=212;break;
+		case 9:sum=243;break;
+		case 10:sum=273;break;
+		case 11:sum=304;break;
+		case 12:sum=334;break;
+		default:printf("data error");break;
+	}
+	sum=sum+day; /*再加上某天的天数*/
+	if(year%400==0||(year%4==0&&year%100!=0))/*判断是不是闰年*/
+		leap=1;
+	else
+		leap=0;
+	if(leap&&month>2)/*如果是闰年且月份大于2,总天数应该加一天*/
+		sum++;
+		    printf("It is the %dth day.",sum);
+}
+
+
+
+/*输入两个正整数m和n，求其最大公约数和最小公倍数*/
+/*根据可读性来考虑算法*/
+main()
+{int m,n,temp,answer1,answer2;
+ clrscr();
+ printf("please input two integer numbers:\n");
+ scanf("%d%d",&m,&n);
+ for(answer1=m;;answer1--)
+   if(m%answer1==0&&n%answer1==0) break;
+ for(answer2=m;;answer2++)
+   if(answer2%m==0&&answer2%n==0) break;
+ printf("the greatest common divisor is %d\n",answer1);
+ printf("the lease common multiple is %d\n",answer2);
+}
+
+<PIXTEL_MMI_EBOOK_2005>2                                                           </PIXTEL_MMI_EBOOK_2005>
