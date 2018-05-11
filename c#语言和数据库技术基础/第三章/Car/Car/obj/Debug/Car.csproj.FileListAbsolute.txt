@@ -1,0 +1,9 @@
+E:\c#语言和数据库技术基础\第二章\Car\Car\bin\Debug\Car.exe.config
+E:\c#语言和数据库技术基础\第二章\Car\Car\bin\Debug\Car.exe
+E:\c#语言和数据库技术基础\第二章\Car\Car\bin\Debug\Car.pdb
+E:\c#语言和数据库技术基础\第二章\Car\Car\obj\Debug\Car.csprojResolveAssemblyReference.cache
+E:\c#语言和数据库技术基础\第二章\Car\Car\obj\Debug\Car.exe
+E:\c#语言和数据库技术基础\第二章\Car\Car\obj\Debug\Car.pdb
+E:\c#语言和数据库技术基础\第三章\Car\Car\bin\Debug\Car.exe.config
+E:\c#语言和数据库技术基础\第三章\Car\Car\obj\Debug\Car.exe
+E:\c#语言和数据库技术基础\第三章\Car\Car\obj\Debug\Car.pdb

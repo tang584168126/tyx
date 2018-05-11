@@ -1,0 +1,6 @@
+E:\c#语言和数据库技术基础\第三章\SettleAccounts\SettleAccounts\bin\Debug\SettleAccounts.exe.config
+E:\c#语言和数据库技术基础\第三章\SettleAccounts\SettleAccounts\bin\Debug\SettleAccounts.exe
+E:\c#语言和数据库技术基础\第三章\SettleAccounts\SettleAccounts\bin\Debug\SettleAccounts.pdb
+E:\c#语言和数据库技术基础\第三章\SettleAccounts\SettleAccounts\obj\Debug\SettleAccounts.csprojResolveAssemblyReference.cache
+E:\c#语言和数据库技术基础\第三章\SettleAccounts\SettleAccounts\obj\Debug\SettleAccounts.exe
+E:\c#语言和数据库技术基础\第三章\SettleAccounts\SettleAccounts\obj\Debug\SettleAccounts.pdb

@@ -1,0 +1,76 @@
+ADO.NET
+	.NET Framework数据提供程序
+
+	DataSet(数据集)
+
+一、连接数据库查询多个值的步骤
+	1.引用 命名空间
+		using System.Data.Sql;
+		using System.Data.SqlClient;
+
+	2.创建 数据库连接字符串
+		1)SQL Server身份验证
+		string sql = @"Data Source=服务器名;Initial Catalog=数据库名;User ID=登录名;Pwd=密码";
+		2)Windows身份验证
+		string sql = @"Data Source=服务器名;Initial Catalog=数据库名;Integrated Security=true";
+
+	3.利用 数据库连接字符串 创建 连接对象
+		SqlConnection objSqlConn = new SqlConnection(sql);
+
+	4.创建 SQL命令
+		string sqlText = "";
+
+	5.利用 SQL命令和连接对象 创建 执行对象
+		SqlCommand objSqlComm = new SqlCommand(sqlText, objSqlConn);
+
+	6.打开 数据库
+		objSqlConn.Open();
+
+	7.执行 SQL命令
+		SqlDataReader dataReader = objSqlComm.ExecuteReader();
+
+	8.处理 数据
+		1)判断是否有数据:dataReader.HasRows
+		2)循环数据：while(dataReader.Read())
+		3)读取数据：
+			第一种方式：dataReader[下标]
+			第二种方式：dataReader[列名]
+			第三种方式：dataReader.GetValue(下标)
+
+	9.关闭 数据库
+		dataReader.Close();
+		objSqlConn.Close();
+
+二、连接数据库查询单个值的步骤
+	1.引用 命名空间
+		using System.Data.Sql;
+		using System.Data.SqlClient;
+
+	2.创建 数据库连接字符串
+		1)SQL Server身份验证
+		string sql = @"Data Source=服务器名称;Initial Catalog=数据库名称;User ID=登录名;Pwd=密码";
+		2)Windows身份验证
+		string sql = @"Data Source=服务器名称;Initial Catalog=数据库名称;Integrated Security=true";
+
+	3.利用 数据库连接字符串 创建 连接对象
+		SqlConnection objSqlConn = new SqlConnection(sql);
+
+	4.创建 SQL命令
+		string sqlText = "";
+
+	5.利用 SQL命令和连接对象 创建 执行对象
+		SqlCommand objSqlComm = new SqlCommand(sqlText, objSqlConn);
+
+	6.打开 数据库
+		objSqlConn.Open();
+
+	7.执行 SQL命令(注意数据类型转换，一般多为int类型)
+		int result = (int)objSqlComm.ExecuteScalar();
+
+	8.处理 数据
+		
+
+	9.关闭 数据库
+		objSqlConn.Close();
+
+三、连接数据库操作数据的步骤

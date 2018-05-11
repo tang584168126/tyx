@@ -1,0 +1,6 @@
+E:\c#语言和数据库技术基础\第二章\computer\computer\bin\Debug\computer.exe.config
+E:\c#语言和数据库技术基础\第二章\computer\computer\bin\Debug\computer.exe
+E:\c#语言和数据库技术基础\第二章\computer\computer\bin\Debug\computer.pdb
+E:\c#语言和数据库技术基础\第二章\computer\computer\obj\Debug\computer.csprojResolveAssemblyReference.cache
+E:\c#语言和数据库技术基础\第二章\computer\computer\obj\Debug\computer.exe
+E:\c#语言和数据库技术基础\第二章\computer\computer\obj\Debug\computer.pdb

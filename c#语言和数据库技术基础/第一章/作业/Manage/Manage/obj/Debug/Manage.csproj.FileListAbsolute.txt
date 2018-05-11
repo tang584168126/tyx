@@ -1,0 +1,6 @@
+E:\c#语言和数据库技术基础\第一章\作业\Manage\Manage\bin\Debug\Manage.exe.config
+E:\c#语言和数据库技术基础\第一章\作业\Manage\Manage\bin\Debug\Manage.exe
+E:\c#语言和数据库技术基础\第一章\作业\Manage\Manage\bin\Debug\Manage.pdb
+E:\c#语言和数据库技术基础\第一章\作业\Manage\Manage\obj\Debug\Manage.csprojResolveAssemblyReference.cache
+E:\c#语言和数据库技术基础\第一章\作业\Manage\Manage\obj\Debug\Manage.exe
+E:\c#语言和数据库技术基础\第一章\作业\Manage\Manage\obj\Debug\Manage.pdb

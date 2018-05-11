@@ -1,0 +1,17 @@
+F:\Program\Net\S1T182\ch03\Example\Example3\bin\Debug\Example3.exe.config
+F:\Program\Net\S1T182\ch03\Example\Example3\bin\Debug\Example3.exe
+F:\Program\Net\S1T182\ch03\Example\Example3\bin\Debug\Example3.pdb
+F:\Program\Net\S1T182\ch03\Example\Example3\obj\Debug\Example3.exe
+F:\Program\Net\S1T182\ch03\Example\Example3\obj\Debug\Example3.pdb
+E:\c#语言和数据库技术基础\第三章\ch03\Example\Example3\bin\Debug\Example3.exe.config
+E:\c#语言和数据库技术基础\第三章\ch03\Example\Example3\obj\Debug\Example3.exe
+E:\c#语言和数据库技术基础\第三章\ch03\Example\Example3\obj\Debug\Example3.pdb
+E:\c#语言和数据库技术基础\第三章\ch03\Example\Example3\bin\Debug\Example3.exe
+E:\c#语言和数据库技术基础\第三章\ch03\Example\Example3\bin\Debug\Example3.pdb
+E:\c#语言和数据库技术基础\第三章\ch03\Example\Example3\obj\Debug\Example3.csprojResolveAssemblyReference.cache
+E:\代码\c#语言和数据库技术基础\第三章\ch03\Example\Example3\bin\Debug\Example3.exe.config
+E:\代码\c#语言和数据库技术基础\第三章\ch03\Example\Example3\obj\Debug\Example3.exe
+E:\代码\c#语言和数据库技术基础\第三章\ch03\Example\Example3\obj\Debug\Example3.pdb
+E:\代码\c#语言和数据库技术基础\第三章\ch03\Example\Example3\bin\Debug\Example3.exe
+E:\代码\c#语言和数据库技术基础\第三章\ch03\Example\Example3\bin\Debug\Example3.pdb
+E:\代码\c#语言和数据库技术基础\第三章\ch03\Example\Example3\obj\Debug\Example3.csprojResolveAssemblyReference.cache

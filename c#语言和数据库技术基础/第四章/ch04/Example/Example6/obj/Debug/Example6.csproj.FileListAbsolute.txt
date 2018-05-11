@@ -1,0 +1,17 @@
+F:\Program\Net\S1T182\ch04\Example\Example6\bin\Debug\Example6.exe.config
+F:\Program\Net\S1T182\ch04\Example\Example6\bin\Debug\Example6.exe
+F:\Program\Net\S1T182\ch04\Example\Example6\bin\Debug\Example6.pdb
+F:\Program\Net\S1T182\ch04\Example\Example6\obj\Debug\Example6.exe
+F:\Program\Net\S1T182\ch04\Example\Example6\obj\Debug\Example6.pdb
+E:\c#语言和数据库技术基础\第四章\ch04\Example\Example6\bin\Debug\Example6.exe.config
+E:\c#语言和数据库技术基础\第四章\ch04\Example\Example6\obj\Debug\Example6.exe
+E:\c#语言和数据库技术基础\第四章\ch04\Example\Example6\obj\Debug\Example6.pdb
+E:\c#语言和数据库技术基础\第四章\ch04\Example\Example6\bin\Debug\Example6.exe
+E:\c#语言和数据库技术基础\第四章\ch04\Example\Example6\bin\Debug\Example6.pdb
+E:\c#语言和数据库技术基础\第四章\ch04\Example\Example6\obj\Debug\Example6.csprojResolveAssemblyReference.cache
+E:\代码\c#语言和数据库技术基础\第四章\ch04\Example\Example6\bin\Debug\Example6.exe.config
+E:\代码\c#语言和数据库技术基础\第四章\ch04\Example\Example6\obj\Debug\Example6.exe
+E:\代码\c#语言和数据库技术基础\第四章\ch04\Example\Example6\obj\Debug\Example6.pdb
+E:\代码\c#语言和数据库技术基础\第四章\ch04\Example\Example6\bin\Debug\Example6.exe
+E:\代码\c#语言和数据库技术基础\第四章\ch04\Example\Example6\bin\Debug\Example6.pdb
+E:\代码\c#语言和数据库技术基础\第四章\ch04\Example\Example6\obj\Debug\Example6.csprojResolveAssemblyReference.cache

@@ -1,0 +1,1 @@
+E:\c#语言和数据库技术基础\第四章\SettleAccounts\SettleAccounts\bin\Debug\SettleAccounts.exe.config

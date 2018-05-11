@@ -1,0 +1,6 @@
+E:\c#语言和数据库技术基础\第一章\作业\BooksManage\BooksManage\bin\Debug\BooksManage.exe.config
+E:\c#语言和数据库技术基础\第一章\作业\BooksManage\BooksManage\bin\Debug\BooksManage.exe
+E:\c#语言和数据库技术基础\第一章\作业\BooksManage\BooksManage\bin\Debug\BooksManage.pdb
+E:\c#语言和数据库技术基础\第一章\作业\BooksManage\BooksManage\obj\Debug\BooksManage.csprojResolveAssemblyReference.cache
+E:\c#语言和数据库技术基础\第一章\作业\BooksManage\BooksManage\obj\Debug\BooksManage.exe
+E:\c#语言和数据库技术基础\第一章\作业\BooksManage\BooksManage\obj\Debug\BooksManage.pdb

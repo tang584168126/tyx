@@ -1,0 +1,15 @@
+F:\Program\Net\S1T182\ch01\Example\Example5\bin\Debug\Example5.exe.config
+F:\Program\Net\S1T182\ch01\Example\Example5\bin\Debug\Example5.exe
+F:\Program\Net\S1T182\ch01\Example\Example5\bin\Debug\Example5.pdb
+F:\Program\Net\S1T182\ch01\Example\Example5\obj\Debug\Example5.csprojResolveAssemblyReference.cache
+F:\Program\Net\S1T182\ch01\Example\Example5\obj\Debug\Example5.exe
+F:\Program\Net\S1T182\ch01\Example\Example5\obj\Debug\Example5.pdb
+E:\c#语言和数据库技术基础\第一章\ch01\Example\Example5\bin\Debug\Example5.exe.config
+E:\c#语言和数据库技术基础\第一章\ch01\Example\Example5\obj\Debug\Example5.exe
+E:\c#语言和数据库技术基础\第一章\ch01\Example\Example5\obj\Debug\Example5.pdb
+E:\c#语言和数据库技术基础\第一章\ch01\Example\Example5\bin\Debug\Example5.exe
+E:\c#语言和数据库技术基础\第一章\ch01\Example\Example5\bin\Debug\Example5.pdb
+E:\c#语言和数据库技术基础\第一章\ch01\Example\Example5\obj\Debug\Example5.csprojResolveAssemblyReference.cache
+E:\代码\c#语言和数据库技术基础\第一章\ch01\Example\Example5\bin\Debug\Example5.exe.config
+E:\代码\c#语言和数据库技术基础\第一章\ch01\Example\Example5\obj\Debug\Example5.exe
+E:\代码\c#语言和数据库技术基础\第一章\ch01\Example\Example5\obj\Debug\Example5.pdb

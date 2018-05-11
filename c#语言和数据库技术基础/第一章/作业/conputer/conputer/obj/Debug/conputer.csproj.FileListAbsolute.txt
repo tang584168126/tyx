@@ -1,0 +1,5 @@
+E:\c#语言和数据库技术基础\第一章\作业\conputer\conputer\bin\Debug\conputer.exe.config
+E:\c#语言和数据库技术基础\第一章\作业\conputer\conputer\bin\Debug\conputer.exe
+E:\c#语言和数据库技术基础\第一章\作业\conputer\conputer\bin\Debug\conputer.pdb
+E:\c#语言和数据库技术基础\第一章\作业\conputer\conputer\obj\Debug\conputer.exe
+E:\c#语言和数据库技术基础\第一章\作业\conputer\conputer\obj\Debug\conputer.pdb

@@ -1,0 +1,15 @@
+F:\Program\Net\S1T182\ch05\ShoppingSystem\ShoppingSystem\bin\Debug\ShoppingSystem.exe.config
+F:\Program\Net\S1T182\ch05\ShoppingSystem\ShoppingSystem\bin\Debug\ShoppingSystem.exe
+F:\Program\Net\S1T182\ch05\ShoppingSystem\ShoppingSystem\bin\Debug\ShoppingSystem.pdb
+F:\Program\Net\S1T182\ch05\ShoppingSystem\ShoppingSystem\obj\Debug\ShoppingSystem.csprojResolveAssemblyReference.cache
+F:\Program\Net\S1T182\ch05\ShoppingSystem\ShoppingSystem\obj\Debug\ShoppingSystem.exe
+F:\Program\Net\S1T182\ch05\ShoppingSystem\ShoppingSystem\obj\Debug\ShoppingSystem.pdb
+E:\c#语言和数据库技术基础\第五章\ch05\ShoppingSystem\ShoppingSystem\bin\Debug\ShoppingSystem.exe.config
+E:\c#语言和数据库技术基础\第五章\ch05\ShoppingSystem\ShoppingSystem\obj\Debug\ShoppingSystem.exe
+E:\c#语言和数据库技术基础\第五章\ch05\ShoppingSystem\ShoppingSystem\obj\Debug\ShoppingSystem.pdb
+E:\代码\c#语言和数据库技术基础\第五章\ch05\ShoppingSystem\ShoppingSystem\bin\Debug\ShoppingSystem.exe.config
+E:\代码\c#语言和数据库技术基础\第五章\ch05\ShoppingSystem\ShoppingSystem\obj\Debug\ShoppingSystem.exe
+E:\代码\c#语言和数据库技术基础\第五章\ch05\ShoppingSystem\ShoppingSystem\obj\Debug\ShoppingSystem.pdb
+E:\代码\c#语言和数据库技术基础\第五章\ch05\ShoppingSystem\ShoppingSystem\bin\Debug\ShoppingSystem.exe
+E:\代码\c#语言和数据库技术基础\第五章\ch05\ShoppingSystem\ShoppingSystem\bin\Debug\ShoppingSystem.pdb
+E:\代码\c#语言和数据库技术基础\第五章\ch05\ShoppingSystem\ShoppingSystem\obj\Debug\ShoppingSystem.csprojResolveAssemblyReference.cache

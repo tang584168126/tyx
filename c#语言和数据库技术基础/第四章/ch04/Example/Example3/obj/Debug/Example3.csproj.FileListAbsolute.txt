@@ -1,0 +1,6 @@
+F:\Program\Net\S1T182\ch04\Example\Example3\bin\Debug\Example3.exe.config
+F:\Program\Net\S1T182\ch04\Example\Example3\bin\Debug\Example3.exe
+F:\Program\Net\S1T182\ch04\Example\Example3\bin\Debug\Example3.pdb
+F:\Program\Net\S1T182\ch04\Example\Example3\obj\Debug\Example3.csprojResolveAssemblyReference.cache
+F:\Program\Net\S1T182\ch04\Example\Example3\obj\Debug\Example3.exe
+F:\Program\Net\S1T182\ch04\Example\Example3\obj\Debug\Example3.pdb

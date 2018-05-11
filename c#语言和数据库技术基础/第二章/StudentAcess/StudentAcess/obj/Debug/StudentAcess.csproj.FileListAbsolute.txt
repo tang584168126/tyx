@@ -1,0 +1,9 @@
+E:\c#语言和数据库技术基础\第二章\StudentAcess\StudentAcess\bin\Debug\StudentAcess.exe.config
+E:\c#语言和数据库技术基础\第二章\StudentAcess\StudentAcess\obj\Debug\StudentAcess.csprojResolveAssemblyReference.cache
+E:\c#语言和数据库技术基础\第二章\StudentAcess\StudentAcess\bin\Debug\StudentAcess.exe
+E:\c#语言和数据库技术基础\第二章\StudentAcess\StudentAcess\bin\Debug\StudentAcess.pdb
+E:\c#语言和数据库技术基础\第二章\StudentAcess\StudentAcess\obj\Debug\StudentAcess.exe
+E:\c#语言和数据库技术基础\第二章\StudentAcess\StudentAcess\obj\Debug\StudentAcess.pdb
+E:\代码\c#语言和数据库技术基础\第二章\StudentAcess\StudentAcess\bin\Debug\StudentAcess.exe.config
+E:\代码\c#语言和数据库技术基础\第二章\StudentAcess\StudentAcess\obj\Debug\StudentAcess.exe
+E:\代码\c#语言和数据库技术基础\第二章\StudentAcess\StudentAcess\obj\Debug\StudentAcess.pdb

@@ -1,0 +1,20 @@
+﻿AVG（求平均数）
+CONUT（计算数据行数）
+MAX（最大值）MIN(最小值) select MAX
+SUM（求和） select SUM(studentResult) as 总分 from student
+
+时间和日期函数
+DATEADD（时间增加） select '2014-7-24' as 今天,DATEADD(YY,1,'2014-7-24') as 一年后
+DATEDIFF(时间差，后面时间-前面时间) select '2014-7-24' as 今天,DATEDIFF(YY,'2013-7-24','2014-7-24') as 年份差
+DATEPART（获取时间的各个部分值） select '2014-7-24 14:21:00' as 现在时刻 DATEPART(YY,'2014-7-24 14:21:00') as 年
+GETDATE(获取系统当前时间) select GETDATE() as 现在时刻
+YEAR(年) MONTH(月) DAY(日)
+
+字符串函数
+LEN(获取值长度) select studentName,LEN(studentName) as 名字个数
+LOWER(转换小写字母) UPPER(转换大写字母)
+REPLACE(替换)
+
+其他函数
+CAST(数据类型转换) select LoginPwd,CAST(LoginPwd as int) from student
+CONVERT(数据类型转换) select LoginPwd,CONVERT(int,LoginPwd) from student         select BornDate,CONVERT(nvarchar(10),BornDate,111) from Student

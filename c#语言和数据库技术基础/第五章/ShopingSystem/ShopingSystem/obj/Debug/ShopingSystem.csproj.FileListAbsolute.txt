@@ -1,0 +1,2 @@
+E:\c#语言和数据库技术基础\第四章\ShopingSystem\ShopingSystem\bin\Debug\ShopingSystem.exe.config
+E:\c#语言和数据库技术基础\第五章\ShopingSystem\ShopingSystem\bin\Debug\ShopingSystem.exe.config

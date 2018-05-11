@@ -1,0 +1,6 @@
+E:\c#语言和数据库技术基础\第四章\String\String\bin\Debug\String.exe.config
+E:\c#语言和数据库技术基础\第四章\String\String\bin\Debug\String.exe
+E:\c#语言和数据库技术基础\第四章\String\String\bin\Debug\String.pdb
+E:\c#语言和数据库技术基础\第四章\String\String\obj\Debug\String.csprojResolveAssemblyReference.cache
+E:\c#语言和数据库技术基础\第四章\String\String\obj\Debug\String.exe
+E:\c#语言和数据库技术基础\第四章\String\String\obj\Debug\String.pdb

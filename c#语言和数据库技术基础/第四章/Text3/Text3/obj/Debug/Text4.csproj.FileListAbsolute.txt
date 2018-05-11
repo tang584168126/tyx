@@ -1,0 +1,6 @@
+E:\c#语言和数据库技术基础\第四章\Text3\Text3\bin\Debug\Text3.exe.config
+E:\c#语言和数据库技术基础\第四章\Text3\Text3\bin\Debug\Text3.exe
+E:\c#语言和数据库技术基础\第四章\Text3\Text3\bin\Debug\Text3.pdb
+E:\c#语言和数据库技术基础\第四章\Text3\Text3\obj\Debug\Text4.csprojResolveAssemblyReference.cache
+E:\c#语言和数据库技术基础\第四章\Text3\Text3\obj\Debug\Text3.exe
+E:\c#语言和数据库技术基础\第四章\Text3\Text3\obj\Debug\Text3.pdb

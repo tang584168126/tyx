@@ -1,0 +1,6 @@
+E:\c#语言和数据库技术基础\第一章\作业\Array\Array\bin\Debug\Array.exe.config
+E:\c#语言和数据库技术基础\第一章\作业\Array\Array\bin\Debug\Array.exe
+E:\c#语言和数据库技术基础\第一章\作业\Array\Array\bin\Debug\Array.pdb
+E:\c#语言和数据库技术基础\第一章\作业\Array\Array\obj\Debug\Array.csprojResolveAssemblyReference.cache
+E:\c#语言和数据库技术基础\第一章\作业\Array\Array\obj\Debug\Array.exe
+E:\c#语言和数据库技术基础\第一章\作业\Array\Array\obj\Debug\Array.pdb
